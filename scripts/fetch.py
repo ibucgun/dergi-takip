@@ -28,7 +28,8 @@ SKIP_TITLE = re.compile(
     r"^\s*(corrigendum|erratum|correction|errors? in\b|incorrect|missing\b|"
     r"retraction|retracted|expression of concern|notice of|withdrawn|"
     r"editorial board|issue information|table of contents|cover\b|"
-    r"guide for authors|welcome letter|masthead|contents\b)",
+    r"guide for authors|welcome letter|masthead|contents\b|in this issue|subscribers? page|"
+    r"front matter|back matter|author index|reviewer acknowledg)",
     re.I,
 )
 

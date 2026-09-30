@@ -7,5 +7,8 @@
   {"id": "cnni", "name": "Biological Psychiatry: CNNI", "issn": ["2451-9022", "2451-9030"], "url": "https://www.biologicalpsychiatrycnni.org"},
   {"id": "lanpsy", "name": "The Lancet Psychiatry", "issn": ["2215-0366", "2215-0374"], "url": "https://www.thelancet.com/journals/lanpsy/issue/current"},
   {"id": "ipg", "name": "International Psychogeriatrics", "issn": ["1041-6102", "1741-203X"], "url": "https://www.intpsychogeriatrics.org/inpress"},
-  {"id": "bd", "name": "Bipolar Disorders", "issn": ["1398-5647", "1399-5618"], "url": "https://onlinelibrary.wiley.com/journal/13995618"}
+  {"id": "bd", "name": "Bipolar Disorders", "issn": ["1398-5647", "1399-5618"], "url": "https://onlinelibrary.wiley.com/journal/13995618"},
+  {"id": "wps", "name": "World Psychiatry", "issn": ["1723-8617", "2051-5545"], "url": "https://onlinelibrary.wiley.com/journal/20515545"},
+  {"id": "transm", "name": "Transcranial Magnetic Stimulation", "issn": ["3050-5291"], "url": "https://www.tmsjournal.org/"},
+  {"id": "ajp", "name": "American Journal of Psychiatry", "issn": ["0002-953X", "1535-7228"], "url": "https://psychiatryonline.org/journal/ajp"}
 ]

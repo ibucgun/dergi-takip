@@ -1,5 +1,98 @@
 [
  {
+  "doi": "10.1192/bja.2026.10239",
+  "journal": "bja",
+  "title": "Medical education in Africa: reflection on postgraduate psychiatric training and systemic reform",
+  "authors": "Carla Kotzé",
+  "online": "2026-09-30",
+  "ozet": "Kısa değerlendirme yazısı. Ruh sağlığının öneminin giderek daha çok kabul görmesine karşın Afrika'da psikiyatri uzmanlık eğitiminin önemli güçlüklerle karşı karşıya olduğunu anlatıyor. Eğitimin mevcut durumu, temel engeller ve olası çözümler tartışılıyor. Yazarlar uluslararası standartlarla yerel sağlık sistemi gerçekleri arasında denge kurulması gerektiğini ve Afrika'nın ruh sağlığı ihtiyaçlarını karşılayacak yetkin uzmanlar için eğitimin güçlendirilmesinin şart olduğunu vurguluyor.",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103222",
+  "journal": "brs",
+  "title": "Electrical stimulation elicits space- and parameter-dependent spiking responses in human cortical organoids",
+  "authors": "N. Seseri, D. Nigrisoli, F. Faraci ve ark.",
+  "online": "2026-09-30",
+  "ozet": "İnsan kaynaklı kortikal organoidlerde elektriksel stimülasyonun uzamsal konuma ve stimülasyon parametrelerine bağlı olarak farklı nöronal ateşleme yanıtları oluşturduğunu bildiren çalışma. Beyin stimülasyonu parametrelerinin insan dokusunda laboratuvar ortamında test edilmesi için bir model sunuyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.07.024",
+  "journal": "bp",
+  "title": "Epigenetic Signatures and Sex-Specific Architecture in Obsessive-Compulsive Disorder",
+  "authors": "Edna Grünblatt, Susanne Walitza",
+  "online": "2026-09-30",
+  "ozet": "Obsesif-kompulsif bozuklukta epigenetik izleri ve bunların cinsiyete özgü yapısını inceleyen çalışma. Biological Psychiatry'nin OKB temalı sayısında yer alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.08.011",
+  "journal": "bp",
+  "title": "From Brain Lesions to Treatment Targets: Converging on a Causal Circuit for OCD",
+  "authors": "Dana E. Diaz",
+  "online": "2026-09-30",
+  "ozet": "OKB temalı sayıdaki yazı. Beyin lezyonu çalışmaları ile tedavi hedeflerinin, OKB'de nedensel olarak ilişkili ortak bir devrede buluştuğunu ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.08.012",
+  "journal": "bp",
+  "title": "Genetics of Obsessive-Compulsive and Related Disorders: Are We There Yet?",
+  "authors": "Luis C. Farhat, Thomas V. Fernandez, Emily Olfson",
+  "online": "2026-09-30",
+  "ozet": "Derleme/yorum. Obsesif-kompulsif ve ilişkili bozuklukların genetiğinde gelinen noktayı ve kalan açıkları değerlendiriyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.08.013",
+  "journal": "bp",
+  "title": "Human Ventral Tegmental Area as a Gauge of Mood, Pain, and Reward State",
+  "authors": "Arjun Ramaswamy, Umesh Vivekananda, J. Douglas Steele ve ark.",
+  "online": "2026-09-30",
+  "ozet": "İnsanda ventral tegmental alanın (VTA) duygudurum, ağrı ve ödül durumunu yansıtan bir gösterge olarak işlev görebileceğini ele alan yazı. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1111/bdi.70186",
+  "journal": "bd",
+  "title": "Bipolar Disorder and Perimenopause: An Update",
+  "authors": "Jana Radosavljevic, Deniz Bengi, Benicio N. Frey",
+  "online": "2026-09-30",
+  "ozet": "Derleme. Bipolar bozukluk ile perimenopoz arasındaki ilişkiye dair 2018–2026 arasında yayımlanan 14 özgün çalışmayı (Avustralya, İtalya, İngiltere, Tayvan, Kore, İsveç, ABD) anlatı yoluyla sentezliyor. Perimenopozun bipolar bozukluğun ilk başlangıcı için yüksek riskli bir dönem olduğuna dair kanıtlar birbirini destekliyor. Mevcut hastalarda bu dönemde depresyon ve anksiyete artışı en tutarlı bulgu; hipomani/mani bulguları ise karışık. Psikoterapi ve hormon replasman tedavisi dahil tedaviye dair kanıt çok sınırlı ya da yok. Yazarlar klinisyenlerin tedavide perimenopozu dikkate almasını ve araştırmalarda STRAW+10 gibi standart evreleme kullanılmasını öneriyor.",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20250891",
+  "journal": "ajp",
+  "title": "Proteomic Signatures in Major Depressive Disorder and Depression Symptom Subtypes",
+  "authors": "Kathleen T. Watson, Mariska Bot, Idit Kosti ve ark.",
+  "online": "2026-09-30",
+  "pmid": "42811409",
+  "ozet": "Depresyonun biyolojik heterojenliğini anlamak için geniş ölçekli plazma proteomiği kullanılmış. Hollanda'daki NESDA kohortundan 1881 kişide (469 güncel MDB, 918 remisyonda MDB, 494 sağlıklı kontrol) SomaScan ile 7289 analit ölçülmüş. Güncel MDB ile kontroller arasında 7 protein, genel belirti şiddetiyle 18 protein, atipik belirtilerle ise 57 protein anlamlı ilişkili bulunmuş; melankolik belirtilerle tek tek anlamlı protein çıkmamış. Atipik belirtilerde hücre dışı matriks, kollajen, kompleman ve IGF taşınması yolakları öne çıkıyor. Yazarlara göre periferik proteomik değişiklikler kategorik tanıdan çok belirli belirti boyutlarıyla ilişkili ve boyutsal yaklaşım biyobelirteç çalışmalarını iyileştirebilir.",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20251018",
+  "journal": "ajp",
+  "title": "Shared Transcriptional Features of Layer 3 Pyramidal Neurons Projecting to the Monkey Dorsolateral Prefrontal Cortex",
+  "authors": "Dominique Arion, John F. Enwright, Fenna M. Krienen ve ark.",
+  "online": "2026-09-30",
+  "pmid": "42811411",
+  "ozet": "Şizofrenideki bilişsel bozuklukla ilişkili olabilecek, dorsolateral prefrontal kortekse (DLPFC) projekte olan 3. tabaka piramidal nöronların ortak bir transkripsiyonel profili olup olmadığı araştırılmış. Sekiz genç erişkin makakta retrograd işaretleme ve lazer mikrodiseksiyonla dört farklı kortikal bölgeden bu nöronlar toplanıp RNA dizilemesi yapılmış; sonuçlar yeni maymun ve yayımlanmış insan tek çekirdek RNA verileriyle karşılaştırılmış. Bölgeden bağımsız olarak DLPFC'ye projekte olan nöronlarda ortak 91 genlik bir profil belirlenmiş. Bu profil insan verisinde de bulunmuş, ancak DLPFC'ye projeksiyonu olmayan V1'de görülmemiş. Yazarlara göre bu yöntem şizofrenide hangi piramidal nöron alt tiplerinin etkilendiğini belirlemeye olanak sağlayacak.",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20251346",
+  "journal": "ajp",
+  "title": "National Trends in Benzodiazepine Dispensing",
+  "authors": "Naomi Cruz, Hillary Samples, Stephen Crystal ve ark.",
+  "online": "2026-09-30",
+  "pmid": "42811410",
+  "ozet": "ABD'de 2013–2024 arasında benzodiazepin reçete eğilimleri, hasta yaşı ve reçete yazan hekim türüne göre incelenmiş. IQVIA reçete veritabanında 1,1 milyardan fazla reçete tekrarlı kesitsel olarak analiz edilmiş. Yıllık benzodiazepin kullanım yaygınlığı %26,7 azalmış (%7,5'ten %5,5'e); en büyük düşüş 18–29 yaş grubunda (−%44,8). En çok reçeteyi birinci basamak hekimleri yazıyor; ağrı uzmanları (−%62,5), birinci basamak (−%44,3) ve psikiyatristlerde (−%38,3) belirgin düşüş varken, hemşire ve asistan hekim gibi ileri uygulama sağlayıcılarında reçeteler iki katına çıkmış (+%101,5). Reçete başına ortalama doz da tüm gruplarda azalmış. Yazarlar bu değişen reçete örüntülerinin izlenmeye devam edilmesi gerektiğini belirtiyor.",
+  "added": "2026-09-30"
+ },
+ {
   "doi": "10.1016/j.jad.2026.122567",
   "journal": "jad",
   "title": "Reinforcement sensitivity and the association between exposure to racism and internalizing psychopathology among black young adults",
@@ -549,6 +642,36 @@
   "authors": "Swapneel Mirani, Tessa Williams, Shi Tang ve ark.",
   "online": "2026-09-23",
   "ozet": "Demans deneyimi olan kişilerde (hastalar ve olasılıkla bakım verenler) bilgelik özelliklerinin yaşam kalitesini öngörüp öngörmediğini inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20251082",
+  "journal": "ajp",
+  "title": "Age-Associated Cognitive Deviations in Early-Onset Psychosis Patients and Their Siblings",
+  "authors": "Josephine Mollon, Nuria Lanzagorta, Samuel R. Mathias ve ark.",
+  "online": "2026-09-23",
+  "pmid": "42773527",
+  "ozet": "Erken başlangıçlı psikozda bilişsel bozuklukların yaşla nasıl değiştiği, hastalar ve kardeşleri üzerinden incelenmiş. Meksika'daki EPIMex çalışmasında 1004 hasta (695 afektif, 309 nonafektif psikoz), 146 kardeş ve 1077 psikotik olmayan psikiyatrik kontrol karşılaştırılmış. Nonafektif grupta tüm bilişsel alanlarda, afektif grupta çoğu alanda bozulma var; kardeşlerde genel bozulma yok. Kesitsel olarak bozulma yaşla artıyor: çocuklarda küçük, ergenlerde orta, erişkinlerde büyük. Kardeşlerde de erişkin yaşta belirgin bozulma görülüyor. Yazarlar belirli gelişim dönemlerinde belirli işlevleri hedefleyen erken müdahaleleri öneriyor, ancak boylamsal doğrulama gerekiyor.",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20260426",
+  "journal": "ajp",
+  "title": "Defining Near-Term Treatment Goals for Benzodiazepine Use in Clinical Practice",
+  "authors": "Apurva Parikh, Geoffrey Russell, Mark Olfson",
+  "online": "2026-09-23",
+  "pmid": "42773525",
+  "ozet": "Klinik pratikte benzodiazepin kullanımı için yakın dönem tedavi hedeflerinin (azaltma, kesme veya sürdürme) nasıl tanımlanabileceğini tartışan yazı. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-09-30"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20260530",
+  "journal": "ajp",
+  "title": "Home-Based Neuromodulation for Depression: Rethinking Access and Oversight",
+  "authors": "Adela G. Buciuc, Jacob T. Kannarkat, Alik S. Widge",
+  "online": "2026-09-23",
+  "pmid": "42773526",
+  "ozet": "Depresyonda evde uygulanan nöromodülasyon tedavilerinin erişimi nasıl genişletebileceğini ve klinik gözetimin nasıl yeniden düşünülmesi gerektiğini tartışan yazı. (Ayrıntılı özet mevcut değil.)",
   "added": "2026-09-30"
  }
 ]
