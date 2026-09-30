@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Dergi Takibi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap">
+<style>
+/* Layout: tek sütunlu okuma listesi; üstte yapışkan filtre çubuğu, gün gün gruplanmış makaleler */
+:root {
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --ink: #18202b;
+  --muted: #5b6776;
+  --line: #dde3ea;
+  --accent: #1d5c78;
+  --accent-soft: #e2eef3;
+  --new: #b4541b;
+  --j-bja: #7a3e8e; --j-brs: #1f7a5a; --j-bp: #a33b3b; --j-jamap: #22578f; --j-jad: #8a6a12;
+  --font-title: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-ui: "IBM Plex Sans", -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161c; --surface: #19202a; --ink: #e6ebf1; --muted: #9aa6b4; --line: #2a3441;
+    --accent: #7cc0dc; --accent-soft: #1d3340; --new: #f0a36b;
+    --j-bja: #c79bd8; --j-brs: #7ccfae; --j-bp: #ec9a9a; --j-jamap: #8fb8ea; --j-jad: #e0c46e;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161c; --surface: #19202a; --ink: #e6ebf1; --muted: #9aa6b4; --line: #2a3441;
+  --accent: #7cc0dc; --accent-soft: #1d3340; --new: #f0a36b;
+  --j-bja: #c79bd8; --j-brs: #7ccfae; --j-bp: #ec9a9a; --j-jamap: #8fb8ea; --j-jad: #e0c46e;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 var(--font-ui); }
+[hidden] { display: none !important; }
+.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; }
+
+header.top { padding-block: calc(20px + env(safe-area-inset-top, 0px)) 8px; }
+header.top h1 { font: 600 1.6rem/1.2 var(--font-title); margin: 0; letter-spacing: -0.01em; }
+.meta { color: var(--muted); font-size: 0.85rem; margin-top: 4px; font-variant-numeric: tabular-nums; }
+.meta strong { color: var(--new); font-weight: 600; }
+
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
+  border-bottom: 1px solid var(--line); padding-block: 10px; display: flex; flex-direction: column; gap: 8px; }
+.row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.seg button { border: 0; background: none; font: 500 0.82rem var(--font-ui); color: var(--muted); padding: 6px 11px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
+.chip { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px;
+  font: 500 0.78rem var(--font-ui); padding: 4px 10px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.chip .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+.chip .n { color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="false"] { opacity: 0.45; }
+.toggle { margin-left: auto; font-size: 0.82rem; color: var(--muted); display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+#q { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  border-radius: 8px; padding: 7px 10px; font: 0.9rem var(--font-ui); }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+main { padding-block: 8px 48px; }
+.day { margin-top: 22px; }
+.day h2 { font: 600 0.78rem var(--font-ui); text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted);
+  margin: 0 0 8px; display: flex; gap: 8px; align-items: baseline; }
+.day h2 .count { font-weight: 500; letter-spacing: 0; text-transform: none; }
+.list { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+article { padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+article + article { border-top: 1px solid var(--line); }
+.head { display: flex; gap: 8px; align-items: center; font-size: 0.74rem; color: var(--muted); flex-wrap: wrap; }
+.jn { font-weight: 600; color: var(--c); text-transform: uppercase; letter-spacing: 0.05em; }
+article h3 { margin: 0; font: 600 1.06rem/1.35 var(--font-title); text-wrap: pretty; overflow-wrap: anywhere; }
+article h3 a { color: var(--ink); text-decoration: none; }
+article h3 a:hover { color: var(--accent); text-decoration: underline; }
+.authors { font-size: 0.8rem; color: var(--muted); }
+.ozet { margin: 2px 0 0; font-size: 0.92rem; }
+.ozet.none { color: var(--muted); font-style: italic; }
+.actions { display: flex; gap: 14px; font-size: 0.8rem; }
+.actions a, .actions button { color: var(--accent); background: none; border: 0; padding: 0; font: 500 0.8rem var(--font-ui); cursor: pointer; text-decoration: none; }
+article.read { opacity: 0.5; }
+article.read .mark::before { content: "✓ "; }
+.empty { text-align: center; color: var(--muted); padding: 48px 16px; }
+footer { color: var(--muted); font-size: 0.78rem; padding-block: 0 40px; display: flex; flex-direction: column; gap: 4px; }
+footer a { color: var(--muted); }
+@media (max-width: 480px) {
+  .toggle { margin-left: 0; }
+  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -16px; padding-inline: 16px; }
+  .chips .chip { flex: none; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Dergi Takibi</h1>
+    <div class="meta" id="meta"></div>
+  </header>
+  <div class="bar">
+    <div class="row">
+      <div class="seg" role="group" aria-label="Zaman aralığı" id="range">
+        <button data-r="last">Son gelenler</button>
+        <button data-r="7">7 gün</button>
+        <button data-r="30">30 gün</button>
+        <button data-r="all">Tümü</button>
+      </div>
+      <label class="toggle"><input type="checkbox" id="unread"> Sadece okunmamışlar</label>
+    </div>
+    <div class="row chips" id="chips"></div>
+    <div class="row"><input id="q" type="search" placeholder="Başlıkta, özette veya yazarda ara…" autocomplete="off"></div>
+  </div>
+  <main id="main"></main>
+  <footer id="foot"></footer>
+</div>
+<script id="data" type="application/json">{"updated": "2026-09-30T06:01:32Z", "journals": [{"id": "bja", "name": "BJPsych Advances", "url": "https://www.cambridge.org/core/journals/bjpsych-advances"}, {"id": "brs", "name": "Brain Stimulation", "url": "https://www.brainstimjrnl.com/inpress"}, {"id": "bp", "name": "Biological Psychiatry", "url": "https://www.biologicalpsychiatryjournal.com/inpress"}, {"id": "jamap", "name": "JAMA Psychiatry", "url": "https://jamanetwork.com/journals/jamapsychiatry/newonline"}, {"id": "jad", "name": "Journal of Affective Disorders", "url": "https://www.sciencedirect.com/journal/journal-of-affective-disorders/articles-in-press"}], "articles": [{"doi": "10.1016/j.jad.2026.122567", "journal": "jad", "title": "Reinforcement sensitivity and the association between exposure to racism and internalizing psychopathology among black young adults", "authors": "Summer N. Motton, Enrique W. Neblett, Jessica L. Bezek ve ark.", "online": "2026-09-29", "pmid": "42805405", "ozet": "329 siyahi genç erişkinde ırkçılığa maruz kalma ile anksiyete ve depresyon arasındaki ilişkide davranışsal inhibisyon ve aktivasyon sistemlerinin düzenleyici rolü incelenmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122551", "journal": "jad", "title": "TXNIP and NLRP3 inflammasome markers in major depressive disorder: Associations with remission status and verbal memory", "authors": "Deniz Koca Yigit, Efruz Pirdogan Aydin, Mine Yalcinkaya Kara", "online": "2026-09-29", "pmid": "42810627", "ozet": "120 kişilik çalışma. NLRP3 ve TXNIP inflamazom belirteçleri remisyona girmemiş depresyon hastalarında en yüksek bulunmuş ve sözel bellekle ilişkili. İnsülin direnci de incelenmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122570", "journal": "jad", "title": "Hypoxia-associated birth complications and offspring childhood internalizing, externalizing, and adolescent depression symptoms", "authors": "Nicole L. Davies, Emma C. Smith, Madeline R. Pike ve ark.", "online": "2026-09-29", "pmid": "42810626", "ozet": "1679 anne–çocuk çiftinde doğumdaki hipoksi ile ilişkili komplikasyonların, çocuklukta içe yönelim belirtileri üzerinden ergenlikte depresyon riskini artırdığı gösterilmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122569", "journal": "jad", "title": "Childhood maltreatment, internalizing symptoms, and the short-term course of disorders of gut–brain interaction in children and adolescents: a longitudinal counterfactual mediation study", "authors": "Hailiang Ran, Jin Lu, Xizi Yang ve ark.", "online": "2026-09-29", "pmid": "42810624", "ozet": "Çin'de 5112 öğrencide çocukluk çağı istismarının bağırsak–beyin etkileşimi bozukluklarının başlaması ve sürmesiyle ilişkisi incelenmiş. Bu ilişkiye depresyon ve anksiyetenin kısmen aracılık ettiği bulunmuş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122572", "journal": "jad", "title": "Co-occurring maternal emotional well-being and lifestyle profiles from pregnancy to postpartum and offspring developmental outcomes: A prospective cohort study", "authors": "Pairote Chakranon, Jian-Pei Huang, Heng-Kien Au ve ark.", "online": "2026-09-29", "pmid": "42810625", "ozet": "Tayvan'da 539 anne–çocuk çifti gebelikten doğum sonrası 2. yıla kadar izlenmiş. Annenin duygusal iyilik hali ve yaşam tarzı profilleri belirlenmiş; yüksek riskli profil çocukta dikkat, saldırganlık ve dil gecikmesi sorunlarıyla ilişkili bulunmuş.", "added": "2026-09-30"}, {"doi": "10.1016/j.biopsych.2026.09.016", "journal": "bp", "title": "Ketamine Alters Tuning of Neural and Behavioral Spatial Working Memory Precision", "authors": "Masih Rahmati, Flora Moujaes, Nina Purg Suljic ve ark.", "online": "2026-09-28", "pmid": "42805468", "ozet": "40 sağlıklı erişkinde ketaminin fMRI'da nöral uzamsal ayarlamayı genişletip uzamsal çalışma belleği hassasiyetini bozduğu gösterilmiş. Şizofrenideki NMDA hipotezi açısından önemli.", "added": "2026-09-30"}, {"doi": "10.1016/j.biopsych.2026.09.017", "journal": "bp", "title": "A ventral hippocampus-prefrontal circuit mediates the pro-extinction effects of adult hippocampal neurogenesis on contextual fear", "authors": "Barbara Planchez, Mohamed-Lyès Kaci, Marc Legrand ve ark.", "online": "2026-09-28", "pmid": "42805467", "ozet": "Farelerde yapılan deney. Erişkin hipokampal nörogenez artırıldığında bağlamsal korku belleğinin daha az kalıcı olduğu, bunun ventral hipokampus–prefrontal devre üzerinden gerçekleştiği gösterilmiş (TSSB ile ilişkili).", "added": "2026-09-30"}, {"doi": "10.1016/j.brs.2026.103223", "journal": "brs", "title": "The Brain-Behavior Association Mechanism of Galvanic Vestibular Stimulation (GVS) in Regulating VR Motion Sickness", "authors": "Yuehua Geng, Wendi Wang, Xiang Zhai ve ark.", "online": "2026-09-27", "pmid": "42801976", "ozet": "Galvanik vestibüler stimülasyonun (GVS) sanal gerçeklikte oluşan hareket tutmasını nasıl azalttığını beyin–davranış ilişkisi üzerinden inceleyen çalışma.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122565", "journal": "jad", "title": "Long-term associations of pandemic depression symptom trajectories with post-pandemic depression score in times of contemporary mental health stressors", "authors": "J. Doetzer, M. Imboden, A. Jeong ve ark.", "online": "2026-09-27", "pmid": "42801936", "ozet": "İsviçre'de 4245 kişilik kohort. Pandemide depresyonla güçlü tepki verenlerin %41'inde, pandemiden 1,5 yıl sonra hâlâ en az orta düzey depresyon sürüyor. Güncel kaygılar (iklim, savaş vb.) de değerlendirilmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122531", "journal": "jad", "title": "Independent and joint predictive value of Lipid Accumulation Product and estimated Pulse Wave Velocity for incident depressive symptoms: Evidence from CHARLS", "authors": "Yuzhang Sun, Zhejun Zhao, Yuanlong Sun ve ark.", "online": "2026-09-26", "pmid": "42800513", "ozet": "CHARLS kohortunda 45 yaş üstü 5216 kişi izlenmiş. Metabolik (lipid birikim ürünü) ve vasküler (nabız dalga hızı) belirteçlerin yeni başlayan depresif belirtileri öngördüğü bulunmuş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122564", "journal": "jad", "title": "Suicide risk in relation to socioeconomic and occupational disadvantage in middle- and old-aged men – A national register-based study", "authors": "Carla Louise Hughes, Ping Qin", "online": "2026-09-26", "pmid": "42800512", "ozet": "Norveç kayıtlarında 35 yaş üstü erkeklerde 6993 intiharla yapılan vaka-kontrol çalışması. Ayrılmış olmak (OR ≈5) ve iş gücü dışında kalmak intihar riskini belirgin şekilde artırıyor.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122552", "journal": "jad", "title": "Mineralocorticoid receptor stimulation effects on stress-induced cortisol and alpha-amylase in female patients with borderline personality disorder and healthy controls: A randomized placebo-controlled experimental study", "authors": "Marie Barthauer, Livia Graumann, An Bin Cho ve ark.", "online": "2026-09-26", "pmid": "42800510", "ozet": "Borderline kişilik bozukluğu olan kadınlarda (n=120) ve kontrollerde fludrokortizon ile mineralokortikoid reseptörü uyarılmış. Stres altında kortizol ve alfa-amilaz yanıtları karşılaştırılmış; hastalarda kortizol yanıtı küntleşmiş bulunmuş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122566", "journal": "jad", "title": "Factors associated with symptom progress monitoring in a psychiatry specialty clinic network, a retrospective cohort study", "authors": "Sorabh Singhal, Susan K. Mikulich-Gilbertson, Maria E. Garcia ve ark.", "online": "2026-09-26", "pmid": "42800511", "ozet": "Akademik bir psikiyatri poliklinik ağında, elektronik kayıtla otomatikleştirilmiş depresyon ve anksiyete ölçek takibinin hangi hastalarda yapılıp hangilerinde atlandığı incelenmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.biopsych.2026.09.011", "journal": "bp", "title": "Women’s Brain Health in the Era of Precision Neuroimaging", "authors": "Elle M. Murata, Hannah Grotzinger, Magdalena Martínez-García ve ark.", "online": "2026-09-25", "pmid": "42790846", "ozet": "Derleme. Menstrüel döngü ve gebelik gibi hormonal geçişlerde beynin yoğun örneklemeli (dense-sampling) görüntüleme ile incelenmesini ve bu dönemlerin duygudurum bozuklukları için neden riskli olduğunu tartışıyor.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122562", "journal": "jad", "title": "Sleep disturbances and subsequent suicide risk in dementia: A nationwide cohort study", "authors": "Yi-Pin Lin, Wen-Chun Liu, Tzu-Jung Chuang ve ark.", "online": "2026-09-25", "pmid": "42790647", "ozet": "Tayvan'da 86 bin demans hastasında yapılan kohort çalışması. Uyku bozukluğu olanlarda intihar riski daha yüksek bulunmuş; depresyonun bu ilişkideki aracı rolü incelenmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122563", "journal": "jad", "title": "Severity profiles of co-occurring depressive and anxiety symptoms in adolescents: The indirect role of emotion dysregulation", "authors": "Jie Zhao, Jing Ni, Yang Xu ve ark.", "online": "2026-09-25", "pmid": "42790648", "ozet": "3981 ergende birlikte görülen depresyon ve anksiyete belirtileri için üç şiddet profili belirlenmiş. Aile işlevselliği ve akran sorunlarının etkisinin duygu düzenleme güçlüğü üzerinden gerçekleştiği gösterilmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122534", "journal": "jad", "title": "Brain network localization of delusions", "authors": "Yunwei Sun, Min She, Liping Yan ve ark.", "online": "2026-09-24", "pmid": "42785384", "ozet": "44 görüntüleme çalışması, fonksiyonel bağlantısallık ağ haritalaması yöntemiyle birleştirilmiş. Sanrıların dağınık bölgelerle değil, ortak beyin ağlarıyla (ventral dikkat, somatomotor, frontoparyetal) ilişkili olduğu gösterilmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122561", "journal": "jad", "title": "Self-reported and recent claims-based major depressive disorder identifies distinct risk profiles in a nationwide population study", "authors": "Chi-Shin Wu, Kuei-Yu Chen, Pei-Qi Chen ve ark.", "online": "2026-09-24", "pmid": "42785386", "ozet": "Tayvan Biobank'tan 135 bin kişilik veri. Öz bildirime dayalı ve sağlık kayıtlarına dayalı depresyon tanımlarının farklı hasta gruplarını yakaladığı gösterilmiş; bu grupların sağlık hizmeti kullanımı ve mortalite riskleri de farklı.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122560", "journal": "jad", "title": "Does ecological momentary assessment work in mid and late life and for whom?", "authors": "Joohyun Kang, Michael R. Gallagher, Jordan A. Serrano-Guedea ve ark.", "online": "2026-09-24", "pmid": "42785391", "ozet": "64 orta yaşlı ve yaşlı erişkinde 10 hafta boyunca günde iki kez anlık izlem (EMA) uygulanmış. Tamamlama oranı %76 ile yüksek, depresif grupta ise daha düşük bulunmuş. Geriatrik izlem için uygulanabilir görünüyor.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122558", "journal": "jad", "title": "Associated factors of anxiety symptoms among reproductive married women in Bangladesh: Using a structural equation model with decomposition analysis", "authors": "Md. Aslam Hossain, Md. Mothashin, Md.A. Salam ve ark.", "online": "2026-09-24", "pmid": "42785389", "ozet": "Bangladeş'te 13 bin evli kadında anksiyete belirtileriyle ilişkili etkenler ve gelir düzeyine bağlı eşitsizlikler incelenmiş. Şiddeti meşru gören tutumlar ve gebelik sonlandırma gibi etkenler riskle ilişkili bulunmuş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122559", "journal": "jad", "title": "Multimodal machine learning model integrating electroencephalography, heart rate variability and clinical measures for distinguishing major psychiatric disorders", "authors": "Byeongjae Kang, Ji-Yoon Lee, Jeong Woo Chang ve ark.", "online": "2026-09-24", "pmid": "42785390", "ozet": "1035 hastada EEG, kalp hızı değişkenliği ve klinik ölçümleri birleştiren makine öğrenmesi modeli bipolar bozukluk, depresyon ve şizofreniyi AUROC 0,78 ile ayırt etmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122547", "journal": "jad", "title": "Developmental trajectories and sex differences in first-recorded self-harm episodes among children and young people: A population-based modelling study", "authors": "Jairo Vinícius Pinto, Letícia Sales Luna, Luara Martins Klokner ve ark.", "online": "2026-09-24", "pmid": "42785388", "ozet": "Brezilya'da 12 bin ilk kendine zarar verme vakası incelenmiş. Kızlarda sıklık 11 yaşından itibaren hızla artıp 14'te zirve yapıyor; erkeklerde zirve 19 yaşta.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122548", "journal": "jad", "title": "Association of acute-course electroconvulsive therapy pathway markers with same-hospital psychiatric readmission in patients with major depressive disorder: A retrospective cohort study", "authors": "Juan Huang, Nan Lyu, Qian Zhao ve ark.", "online": "2026-09-24", "pmid": "42785385", "ozet": "EKT alan 4004 depresyon hastasında yapılan retrospektif çalışma. Yatıştan ilk EKT'ye kadar geçen süre ve toplam seans sayısının yeniden yatışla ilişkisi araştırılmış; bekleme süresiyle anlamlı ilişki bulunmamış.", "added": "2026-09-30"}, {"doi": "10.1016/j.brs.2026.103221", "journal": "brs", "title": "Cutting through the noise: Stochastic pulse timing for deep brain stimulation", "authors": "Matthew R. Baker, Hemant Bokil, Soroush Niketeghad ve ark.", "online": "2026-09-24", "pmid": "42785425", "ozet": "Derin beyin stimülasyonunda (DBS) sabit aralıklı yerine rastgele (stokastik) zamanlanmış pulsların kullanımını ele alan yazı. Kayıtlarda özet yok, içerik başlıktan çıkarıldı.", "added": "2026-09-30"}, {"doi": "10.1192/bja.2026.10237", "journal": "bja", "title": "Learning to be wise", "authors": "Subodh Dave", "online": "2026-09-24", "ozet": "Editoryal. BJPsych Advances'ın 'Tıp eğitiminde psikiyatri' özel sayısını tanıtıyor; dünyadaki güncel öğretim ve değerlendirme yöntemlerine ve bunların klinik pratiğe etkisine davet ediyor.", "added": "2026-09-30"}, {"doi": "10.1192/bja.2026.10228", "journal": "bja", "title": "Public health aspects of adult attention-deficit hyperactivity disorder", "authors": "Itoro Udo, Peace Gabriels, Henry Orewa", "online": "2026-09-24", "ozet": "Derleme. Erişkin DEHB'yi halk ruh sağlığı açısından ele alıyor: artan başvurular, epidemiyoloji, komorbidite, yaşam süresinde kısalma, tanı ve tedavideki eşitsizlikler ve NHS England'ın hizmet önerileri.", "added": "2026-09-30"}, {"doi": "10.1016/j.biopsych.2026.09.012", "journal": "bp", "title": "GABAergic interneurons in local circuits of primate prefrontal cortex", "authors": "Stefan Pommer, David A. Lewis, Fenna Krienen ve ark.", "online": "2026-09-24", "pmid": "42785615", "ozet": "Derleme. Primat prefrontal korteksindeki GABAerjik internöron alt tiplerini (PV, SST, VIP) marmoset ve makak verileriyle kemirgenlerle karşılaştırıyor.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122557", "journal": "jad", "title": "Screening accuracy and psychometric properties of the whooley questions, Edinburgh postnatal depression scale, and patient health questionnaire-9 among pregnant women", "authors": "Mengli Wang, Xia Wu, Lijun Weng ve ark.", "online": "2026-09-24", "pmid": "42785387", "ozet": "Gebelerde (n=557) Whooley soruları, EPDS ve PHQ-9'un tarama doğruluğu karşılaştırılmış. En iyi ayırt ediciliği EPDS göstermiş; Whooley ve PHQ-9 kısa ön eleme aracı olarak kullanılabilir.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122533", "journal": "jad", "title": "Serum cytokines and T-helper-related immune axes in adolescent major depressive disorder with and without psychotic features", "authors": "Jie Luo, Huanhuan Huang, Wen Shao ve ark.", "online": "2026-09-24", "pmid": "42785393", "ozet": "Psikotik özellikli ve özelliksiz depresif ergenlerde (n=280) serum sitokinleri incelenmiş. Her iki grupta IL-6 ve IL-10 düşük, IL-17A yüksek bulunmuş; Th17/regülatuvar dengede kayma var.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122550", "journal": "jad", "title": "Toward precision acupuncture for depression: EEG microstate biomarkers and explainable machine learning for TECAS response", "authors": "Yanan Zhao, Huaxin Pang, Yu Wang ve ark.", "online": "2026-09-24", "pmid": "42785392", "ozet": "50 ilaçsız depresyon hastasında tedavi öncesi EEG mikrodurum özellikleri ve açıklanabilir makine öğrenmesiyle, transkutanöz kraniyal-aurikuler elektrik stimülasyonuna (TECAS) yanıt tahmin edilmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122530", "journal": "jad", "title": "Evaluation of negative posttraumatic cognitions as a predictor of suicide cognitions during an intensive treatment program for PTSD", "authors": "Jonathan W. Murphy, Christianna Flynn, Dale L. Smith ve ark.", "online": "2026-09-23", "pmid": "42772527", "ozet": "TSSB için 2 haftalık yoğun tedavi programına katılan 349 asker ve gazide, travma sonrası olumsuz bilişlerdeki azalmanın intihar bilişlerindeki azalmayı öngördüğü bulunmuş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122549", "journal": "jad", "title": "Impact of maternal postpartum depression on neurodevelopment of preterm infants during the first year of corrected age: A prospective longitudinal study", "authors": "Ling Chen, Xuqi Tian, Qing Zhang ve ark.", "online": "2026-09-23", "pmid": "42778033", "ozet": "286 anne–prematüre bebek çiftinde yapılan izlem çalışması. Doğum sonrası depresyonun bebeğin ilk yıldaki nörogelişimini etkilediği gösterilmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122537", "journal": "jad", "title": "Glymphatic dysfunction and myelin disruption in subthreshold depression", "authors": "Guanmao Chen, Guixian Tang, Ruoyi Chen ve ark.", "online": "2026-09-23", "pmid": "42778031", "ozet": "Eşik altı depresyonda (104 kişi ve 91 kontrol) glimfatik işlev bozukluğu (DTI-ALPS) ve beyaz madde miyelin kaybı birlikte gösterilmiş. Tedavi sonrası değişim de incelenmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122555", "journal": "jad", "title": "Effects of transcendental meditation on mental health and work productivity among university staff in Australia: A randomised controlled trial", "authors": "Mahesh Kumar Khanal, Leila Karimi, Peter Saunders ve ark.", "online": "2026-09-23", "pmid": "42778032", "ozet": "Avustralya'da üniversite çalışanlarında yapılan RKÇ (n=129). Transandantal meditasyon 6 ayda algılanan stresi azaltmış; anksiyete, depresyon, tükenmişlik ve iş verimliliği de değerlendirilmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122554", "journal": "jad", "title": "Feasibility and tolerability of virtual reality during esketamine treatment: A pilot study", "authors": "Erin Curran, Kristina T. Kumpf, Mina Ansari ve ark.", "online": "2026-09-23", "pmid": "42778030", "ozet": "Pilot çalışma. İdame esketamin seansları sırasında sanal gerçeklik gözlüğü kullanımının güvenli, tolere edilebilir ve uygulanabilir olup olmadığı test edilmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122556", "journal": "jad", "title": "A stable prevalence hides case turnover: reclassifying depression from ICD-10 to ICD-11 in a Danish general-population sample", "authors": "Kristian H.R. Jensen", "online": "2026-09-23", "pmid": "42778028", "ozet": "Danimarka toplum örneğinde ICD-10'dan ICD-11'e geçişte depresyon yaygınlığı aynı kalmış (%3,8). Ancak vakaların yaklaşık dörtte biri değişmiş: bazıları tanıdan çıkmış, yerlerine yenileri girmiş.", "added": "2026-09-30"}, {"doi": "10.1001/jamapsychiatry.2026.2336", "journal": "jamap", "title": "Placental Growth Factor Trajectories During Pregnancy and Child ADHD", "authors": "Serena B. Gumusoglu, Alexandria Betz, Andy Storm ve ark.", "online": "2026-09-23", "ozet": "Kohort çalışması. Gebelikte plasental büyüme faktörü seyrinin, çocuğu ileride DEHB tanısı alan annelerde trimesterlere göre farklılaşıp farklılaşmadığını inceliyor.", "added": "2026-09-30"}, {"doi": "10.1001/jamapsychiatry.2026.2320", "journal": "jamap", "title": "Reducing Ultraprocessed Foods From the Diets of Patients With Depression", "authors": "D. Nyasha Chagwedera, Eliana Kim, Dorothy T. Chiu ve ark.", "online": "2026-09-23", "ozet": "Pilot çapraz çalışma. Majör depresyon hastalarının diyetinden ultra işlenmiş gıdaların çıkarılmasının uygulanabilirliğini ve kabul edilebilirliğini değerlendiriyor.", "added": "2026-09-30"}, {"doi": "10.1001/jamapsychiatry.2026.2329", "journal": "jamap", "title": "Structural Brain Volumes and Delay Discounting", "authors": "Bryan Youngwoo Yoon, Wonjin Kim, Dohyeon Kim ve ark.", "online": "2026-09-23", "ozet": "Kesitsel çalışma. Üniversite çağındaki gençlerde yapısal beyin hacimlerinden, çok katmanlı yapay sinir ağı modeliyle gecikme indirgeme (anlık ödülü tercih etme) tahmin ediliyor.", "added": "2026-09-30"}, {"doi": "10.1001/jamapsychiatry.2026.2653", "journal": "jamap", "title": "The Next Generation of Psychiatric Research—A Special Collection by Early Career Investigators", "authors": "Tashalee R. Brown", "online": "2026-09-23", "ozet": "Görüş yazısı. Genç araştırmacıların psikiyatri çalışmalarından oluşan özel koleksiyonu tanıtıyor.", "added": "2026-09-30"}, {"doi": "10.1001/jamapsychiatry.2026.2317", "journal": "jamap", "title": "Deaf and Hard-of-Hearing Competency in Psychiatric Practice", "authors": "Jessica Williams, Laura Shapiro, Kristina H. Petersen", "online": "2026-09-23", "ozet": "Görüş yazısı. İşitme engelli ve az işiten hastalarda psikiyatrik değerlendirmede tanısal dikkat ve kültürel yetkinliğin önemini anlatıyor.", "added": "2026-09-30"}, {"doi": "10.1016/j.biopsych.2026.09.010", "journal": "bp", "title": "Sex-specific role of systemic inflammation in moderating the association between choroid plexus volume and depressive severity: findings from sBEAD cohort", "authors": "Xiaofang Cheng, Zhuozhi Dai, Jianshan Chen ve ark.", "online": "2026-09-23", "pmid": "42777933", "ozet": "461 depresif ergen ve 253 kontrolde MR ile glimfatik sistem ve koroid pleksus ölçümleri yapılmış. Sistemik inflamasyonun (SII) koroid pleksus hacmi ile depresyon şiddeti arasındaki ilişkiyi cinsiyete göre farklı biçimde düzenlediği bulunmuş.", "added": "2026-09-30"}, {"doi": "10.1016/j.biopsych.2026.09.009", "journal": "bp", "title": "The physiology of mental representations: from single neurons to circuits", "authors": "Christos Constantinidis, Stefan Everling, Stefan Treue ve ark.", "online": "2026-09-23", "pmid": "42777932", "ozet": "Derleme. Çalışma belleğinde zihinsel temsillerin dlPFC'deki kalıcı nöronal aktiviteden osilasyonlara ve sessiz sinaptik süreçlere kadar hangi devre mekanizmalarıyla tutulduğunu özetliyor.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122529", "journal": "jad", "title": "Concordance between objective and subjective sleep measures of people with bipolar disorder: A systematic review and a meta-analysis", "authors": "Edwin Lok Yan Wong, Harvey Neal, Christopher Jones ve ark.", "online": "2026-09-23", "pmid": "42772525", "ozet": "Sistematik derleme ve meta-analiz (15 çalışma, 572 kişi). Bipolar bozuklukta aktigrafi gibi objektif ölçümlerle uyku günlüğü/anket arasındaki uyum incelenmiş; ikisi arasında belirgin farklar var, toplam uyku süresinde uyum orta düzeyde.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122553", "journal": "jad", "title": "When does distress disclosure help? Anticipated stigma and the moderating role of perceived social support in depression and anxiety among individuals with multiple sclerosis", "authors": "Mojtaba Habibi Asgarabad, Abdorreza Naser Moghadasi, Niloofar Jafarpoor ve ark.", "online": "2026-09-23", "pmid": "42778029", "ozet": "272 MS hastasında beklenen damgalanma ve özürlülüğün depresyon ve anksiyete ile ilişkisi incelenmiş. Sıkıntıyı paylaşmanın aracı rolü ve algılanan sosyal desteğin düzenleyici etkisi değerlendirilmiş.", "added": "2026-09-30"}, {"doi": "10.1016/j.jad.2026.122522", "journal": "jad", "title": "Acute stress experiences as markers of temporal risk for near-term suicidal ideation: Examining the roles of tonic and phasic impulsivity and emotion dysregulation", "authors": "Anne C. Knorr, Lijuan Wang, Kristin Valentino ve ark.", "online": "2026-09-23", "pmid": "42778027", "ozet": "Yakın zamanda intihar düşüncesi yaşamış 103 kişide 30 gün boyunca anlık izlem (EMA) yapılmış. Gün içindeki akut stresin, özellikle anlık dürtüsellik yüksekken intihar düşüncesini artırdığı bulunmuş.", "added": "2026-09-30"}]}</script>
+<script>
+const DATA = JSON.parse(document.getElementById("data").textContent);
+const J = Object.fromEntries(DATA.journals.map(j => [j.id, j]));
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+const read = new Set(store.get("dt-read", []));
+const state = Object.assign({ range: "last", unread: false, off: [] }, store.get("dt-view", {}));
+state.q = "";
+const lastAdded = DATA.articles.length ? DATA.articles[0].added : null;
+
+const fmtDay = new Intl.DateTimeFormat("tr-TR", { day: "numeric", month: "long", weekday: "long" });
+const fmtShort = new Intl.DateTimeFormat("tr-TR", { day: "numeric", month: "short" });
+const d = s => new Date(s + "T12:00:00");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const norm = s => (s || "").toLocaleLowerCase("tr-TR");
+
+function inRange(a) {
+  if (state.range === "last") return a.added === lastAdded;
+  if (state.range === "all") return true;
+  const cut = new Date(); cut.setDate(cut.getDate() - Number(state.range));
+  return d(a.added) >= cut;
+}
+
+function render() {
+  store.set("dt-view", { range: state.range, unread: state.unread, off: state.off });
+  document.querySelectorAll("#range button").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === state.range));
+  document.getElementById("unread").checked = state.unread;
+
+  const base = DATA.articles.filter(a => inRange(a) && (!state.unread || !read.has(a.doi)));
+  const q = norm(state.q.trim());
+  const match = a => !q || norm(a.title + " " + a.ozet + " " + a.authors).includes(q);
+
+  document.getElementById("chips").innerHTML = DATA.journals.map(j => {
+    const n = base.filter(a => a.journal === j.id && match(a)).length;
+    return `<button class="chip" style="--c:var(--j-${j.id}, var(--accent))" data-j="${j.id}" aria-pressed="${!state.off.includes(j.id)}">
+      <span class="dot"></span>${esc(j.name)} <span class="n">${n}</span></button>`;
+  }).join("");
+
+  const shown = base.filter(a => !state.off.includes(a.journal) && match(a));
+  const days = {};
+  shown.forEach(a => (days[a.added] = days[a.added] || []).push(a));
+
+  const main = document.getElementById("main");
+  if (!shown.length) {
+    main.innerHTML = `<p class="empty">${state.unread ? "Bu aralıkta okunmamış makale kalmadı." : "Bu filtrelerle eşleşen makale yok."}</p>`;
+    return;
+  }
+  main.innerHTML = Object.keys(days).sort().reverse().map(day => `
+    <section class="day">
+      <h2>${esc(fmtDay.format(d(day)))} <span class="count">· ${days[day].length} makale</span></h2>
+      <div class="list">${days[day].map(card).join("")}</div>
+    </section>`).join("");
+}
+
+function card(a) {
+  const j = J[a.journal] || { name: a.journal };
+  const isRead = read.has(a.doi);
+  return `<article class="${isRead ? "read" : ""}" data-doi="${esc(a.doi)}" style="--c:var(--j-${a.journal}, var(--accent))">
+    <div class="head"><span class="jn" lang="en">${esc(j.name)}</span><span>online ${esc(fmtShort.format(d(a.online)))}</span></div>
+    <h3><a href="https://doi.org/${esc(a.doi)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
+    ${a.authors ? `<div class="authors">${esc(a.authors)}</div>` : ""}
+    <p class="ozet ${a.ozet ? "" : "none"}">${a.ozet ? esc(a.ozet) : "Türkçe özet henüz yok."}</p>
+    <div class="actions">
+      <button class="mark" type="button">${isRead ? "Okundu" : "Okundu işaretle"}</button>
+      ${a.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(a.pmid)}/" target="_blank" rel="noopener">PubMed</a>` : ""}
+    </div>
+  </article>`;
+}
+
+document.getElementById("range").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.range = b.dataset.r; render();
+});
+document.getElementById("unread").addEventListener("change", e => { state.unread = e.target.checked; render(); });
+document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
+document.getElementById("chips").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  const id = b.dataset.j;
+  state.off = state.off.includes(id) ? state.off.filter(x => x !== id) : [...state.off, id];
+  render();
+});
+document.getElementById("main").addEventListener("click", e => {
+  const art = e.target.closest("article"); if (!art) return;
+  const doi = art.dataset.doi;
+  if (e.target.closest(".mark")) {
+    read.has(doi) ? read.delete(doi) : read.add(doi);
+  } else if (e.target.closest("h3 a")) {
+    read.add(doi);
+  } else return;
+  const keep = new Set(DATA.articles.map(a => a.doi));
+  store.set("dt-read", [...read].filter(x => keep.has(x)));
+  if (!state.unread) {
+    const isRead = read.has(doi);
+    art.classList.toggle("read", isRead);
+    art.querySelector(".mark").textContent = isRead ? "Okundu" : "Okundu işaretle";
+  } else setTimeout(render, 250);
+});
+
+(function meta() {
+  const upd = new Date(DATA.updated);
+  const t = new Intl.DateTimeFormat("tr-TR", { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Istanbul" }).format(upd);
+  const n = DATA.articles.filter(a => a.added === lastAdded).length;
+  document.getElementById("meta").innerHTML = `Son güncelleme ${esc(t)} · son taramada <strong>${n} yeni makale</strong>`;
+  document.getElementById("foot").innerHTML = "<div>Dergi sayfaları:</div>" +
+    DATA.journals.map(j => `<a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>`).join("");
+})();
+render();
+</script>
+</body>
+</html>

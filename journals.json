@@ -1,0 +1,7 @@
+[
+  {"id": "bja", "name": "BJPsych Advances", "issn": ["2056-4678", "2056-4686"], "url": "https://www.cambridge.org/core/journals/bjpsych-advances"},
+  {"id": "brs", "name": "Brain Stimulation", "issn": ["1935-861X", "1876-4754"], "url": "https://www.brainstimjrnl.com/inpress"},
+  {"id": "bp", "name": "Biological Psychiatry", "issn": ["0006-3223", "1873-2402"], "url": "https://www.biologicalpsychiatryjournal.com/inpress"},
+  {"id": "jamap", "name": "JAMA Psychiatry", "issn": ["2168-622X", "2168-6238"], "url": "https://jamanetwork.com/journals/jamapsychiatry/newonline"},
+  {"id": "jad", "name": "Journal of Affective Disorders", "issn": ["0165-0327", "1573-2517"], "url": "https://www.sciencedirect.com/journal/journal-of-affective-disorders/articles-in-press"}
+]
