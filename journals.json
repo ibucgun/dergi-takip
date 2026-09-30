@@ -10,5 +10,6 @@
   {"id": "bd", "name": "Bipolar Disorders", "issn": ["1398-5647", "1399-5618"], "url": "https://onlinelibrary.wiley.com/journal/13995618"},
   {"id": "wps", "name": "World Psychiatry", "issn": ["1723-8617", "2051-5545"], "url": "https://onlinelibrary.wiley.com/journal/20515545"},
   {"id": "transm", "name": "Transcranial Magnetic Stimulation", "issn": ["3050-5291"], "url": "https://www.tmsjournal.org/"},
-  {"id": "ajp", "name": "American Journal of Psychiatry", "issn": ["0002-953X", "1535-7228"], "url": "https://psychiatryonline.org/journal/ajp"}
+  {"id": "ajp", "name": "American Journal of Psychiatry", "issn": ["0002-953X", "1535-7228"], "url": "https://psychiatryonline.org/journal/ajp"},
+  {"id": "cns", "name": "CNS Spectrums", "issn": ["1092-8529", "2165-6509"], "url": "https://www.cambridge.org/core/journals/cns-spectrums"}
 ]
