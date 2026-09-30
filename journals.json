@@ -3,5 +3,9 @@
   {"id": "brs", "name": "Brain Stimulation", "issn": ["1935-861X", "1876-4754"], "url": "https://www.brainstimjrnl.com/inpress"},
   {"id": "bp", "name": "Biological Psychiatry", "issn": ["0006-3223", "1873-2402"], "url": "https://www.biologicalpsychiatryjournal.com/inpress"},
   {"id": "jamap", "name": "JAMA Psychiatry", "issn": ["2168-622X", "2168-6238"], "url": "https://jamanetwork.com/journals/jamapsychiatry/newonline"},
-  {"id": "jad", "name": "Journal of Affective Disorders", "issn": ["0165-0327", "1573-2517"], "url": "https://www.sciencedirect.com/journal/journal-of-affective-disorders/articles-in-press"}
+  {"id": "jad", "name": "Journal of Affective Disorders", "issn": ["0165-0327", "1573-2517"], "url": "https://www.sciencedirect.com/journal/journal-of-affective-disorders/articles-in-press"},
+  {"id": "cnni", "name": "Biological Psychiatry: CNNI", "issn": ["2451-9022", "2451-9030"], "url": "https://www.biologicalpsychiatrycnni.org"},
+  {"id": "lanpsy", "name": "The Lancet Psychiatry", "issn": ["2215-0366", "2215-0374"], "url": "https://www.thelancet.com/journals/lanpsy/issue/current"},
+  {"id": "ipg", "name": "International Psychogeriatrics", "issn": ["1041-6102", "1741-203X"], "url": "https://www.intpsychogeriatrics.org/inpress"},
+  {"id": "bd", "name": "Bipolar Disorders", "issn": ["1398-5647", "1399-5618"], "url": "https://onlinelibrary.wiley.com/journal/13995618"}
 ]

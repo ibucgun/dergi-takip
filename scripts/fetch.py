@@ -27,7 +27,8 @@ OVERLAP_DAYS = 3
 SKIP_TITLE = re.compile(
     r"^\s*(corrigendum|erratum|correction|errors? in\b|incorrect|missing\b|"
     r"retraction|retracted|expression of concern|notice of|withdrawn|"
-    r"editorial board|issue information|table of contents|cover\b)",
+    r"editorial board|issue information|table of contents|cover\b|"
+    r"guide for authors|welcome letter|masthead|contents\b)",
     re.I,
 )
 
