@@ -48,8 +48,11 @@ def main():
     }
     blob = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
     template = (ROOT / "scripts" / "template.html").read_text("utf-8")
-    (ROOT / "docs" / "index.html").write_text(template.replace("__DATA__", blob), "utf-8")
-    (ROOT / "docs" / ".nojekyll").write_text("", "utf-8")
+    page = template.replace("__DATA__", blob)
+    # Pages kök klasörden veya /docs'tan yayınlanabilir; ikisine de yazılır
+    for out in (ROOT, ROOT / "docs"):
+        (out / "index.html").write_text(page, "utf-8")
+        (out / ".nojekyll").write_text("", "utf-8")
     print(f"Sayfa üretildi: {len(articles)} makale")
 
 

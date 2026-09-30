@@ -13,7 +13,7 @@ Bu dosya her sabah bulutta çalışan Claude görevinin izlediği adımlardır.
    - Sadece özette/başlıkta yazanı aktar, yorum veya abartı ekleme.
    - Özet (abstract) boşsa başlıktan ne ile ilgili olduğunu yaz ve sonuna
      "(Özet mevcut değil, başlıktan çıkarıldı.)" ekle.
-3. `python3 scripts/build.py` çalıştır. Sayfa `docs/index.html` olarak üretilir.
+3. `python3 scripts/build.py` çalıştır. Sayfa `index.html` (ve `docs/index.html`) olarak üretilir.
 4. Değişiklikleri commit'le ve aynı dala push et:
    `git add -A && git commit -m "Günlük güncelleme $(date +%F)" && git push`
    Yeni makale yoksa bile 3. ve 4. adımı yap (sayfadaki "son güncelleme" saati yenilenir).
