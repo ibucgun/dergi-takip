@@ -1,5 +1,112 @@
 [
  {
+  "doi": "10.1016/j.jad.2026.122571",
+  "journal": "jad",
+  "title": "Who is getting better in treatment? Dynamics in risk processes as a signature of short-term suicide treatment response",
+  "authors": "Becky Neufeld, Jonathan E. Butner, Samantha E. Daruwala ve ark.",
+  "online": "2026-10-01",
+  "pmid": "42822541",
+  "ozet": "Amaç, intihar odaklı tedavi sırasında risk ve dayanıklılık süreçlerinin dinamiklerinin, tedavi sırasında intihar girişiminde bulunan ve bulunmayanları ayırt edip etmediğini incelemektir. Bir RKÇ'de en fazla 12 seans intihar odaklı terapi alan erişkinlerde (n=70) haftalık anketlerle risk ve dayanıklılık değişkenleri ve girişimler izlenmiş; girişimde bulunan (n=12) ve bulunmayan (n=45) gruplar tedavinin ilk ve son 30 gününde dinamik sistem modelleri (tekil değer ayrışımı, vektör otoregresif çok düzeyli modeller) ile karşılaştırılmıştır. Girişimde bulunmayanlarda tedavi boyunca intihar modu dinamiklerinde artan bir stabilite görülürken girişimde bulunanlarda anlamlı bir değişim saptanmamıştır; gruplar arası farklar ilk 30 günde ortaya çıkmıştır. Yazarlar bunun erken bir tedavi yanıtı belirteci olabileceğini ve intihar riskinin stabilizasyonunu belirleyecek göstergeler için yol gösterici olduğunu belirtmektedir.",
+  "added": "2026-10-02"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122581",
+  "journal": "jad",
+  "title": "Cardiovascular-Kidney-Metabolic syndrome and suicidal death in a nationwide cohort study",
+  "authors": "Hyuk Huh, Min Woo Kang, Jinsun Lee ve ark.",
+  "online": "2026-10-01",
+  "pmid": "42822542",
+  "ozet": "Amaç, yeni önerilen Kardiyovasküler-Böbrek-Metabolik (CKM) sendrom evrelerinin intihara bağlı ölümle ilişkisini değerlendirmektir. Kore Ulusal Sağlık Sigortası verisinden 4.601.001 katılımcı CKM evre 0-4'e göre sınıflanmış; çok değişkenli Cox regresyonu ve intihar dışı ölümü rakip olay sayan Fine-Gray modelleri kullanılmıştır. Ortanca 10,11 yıllık izlemde 12.034 intihar ölümü olmuş; ayarlama sonrası evre 3 (HR 1,328) ve evre 4 (HR 1,319) artmış risk ile ilişkili bulunmuş, diğer psikiyatrik bozukluklara ayarlamada da korunmuştur. Fine-Gray modellerinde etki azalmakla birlikte anlamlı kalmıştır (evre 3 sHR 1,199; evre 4 sHR 1,246). İlişki 20-39 yaş grubunda ve depresyon tanısı olmayanlarda daha belirgindir. Yazarlar CKM tedavisinde ruh sağlığı izleminin koruyucu bir strateji olabileceğini belirtmektedir.",
+  "added": "2026-10-02"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122574",
+  "journal": "jad",
+  "title": "Dynamic depression phenotypes and frailty accumulation: A longitudinal study of four Global Aging cohorts",
+  "authors": "Jiaqing Liu, Juan Wu, Xiaofan Zhang",
+  "online": "2026-10-01",
+  "pmid": "42822543",
+  "ozet": "Geç dönem depresyonun değişken seyrine rağmen statik bir durum gibi ele alınması nedeniyle, dinamik depresyon fenotiplerinin frailty birikimiyle ilişkisi incelenmiştir. Dört büyük yaşlanma kohortunda (HRS, ELSA, SHARE, CHARLS; 57.894 katılımcı) ilk dört değerlendirmedeki depresif belirti durumuna (CES-D/EURO-D) göre beş fenotip tanımlanmış (kalıcı sağlıklı, remisyon, geç başlangıçlı, dalgalı, kalıcı yüksek yük) ve landmark tasarımıyla sonraki frailty indeksi artışı değerlendirilmiştir. Kalıcı yüksek yük fenotipi (%7,9-20,3) üç kohortta daha hızlı bilişsel olmayan frailty birikimini öngörmüş (meta-analiz 1,42, %95 GA 0,65-2,19, I2=0) ve olay frailty OR'si 1,29-2,75 bulunmuştur. Dalgalı fenotip frailty ile çoğunlukla eş zamanlı ilişkilidir. Yazarlar kronik yüksek belirti yükü olan yaşlıların sürekli takibinin önemini vurgulamaktadır.",
+  "added": "2026-10-02"
+ },
+ {
+  "doi": "10.1016/j.bpsc.2026.09.012",
+  "journal": "cnni",
+  "title": "EHR-based machine learning for psychiatric outcomes in youth and young adults: Challenges and opportunities",
+  "authors": "Alysa E. Doyle, Anudeepa K. Ramachandiran, Maria Bugarinovic ve ark.",
+  "online": "2026-10-01",
+  "pmid": "42822595",
+  "ozet": "Derleme: Gençlerde ve genç erişkinlerde psikiyatrik sonuçların öngörülmesi için elektronik sağlık kaydı (EHR) verilerine makine öğrenmesi uygulayan, sayıca az ama büyüyen literatür erişkin çalışmaları bağlamında ele alınmaktadır. Yapılandırılmış EHR verisinin doğal dil işleme (NLP) ve hasta bildirimli sonlanımlarla boyutsal, klinik açıdan anlamlı yapılarla zenginleştirilmesi vurgulanmakta; klinik olarak uygulanabilir ve gelişimsel açıdan bilgilendirilmiş risk sınıflaması için süren girişimler ve öncelikler tartışılmaktadır.",
+  "added": "2026-10-02"
+ },
+ {
+  "doi": "10.1111/bdi.70171",
+  "journal": "bd",
+  "title": "‘It's a Balancing Act’: A Qualitative Analysis of the Experiences of Caffeine Use in Individuals With Bipolar Disorder",
+  "authors": "Sammy Eden, Michaela Sibsey, Sarah Dean ve ark.",
+  "online": "2026-10-01",
+  "ozet": "Amaç, bipolar bozukluğu (BB) olan bireylerin kafein kullanımı ile duygudurum belirtileri arasındaki ilişkiye dair deneyimlerini incelemektir. BB tanılı 20 kişiyle yarı yapılandırılmış nitel görüşmeler yapılmış ve Yorumlayıcı Fenomenolojik Analiz (IPA) ile çözümlenmiştir. Ana tema 'bir denge oyunu' olup alt temalar düşük duygudurumda 'küçük yardımcı' ve 'hiçbir şey işe yaramıyor', yüksek duygudurumda 'artan maniklik' ve 'hatırlayamama/konsantre olamama', ayrıca 'alışkanlık/rutin' ve 'stratejik rutin' kullanımıdır. Katılımcılar kafeinin hem yararlı hem zararlı olabildiği hassas bir denge gerektirdiğini belirtmiştir. Yazarlar hastaların ve klinisyenlerin kafein konusunda bilgilendirilmesinin önemini vurgulamaktadır.",
+  "added": "2026-10-02"
+ },
+ {
+  "doi": "10.1111/bdi.70182",
+  "journal": "bd",
+  "title": "Emotional Responses (Intensity/Valence) Fulfill RDoC Criteria but Remain Excluded From Diagnostic Classifications of Mood Disorders",
+  "authors": "Chantal Henry, Chlöé Müh, Claire‐Hélène de Badts ve ark.",
+  "online": "2026-10-01",
+  "ozet": "Görüş/perspektif yazısı: DSM-5 ve ICD'nin kategorik depresyon sınıflamalarının heterojenite, keyfi eşikler ve zayıf patofizyolojik bağlantı gibi sınırlılıkları nedeniyle, duygusal yanıtların (yoğunluk/uyarılma ve hedonik valans) RDoC çerçevesinde transdiagnostik çekirdek özellik olarak ele alınması önerilmektedir. Depresif epizotlar duygusal hiporeaktivite (künt duygulanım) veya hiperreaktivite (distres, anksiyete, irritabilite, labilite; özellikle bipolar depresyonda mikst özelliklerle ilişkili) ile, ayrıca anhedoni ve olumsuzluk yanlılığı gibi bozulmuş valans atfıyla tanımlanır; hayvan çalışmaları bazal lateral amigdala devrelerini ve olumsuzluk yanlılığının antidepresanlarla geri dönüşlülüğünü göstermektedir. Yazarlar bu yaklaşımın heterojeniteyi ve mikst durumları açıklayabileceğini ve tedavi seçimine rehberlik edebileceğini savunmaktadır.",
+  "added": "2026-10-02"
+ },
+ {
+  "doi": "10.1111/bdi.70189",
+  "journal": "bd",
+  "title": "The Impact of Sexual Satisfaction on Marital Adjustment, Quality of Life, and Treatment Adherence in Patients Diagnosed With Bipolar Disorder and Their Spouses: A Cross‐Sectional Study",
+  "authors": "Zerrin Demirel, Nurgül Ozdemir, Ayten Guner Atayoglu",
+  "online": "2026-10-01",
+  "ozet": "Amaç, BB tanılı hastalar ve eşlerinde cinsel doyumun evlilik uyumu, yaşam kalitesi ve tedaviye uyum üzerine etkisini incelemektir. Gaziantep'te psikiyatri polikliniklerinden ötimik 124 BB hastası ve eşleri (124 çift) kesitsel çalışmaya alınmış; YMRS, BDI, GRISS, DAS, QoL.BD ve MMAS kullanılmıştır. Cinsel doyumsuzluk daha kötü evlilik uyumu ile ilişkili bulunmuştur (r=0,325, p<0,001); cinsel doyum ile tedaviye uyum arasında doğrudan anlamlı ilişki saptanmamıştır. Daha yüksek yaşam kalitesi daha düşük depresyon, daha iyi evlilik uyumu ve daha fazla cinsel doyumla ilişkilidir. Yazarlar cinsel sağlığı kapsayan çift temelli psikoeğitimin evlilik ve yaşam kalitesi sonuçlarını destekleyebileceğini belirtmektedir.",
+  "added": "2026-10-02"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20250449",
+  "journal": "ajp",
+  "title": "Connectomic Determinants of Subcallosal Cingulate Deep Brain Stimulation for Depression",
+  "authors": "Ha Neul Song, Ki Sueng Choi, Brian H. Kopell ve ark.",
+  "online": "2026-10-01",
+  "pmid": "42816827",
+  "ozet": "Amaç, tedaviye dirençli depresyonda subkallozal singulat (SCC) derin beyin stimülasyonu (DBS) ile sürdürülen iyileşmeyle ilişkili konnektomik faktörleri belirlemektir. Üç bağımsız kohorttan 131 TRD hastasında (ort. yaş 46,67; %60,31 kadın) bilateral SCC-DBS sonrası HAM-D-17 yanıtı retrospektif değerlendirilmiş; aktive edilen doku hacimleri, voksel temelli stimülasyon haritalama ve normatif lif analizleri yapılmıştır. Yanıtlılar (HAM-D'de ≥%50 azalma) daha az değişken bir doku aktivasyon dağılımı göstermiş; haritalama klinik iyileşmeyle ilişkili odaksal bir küme saptamıştır. Sol singulum demeti ve medial unsinat fasikülün aktive edilememesi terapötik etkiyi azaltmıştır. Yazarlar konnektom temelli hedeflemenin yalnızca anatomik işaretlere veya normatif atlaslara dayalı hedeflemeye göre avantaj sağlayabileceğini belirtmektedir.",
+  "added": "2026-10-02"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20260137",
+  "journal": "ajp",
+  "title": "Artificial Intelligence as the Computational Framework for Adaptive Closed-Loop Neuromodulation in Psychiatry",
+  "authors": "Babak Mahmoudi",
+  "online": "2026-10-01",
+  "pmid": "42816824",
+  "ozet": "Derleme: Psikiyatrik nöromodülasyonda uyarlanabilir (kapalı döngü) yaklaşımın, epilepsi için yanıt verici nörostimülasyon ve hareket bozuklukları için adaptif DBS örneklerine kıyasla, heterojen, çok zaman ölçekli ve dolaylı/gürültülü ölçülen psikiyatrik belirtiler nedeniyle farklı zorluklar taşıdığı vurgulanmaktadır. Yapay zekânın çok modlu algılama, hasta durumu çıkarımı, tedavi yanıtı tahmini ve kısıtlı terapötik uyarlamayı birleştiren veri temelli bileşenler sağlayabileceği, yorumlanabilirliğin gerekli olduğu belirtilmektedir. Klinik kanıt küçük kavram kanıtı çalışmalarıyla sınırlıdır; klinik uygulama için tekrarlanmış biyobelirteçler, ileriye dönük çok merkezli doğrulama, belirsizlik yönetimi, klinisyen/hasta gözetimi ve güvenlik/yönetişim gereklidir.",
+  "added": "2026-10-02"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20260691",
+  "journal": "ajp",
+  "title": "Brain Stimulation Therapeutic Interventions in Neuropsychiatry: A Cambrian Explosion",
+  "authors": "Harold A. Sackeim, Mark S. George",
+  "online": "2026-10-01",
+  "pmid": "42816826",
+  "ozet": "Derleme: Beyin stimülasyonu girişimlerinin nöropsikiyatrideki mevcut durumu, güçlü yanları ve zorlukları özetlenmekte; birçok stimülasyon yöntemi ve endikasyon için yeni FDA onaylarının alındığı belirtilmektedir. Gelecekteki atılımlar olarak sistemik yan etkilerden kaçınan noninvaziv odaksal intraserebral ilaç iletimi, çevre dokuyu etkilemeden derin/yüzeyel hedeflerin noninvaziv stimülasyonu, stres duyarlılığını azaltan ve dayanıklılığı artıran/önleyici girişimler ve kişiselleştirilmiş biyobelirteçlere dayalı yanıt verici veya kapalı döngü teknikler tartışılmaktadır. Evde kullanıma yönelik noninvaziv stimülasyon cihazlarının klinik yarar gösterip FDA onayı aldığı da belirtilmektedir.",
+  "added": "2026-10-02"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20260826",
+  "journal": "ajp",
+  "title": "Neuromodulation and Precision Therapeutics",
+  "authors": "William M. McDonald, Helen S. Mayberg, Patricio Riva Posse ve ark.",
+  "online": "2026-10-01",
+  "pmid": "42816825",
+  "ozet": "Başlığa göre Nöromodülasyon ve Hassas Terapötikler konusunu ele alan bir yazıdır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-02"
+ },
+ {
   "doi": "10.1001/jamapsychiatry.2026.3136",
   "journal": "jamap",
   "title": "Prior Evidence on Auditory Hallucinations Overlooked—Reply",
