@@ -1,5 +1,35 @@
 [
  {
+  "doi": "10.1016/j.jad.2026.122573",
+  "journal": "jad",
+  "title": "Proteins from platelet-enriched preparations as candidate biomarkers for major depressive disorder: An exploratory proteomic study",
+  "authors": "Lu Sun, ZiMeng Yang, HaoBo Leng ve ark.",
+  "online": "2026-10-02",
+  "pmid": "42826767",
+  "ozet": "Majör depresif bozukluk (MDB) için nesnel tanı belirteçlerinin eksikliğinden yola çıkılarak, trombositten zenginleştirilmiş fraksiyondaki proteinlerin aday biyobelirteç olarak taranması amaçlanmış. Keşfedici çalışmaya 20 MDB hastası ile yaş ve cinsiyet açısından eşleştirilmiş 20 sağlıklı kontrol alınmış; DIA tabanlı proteomik analiz, GO/KEGG zenginleştirme ve PLS-DA, LASSO, SVM-RFE gibi makine öğrenmesi yöntemleri kullanılmış. İki grup arasında 299 farklı eksprese protein saptanmış; C1QBP, DDX60, WDR81 ve VPS37A'dan oluşan dörtlü panel MDB'yi ayırt etmede umut verici bulunmuş ve eğilimler doğrulama kohortunda tutarlı izlenmiş. Panel düzeyleri havuzlanmış örneklemde HAMD ile ilişkili olsa da bu büyük ölçüde olgu-kontrol farkını yansıtmış; MDB grubu içinde yalnızca C1QBP HAMD ile anlamlı korelasyon göstermiş. Cinsiyete göre tabakalı analiz olası cinsiyet temelli heterojeniteye işaret etmiş. Yazarlar bu proteinleri MDB ayrımı için aday biyobelirteçler olarak öneriyor.",
+  "added": "2026-10-03"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122580",
+  "journal": "jad",
+  "title": "Depressive symptom profiles and risk of cardiometabolic disease incidence",
+  "authors": "J.C. Zwiep, Y. Milaneschi, C.H. Vinkers ve ark.",
+  "online": "2026-10-02",
+  "pmid": "42826766",
+  "ozet": "Depresyonla ilişkili enflamasyonla bağlantılı semptom profillerinin (atipik enerji ilişkili semptomlar [AES], anhedoni) kardiyometabolik hastalık (KMH) insidansı açısından özgül risk taşıyıp taşımadığı araştırılmış. Hollanda Depresyon ve Anksiyete Çalışması'ndan (NESDA) başlangıçta KMH'si olmayan, yaşam boyu MDB'si olan kişiler ve depresyonu olmayan kontroller (N=1858) 15 yıl izlenmiş; semptom profilleri IDS-SR ile belirlenmiş ve Cox modelleri sosyodemografik ve yaşam tarzı faktörleri için düzeltilmiş. KMH insidansı 21,3/1000 kişi-yıl bulunmuş; MDB kontrollere göre artmış KMH insidansıyla ilişkili olmuş (HR=1,65; %95 GA: 1,30–2,11). Sürekli analizlerde yalnızca AES ve depresyon şiddeti KMH ile anlamlı ilişkili olsa da etki büyüklükleri profiller arasında benzer bulunmuş, belirgin doz-yanıt örüntüsü saptanmamış; tüm profiller kardiyovasküler hastalıkla, yalnızca AES ise diyabetle ilişkili çıkmış. Yazarlar, kardiyometabolik riske depresyon yükünün genel olarak katkıda bulunduğunu, semptoma özgü bir etki olmadığını belirtiyor ve depresyon öyküsü olanlarda kardiyometabolik risk faktörlerinin izlenmesini öneriyor.",
+  "added": "2026-10-03"
+ },
+ {
+  "doi": "10.1016/j.inpsyc.2026.100286",
+  "journal": "ipg",
+  "title": "Caring for individuals with dementia: New insights associated with specific dementia types",
+  "authors": "Susan W. Lehmann",
+  "online": "2026-10-02",
+  "pmid": "42827058",
+  "ozet": "Demans bakımına ilişkin, farklı demans tiplerine özgü yeni bilgileri ele alan bir yazı (Susan W. Lehmann); türü belirtilmemiş, büyük olasılıkla editoryal/görüş niteliğinde. Başlıktan, demanslı bireylere bakım verirken demans türüne özgü yaklaşımların önemi üzerinde durduğu anlaşılıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-03"
+ },
+ {
   "doi": "10.1016/j.jad.2026.122571",
   "journal": "jad",
   "title": "Who is getting better in treatment? Dynamics in risk processes as a signature of short-term suicide treatment response",
