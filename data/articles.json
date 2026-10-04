@@ -1,5 +1,113 @@
 [
  {
+  "doi": "10.1016/j.brs.2026.103228",
+  "journal": "brs",
+  "title": "A standard coil placement for reliable transcranial magnetic stimulation of the frontoparietal depression network: the ‘F5-AF7 method‘",
+  "authors": "Maximilian Lueckel, Kathrin Kachel, Jan Engelmann ve ark.",
+  "online": "2026-10-03",
+  "ozet": "Depresyonda frontoparietal ağı hedefleyen TMS için standart bir bobin yerleştirme yöntemi olan 'F5-AF7 yöntemi'ni tanıtan çalışma. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103227",
+  "journal": "brs",
+  "title": "Cognitive state dependent enhancement of cognitive control with transcranial magnetic stimulation",
+  "authors": "Aaron N. McInnes, Victoria L. Pipia, Kiyana L. Maynard ve ark.",
+  "online": "2026-10-03",
+  "ozet": "TMS ile bilişsel kontrolün, bilişsel duruma bağlı biçimde artırılmasını inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103225",
+  "journal": "brs",
+  "title": "Toward Brain-State-Dependent tACS Individualization: Task-Evoked, Not Resting-State, Peak Frequency Predicts tACS Efficacy",
+  "authors": "Isabella Hartley, Kevin Jones, Elizabeth Johnson ve ark.",
+  "online": "2026-10-03",
+  "ozet": "tACS'in bireyselleştirilmesinde, istirahat durumu yerine göreve bağlı tepe frekansının tACS etkinliğini öngördüğünü bildiren, beyin durumuna bağlı yaklaşımı ele alan çalışma. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103229",
+  "journal": "brs",
+  "title": "Subharmonic entrainment of thalamic gamma during deep brain stimulation for multiple sclerosis tremor",
+  "authors": "Nagaraja Sarangmat, Fernando Rodriguez-Plazas, Shenghong He ve ark.",
+  "online": "2026-10-03",
+  "ozet": "Multipl skleroz tremoru için derin beyin stimülasyonu sırasında talamik gama aktivitesinin subharmonik sürüklenmesini inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103224",
+  "journal": "brs",
+  "title": "Optical Cortico-Cortical Evoked Potentials Reveal Structural and State-Dependent Cortical Communication",
+  "authors": "Francesco Resta, Alessandro Scaglione, Emilia Conti ve ark.",
+  "online": "2026-10-03",
+  "ozet": "Optik kortiko-kortikal uyarılmış potansiyellerle kortikal iletişimin yapısal ve duruma bağlı özelliklerini inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.09.020",
+  "journal": "bp",
+  "title": "Connection-Level Multi-Omics Reveals Cerebellar-Cortical Dysconnectivity and Divergent Molecular Signatures Across Major Psychiatric Disorders",
+  "authors": "Yunheng Diao, Yuanyuan Huang, Baoyuan Zhu ve ark.",
+  "online": "2026-10-03",
+  "ozet": "Başlıca psikiyatrik bozukluklarda serebellar-kortikal bağlantısızlığı ve bozukluklar arası farklı moleküler imzaları bağlantı düzeyinde çoklu-omik yaklaşımla inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.09.021",
+  "journal": "bp",
+  "title": "Inhibitory control and error processing in Obsessive-Compulsive Disorder: A mega-analysis of task-based fMRI data by the ENIGMA-OCD consortium",
+  "authors": "Nadža Džinalija, Odile A. van den Heuvel, H. Blair Simpson ve ark.",
+  "online": "2026-10-03",
+  "ozet": "ENIGMA-OKB konsorsiyumunun, obsesif-kompulsif bozuklukta inhibitör kontrol ve hata işlemeyi görev temelli fMRG verileriyle değerlendirdiği mega-analiz. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.09.022",
+  "journal": "bp",
+  "title": "TMS-Evoked Cortical Reactivity Signatures as a Multidimensional Biomarker of Depression: A TMS-EEG Meta-Analysis from Diagnosis to Prognosis",
+  "authors": "Ji-Yu Xie, Tao Zhao, Liang Guo ve ark.",
+  "online": "2026-10-03",
+  "ozet": "Depresyonda TMS ile uyarılmış kortikal reaktivite imzalarının tanıdan prognoza çok boyutlu biyobelirteç olarak değerlendirildiği TMS-EEG meta-analizi. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122584",
+  "journal": "jad",
+  "title": "Trajectory of maternal perinatal negative psychological states and its association with early offspring neurodevelopment: A longitudinal cohort study",
+  "authors": "Yijuan Du, Yanfei Cao, Zhirun Cheng ve ark.",
+  "online": "2026-10-03",
+  "ozet": "Annenin perinatal dönemdeki olumsuz psikolojik durumlarının seyri ile bebeğin erken nörogelişimi arasındaki ilişkiyi inceleyen boylamsal kohort çalışması. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122585",
+  "journal": "jad",
+  "title": "PDE2A is involved in negative emotional behaviors via the cAMP-PKA signaling pathway in the SPS&S model",
+  "authors": "Baoying Jiang, Lanxia Wu, Guohui Zhang ve ark.",
+  "online": "2026-10-03",
+  "ozet": "SPS&S modelinde PDE2A'nın cAMP-PKA sinyal yolağı üzerinden olumsuz duygusal davranışlarla ilişkisini inceleyen hayvan çalışması. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
+  "doi": "10.1016/j.inpsyc.2026.100296",
+  "journal": "ipg",
+  "title": "Improving care of dementia: Recent findings to improve person-centred diagnosis and treatment",
+  "authors": "Krista L. Lanctôt",
+  "online": "2026-10-03",
+  "ozet": "Demans bakımının iyileştirilmesi için kişi merkezli tanı ve tedavideki güncel bulguları ele alan derleme/editoryal yazı. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
+  "doi": "10.1016/j.inpsyc.2026.100277",
+  "journal": "ipg",
+  "title": "The SOAR project: Developing a framework for screening for older adults’ abuse risk",
+  "authors": "Yoram Barak, Paul Glue, Linda Hobbs ve ark.",
+  "online": "2026-10-03",
+  "ozet": "Yaşlı istismarı riskini taramaya yönelik bir çerçeve geliştiren SOAR projesini tanıtan yazı. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-04"
+ },
+ {
   "doi": "10.1016/j.jad.2026.122573",
   "journal": "jad",
   "title": "Proteins from platelet-enriched preparations as candidate biomarkers for major depressive disorder: An exploratory proteomic study",
