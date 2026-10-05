@@ -185,19 +185,28 @@ const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
 };
-const read = new Set(store.get("dt-read", []));
 const state = Object.assign({ range: "last", unread: false, only: null }, store.get("dt-view", {}));
 delete state.off;
 if (state.only && !J[state.only]) state.only = null;
 state.q = "";
 state.view = location.hash === "#kaydedilenler" ? "saved" : "feed";
 
-const REPO = "ibucgun/dergi-takip", BRANCH = "claude/dergi-takip", SAVED_PATH = "data/saved.json";
-let saved = store.get("dt-saved", []);
-let savedSha = null;
+// Kişisel veriler (kaydedilenler, okunanlar) depodaki ayrı bir dalda tutulur ve GitHub API ile eşitlenir.
+// Sayfanın yayınlandığı dala yazılmadığı için her işaretleme sayfayı yeniden derletmez.
+const REPO = "ibucgun/dergi-takip", SITE_BRANCH = "claude/dergi-takip", DATA_BRANCH = "claude/dergi-veri";
 let token = store.get("dt-token", null);
 let queue = Promise.resolve();
-const savedSet = () => new Set(saved.map(a => a.doi));
+let branchReady = false;
+const enqueue = job => (queue = queue.then(job, job));
+const files = {
+  saved: { path: "data/saved.json", key: "dt-saved", data: store.get("dt-saved", []), sha: null, muts: [], debounce: 0, needsToken: true },
+  read: { path: "data/read.json", key: "dt-read", data: store.get("dt-read", []), sha: null, muts: [], debounce: 2500, needsToken: false },
+};
+let savedS = null, readS = null;
+const savedSet = () => savedS || (savedS = new Set(files.saved.data.map(a => a.doi)));
+const readSet = () => readS || (readS = new Set(files.read.data));
+const isRead = doi => readSet().has(doi);
+const expanded = new Set();
 
 function toast(msg) {
   const el = document.getElementById("toast");
@@ -211,55 +220,94 @@ function gh(path, opts = {}) {
   if (token) headers.Authorization = "Bearer " + token;
   return fetch("https://api.github.com" + path, { ...opts, headers, cache: "no-store" });
 }
-async function loadSaved() {
+function setData(f, data) {
+  f.data = data; store.set(f.key, data);
+  savedS = readS = null;
+}
+async function load(f) {
   try {
-    const r = await gh(`/repos/${REPO}/contents/${SAVED_PATH}?ref=${encodeURIComponent(BRANCH)}&t=${Date.now()}`);
-    if (r.status === 404) { saved = []; savedSha = null; }
-    else if (r.ok) { const j = await r.json(); saved = JSON.parse(b64dec(j.content)); savedSha = j.sha; }
+    const r = await gh(`/repos/${REPO}/contents/${f.path}?ref=${encodeURIComponent(DATA_BRANCH)}&t=${Date.now()}`);
+    let data;
+    if (r.status === 404) { data = []; f.sha = null; }
+    else if (r.ok) { const j = await r.json(); data = JSON.parse(b64dec(j.content)); f.sha = j.sha; }
     else return false;
-    store.set("dt-saved", saved);
+    // Henüz gönderilmemiş değişiklikler sunucudaki listeye yeniden uygulanır
+    setData(f, f.muts.reduce((d, m) => m(d), data));
     render();
     return true;
   } catch { return false; }
 }
-async function putSaved(list, msg) {
-  const body = { message: msg, content: b64enc(JSON.stringify(list, null, 1) + "\n"), branch: BRANCH };
-  if (savedSha) body.sha = savedSha;
-  return gh(`/repos/${REPO}/contents/${SAVED_PATH}`, { method: "PUT", body: JSON.stringify(body), headers: { "Content-Type": "application/json" } });
+const loadAll = async () => { await load(files.saved); await load(files.read); };
+async function ensureBranch() {
+  if (branchReady) return true;
+  try {
+    let r = await gh(`/repos/${REPO}/git/ref/heads/${DATA_BRANCH}`);
+    if (r.status === 404) {
+      const base = await gh(`/repos/${REPO}/git/ref/heads/${SITE_BRANCH}`);
+      if (!base.ok) return false;
+      const sha = (await base.json()).object.sha;
+      r = await gh(`/repos/${REPO}/git/refs`, { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ref: "refs/heads/" + DATA_BRANCH, sha }) });
+      if (!r.ok && r.status !== 422) return false;
+    } else if (!r.ok) return false;
+    return (branchReady = true);
+  } catch { return false; }
 }
-const enqueue = job => (queue = queue.then(job, job));
-function changeSaved(mutate, msg) {
-  if (!token) { openSync(); toast("Kaydetmek için önce bu cihazı bağlayın."); return; }
-  // Değişiklik hemen gösterilir; kuyrukta en güncel listeye yeniden uygulanıp GitHub'a yazılır
-  saved = mutate(saved); store.set("dt-saved", saved); render();
+function put(f, msg) {
+  const body = { message: msg, content: b64enc(JSON.stringify(f.data, null, 1) + "\n"), branch: DATA_BRANCH };
+  if (f.sha) body.sha = f.sha;
+  return gh(`/repos/${REPO}/contents/${f.path}`, { method: "PUT", keepalive: true, body: JSON.stringify(body),
+    headers: { "Content-Type": "application/json" } });
+}
+function change(f, mutate, msg) {
+  if (f.needsToken && !token) { openSync(); toast("Kaydetmek için önce bu cihazı bağlayın."); return; }
+  setData(f, mutate(f.data)); render();
+  if (!token) return;
+  f.muts.push(mutate); f.msg = msg;
+  clearTimeout(f.timer);
+  f.timer = setTimeout(() => flush(f), f.debounce);
+}
+function flush(f) {
+  clearTimeout(f.timer);
+  if (!f.muts.length) return;
+  const muts = f.muts.slice(), msg = muts.length > 1 ? `${muts.length} değişiklik (${f.path})` : f.msg;
   enqueue(async () => {
+    const fail = async m => { toast(m); f.muts = f.muts.filter(x => !muts.includes(x)); await load(f); };
+    if (!(await ensureBranch())) return fail("Eşitlenemedi. Erişim anahtarını ve internet bağlantısını kontrol edin.");
     for (let i = 0; i < 3; i++) {
-      saved = mutate(saved); store.set("dt-saved", saved); render();
+      setData(f, muts.reduce((d, m) => m(d), f.data)); render();
       let r;
-      try { r = await putSaved(saved, msg); } catch { r = null; }
-      if (r && r.ok) { savedSha = (await r.json()).content.sha; return; }
-      if (r && (r.status === 409 || r.status === 422)) {
-        if (await loadSaved()) continue;
+      try { r = await put(f, msg); } catch { r = null; }
+      if (r && r.ok) {
+        f.sha = (await r.json()).content.sha;
+        f.muts = f.muts.filter(x => !muts.includes(x));
+        return;
       }
-      if (r && (r.status === 401 || r.status === 403 || r.status === 404)) toast("Erişim anahtarı geçersiz ya da yetkisi yok. Bağlantıyı yenileyin.");
-      else toast("Kaydedilemedi. İnternet bağlantısını kontrol edip tekrar deneyin.");
-      await loadSaved(); return;
+      if (r && (r.status === 409 || r.status === 422) && (await load(f))) continue;
+      if (r && (r.status === 401 || r.status === 403 || r.status === 404)) return fail("Erişim anahtarı geçersiz ya da yetkisi yok. Bağlantıyı yenileyin.");
+      return fail("Eşitlenemedi. İnternet bağlantısını kontrol edip tekrar deneyin.");
     }
   });
 }
+document.addEventListener("visibilitychange", () => { if (document.hidden) { flush(files.read); flush(files.saved); } });
+
 function toggleSave(doi) {
   const short = t => t.length > 60 ? t.slice(0, 57) + "…" : t;
-  const on = savedSet().has(doi);
-  if (on) {
-    const a = saved.find(x => x.doi === doi);
-    changeSaved(list => list.filter(x => x.doi !== doi), "Kayıttan çıkarıldı: " + short(a.title));
+  if (savedSet().has(doi)) {
+    const a = files.saved.data.find(x => x.doi === doi);
+    change(files.saved, list => list.filter(x => x.doi !== doi), "Kayıttan çıkarıldı: " + short(a.title));
   } else {
     const a = DATA.articles.find(x => x.doi === doi);
     if (!a) return;
     const entry = { doi: a.doi, journal: a.journal, title: a.title, authors: a.authors, online: a.online, ozet: a.ozet,
       ...(a.pmid ? { pmid: a.pmid } : {}), saved: new Date().toISOString().slice(0, 10) };
-    changeSaved(list => list.some(x => x.doi === doi) ? list : [entry, ...list], "Kaydedildi: " + short(a.title));
+    change(files.saved, list => list.some(x => x.doi === doi) ? list : [entry, ...list], "Kaydedildi: " + short(a.title));
   }
+}
+function setRead(doi, on) {
+  if (isRead(doi) === on) return;
+  change(files.read, list => on ? (list.includes(doi) ? list : [...list, doi]) : list.filter(x => x !== doi),
+    (on ? "Okundu: " : "Okunmadı: ") + doi);
 }
 function openSync() {
   const p = document.getElementById("syncPanel");
@@ -269,7 +317,7 @@ function openSync() {
 }
 function renderSync() {
   const b = document.getElementById("syncBtn");
-  b.textContent = token ? "✓ Eşitleme açık" : "Kaydetmeyi aç";
+  b.textContent = token ? "✓ Eşitleme açık" : "Eşitlemeyi aç";
   b.classList.toggle("on", !!token);
 }
 const lastAdded = DATA.articles.length ? DATA.articles[0].added : null;
@@ -291,13 +339,13 @@ function render() {
   store.set("dt-view", { range: state.range, unread: state.unread, only: state.only });
   renderSync();
   document.querySelectorAll("#tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.v === state.view));
-  document.getElementById("savedN").textContent = saved.length ? saved.length : "";
+  document.getElementById("savedN").textContent = files.saved.data.length || "";
   document.getElementById("feedCtl").hidden = state.view === "saved";
   if (state.view === "saved") return renderSaved();
   document.querySelectorAll("#range button").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === state.range));
   document.getElementById("unread").checked = state.unread;
 
-  const base = DATA.articles.filter(a => inRange(a) && (!state.unread || !read.has(a.doi)));
+  const base = DATA.articles.filter(a => inRange(a) && (!state.unread || !isRead(a.doi)));
   const q = norm(state.q.trim());
   const match = a => !q || norm(a.title + " " + a.ozet + " " + a.authors).includes(q);
 
@@ -326,11 +374,11 @@ function render() {
 function renderSaved() {
   const q = norm(state.q.trim());
   const match = a => !q || norm(a.title + " " + a.ozet + " " + a.authors).includes(q);
-  const base = saved.filter(match);
+  const base = files.saved.data.filter(match);
   renderChips(base);
   const shown = base.filter(a => !state.only || a.journal === state.only);
   const main = document.getElementById("main");
-  if (!saved.length) {
+  if (!files.saved.data.length) {
     main.innerHTML = `<p class="empty">Henüz kaydedilmiş makale yok.<br>Makalelerin altındaki <b>☆ Kaydet</b> ile buraya ekleyebilirsiniz.</p>`;
     return;
   }
@@ -358,17 +406,17 @@ function showMore(main) {
 
 function card(a) {
   const j = J[a.journal] || { name: a.journal };
-  const isRead = read.has(a.doi);
+  const isR = isRead(a.doi);
   const isSaved = savedSet().has(a.doi);
-  return `<article class="${isRead ? "read" : ""}" data-doi="${esc(a.doi)}" style="--c:var(--j-${a.journal}, var(--accent))">
+  return `<article class="${isR ? "read" : ""}" data-doi="${esc(a.doi)}" style="--c:var(--j-${a.journal}, var(--accent))">
     <div class="head"><span class="jn" lang="en">${esc(j.name)}</span><span>online ${esc(fmtShort.format(d(a.online)))}</span></div>
     <h3><a href="https://doi.org/${esc(a.doi)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
     ${a.authors ? `<div class="authors">${esc(a.authors)}</div>` : ""}
-    <p class="ozet ${a.ozet ? "clamp" : "none"}">${a.ozet ? esc(a.ozet) : "Türkçe özet henüz yok."}</p>
+    <p class="ozet ${a.ozet ? (expanded.has(a.doi) ? "" : "clamp") : "none"}">${a.ozet ? esc(a.ozet) : "Türkçe özet henüz yok."}</p>
     <div class="actions">
       <button class="save${isSaved ? " on" : ""}" type="button">${isSaved ? "★ Kaydedildi" : "☆ Kaydet"}</button>
-      <button class="more" type="button" hidden>Devamını göster</button>
-      <button class="mark" type="button">${isRead ? "Okundu" : "Okundu işaretle"}</button>
+      <button class="more" type="button" ${expanded.has(a.doi) ? "" : "hidden"}>${expanded.has(a.doi) ? "Kısalt" : "Devamını göster"}</button>
+      <button class="mark" type="button">${isR ? "Okundu" : "Okundu işaretle"}</button>
       ${a.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(a.pmid)}/" target="_blank" rel="noopener">PubMed</a>` : ""}
     </div>
   </article>`;
@@ -396,21 +444,12 @@ document.getElementById("main").addEventListener("click", e => {
   if (e.target.closest(".more")) {
     const p = art.querySelector(".ozet");
     const open = p.classList.toggle("clamp") === false;
+    open ? expanded.add(doi) : expanded.delete(doi);
     e.target.closest(".more").textContent = open ? "Kısalt" : "Devamını göster";
     return;
   }
-  if (e.target.closest(".mark")) {
-    read.has(doi) ? read.delete(doi) : read.add(doi);
-  } else if (e.target.closest("h3 a")) {
-    read.add(doi);
-  } else return;
-  const keep = new Set(DATA.articles.map(a => a.doi));
-  store.set("dt-read", [...read].filter(x => keep.has(x)));
-  if (!state.unread) {
-    const isRead = read.has(doi);
-    art.classList.toggle("read", isRead);
-    art.querySelector(".mark").textContent = isRead ? "Okundu" : "Okundu işaretle";
-  } else setTimeout(render, 250);
+  if (e.target.closest(".mark")) setRead(doi, !isRead(doi));
+  else if (e.target.closest("h3 a")) setRead(doi, true);
 });
 
 (function meta() {
@@ -442,8 +481,14 @@ document.getElementById("tokenSave").addEventListener("click", async () => {
   store.set("dt-token", token);
   document.getElementById("token").value = "";
   document.getElementById("syncPanel").hidden = true;
-  toast("Bağlandı. Artık bu cihazdan kaydedebilirsiniz.");
-  enqueue(loadSaved);
+  toast("Bağlandı. Kaydedilenler ve okundu işaretleri artık eşitleniyor.");
+  // Bağlanmadan önce bu cihazda işaretlenmiş okunanlar sunucudaki listeye eklenir
+  const localRead = files.read.data.slice();
+  enqueue(async () => {
+    await loadAll();
+    const extra = localRead.filter(d => !isRead(d));
+    if (extra.length) change(files.read, list => [...list, ...extra.filter(d => !list.includes(d))], `${extra.length} okundu işareti eşitlendi`);
+  });
 });
 document.getElementById("tokenRemove").addEventListener("click", () => {
   token = null;
@@ -453,7 +498,7 @@ document.getElementById("tokenRemove").addEventListener("click", () => {
   render();
 });
 render();
-enqueue(loadSaved);
+enqueue(loadAll);
 </script>
 </body>
 </html>
