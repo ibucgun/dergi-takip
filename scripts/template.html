@@ -66,7 +66,13 @@ header.top h1 { font: 600 1.6rem/1.2 var(--font-title); margin: 0; letter-spacin
   font: 500 0.78rem var(--font-ui); padding: 4px 10px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
 .chip .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
 .chip .n { color: var(--muted); font-variant-numeric: tabular-nums; }
-.chip[aria-pressed="false"] { opacity: 0.45; }
+.chip[aria-pressed="true"] { background: var(--c); border-color: var(--c); color: var(--surface); }
+.chip[aria-pressed="true"] .dot { background: var(--surface); }
+.chip[aria-pressed="true"] .n { color: inherit; opacity: 0.85; }
+.chip.zero:not([aria-pressed="true"]) { opacity: 0.5; }
+.chip.all { --c: var(--ink); }
+.empty button { margin-top: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--accent);
+  border-radius: 8px; padding: 6px 12px; font: 500 0.85rem var(--font-ui); cursor: pointer; }
 .toggle { margin-left: auto; font-size: 0.82rem; color: var(--muted); display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
 #q { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
   border-radius: 8px; padding: 7px 10px; font: 0.9rem var(--font-ui); }
@@ -134,7 +140,9 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
 };
 const read = new Set(store.get("dt-read", []));
-const state = Object.assign({ range: "last", unread: false, off: [] }, store.get("dt-view", {}));
+const state = Object.assign({ range: "last", unread: false, only: null }, store.get("dt-view", {}));
+delete state.off;
+if (state.only && !J[state.only]) state.only = null;
 state.q = "";
 const lastAdded = DATA.articles.length ? DATA.articles[0].added : null;
 
@@ -152,7 +160,7 @@ function inRange(a) {
 }
 
 function render() {
-  store.set("dt-view", { range: state.range, unread: state.unread, off: state.off });
+  store.set("dt-view", { range: state.range, unread: state.unread, only: state.only });
   document.querySelectorAll("#range button").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === state.range));
   document.getElementById("unread").checked = state.unread;
 
@@ -160,19 +168,25 @@ function render() {
   const q = norm(state.q.trim());
   const match = a => !q || norm(a.title + " " + a.ozet + " " + a.authors).includes(q);
 
-  document.getElementById("chips").innerHTML = DATA.journals.map(j => {
-    const n = base.filter(a => a.journal === j.id && match(a)).length;
-    return `<button class="chip" style="--c:var(--j-${j.id}, var(--accent))" data-j="${j.id}" aria-pressed="${!state.off.includes(j.id)}">
-      <span class="dot"></span>${esc(j.name)} <span class="n">${n}</span></button>`;
-  }).join("");
+  const total = base.filter(match).length;
+  const chips = document.getElementById("chips");
+  chips.innerHTML = `<button class="chip all" data-j="" aria-pressed="${!state.only}">Tüm dergiler <span class="n">${total}</span></button>` +
+    DATA.journals.map(j => {
+      const n = base.filter(a => a.journal === j.id && match(a)).length;
+      return `<button class="chip${n ? "" : " zero"}" style="--c:var(--j-${j.id}, var(--accent))" data-j="${j.id}" aria-pressed="${state.only === j.id}">
+        <span class="dot"></span>${esc(j.name)} <span class="n">${n}</span></button>`;
+    }).join("");
 
-  const shown = base.filter(a => !state.off.includes(a.journal) && match(a));
+  const shown = base.filter(a => (!state.only || a.journal === state.only) && match(a));
   const days = {};
   shown.forEach(a => (days[a.added] = days[a.added] || []).push(a));
 
   const main = document.getElementById("main");
   if (!shown.length) {
-    main.innerHTML = `<p class="empty">${state.unread ? "Bu aralıkta okunmamış makale kalmadı." : "Bu filtrelerle eşleşen makale yok."}</p>`;
+    const who = state.only ? `${esc(J[state.only].name)} için ` : "";
+    const msg = state.unread ? `${who}bu aralıkta okunmamış makale kalmadı.` : `${who}bu aralıkta makale yok.`;
+    const wider = state.range !== "all" ? `<br><button type="button" id="widen">Son 90 güne bak</button>` : "";
+    main.innerHTML = `<p class="empty">${msg.charAt(0).toUpperCase() + msg.slice(1)}${wider}</p>`;
     return;
   }
   main.innerHTML = Object.keys(days).sort().reverse().map(day => `
@@ -209,11 +223,14 @@ document.getElementById("unread").addEventListener("change", e => { state.unread
 document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
 document.getElementById("chips").addEventListener("click", e => {
   const b = e.target.closest(".chip"); if (!b) return;
-  const id = b.dataset.j;
-  state.off = state.off.includes(id) ? state.off.filter(x => x !== id) : [...state.off, id];
+  const id = b.dataset.j || null;
+  state.only = state.only === id ? null : id;
   render();
+  const sel = document.querySelector('#chips [aria-pressed="true"]');
+  if (sel) sel.scrollIntoView({ block: "nearest", inline: "nearest" });
 });
 document.getElementById("main").addEventListener("click", e => {
+  if (e.target.id === "widen") { state.range = "all"; render(); return; }
   const art = e.target.closest("article"); if (!art) return;
   const doi = art.dataset.doi;
   if (e.target.closest(".more")) {
