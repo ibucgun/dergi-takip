@@ -8,6 +8,7 @@ makaleleri toplayıp Türkçe kısa özetleriyle tek sayfada gösterir.
 - `scripts/build.py` — özetleri birleştirir, `docs/index.html` sayfasını üretir
 - `ROUTINE.md` — her sabah bulutta çalışan Claude görevinin talimatı
 - `data/articles.json` — son 90 günün arşivi
+- `data/saved.json` — sayfadan "Kaydet" ile kaydedilen makaleler (sayfa GitHub API ile yazar)
 
 ## Dergi eklemek
 

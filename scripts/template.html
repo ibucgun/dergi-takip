@@ -102,6 +102,30 @@ article.read .mark::before { content: "✓ "; }
 .empty { text-align: center; color: var(--muted); padding: 48px 16px; }
 footer { color: var(--muted); font-size: 0.78rem; padding-block: 0 40px; display: flex; flex-direction: column; gap: 4px; }
 footer a { color: var(--muted); }
+.top-row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.sync { background: none; border: 0; padding: 0; font: 500 0.78rem var(--font-ui); color: var(--muted); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.sync.on { color: var(--accent); text-decoration: none; }
+.tabs { display: flex; gap: 18px; margin-top: 14px; border-bottom: 1px solid var(--line); }
+.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; padding: 6px 0 8px;
+  font: 600 0.92rem var(--font-ui); color: var(--muted); cursor: pointer; }
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.tabs .n { font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
+.actions .save { font-weight: 600; }
+.actions .save.on { color: var(--new); }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-top: 12px;
+  display: flex; flex-direction: column; gap: 10px; font-size: 0.88rem; }
+.panel h2 { margin: 0; font: 600 1rem var(--font-ui); }
+.panel ol { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 4px; }
+.panel a { color: var(--accent); }
+.panel code { font-size: 0.82rem; background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; }
+.panel .row input { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+  border-radius: 8px; padding: 7px 10px; font: 0.85rem ui-monospace, Menlo, monospace; }
+.btn { border: 1px solid var(--accent); background: var(--accent); color: var(--surface); border-radius: 8px; padding: 7px 12px;
+  font: 600 0.85rem var(--font-ui); cursor: pointer; }
+.btn.ghost { background: none; color: var(--accent); }
+.panel .note { color: var(--muted); font-size: 0.8rem; margin: 0; }
+#toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 20;
+  background: var(--ink); color: var(--bg); padding: 9px 14px; border-radius: 8px; font-size: 0.85rem; max-width: calc(100% - 32px); }
 @media (max-width: 480px) {
   .toggle { margin-left: 0; }
   .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -16px; padding-inline: 16px; }
@@ -112,11 +136,32 @@ footer a { color: var(--muted); }
 <body>
 <div class="wrap">
   <header class="top">
-    <h1>Dergi Takibi</h1>
+    <div class="top-row">
+      <h1>Dergi Takibi</h1>
+      <button class="sync" id="syncBtn" type="button"></button>
+    </div>
     <div class="meta" id="meta"></div>
+    <section class="panel" id="syncPanel" hidden>
+      <h2>Kaydedilenleri cihazlar arasında eşitle</h2>
+      <p class="note" style="margin:0">Kaydettiğiniz makaleler GitHub deponuzdaki <code>data/saved.json</code> dosyasına yazılır. Bu cihazdan kaydedebilmek için bir kez erişim anahtarı girmeniz gerekir.</p>
+      <ol>
+        <li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub'da yeni anahtar oluşturma sayfasını</a> açın.</li>
+        <li>Ad: <code>dergi-takip</code>, süre: en uzun seçenek.</li>
+        <li>Repository access: <b>Only select repositories</b> → <code>dergi-takip</code>.</li>
+        <li>Permissions → Repository permissions → <b>Contents: Read and write</b>.</li>
+        <li><b>Generate token</b> deyin, çıkan anahtarı kopyalayıp aşağıya yapıştırın.</li>
+      </ol>
+      <div class="row"><input id="token" type="password" placeholder="github_pat_…" autocomplete="off" spellcheck="false"><button class="btn" id="tokenSave" type="button">Bağla</button></div>
+      <p class="note">Anahtar yalnızca bu tarayıcıda saklanır ve sadece GitHub'a gönderilir. Telefonda da bir kez aynı anahtarı girmeniz yeterli.</p>
+      <div class="row"><button class="btn ghost" id="tokenRemove" type="button" hidden>Bu cihazda bağlantıyı kaldır</button><button class="btn ghost" id="syncClose" type="button">Kapat</button></div>
+    </section>
+    <nav class="tabs" role="tablist" id="tabs">
+      <button role="tab" data-v="feed" type="button">Yeni makaleler</button>
+      <button role="tab" data-v="saved" type="button">Kaydedilenler <span class="n" id="savedN"></span></button>
+    </nav>
   </header>
   <div class="bar">
-    <div class="row">
+    <div class="row" id="feedCtl">
       <div class="seg" role="group" aria-label="Zaman aralığı" id="range">
         <button data-r="last">Son gelenler</button>
         <button data-r="7">7 gün</button>
@@ -131,6 +176,7 @@ footer a { color: var(--muted); }
   <main id="main"></main>
   <footer id="foot"></footer>
 </div>
+<div id="toast" role="status" hidden></div>
 <script id="data" type="application/json">__DATA__</script>
 <script>
 const DATA = JSON.parse(document.getElementById("data").textContent);
@@ -144,6 +190,88 @@ const state = Object.assign({ range: "last", unread: false, only: null }, store.
 delete state.off;
 if (state.only && !J[state.only]) state.only = null;
 state.q = "";
+state.view = location.hash === "#kaydedilenler" ? "saved" : "feed";
+
+const REPO = "ibucgun/dergi-takip", BRANCH = "claude/dergi-takip", SAVED_PATH = "data/saved.json";
+let saved = store.get("dt-saved", []);
+let savedSha = null;
+let token = store.get("dt-token", null);
+let queue = Promise.resolve();
+const savedSet = () => new Set(saved.map(a => a.doi));
+
+function toast(msg) {
+  const el = document.getElementById("toast");
+  el.textContent = msg; el.hidden = false;
+  clearTimeout(toast.t); toast.t = setTimeout(() => { el.hidden = true; }, 3200);
+}
+const b64dec = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\s/g, "")), c => c.charCodeAt(0)));
+const b64enc = s => { let bin = ""; new TextEncoder().encode(s).forEach(b => { bin += String.fromCharCode(b); }); return btoa(bin); };
+function gh(path, opts = {}) {
+  const headers = { Accept: "application/vnd.github+json", ...(opts.headers || {}) };
+  if (token) headers.Authorization = "Bearer " + token;
+  return fetch("https://api.github.com" + path, { ...opts, headers, cache: "no-store" });
+}
+async function loadSaved() {
+  try {
+    const r = await gh(`/repos/${REPO}/contents/${SAVED_PATH}?ref=${encodeURIComponent(BRANCH)}&t=${Date.now()}`);
+    if (r.status === 404) { saved = []; savedSha = null; }
+    else if (r.ok) { const j = await r.json(); saved = JSON.parse(b64dec(j.content)); savedSha = j.sha; }
+    else return false;
+    store.set("dt-saved", saved);
+    render();
+    return true;
+  } catch { return false; }
+}
+async function putSaved(list, msg) {
+  const body = { message: msg, content: b64enc(JSON.stringify(list, null, 1) + "\n"), branch: BRANCH };
+  if (savedSha) body.sha = savedSha;
+  return gh(`/repos/${REPO}/contents/${SAVED_PATH}`, { method: "PUT", body: JSON.stringify(body), headers: { "Content-Type": "application/json" } });
+}
+const enqueue = job => (queue = queue.then(job, job));
+function changeSaved(mutate, msg) {
+  if (!token) { openSync(); toast("Kaydetmek için önce bu cihazı bağlayın."); return; }
+  // Değişiklik hemen gösterilir; kuyrukta en güncel listeye yeniden uygulanıp GitHub'a yazılır
+  saved = mutate(saved); store.set("dt-saved", saved); render();
+  enqueue(async () => {
+    for (let i = 0; i < 3; i++) {
+      saved = mutate(saved); store.set("dt-saved", saved); render();
+      let r;
+      try { r = await putSaved(saved, msg); } catch { r = null; }
+      if (r && r.ok) { savedSha = (await r.json()).content.sha; return; }
+      if (r && (r.status === 409 || r.status === 422)) {
+        if (await loadSaved()) continue;
+      }
+      if (r && (r.status === 401 || r.status === 403 || r.status === 404)) toast("Erişim anahtarı geçersiz ya da yetkisi yok. Bağlantıyı yenileyin.");
+      else toast("Kaydedilemedi. İnternet bağlantısını kontrol edip tekrar deneyin.");
+      await loadSaved(); return;
+    }
+  });
+}
+function toggleSave(doi) {
+  const short = t => t.length > 60 ? t.slice(0, 57) + "…" : t;
+  const on = savedSet().has(doi);
+  if (on) {
+    const a = saved.find(x => x.doi === doi);
+    changeSaved(list => list.filter(x => x.doi !== doi), "Kayıttan çıkarıldı: " + short(a.title));
+  } else {
+    const a = DATA.articles.find(x => x.doi === doi);
+    if (!a) return;
+    const entry = { doi: a.doi, journal: a.journal, title: a.title, authors: a.authors, online: a.online, ozet: a.ozet,
+      ...(a.pmid ? { pmid: a.pmid } : {}), saved: new Date().toISOString().slice(0, 10) };
+    changeSaved(list => list.some(x => x.doi === doi) ? list : [entry, ...list], "Kaydedildi: " + short(a.title));
+  }
+}
+function openSync() {
+  const p = document.getElementById("syncPanel");
+  p.hidden = false;
+  document.getElementById("tokenRemove").hidden = !token;
+  p.scrollIntoView({ block: "nearest" });
+}
+function renderSync() {
+  const b = document.getElementById("syncBtn");
+  b.textContent = token ? "✓ Eşitleme açık" : "Kaydetmeyi aç";
+  b.classList.toggle("on", !!token);
+}
 const lastAdded = DATA.articles.length ? DATA.articles[0].added : null;
 
 const fmtDay = new Intl.DateTimeFormat("tr-TR", { day: "numeric", month: "long", weekday: "long" });
@@ -161,6 +289,11 @@ function inRange(a) {
 
 function render() {
   store.set("dt-view", { range: state.range, unread: state.unread, only: state.only });
+  renderSync();
+  document.querySelectorAll("#tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.v === state.view));
+  document.getElementById("savedN").textContent = saved.length ? saved.length : "";
+  document.getElementById("feedCtl").hidden = state.view === "saved";
+  if (state.view === "saved") return renderSaved();
   document.querySelectorAll("#range button").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === state.range));
   document.getElementById("unread").checked = state.unread;
 
@@ -168,14 +301,7 @@ function render() {
   const q = norm(state.q.trim());
   const match = a => !q || norm(a.title + " " + a.ozet + " " + a.authors).includes(q);
 
-  const total = base.filter(match).length;
-  const chips = document.getElementById("chips");
-  chips.innerHTML = `<button class="chip all" data-j="" aria-pressed="${!state.only}">Tüm dergiler <span class="n">${total}</span></button>` +
-    DATA.journals.map(j => {
-      const n = base.filter(a => a.journal === j.id && match(a)).length;
-      return `<button class="chip${n ? "" : " zero"}" style="--c:var(--j-${j.id}, var(--accent))" data-j="${j.id}" aria-pressed="${state.only === j.id}">
-        <span class="dot"></span>${esc(j.name)} <span class="n">${n}</span></button>`;
-    }).join("");
+  renderChips(base.filter(match));
 
   const shown = base.filter(a => (!state.only || a.journal === state.only) && match(a));
   const days = {};
@@ -194,6 +320,37 @@ function render() {
       <h2>${esc(fmtDay.format(d(day)))} <span class="count">· ${days[day].length} makale</span></h2>
       <div class="list">${days[day].map(card).join("")}</div>
     </section>`).join("");
+  showMore(main);
+}
+
+function renderSaved() {
+  const q = norm(state.q.trim());
+  const match = a => !q || norm(a.title + " " + a.ozet + " " + a.authors).includes(q);
+  const base = saved.filter(match);
+  renderChips(base);
+  const shown = base.filter(a => !state.only || a.journal === state.only);
+  const main = document.getElementById("main");
+  if (!saved.length) {
+    main.innerHTML = `<p class="empty">Henüz kaydedilmiş makale yok.<br>Makalelerin altındaki <b>☆ Kaydet</b> ile buraya ekleyebilirsiniz.</p>`;
+    return;
+  }
+  if (!shown.length) { main.innerHTML = `<p class="empty">Bu filtrelerle eşleşen kayıt yok.</p>`; return; }
+  main.innerHTML = `<section class="day"><h2>Kaydedilenler <span class="count">· ${shown.length} makale</span></h2>
+    <div class="list">${shown.map(card).join("")}</div></section>`;
+  showMore(main);
+}
+
+function renderChips(base) {
+  const chips = document.getElementById("chips");
+  chips.innerHTML = `<button class="chip all" data-j="" aria-pressed="${!state.only}">Tüm dergiler <span class="n">${base.length}</span></button>` +
+    DATA.journals.map(j => {
+      const n = base.filter(a => a.journal === j.id).length;
+      return `<button class="chip${n ? "" : " zero"}" style="--c:var(--j-${j.id}, var(--accent))" data-j="${j.id}" aria-pressed="${state.only === j.id}">
+        <span class="dot"></span>${esc(j.name)} <span class="n">${n}</span></button>`;
+    }).join("");
+}
+
+function showMore(main) {
   main.querySelectorAll(".ozet.clamp").forEach(p => {
     if (p.scrollHeight > p.clientHeight + 2) p.closest("article").querySelector(".more").hidden = false;
   });
@@ -202,12 +359,14 @@ function render() {
 function card(a) {
   const j = J[a.journal] || { name: a.journal };
   const isRead = read.has(a.doi);
+  const isSaved = savedSet().has(a.doi);
   return `<article class="${isRead ? "read" : ""}" data-doi="${esc(a.doi)}" style="--c:var(--j-${a.journal}, var(--accent))">
     <div class="head"><span class="jn" lang="en">${esc(j.name)}</span><span>online ${esc(fmtShort.format(d(a.online)))}</span></div>
     <h3><a href="https://doi.org/${esc(a.doi)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
     ${a.authors ? `<div class="authors">${esc(a.authors)}</div>` : ""}
     <p class="ozet ${a.ozet ? "clamp" : "none"}">${a.ozet ? esc(a.ozet) : "Türkçe özet henüz yok."}</p>
     <div class="actions">
+      <button class="save${isSaved ? " on" : ""}" type="button">${isSaved ? "★ Kaydedildi" : "☆ Kaydet"}</button>
       <button class="more" type="button" hidden>Devamını göster</button>
       <button class="mark" type="button">${isRead ? "Okundu" : "Okundu işaretle"}</button>
       ${a.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(a.pmid)}/" target="_blank" rel="noopener">PubMed</a>` : ""}
@@ -233,6 +392,7 @@ document.getElementById("main").addEventListener("click", e => {
   if (e.target.id === "widen") { state.range = "all"; render(); return; }
   const art = e.target.closest("article"); if (!art) return;
   const doi = art.dataset.doi;
+  if (e.target.closest(".save")) { toggleSave(doi); return; }
   if (e.target.closest(".more")) {
     const p = art.querySelector(".ozet");
     const open = p.classList.toggle("clamp") === false;
@@ -261,7 +421,39 @@ document.getElementById("main").addEventListener("click", e => {
   document.getElementById("foot").innerHTML = "<div>Dergi sayfaları:</div>" +
     DATA.journals.map(j => `<a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>`).join("");
 })();
+document.getElementById("tabs").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.view = b.dataset.v;
+  try { history.replaceState(null, "", state.view === "saved" ? "#kaydedilenler" : location.pathname); } catch {}
+  render();
+});
+document.getElementById("syncBtn").addEventListener("click", () => {
+  const p = document.getElementById("syncPanel");
+  p.hidden ? openSync() : (p.hidden = true);
+});
+document.getElementById("syncClose").addEventListener("click", () => { document.getElementById("syncPanel").hidden = true; });
+document.getElementById("tokenSave").addEventListener("click", async () => {
+  const v = document.getElementById("token").value.trim();
+  if (!v) { toast("Önce anahtarı yapıştırın."); return; }
+  const prev = token; token = v;
+  let ok = false;
+  try { const r = await gh(`/repos/${REPO}`); ok = r.ok; } catch {}
+  if (!ok) { token = prev; toast("Anahtar doğrulanamadı. Depo erişimini ve yetkiyi kontrol edin."); return; }
+  store.set("dt-token", token);
+  document.getElementById("token").value = "";
+  document.getElementById("syncPanel").hidden = true;
+  toast("Bağlandı. Artık bu cihazdan kaydedebilirsiniz.");
+  enqueue(loadSaved);
+});
+document.getElementById("tokenRemove").addEventListener("click", () => {
+  token = null;
+  try { localStorage.removeItem("dt-token"); } catch {}
+  document.getElementById("syncPanel").hidden = true;
+  toast("Bu cihazdaki bağlantı kaldırıldı.");
+  render();
+});
 render();
+enqueue(loadSaved);
 </script>
 </body>
 </html>

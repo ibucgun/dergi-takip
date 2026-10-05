@@ -26,4 +26,7 @@ Bu dosya her sabah bulutta çalışan Claude görevinin izlediği adımlardır.
    `git add -A && git commit -m "Günlük güncelleme $(date +%F)" && git push`
    Yeni makale yoksa bile 3. ve 4. adımı yap (sayfadaki "son güncelleme" saati yenilenir).
 
+`data/saved.json` kullanıcının sayfadan kaydettiği makalelerdir; bu dosyayı asla değiştirme.
+Push reddedilirse (sayfa o arada kayıt eklemiş olabilir) `git pull --rebase` yapıp tekrar push et.
+
 Bir derginin çekilmesi hata verirse diğerlerine devam et; hatayı son mesajında belirt.
