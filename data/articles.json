@@ -1,5 +1,144 @@
 [
  {
+  "doi": "10.1016/j.brs.2026.103232",
+  "journal": "brs",
+  "title": "Stimulating current direction produces depth-dependent spatial selectivity in cortical activation",
+  "authors": "Daria Shumkova, Xiaofan Jiang, Nicholas S.C. Price ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42833357",
+  "ozet": "Hayvan çalışması. İntrakortikal elektriksel stimülasyonda seçici olmayan nöron aktivasyonu etkinliği sınırlıyor; hesaplamalı modeller akım yönünün farklı nöron popülasyonlarını seçici olarak aktive edebileceğini öngörüyor. Anestezi altındaki 20 sıçanın görsel korteksine yerleştirilen çok kanallı silikon problarla katodik-önce ve anodik-önce bifazik pulslar uygulanıp tüm kortikal katmanlardan kayıt yapıldı; 7 hayvanda ikinci fazı uzatılmış pulslar da denendi. Katodik-önce pulslar girdi ve derin katmanlarda daha güçlü yanıt oluşturdu; ikinci fazın uzatılması anodik-önce yanıtı çökerterek katodik-önce avantajını seçici aktivasyona dönüştürdü. Bu etki katman ve eksene bağımlıydı (girdi ve derin katmanlarda yatayda, yüzeyde değil). Yazarlar akım yönünün kortikal protezlerde derinliğe bağlı uzamsal seçicilik için bir stimülasyon parametresi olabileceğini belirtiyor.",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103231",
+  "journal": "brs",
+  "title": "Electrical stimulation of the human pulvinar generates visual percepts",
+  "authors": "William S. Kemball-Cook, Edward R. Bader, Alexis D. Boro ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42833358",
+  "ozet": "İnsan pulvinarının elektriksel stimülasyonunun görsel algı (fosfen) oluşturduğunu ele alan bir Brain Stimulation çalışması; başlıktan anlaşıldığı kadarıyla pulvinar stimülasyonunun görsel algılar yarattığı gösteriliyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.09.023",
+  "journal": "bp",
+  "title": "Maternal immune activation influences social behavior development in a nonhuman primate model",
+  "authors": "Josephine A. Hubbard, Shuai Chen, Ana-Maria Iosif ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42833502",
+  "ozet": "Gebelikte enfeksiyona maruziyet, çocukta otizm ve şizofreni gibi nörogelişimsel bozukluk riskini artırıyor; kemirgen maternal immün aktivasyon (MİA) modelleri bunu sosyal defisitlerle ilişkilendirmişti. Bu çalışmada insan dışı primat MİA modelinde 28 erkek yavrunun sosyal davranış gelişimi ikili, grup ortamlarında ve dominans değerlendirmesiyle boylamsal izlendi. MİA'ya maruz kalan ve kontrol yavrular türe özgü sosyal repertuvar geliştirdi; ancak MİA grubu tanıdık akranlara karşı genel olarak daha az sosyaldi, sütten kesilme döneminde kendi grubundan eşle daha çok oynadı, bebeklikte anneyle teması daha az, eşten çekilmesi daha fazla ve olumlu akran etkileşimi daha azdı. Yazarlar MİA'nın sosyalliği azalttığını doğruladıklarını, defisitlerin belirli davranışlara özgü ve büyük gruplarda daha ince olabileceğini belirtiyor.",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122583",
+  "journal": "jad",
+  "title": "What are the transdiagnostic components associated with diverse symptoms of psychological distress?",
+  "authors": "Warren Mansell, Isabeau K. Tindall, Alex Wheeler ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42833408",
+  "ozet": "Psikolojik sıkıntının sürdürücüsü olabilecek transdiagnostik süreçlerin kimliği belirsiz; çalışma daha geniş süreç ve semptom ölçümleriyle bunu sorguluyor, ayrıca Algısal Kontrol Teorisi'nden geliştirilmiş bir ölçeği test ediyor. 806 katılımcı endişe, ruminasyon, duygu düzenleme, deneyimsel kaçınma gibi süreç ölçeklerini ve anksiyete, depresyon, stres, yeme, sosyal anksiyete, obsesyon, kompulsiyon ve alkol kullanımı ölçeklerini doldurdu; analize alınan 660 kişinin %36,4'ü tanı bildirdi. Süreç ölçeklerine uygulanan açımlayıcı temel bileşenler analizi üç bileşen verdi: en çok varyansı açıklayan birinci bileşen (tekrarlayıcı olumsuz düşünme, deneyimsel kaçınma, esnek olmayan yanıt) çoğu semptom ölçeğiyle yüksek ilişkiliydi; ikinci bileşen semptomlarla ilişkisizdi; üçüncü bileşen (görmezden gelme, dikkat dağıtma) semptomlarla hafif ilişkiliydi. Yazarlar bunları süreç odaklı gelecek araştırmalar için ön bulgular olarak sunuyor.",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122586",
+  "journal": "jad",
+  "title": "Responses of AI chatbots to escalating suicide risk: A simulation study of repeated interactions",
+  "authors": "Wojciech Pichowicz, Marek Kotas, Natalia Kalka ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42833407",
+  "ozet": "Üretken yapay zekâ sohbet botları duygusal destek için sık kullanılıyor, ancak tekrarlayan etkileşimlerdeki güvenlikleri yeterince bilinmiyor. Bu simülasyon çalışmasında ChatGPT, DeepSeek ve Replika'ya, C-SSRS'ye dayalı üç intihar riski senaryosunda yedi gün boyunca artan risk sunuldu; intihar düşüncesinin sorgulanması, semptom değerlendirmesi, insan desteğine yönlendirme ve jailbreak'e açıklık ölçüldü. İnsana yönlendirme günlük kayıtların sırasıyla 54/63 (%85,7), 48/63 (%76,2) ve 6/63'ünde (%9,5) görüldü; yüksek riskli dönemde ChatGPT'nin intihar düşüncesini sorgulaması DeepSeek'ten (fark 25,9 puan) ve Replika'dan (66,7 puan) yüksekti. Jailbreak girişimleri sırasıyla 6/9, 7/9 ve 8/9 oranında başarılı oldu. Yazarlar botlar arasında belirgin değişkenlik ve güvenlik açıkları olduğunu, 27 yörüngelik küçük örneklemin genellenebilirliği sınırladığını belirtiyor.",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122592",
+  "journal": "jad",
+  "title": "Environmental sensitivity and perceived social support in relation to adolescent eating disorder symptoms",
+  "authors": "L.Y. Mastromatteo, C. Tosi, V. Cardi ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42833409",
+  "ozet": "Yeme bozuklukları ergenlikte sık başlıyor; algılanan sosyal desteğin etkisi tutarsız ve desteğin kaynağına ile bireyin çevresel duyarlılığına (ÇD) bağlı olabilir. Çalışma, 466 ergende (%51,61 kız; ort. yaş 14,80) yeme bozukluğu semptomları, ÇD ve algılanan sosyal desteği öz bildirim ölçekleriyle inceledi. İkili analizde aile, öğretmen, arkadaş ve akran desteği daha az semptomla ilişkiliydi; kovaryat düzeltmeli modellerde yalnızca öğretmen ve aile desteği anlamlı kaldı. ÇD semptomlarla tutarlı biçimde pozitif ilişkiliydi, ancak beklenenin aksine genel sosyal destek ile semptomlar arasındaki ilişkiyi düzenlemedi. Keşifsel analizlerde bu ilişki erkeklerde ÇD'ye göre değişirken kızlarda değişmedi. Yazarlar sosyal desteğin etkisinin kaynağına bağlı olabileceğini belirtiyor.",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122589",
+  "journal": "jad",
+  "title": "Irritable versus euphoric mania in psychiatric inpatients: a retrospective study of 251 inpatient episodes",
+  "authors": "Joana Tavares Coelho, Ana Sofia Machado, Anais Vieira ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42833410",
+  "ozet": "Mani epizodlarında baskın duygudurumun öfkeli (irritabl) mi öfori mi olduğunun ayrı klinik profiller mi yoksa boyutsal varyasyon mu gösterdiği belirsiz. Porto'daki üçüncü basamak bir psikiyatri biriminde 2017-2025 arasındaki manik yatışları kapsayan retrospektif gözlemsel çalışmada (F30/F31) baskın duygudurum kayıtlardan sınıflandı ve gruplar GEE lojistik regresyonla karşılaştırıldı. 251 manik epizodun 151'i (%60,2) irritabl, 100'ü (%39,8) öforikti. Psikotik semptomlar, önceki yatışlar, yatış süresi dahil demografik, klinik ve tedavi değişkenlerinde gruplar arasında anlamlı fark bulunmadı. Yazarlar irritabl duygudurumun daha sık kaydedildiğini, farkın olmamasının eşdeğerliği kanıtlamadığını belirtiyor ve standart, tekrarlı değerlendirmeli prospektif çalışmalar öneriyor.",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122590",
+  "journal": "jad",
+  "title": "Mental health risk stratification using heart rate variability and prefrontal electroencephalography: eXtreme gradient boosting-based classifier and latent class analysis-based subtyping",
+  "authors": "Je-Yeon Yun, Goomin Kwon, Miseon Shim ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42833406",
+  "ozet": "Çalışma, sağlıklı kontroller (SK) ile psikiyatrik hastaları ayıran temel kalp hızı değişkenliği (KHD) ve prefrontal EEG özelliklerini ve bu özelliklerin alt tiplerini belirlemeyi amaçladı. 147 SK ile 123 hastada (107 MDB, 16 panik bozukluk) 5 dakikalık eş zamanlı kulak memesi fotopletismografisi ve istirahat prefrontal EEG kaydı alındı; karma grafik modelle belirlenen hub özellikler (KHD'den TP ve LF; EEG'den theta, düşük-alfa, düşük-beta, orta-beta gücü; anksiyete) XGBoost sınıflandırıcıda ve gizli profil analizinde kullanıldı. Model doğruluğu %74,9 ± 5,6 idi; düşük anksiyete ve orta-beta SK olasılığını, düşük LF hasta olma olasılığını artırıyordu. Hastalarda üç alt grup ayrıldı: hiperarousal (ağır depresyon, orta anksiyete, yüksek orta-beta, düşük KHD), göreceli stabil ve frontal EEG yavaşlaması (yüksek theta, belirgin düşük KHD). Yazarlar farklı popülasyonlarda doğrulama gerektiğini belirtiyor.",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/j.bpsc.2026.08.005",
+  "journal": "cnni",
+  "title": "The Adaptive Side of Avoidance: Implications for Safety Learning and Exposure Therapy",
+  "authors": "Matthias F.J. Sperl",
+  "online": "2026-10-05",
+  "pmid": "42833770",
+  "ozet": "Biological Psychiatry: CNNI'da yayımlanan bir yorum yazısı; başlığa göre kaçınmanın uyumsal yönünü, güvenlik öğrenmesi ve ekspozür terapisi açısından çıkarımlarıyla ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/j.bpsc.2026.08.006",
+  "journal": "cnni",
+  "title": "Calibrating the Maternal Brain: From Individual Differences to Systems-Level Interventions",
+  "authors": "Lana Ruvolo Grasser",
+  "online": "2026-10-05",
+  "pmid": "42833768",
+  "ozet": "Biological Psychiatry: CNNI'da yayımlanan bir yorum yazısı; başlığa göre maternal beynin bireysel farklılıklardan sistem düzeyindeki müdahalelere uzanan kalibrasyonunu ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/j.bpsc.2026.08.008",
+  "journal": "cnni",
+  "title": "The Interplay Between Brain Development, Synapses, and Genetic Risk in Schizophrenia: New In Vivo Imaging Evidence Tests the Synaptic Hypothesis",
+  "authors": "Ellis Chika Onwordi, Oliver D. Howes",
+  "online": "2026-10-05",
+  "pmid": "42833769",
+  "ozet": "Biological Psychiatry: CNNI'da yayımlanan bir yorum yazısı; başlığa göre şizofrenide beyin gelişimi, sinapslar ve genetik risk arasındaki ilişkiyi, sinaptik hipotezi sınayan yeni in vivo görüntüleme bulguları çerçevesinde tartışıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/s2451-9022(26)00266-1",
+  "journal": "cnni",
+  "title": "Subscribers' Page",
+  "authors": "",
+  "online": "2026-10-05",
+  "ozet": "Biological Psychiatry: CNNI dergisinin abonelere yönelik duyuru sayfası; bilimsel içerik taşımıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/s2215-0366(26)00267-1",
+  "journal": "lanpsy",
+  "title": "From discovery to proof: a Translation Evidence Map for precision psychiatry",
+  "authors": "Bernhard T Baune",
+  "online": "2026-10-05",
+  "pmid": "42833240",
+  "ozet": "Lancet Psychiatry'de yayımlanan bir Personal View (görüş yazısı). Hassas psikiyatrinin klinik açıdan anlamlı heterojeniteyi ölçerek bireysel kararları iyileştirmeyi amaçladığı vurgulanıyor ve iddiaları Düzey 0'dan (kullanım amacı tanımı) Düzey 6'ya (dağıtım sonrası izlem) kademelendiren bir Translation Evidence Map öneriliyor; harita ölçüm güvenilirliği, genellenebilir çıkarım, karar değeri, güvenli uygulama ve risk/klinik ihtiyaçla orantılılığa bağlanıyor. Harita GRADE ve biyobelirteç yeterlilik çerçevelerinin yerini almıyor; olgunluğu farklı bileşenlerden oluşan bileşik iddialarda savunulabilir en yüksek iddiayı ve sonraki kanıt adımını belirliyor. Enflamatuvar ve devre temelli depresyon stratifikasyonu, psikoz nüksü ve intihar izlemi örnekler olarak tartışılıyor.",
+  "added": "2026-10-06"
+ },
+ {
+  "doi": "10.1016/j.inpsyc.2026.100300",
+  "journal": "ipg",
+  "title": "Spouse-side heterogeneity in widowhood: Preloss cognitive performance and survivors’ depressive-symptom change",
+  "authors": "Wei Luo, Hanjia Mo, Zhenkun Shi ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42833895",
+  "ozet": "Dul kalma sonrası uyum farklılıkları çoğunlukla hayatta kalanın özellikleriyle açıklanmıştı; bu çalışma kaybedilen eşin kayıp öncesi bilişsel performansının da bir boyut olup olmadığını inceledi. Health and Retirement Study (dalga 3-15) verisinde 4983 evli-dul geçişi belirlendi; tam düzeltmeli karşılaştırmalar 3190 dulluk aralığını kapsadı; OLS etkileşim modelleriyle eş bilişi ile CES-D8 değişimi ilişkisi dul ve evli aralıklarda karşılaştırıldı. Eş bilişi eğimi evli aralıklarda negatif (b = -0,039), dulluk aralıklarında pozitifti (b = 0,150; fark b = 0,188, p < ,001). Dulluk içinde eş yardımı alma daha fazla semptom artışıyla ilişkiliydi ve düzeltme eş bilişi katsayısını hafif azalttı; eşe verilen bakım benzer azalma yapmadı. Yaş düzeltmesi etkiyi zayıflattı; yazarlar bu nedenle etkinin bilişe özgülenmesinin sınırlı olduğunu belirtiyor.",
+  "added": "2026-10-06"
+ },
+ {
   "doi": "10.1016/j.brs.2026.103228",
   "journal": "brs",
   "title": "A standard coil placement for reliable transcranial magnetic stimulation of the frontoparietal depression network: the ‘F5-AF7 method‘",
