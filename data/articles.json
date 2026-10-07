@@ -1,5 +1,65 @@
 [
  {
+  "doi": "10.1016/j.biopsych.2026.09.024",
+  "journal": "bp",
+  "title": "Sleep and Drug Use: Neuroimaging Evidence for a Multidimensional Brain Framework",
+  "authors": "Rui Zhang, Nora D. Volkow",
+  "online": "2026-10-06",
+  "pmid": "42833503",
+  "ozet": "Derleme: Uykunun uyuşturucu madde kullanımının başlaması, sürmesi ve iyileşme sürecindeki rolünü insan nörogörüntüleme çalışmaları üzerinden ele alıyor. İnsomnia, kısa uyku süresi, geç uyku zamanlaması ve uyku düzensizliği gibi uyku bileşenlerinin her biri madde kullanım riskiyle ilişkilendirilmiştir; bu bileşenlerin ortak nörobiyolojik yollarla etki edip etmediği belirsizdir. Derlemeye göre anterior singulat, insular ve orbitofrontal korteks uyku boyutları boyunca en tutarlı biçimde ilişkili bölgelerdir ve madde kullanımının başlamasında rol oynar. Farklı madde sınıflarının kronik kullanımı da bu bölgeleri ve uyku düzenleyici devreleri bozarak uyku sorunlarını pekiştirebilir. Yazarlar, uyku, madde kullanımı ve bağımlılık arasındaki çift yönlü ilişkiyi anlamak için çok boyutlu uyku ve nörogörüntüleme değerlendirmelerinin birleştirilmesini önermektedir.",
+  "added": "2026-10-07"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122575",
+  "journal": "jad",
+  "title": "Brief social contact videos to promote treatment seeking among young adults with depressive symptoms: Intention change, suicidal ideation, and treatment use in a randomized controlled trial",
+  "authors": "Tomer Levy, Maya Kuperberg, Matan Avrahami ve ark.",
+  "online": "2026-10-06",
+  "pmid": "42838232",
+  "ozet": "Amaç: Depresif belirtileri olan genç erişkinlerde kısa sosyal temas videolarının tedavi arayışını artırıp artırmadığı ve bu etkinin yardım arama niyetindeki değişimle açıklanıp açıklanmadığı, intihar düşüncesinin bunu değiştirip değiştirmediği incelendi. Yöntem: RKÇ; Prolific üzerinden alınan 18-25 yaş arası depresif belirtili 1545 genç erişkin, kişisel iyileşme hikâyesi içeren üç videodan birine ya da aynı içerikli yazılı vinyete 3:1 oranında randomize edildi; yardım arama niyeti öncesinde, sonrasında ve 30. günde ölçüldü, tedavi kullanımı yapısal eşitlik modeliyle analiz edildi. Bulgular: Video grubunda niyet değişimi daha fazlaydı, niyet değişimi tedavi kullanımıyla ilişkiliydi ve tedavi kullanımı videoda vinyete göre daha yüksekti; koşullu dolaylı etkiler intihar düşüncesine göre farklılaşmadı, ancak niyet değişimi-tedavi kullanımı ilişkisi intihar düşüncesi olanlarda daha güçlüydü. Sonuç: Kısa videolar, intihar düşüncesi olanlar dahil genç erişkinlerde tedavi arayışını artırmada ölçeklenebilir bir yaklaşım olabilir.",
+  "added": "2026-10-07"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122588",
+  "journal": "jad",
+  "title": "Cannabis use and subsequent onset of manic symptoms and bipolar disorder: A systematic review and meta-analysis",
+  "authors": "Cecilia Sanjuan-Ortiz, Paula Querol, Claudia Aymerich ve ark.",
+  "online": "2026-10-06",
+  "pmid": "42838231",
+  "ozet": "Amaç: Kannabis kullanımının sonradan ortaya çıkan bipolar bozukluk (BB) ve manik/hipomanik belirtilerle ilişkisini ayrı ayrı değerlendirmek. Yöntem: PRISMA/MOOSE uyumlu, kayıtlı sistematik derleme ve meta-analiz; PubMed ve Web of Science'ta Ekim 2025'e kadar BB öyküsü olmayan kişilerde kannabis maruziyetini izleyen boylamsal gözlemsel çalışmalar tarandı, 19 çalışma (toplam N = 6.960.517) dahil edildi ve rastgele etkili modellerle düzeltilmemiş RR hesaplandı. Bulgular: Kannabis kullanımı BB riskinde (RR = 2,46; %95 GA 1,57-3,84; k = 8) ve manik/hipomanik belirti riskinde (RR = 2,11; %95 GA 1,07-4,18; k = 6) artışla ilişkiliydi; moderatör analizleri klinik ve metodolojik heterojenite kaynakları gösterdi, NOS puanları 6-9 aralığındaydı. Sonuç: Kannabis kullanımı sonraki bipolar spektrum sonuçlarının riskini artırmaktadır; kullanımın rutin sorgulanması ve başlangıcı geciktirip kullanımı azaltan önleme stratejileri önerilmektedir.",
+  "added": "2026-10-07"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122587",
+  "journal": "jad",
+  "title": "Exercise to enhance antipsychotic effectiveness and mitigate metabolic harm: systematic review and meta-analysis",
+  "authors": "Paula Etayo-Urtasun, Arantxa Ancín-Osés, Mikel Izquierdo ve ark.",
+  "online": "2026-10-06",
+  "pmid": "42838230",
+  "ozet": "Amaç: Antipsikotik kullanan erişkinlerde denetimli egzersizin psikopatoloji sonuçlarını iyileştirip antipsikotiğe bağlı metabolik zararı azaltıp azaltmadığını değerlendirmek. Yöntem: PRISMA 2020'ye uygun sistematik derleme ve meta-analiz (PROSPERO CRD420251139904); antipsikotik kullanan kişilerde denetimli egzersizi test eden 28 RKÇ (n = 1119) rastgele etkili modellerle birleştirildi, kanıt kesinliği GRADE ile değerlendirildi. Bulgular: Egzersiz negatif belirtileri (MD -3,078), genel psikopatolojiyi (-2,178) ve PANSS toplam puanını (-7,069) anlamlı biçimde azalttı; pozitif belirtilerde etki anlamlı değildi (p = 0,053). Vücut ağırlığı, yağ yüzdesi ve bel çevresi azaldı, BKİ değişmedi; kan basıncı ve açlık glukozunda anlamlı etki yoktu, lipid sonuçları büyük oranda nötrdü. Sonuç: Egzersiz, özellikle negatif belirtilerde ve vücut kompozisyonunda yararlı bir ek tedavi olabilir, ancak değişimin büyüklüğü klinik olarak anlamlı eşiklere ulaşmadı; çok bileşenli egzersizle yapılacak yeterli güçte RKÇ'ler gerekmektedir.",
+  "added": "2026-10-07"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122591",
+  "journal": "jad",
+  "title": "Cognitive performance and self-reported physical exercise in bipolar disorder: A cross-sectional analysis of pre-randomization screening data from an ongoing randomized controlled trial",
+  "authors": "Gabriel Okawa Belizario, Fernanda Mayumi Del Mastro Espíndola, Cícera Claudinea Duarte ve ark.",
+  "online": "2026-10-06",
+  "pmid": "42838229",
+  "ozet": "Amaç: Bipolar bozuklukta (BB) kendi bildirimiyle düzenli fiziksel egzersiz ile bilişsel performans arasındaki ilişkiyi incelemek. Yöntem: Devam eden bir RKÇ'nin randomizasyon öncesi tarama verilerinin kesitsel analizi; São Paulo'da ayaktan izlenen 108 ötimik BB hastası (18-55 yaş), haftada en az iki kez düzenli egzersiz yapanlar (n = 48) ve yapmayanlar (n = 60) olarak karşılaştırıldı; biliş SCIP ile değerlendirildi. Bulgular: Egzersiz grubunun SCIP toplam puanı anlamlı olarak yüksekti (64,63 vs 56,50; p < 0,001, d = 0,95); sözel öğrenme ve çalışma belleği üstünlüğü gözlendi, Bonferroni düzeltmesi sonrası toplam puan ve çalışma belleği anlamlılığını korudu, sözel öğrenme korumadı. Sonuç: Düzenli egzersiz BB'de daha iyi global biliş ile ilişkilidir ve nörobilişsel rehabilitasyonda umut verici bir ek strateji olabilir; ancak kesitsel tasarım nedensellik çıkarımına izin vermez ve egzersiz öz bildirimle, kovaryat düzeltmesi olmadan değerlendirilmiştir.",
+  "added": "2026-10-07"
+ },
+ {
+  "doi": "10.1016/j.inpsyc.2026.100298",
+  "journal": "ipg",
+  "title": "Memantine in Korean Alzheimer’s disease: A prospective real-world REMIND study",
+  "authors": "Seunghee Na, Hyun Sook Kim, Geon Ha Kim ve ark.",
+  "online": "2026-10-06",
+  "pmid": "42838860",
+  "ozet": "Amaç: Koreli Alzheimer hastalığı (AH) hastalarında memantinin gerçek yaşam etkinliğini ve tolerabilitesini 24 hafta boyunca değerlendirmek. Yöntem: Kore'de on iki üniversite hastanesinde çok merkezli, prospektif, tek kollu gözlemsel çalışma; memantin (10-20 mg/gün) başlanan ≥ 50 yaş orta-ağır AH hastaları (güvenlilik seti 401, etkinlik seti 339); birincil sonlanım 24. haftada CDR global skorundaki değişimdi. Bulgular: Etkinlik setindeki hastaların %86,6'sı başlangıç CDR kategorisinde kaldı, %10,5'i kötüleşti, %2,9'u düzeldi; MMSE arttı ve NPI azaldı (p < 0,05; etki büyüklükleri küçük, |d| 0,08-0,17), Zarit Bakım Veren Yükü puanları arttı. Tedaviye devam %89,5, ilaçla ilişkili advers olay %17,7 idi. Sonuç: 24 haftalık memantin tedavisinde hastaların çoğu başlangıç CDR kategorisinde kaldı, bilişsel ve nöropsikiyatrik puanlarda küçük değişimler görüldü, bakım veren yükü arttı ve tolerabilite kabul edilebilirdi.",
+  "added": "2026-10-07"
+ },
+ {
   "doi": "10.1016/j.brs.2026.103232",
   "journal": "brs",
   "title": "Stimulating current direction produces depth-dependent spatial selectivity in cortical activation",
