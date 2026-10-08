@@ -106,6 +106,933 @@
   "added": "2026-10-08"
  },
  {
+  "doi": "10.1192/bjp.2026.10794",
+  "journal": "bjp",
+  "title": "Psychiatric comorbidity, burden of sickness absence and sex-specific characteristics of working individuals with ADHD treated in primary care in the Finnish occupational health system: cross-sectional register study",
+  "authors": "Mia Tuokko, Antti-Jussi Ämmälä, Tiina Paunio ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Çalışma, iş sağlığı hizmetlerinde izlenen DEHB'li çalışanların klinik özelliklerini, hizmet kullanımını ve cinsiyet farklarını incelemeyi amaçladı. Finlandiya iş sağlığı sisteminde 2018–2022 arasında DEHB (F90.0) tanılı 2117 hastanın kesitsel kayıt analizi yapıldı; ilaç ve hastalık izni için 1447 kişilik alt grup multinomiyal regresyonla değerlendirildi. Hastaların %80,5'inde psikiyatrik komorbidite vardı (anksiyete %51,8, depresyon %43,9). Erkekler daha sık yalnızca psikostimülan alırken (%27,4'e karşı %18,4), kadınlar antidepresan ya da antidepresan–anksiyolitik kombinasyonu almaktaydı. Kadınlarda psikiyatrik hastalık izni tüm sürelerde daha yüksekti (uzun süreli >30 gün için RRR 2,75; %95 GA 2,16–3,52).",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10763",
+  "journal": "bjp",
+  "title": "Mapping the genetic landscape of the age at onset and severity of eating disorder symptoms",
+  "authors": "Helena L. Davies, Abigail R. ter Kuile, Zain-Ul-Abideen Ahmad ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Yeme bozukluğu belirtilerinin başlangıç yaşı ve şiddetinin genetik temelleri araştırıldı. NIHR BioResource'tan Avrupa kökenli 24.973 katılımcıda ED100K anketi ile belirtiler değerlendirildi; cinsiyete göre başlangıç yaşı tanımlandı, SNP temelli kalıtılabilirlik GREML ile ve 26 poligenik skorla ilişkiler SBayesRC ile incelendi. Belirtilerin ortanca başlangıç yaşı 16–20 arasındaydı: kusma 16, açlık ve aşırı egzersiz 17, tıkınırcasına yeme 18, laksatif 19, diüretik ve düşük kilo 20 yaş. Yazarlar bulguları erken müdahale için başlangıç yaşı ve şiddetin genetik mimarisine ışık tutan veriler olarak sunmaktadır. (Özetin devamı erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10805",
+  "journal": "bjp",
+  "title": "Rising demand and NHS reforms: what are the implications for mental health service provision?",
+  "authors": "Samuel P. Trethewey, Jonathan Monk-Cunliffe, Mark Batterham ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Editoryal. İngiltere'nin NHS 10 yıllık sağlık planındaki üç değişimi (hastaneden topluma, analogdan dijitale, hastalıktan önlemeye) ele alıp bunların yaşam boyu ruh sağlığı hizmetleri için olası sonuçlarını tartışmaktadır.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10810",
+  "journal": "bjp",
+  "title": "Internal versus external factors: nuanced view of burnout",
+  "authors": "Erica Jane Bouttell, Abdulbaqhi Olaoluwa Salako, Hari Govind Suresh Kumar ve ark.",
+  "online": "2026-10-07",
+  "pmid": "42841255",
+  "ozet": "Editoryal/görüş yazısı. Başlığına göre tükenmişliğe (burnout) ilişkin iç ve dış etkenleri ayrıntılı biçimde ele almaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10817",
+  "journal": "bjp",
+  "title": "Enabling responsible industry–academic collaboration in mental health research and the involvement of people with lived experience",
+  "authors": "Andrew M. McIntosh, Michael McTernan, Sarah Rae ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Görüş yazısı. Akademi, sağlık profesyonelleri, sanayi ve yaşanmış deneyimi olan kişiler arasında sorumlu iş birliğinin gerekliliğini ele alır. UKRI Ruh Sağlığı Platformu'nun uluslararası bir ilaç şirketiyle girişilen iş birliği denemesinden örnek verilerek, düzenleyici yorum belirsizliği, sözleşme gereklilikleri ve yargı alanlarındaki farklı uyum süreçlerinin erken dönem iş birliğini geciktirdiği anlatılır. Yazarlar düzenlemenin gerekli olduğunu ama tanıtım amaçlı faaliyetlerle şeffaf, rekabet öncesi bilimsel alışverişin daha iyi ayrıştırılması gerektiğini savunmaktadır.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10819",
+  "journal": "bjp",
+  "title": "Lessons in translation: (immuno)psychiatry need not reinvent the wheel",
+  "authors": "Troels Boldt Rømer, Vardan Nersesjan, Michael Eriksen Benros",
+  "online": "2026-10-07",
+  "pmid": "42841259",
+  "ozet": "Editoryal/görüş yazısı. Başlığa göre (immüno)psikiyatrinin translasyonel çalışmalarda tekerleği yeniden icat etmesine gerek olmadığını savunmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10776",
+  "journal": "bjp",
+  "title": "Using multi-trait polygenic scores to predict lithium responsiveness in patients with bipolar disorder",
+  "authors": "Nigussie T. Sharew, Scott R. Clark, Simon Hartmann ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Bipolar bozuklukta lityum yanıtını öngörmede poligenik skorların (PGS) sınırlı gücünü artırmak için çok özellikli PGS (mt-PGS) geliştirildi. Uluslararası Lityum Genetiği Konsorsiyumu'ndan en az 6 ay lityum kullanan 2367 hastada Alda ölçeği (sürekli skor ve ≥7 olumlu yanıt) kullanıldı; 60 fenotip için PGS beş kümede (psikiyatrik, kardiyometabolik, otoimmün/enflamatuvar, nörobilişsel, böbrek işlevi) hesaplandı ve çapraz doğrulamalı makine öğrenmesiyle birleştirildi. mt-PGS bireyler arası varyansın sürekli sonuçta %5,70'ini, kategorik sonuçta %9,11'ini açıkladı. (Özetin devamı erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10802",
+  "journal": "bjp",
+  "title": "Self-medication as metaphor: why psychiatry should revise an (in) convenient narrative about substance use and mental disorders",
+  "authors": "Mattia Marchi, Gian Maria Galeazzi",
+  "online": "2026-10-07",
+  "ozet": "Kavramsal eleştiri yazısı. 'Kendi kendine ilaçlama' anlatısının, madde kullanımı ile ruhsal bozuklukların birlikteliğini açıklayan test edilebilir bir model olmaktan çok retorik bir metafor gibi işlediği savunuluyor. Geniş epidemiyolojik çalışmalar, ekolojik anlık değerlendirme ve boylamsal sıralama verileri incelendiğinde baş etme güdüleri ve negatif pekiştirmeyi destekleyen kanıt olsa da bunun komorbiditenin ana mekanizması sayılamayacağı belirtiliyor. Yazarlar paternalizm, hatalı ters çıkarım yoluyla tanısal kayma ve açıklayıcı dikkat dağınıklığı risklerine dikkat çekiyor; yapılandırılmış güdü sorgulaması, çoğul mekanizmaların kabulü ve kanıta dayalı bağımlılık müdahalelerinin önceliklendirilmesini öneriyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s003329172610587x",
+  "journal": "psymed",
+  "title": "Accelerated brain aging as a transdiagnostic biomarker: A lifespan MRI brain age study across seven disorders",
+  "authors": "Yubraj Gupta, Feliberto de la Cruz, Maria Geisler ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Beyin yaşlanmasının nöropsikiyatrik bozukluklarda ortak biyobelirteç olup olmadığı yaşam boyu MRG beyin yaşı modelleriyle araştırıldı. Model 25.425 sağlıklı bireyde (2–95 yaş) eğitildi, bağımsız gruplarda doğrulandı; 1737 hasta (şizofreni, MDB, BB, DEHB, kronik madde kullanım bozukluğu, Alzheimer, frontotemporal demans) 1793 kontrolle karşılaştırıldı. Ortalama mutlak hata ~5–7 yıldı. Beyin-PAD artışı şizofrenide +7,64, FTD'de +7,61, Alzheimer'da +3,24 ve BB'de +2,08 yıl bulundu. (Özetin devamı erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s0033291726105959",
+  "journal": "psymed",
+  "title": "Molecular mechanisms of electroconvulsive therapy modulates excitation–inhibition balance in major depression disorder",
+  "authors": "Xiaohui Yu, Futing Yang, Wei Shang ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Elektrokonvülsif tedavinin (EKT) majör depresyonda eksitasyon–inhibisyon (E/I) dengesini nasıl etkilediği ve moleküler temeli araştırıldı. EKT alan 46 MDB hastası ve 46 sağlıklı kontrolden boylamsal istirahat fMRG verisi alındı; E/I dengesi Hurst indeksiyle değerlendirildi, miyelinizasyon, glukoz metabolizması, nörotransmitter yoğunluk haritaları ve transkriptomik verilerle uzamsal korelasyonlar kuruldu. EKT, orta singulat kortekste (MCC) Hurst indeksini anlamlı düşürdü ve MCC ile posterior singulat korteks arasında fonksiyonel ayrışmaya yol açtı. Değişimler kortikal miyelinizasyon, glukoz metabolizması ve dopamin ile histamin dağılımıyla ilişkiliydi; ilişkili genler eksitatör nöronlar, astrositler ve oligodendrositlerde zenginleşmişti.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s0033291726106059",
+  "journal": "psymed",
+  "title": "Adverse childhood experiences and risk of chronic sleep disturbances: A population-based cohort study from a Chinese national survey",
+  "authors": "Hong Lu, Yi Wen, Hegao Yu ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Çocukluk çağı olumsuz deneyimlerinin (ACE) yaşlılarda kronik uyku bozukluğuyla ilişkisi incelendi. CHARLS verisinden (2014 başlangıç) 45 yaş üstü, psikiyatrik durumu olmayan 5533 kişi ACE sayısına göre dört sınıfa ayrıldı; uyku bozukluğu CES-D-10 uyku kalitesi maddesi ve anormal süre (<6 veya >9 saat) ile tanımlandı. Dereceli bir ilişki saptandı: düzeltilmiş OR 1 ACE için 1,30 (1,05–1,59), ≥3 ACE için 2,1 (1,69–2,62; Ptrend<0,001). En güçlü ilişki hanede ruhsal hastalıkla bulundu (OR 1,77). Yazarlar yüksek ACE maruziyeti olan yaşlılarda hedefli tarama ve erken müdahalenin yararlı olabileceğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1136/bmjment-2026-302797",
+  "journal": "bmjmh",
+  "title": "Early interventions for primary care patients with stress-related mental ill health: a randomised controlled non-inferiority trial of a nurse-led collaborative care intervention versus cognitive behavioural therapy",
+  "authors": "Evelina Kontio, Victoria Sennerstam, Frank Svärdman ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Birinci basamakta stresle ilişkili ruhsal sağlık sorunlarında hemşire liderliğindeki işbirlikçi bakımın (CC), psikolog rehberliğinde kendi kendine yardım BDT'ye (GSH-CBT) göre kötü olmadığı (non-inferiority) test edildi. Hafif-orta şiddette 172 yetişkin 1:1 randomize edildi; birincil sonlanım Algılanan Stres Ölçeği-10 (12 hafta), non-inferiority sınırı 0,3 d. Her iki grupta tüm sonuçlarda büyük iyileşme görüldü. Gruplar arası fark küçüktü (d=0,22, GSH-CBT lehine) ancak güven aralığı üst sınırı (0,52) sınırı aştı; tükenmişlikte GSH-CBT daha fazla azalma sağladı (d=0,28). Sonuç olarak CC non-inferior bulunmadı; yazarlar yine de güvenli ve uygulaması kolay bir seçenek olabileceğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1111/acps.70146",
+  "journal": "acta",
+  "title": "Risk‐Stratified Cardiac Monitoring During Antipsychotic Treatment in Adolescents and Young Adults",
+  "authors": "Alessandro Cuomo, Mario Pinzi, Andrea Fagiolini",
+  "online": "2026-10-07",
+  "ozet": "Yapılandırılmış anlatısal derleme. Ergen ve genç erişkinlerde antipsikotiklere bağlı QTc uzaması ve ani kardiyak ölüm kanıtlarını haritalandırıp riske dayalı izlem çerçevesi önerir; PubMed taraması sonucu 103 kaynak atıf yapılmıştır. Elektrolit bozukluğu, bradikardi, kısıtlayıcı yeme bozukluğu/tıbbi instabilite, tiroid işlev bozukluğu, kalıtsal kanalopati, yapısal hastalık ve etkileşen ilaçlar, birçok ilaç için ilacın kendisinden daha tutarlı biçimde QTc riskiyle ilişkiliydi. Gençlerde en güçlü ilaç sinyalleri ziprasidon ve pimozidde görüldü; yetişkin verileri sertindol ve iloperidonda daha fazla dikkat gerektiğini destekledi. Klozapin için ayrı miyokardit izlemi gerekir. Yazarlar izlemin herkese tek tip değil, riske göre kademeli olmasını önerir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1038/s41380-026-03916-6",
+  "journal": "molpsy",
+  "title": "Executive functions as a transdiagnostic endophenotype in developmental psychopathology",
+  "authors": "Eleanor K. Braithwaite, Jennifer C. Fielder, Nikolaus Steinbeis",
+  "online": "2026-10-07",
+  "ozet": "Derleme/perspektif yazısı. Yürütücü işlevlerin (Yİ), gelişimsel psikopatolojide transdiagnostik bir endofenotip olabileceğini savunur. Yİ gelişiminin genetik ve çevresel etkenlerle şekillendiğini, frontoparyetal ve singulo-operküler ağların uzun süren olgunlaşmasına dayandığını ve bu sistemlerdeki bozulmaların içselleştirme ve dışsallaştırma bozuklukları riskini artırdığını anlatır. Ayrıca Yİ performansının kapasiteden çok maliyet-fayda hesaplarını yansıttığı, anhedoni ve apatinin bunu bozabileceği ve bunun Yİ eğitiminin sınırlı etkisini açıklayabileceği öne sürülür. Gelecek araştırma gündemi ana hatlarıyla çizilir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1038/s41380-026-03914-8",
+  "journal": "molpsy",
+  "title": "Prenatal stress reprograms placental signaling and opposes maternal immune activation effects in the fetal brain",
+  "authors": "Branden G. Verosky, Helen J. Chen, Jessica L. Anderson ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Prenatal psikososyal stres ve maternal immün aktivasyonun (MIA) fetal beyin gelişimini ortak mı farklı mekanizmalarla etkilediği, fare plasentasında tek hücre RNA-seq, eşleşmiş plasenta-fetal beyin transkriptomu, sitokin profili ve insan plasenta RNA-seq ile incelendi. Kronik stres plasental bağışıklık hücrelerinde interferon sinyalini ve trofoblastlarda oksidatif fosforilasyon ifadesini baskıladı; stresli dişilerde poly(I:C)'ye tip I interferon yanıtı körelmişti. Fetal beyinde stres ve MIA, örtüşen DNA onarımı, sinaptik ve translasyon ağlarını zıt yönde düzenledi (stres erken olgunlaşma, MIA replikasyon stresi). İnsan plasentasında algılanan stres, fare stres imzasını yansıtan modüllerle ilişkiliydi.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107025",
+  "journal": "nbr",
+  "title": "Evolutionary conservation of MECP2 and its relevance to neuronal stability and behavioral adaptation",
+  "authors": "Maya Braun, Yuval Tabach",
+  "online": "2026-10-07",
+  "pmid": "42843437",
+  "ozet": "Derleme. MECP2'nin (kaybı Rett sendromu, artmış dozu MECP2 duplikasyon sendromuna yol açar) yüzlerce türde karşılaştırmalı genomik analizle elde edilen evrimsel geçmişini ele alır. Yaygın CpG metilasyonu, postnatal nöronal CpG dışı metilasyon birikimi ve uzun ömürlü postmitotik devreler nedeniyle MECP2'nin omurgalı sinir sistemlerinde önem kazandığı, NCoR/SMRT korepresör mekanizmasına işlevsel olarak bağlı olduğu savunulur. Yazarlar MECP2'yi olgun nöronlarda transkripsiyonel homeostazı koruyan, deneyime bağlı plastisiteye izin veren omurgalıya özgü bir düzenleyici olarak önerir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107004",
+  "journal": "nbr",
+  "title": "From pathogenesis to non-medical therapy: A review of exploring sensory and multi-sensory stimulation as a non-invasive treatment approach for Alzheimer’s disease",
+  "authors": "Yujun Zhu, Zahra Jafari, Bryan E. Kolb ve ark.",
+  "online": "2026-10-07",
+  "pmid": "42843100",
+  "ozet": "Derleme. Alzheimer hastalığının (AH) patolojik özellikleri ve ağ değişiklikleri ile bunları azaltmayı hedefleyen duyusal ve çoklu duyusal uyarım yaklaşımlarını (40 Hz GENUS, fotobiyomodülasyon, parlak ışık tedavisi, müzik terapisi, aromaterapi, dokunsal uyarım, çoklu duyusal uyarım) ele alır. Yazarlara göre bu müdahaleler AH patolojilerini hafifleterek, bilişi, nöroplastisiteyi ve uykuyu iyileştirerek ve davranışsal/nöropsikiyatrik belirtileri azaltarak ilerlemeyi yavaşlatmaktadır. İnsan ve hayvan çalışmaları birleştirilerek klinik sonuçlar mekanistik bulgularla ilişkilendirilir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107028",
+  "journal": "nbr",
+  "title": "Toward Mechanism-Informed Phenotyping in Neuropathic Pain: Implications for Translational Research and Neuromodulation",
+  "authors": "Takahiko Nagamine",
+  "online": "2026-10-07",
+  "pmid": "42843439",
+  "ozet": "Derleme/görüş yazısı. Başlığına göre nöropatik ağrıda mekanizma temelli fenotiplemenin translasyonel araştırma ve nöromodülasyon açısından önemini ele almaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107024",
+  "journal": "nbr",
+  "title": "Behavioral Proxy Validity in Macaque Neuroscience: Developmental Competence and Contextual Interpretability",
+  "authors": "Chengfeng Wu, Zhihong Xu, Qiang Sun ve ark.",
+  "online": "2026-10-07",
+  "pmid": "42843438",
+  "ozet": "Makak nörobilimi için davranışsal vekil (proxy) ölçülerin geçerliliğini ele alan perspektif ve mini-derleme. Davranışsal çıkarımın gelişimsel yeterlilik ve bağlamsal yorumlanabilirliğe bağlı olduğu savunulur; gelişimsel olgunlaşmamışlık, tanım belirsizliği, çok işlevlilik ve döngüsel doğrulama nedeniyle proxy'lerin başarısız olabileceği, Tanımla–Yorumla–Doğrula çerçevesiyle değerlendirilebileceği belirtilir. Depresyonla ilişkili davranışsal proxy'leri kullanan 56 makak çalışmasında yetiştirilme öyküsü yalnızca %17,9'unda yeterince bildirilmişti; işlemsel tanım eksikliği 2010–2019'da %26,3'ten 2020–2026'da %58,3'e çıkmış; bağlamsal yorum %26,8'inde ve model atamadan önce bağımsız doğrulama yalnızca %3,6'sında vardı.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1038/s41386-026-02570-4",
+  "journal": "npp",
+  "title": "BLA kappa opioid receptor inputs to the BNST mediate social stress-induced increases in alcohol drinking",
+  "authors": "Franciely Paliarin, Evan Doré, Sara Mirza ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Sosyal stresin neden alkol tüketimini artırdığı farelerde dinorfin/kappa opioid reseptör (KOR) sinyali üzerinden incelendi. Tekrarlayan sosyal yenilgi stresi (SDS) her iki cinsiyette alkol alımını ve tercihini artırdı; bu etki sistemik veya BNST'ye lokal KOR antagonisti norBNI ile azaldı. BLA'daki KOR'lu nöronların ve BNST'ye projeksiyonlarının kemogenetik aktivasyonu ve BLA'da KOR knockdown'ı SDS sonrası alkol artışını baskıladı. SDS ayrıca Pdyn mRNA'sını artırdı ve dorsal rafe çekirdeğinde BNST'ye projekte dinorfin nöronlarını seçici olarak etkinleştirdi. Yazarlar Dyn/KOR sisteminin stresle ilişkili patoloji ve AUB komorbiditesi için terapötik hedef olabileceğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.09.022",
+  "journal": "neuromod",
+  "title": "Phase-Dependent Effects of Cerebellar Transcranial Alternating Current Stimulation on Lateral Vestibulospinal Tract Excitability",
+  "authors": "Osuke Shibata, Hisato Nakazono, Takanori Taniguchi ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Neuromodulation dergisinde yayımlanmış çalışma. Başlığa göre serebellar transkraniyal alternatif akım stimülasyonunun (tACS) lateral vestibülospinal yol uyarılabilirliği üzerindeki faza bağlı etkilerini incelemektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112433",
+  "journal": "clinph",
+  "title": "Beyond primary motor Cortex: Clinical relevance of Non-Primary motor areas in Upper-Extremity recovery after Stroke—A scoping review",
+  "authors": "Amit Sethi, Ghaleb Almalki, Yanqing Lin ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Clinical Neurophysiology'de yayımlanmış kapsam (scoping) derlemesi. Başlığa göre inme sonrası üst ekstremite iyileşmesinde birincil motor korteks dışındaki motor alanların klinik önemini ele almaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002260",
+  "journal": "jcp",
+  "title": "Sertraline-Associated Anisocoria in a Young Adult",
+  "authors": "Olga Martínez-Piera",
+  "online": "2026-10-07",
+  "pmid": "42841865",
+  "ozet": "Olgu sunumu (J Clin Psychopharmacol). Başlığa göre genç bir erişkinde sertralinle ilişkili anizokoriyi bildirmektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/gps.70259",
+  "journal": "ijgp",
+  "title": "Sleep Problems and Mental Health in Middle‐Aged and Older Autistic and Non‐Autistic Adults",
+  "authors": "Sophie Roper, Andreea Barbinta, Alice M. G. Quinton ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Orta yaş ve yaşlı otistik ile otistik olmayan erişkinlerde uyku sorunları ve ruh sağlığı karşılaştırıldı. AgeWellAutism kohortunun ilk dalından 265 otistik ve yaş-cinsiyet eşleştirilmiş 167 otistik olmayan erişkin (40–93 yaş) standart uyku ve ruh sağlığı ölçeklerini doldurdu. Otistik grup tüm alanlarda anlamlı olarak daha fazla uyku sorunu bildirdi (hepsinde p<0,001), en çok otistik kadınlar; en büyük farklar uyku bozuklukları ve gündüz işlev bozukluğundaydı. Farklar yaş ile anksiyete, depresyon ve TSSB belirtileri kontrol edilince de sürdü. Her iki grupta kötü uyku ileri yaş ve daha fazla anksiyete/depresyon/TSSB belirtisiyle ilişkiliydi; uyku–anksiyete ilişkisi otistik grupta daha güçlüydü.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71758",
+  "journal": "alz",
+  "title": "Longitudinal clinical outcomes after amyloid clearance in aducanumab phase 3 studies",
+  "authors": "Menglan Pang, Holly M. Brothers, John O'Gorman ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Tedaviyle ilişkili amiloid temizlenmesinin (TRAC) aducanumab faz 3 programında klinik yarara karşılık gelip gelmediği araştırıldı. ENGAGE ve EMERGE amiloid PET alt çalışmasındaki aducanumab alan katılımcılar birleştirildi (uzun dönem uzatmada sürekli tedavi alanlar ve/veya EMBARK'a dönenler); klinik sonuçlar 78. hafta TRAC durumuna göre tabakalandırıldı. TRAC katılımcılarda 78. ve 134. haftada ve EMBARK başlangıcında klinik düşüş TRAC olmayanlardan daha azdı. TRAC sonrası düşüş heterojendi; yaklaşık üçte ikisinde yıllıklandırılmış CDR-SB düşüşü <1 puandı. Yazarlar bunun keşfedici analiz olduğunu belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71903",
+  "journal": "alz",
+  "title": "miR‐214‐3p and NCKAP1: A microglial functional dimension of Alzheimer's progression",
+  "authors": "Min‐Young Noh, Yeonsil Moon, Sungwoo Kang ve ark.",
+  "online": "2026-10-07",
+  "ozet": "AH ilerlemesindeki klinik heterojenitenin, hastadan türetilen indüklenmiş mikroglia benzeri hücrelerin (iMG) fonksiyonel profilleriyle açıklanıp açıklanamayacağı araştırıldı. 114 katılımcıda (18 amiloid-negatif sağlıklı kontrol; amiloid-pozitif AH sürekliliği: 2 bilişsel sağlam, 18 HBB, 76 AH demansı) aynı kan örneğinden plazma biyobelirteçleri, iMG fagositik işlevi ve moleküler belirteçler ölçüldü; 102 kişide boylamsal takip vardı. iMG fagositik kapasitesi AH sürekliliği boyunca azaldı, NCKAP1 ifadesi düştü (en güçlü ilişki plazma GFAP ile). Plazma miR-214-3p, p-tau217, GFAP, NfL, yaş ve başlangıç bilişinden bağımsız olarak daha hızlı bilişsel düşüşü öngördü ve hızlı ilerleyen AH demansını ayırt etmede prognostik ayrımı belirgin iyileştirdi. (Özetin devamı erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71845",
+  "journal": "alz",
+  "title": "Genetic evidence supports a cortical neuroprotective role of GLP‐1 receptor activation in Alzheimer's disease: A drug‐target Mendelian randomization study",
+  "authors": "Li Jiang, Xinyuan Chen, Jiangshun Qian ve ark.",
+  "online": "2026-10-07",
+  "ozet": "GLP-1 reseptör (GLP-1R) aktivasyonunun AH riskini periferik metabolik iyileşme mi yoksa doğrudan nöroproteksiyon yoluyla mı azalttığı ilaç-hedef Mendel randomizasyonuyla incelendi. Kan ve beyin korteksi cis-eQTL'leri araç olarak kullanılarak AH ve yedi biyobelirteç için cis-MR, aracılar için MR-BMA, cis-MVMR ve iki adımlı MR yapıldı. GLP-1R ifadesi daha düşük AH riski ve BOS fosfo-tau düzeyleriyle ilişkiliydi. Sistolik kan basıncı tek bağımsız aracıydı, GLP-1R'nin doğrudan koruyucu etkisi sürdü; doku özgül analiz etkiyi kortikal (PIP=0,998) GLP-1R ifadesine atfetti (kan PIP=0,002). Yazarlar prodromal/preklinik evrelerde beyne geçen ajanların araştırılmasını destekliyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71819",
+  "journal": "alz",
+  "title": "The value of timely treatment with anti‐amyloid therapy for Alzheimer's disease",
+  "authors": "Jack M. Chapel, Bryan Tysinger, Hossein Pourmand ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Anti-amiloid tedavide zamanında başlamanın toplumsal değeri dinamik mikrosimülasyonla tahmin edildi. Erken semptomatik AH'li Amerikalılarda klinik ilerlemeyi ömür boyu %29 yavaşlatan bir tedavi senaryosu (ort. başlangıç yaşı 73) ve 2 yıl erken başlanan senaryo modellendi. Tedavi yaşam boyu 104.885 $ brüt toplumsal değer üretti (yaşam kalitesi kazanımları, bakım yükü azalması, huzurevi ve Medicaid harcamalarındaki azalma dahil); erken tedavi değeri %32 artırdı, erken evrelerde etki daha güçlüyse (%36 yavaşlama) %71. Etki süresi 4 yıl varsayıldığında değer 49.122 $ (tedavi) ve 56.385 $ (erken tedavi) idi. Yazarlar bulguların uygulama maliyetleriyle kıyaslanabilecek bir referans sunduğunu belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71914",
+  "journal": "alz",
+  "title": "Network‐dependent remote effects and local tau burden jointly shape neuronal dysfunction in Alzheimer's disease",
+  "authors": "Lukas Frontzkowski, Sebastian Roemer‐Cassiano, Johannes Gnörich ve ark.",
+  "online": "2026-10-07",
+  "ozet": "AH'de tau patolojisinin nöronal işlev bozukluğuna yol açma mekanizması incelendi; işlev bozukluğunun tau epimerkezlerine yakın bölgelerde ortaya çıktığı hipotezi test edildi. Amiloid-pozitif 131 kişide dinamik [18F]PI-2620 tau PET ile dağılım hacmi oranı (DVR) ve perfüzyon (R1) elde edildi; epimerkezler en yüksek %10 DVR bölgeleri olarak tanımlandı ve normatif istirahat fonksiyonel bağlantısallığa dayalı uzaklık hesaplandı. Hipoperfüzyon, özellikle erken AH'de, lokal tau birikiminden çok epimerkezlere uzaklıkla ilişkiliydi (diaşizis benzeri bağlantı kaybı); hastalık ağırlaştıkça lokal tau birikimi hipoperfüzyonla daha fazla örtüştü. Hipoperfüzyon, tau birikimi ile bilişsel düşüş ilişkisine aracılık etti.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10823",
+  "journal": "bjp",
+  "title": "Towards risk-stratified clozapine haematological monitoring: lessons from Hong Kong and Japan",
+  "authors": "Takahiko Nagamine",
+  "online": "2026-10-06",
+  "pmid": "42834654",
+  "ozet": "Editoryal/görüş yazısı. Başlığa göre Hong Kong ve Japonya deneyimlerinden hareketle klozapin hematolojik izleminin risk tabakalandırmasına dayalı yapılması gerektiğini tartışmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s0033291726106321",
+  "journal": "psymed",
+  "title": "Antidepressant maintenance versus active monitoring after depression remission: a decision analysis and framework linking recurrence probability and patient preferences",
+  "authors": "William U. Meyerson, Tianxi Cai, Jordan W. Smoller",
+  "online": "2026-10-06",
+  "ozet": "Remisyondaki depresyon hastalarında antidepresan idamesi ile aktif izlem karşılaştırıldı. Nüks, epizod süresi, yeniden başlama ve tedavi etkisini birleştiren bir sağlık durumu geçiş modeliyle yetişkinler 5 yıl simüle edildi; bir ay depresyonu önlemek için gereken ek antidepresan kullanım süresi hesaplandı ve hasta tercihleriyle ilişkilendirildi. Bu süre, 4–5 önceki epizodu olanlarda 1,5 yıl, 2–3 epizodda 2,8 yıl, tek orta-şiddetli epizodda 5,1 yıl ve tek hafif epizodda 11,8 yıl bulundu. Yazarlar idame yararının depresyon geçmişine göre belirgin değiştiğini ve karar çerçevesinin hasta tercihleriyle bağlanabileceğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s0033291726104498",
+  "journal": "psymed",
+  "title": "Dissociable EEG microstate signatures of cognitive and response inhibition deficits in obsessive-compulsive disorder patients",
+  "authors": "Rongrong Zhu, Dongmei Wang, Qihui Guo ve ark.",
+  "online": "2026-10-06",
+  "ozet": "OKB'de bilişsel ve yanıt inhibisyonu eksikliklerinin EEG mikrodurum dinamikleriyle ilişkisi incelendi. 91 OKB hastası ve 76 sağlıklı kontrol Emotional Stroop ve stop-signal görevlerini tamamladı, istirahat EEG'si kaydedildi (kesitsel). OKB'de her iki inhibisyon eksikliği de obsesif belirti şiddetiyle pozitif korelasyon gösterdi. Mikrodurum A'nın süre ve kapsamı artmış; C'nin süre, görülme sıklığı ve kapsamı azalmış, B ve D'den C'ye geçiş olasılıkları artmıştı. C süresi stop-signal reaksiyon süresiyle pozitif, C ve D görülme sıklığı ile D kapsamı negatif ilişkiliydi. Yazarlar iki inhibisyon bileşeninin ayrışabilir EEG izleri taşıdığını öne sürüyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s003329172610590x",
+  "journal": "psymed",
+  "title": "Transcriptional signatures associated with cortical similarity network changes in adolescents with major depressive disorder",
+  "authors": "Baolin Wu, Xun Zhang, Qian Zhang ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Ergen majör depresif bozuklukta (MDB) kortikal benzerlik ağı değişiklikleri ve ilişkili transkripsiyonel örüntüler Morphometric Inverse Divergence (MIND) ağ modeliyle incelendi. 174 MDB'li ergen ve 82 sağlıklı kontrolün yapısal MRG verisinden bireysel MIND ağları kuruldu; makine öğrenmesi ve gen ifadesi ile kısmi en küçük kareler regresyonu kullanıldı. MIND anormallikleri esas olarak orbitofrontal korteks, duyusal-motor ve görsel ağlarda bulundu. En iyi model AUC 0,824 elde etti, bağımsız veri setinde AUC 0,724'tü. MIND değişiklikleri sinaptik sinyal, nörogelişim, metabolizma ve belirli hücre tipleriyle ilişkili genlerle bağlantılıydı. (Özetin devamı erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s0033291726106047",
+  "journal": "psymed",
+  "title": "Intrinsic capacity modifies the risk of depression and anxiety through metabolomic signature",
+  "authors": "Shuaixing Song, Xiangying Suo, Jing Guo ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Dünya Sağlık Örgütü'nün sağlıklı yaşlanma ölçütü intrinsik kapasite (IC) ile depresyon/anksiyete arasındaki ilişki ve metabolomik aracılık incelendi. UK Biobank'tan 212.033 katılımcıyla prospektif kohortta dört alanlı IC açık skoru hesaplandı, elastik ağ regresyonuyla metabolik imza türetildi. IC açık skoru 4+ olanlarda 0 olanlara göre depresyon için HR 3,96 (3,72–4,21), anksiyete için 3,03 (2,82–3,25) idi. 59 metabolitlik imza küçük bir aracılık etkisi gösterdi (depresyon 1,007; anksiyete 1,006). Yüksek poligenik risk ve IC 4+ birlikteliğinde HR depresyonda 4,36, anksiyetede 3,46'ya çıktı.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s0033291726106163",
+  "journal": "psymed",
+  "title": "Psilocybin use, mental health treatment utilization, and unmet treatment need among US individuals with depression",
+  "authors": "Avery Chan Eun, Kevin H. Yang, Joseph J. Palamar",
+  "online": "2026-10-06",
+  "ozet": "ABD'de depresyonu olanlarda psilosibin kullanımının ruh sağlığı tedavisi kullanımı ve karşılanmamış tedavi ihtiyacıyla ilişkisi araştırıldı. 2024 NSDUH verisinden son yıl majör depresif epizodu olan ≥12 yaş 6793 kişi Poisson regresyonuyla analiz edildi. Bu kişilerin tahmini %7,3'ü (%95 GA 6,4–8,3) son yılda psilosibin kullanmıştı. Çok değişkenli modellerde psilosibin kullanımı ayaktan, yatan veya tele-sağlık tedavisi, reçeteli ilaç kullanımı ya da doktora başvurma dahil hiçbir tedavi kullanım göstergesiyle ilişkili bulunmadı. (Özetin karşılanmamış ihtiyaçla ilgili sonuçları erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s003329172610628x",
+  "journal": "psymed",
+  "title": "The filter is not the finding: On ascertainment, falsifiability, and what a spectrum is",
+  "authors": "Even Andre Lossius Okstad",
+  "online": "2026-10-06",
+  "pmid": "42834846",
+  "ozet": "Yorum/görüş yazısı. Başlığına göre örnekleme (ascertainment), yanlışlanabilirlik ve spektrumun ne olduğu konularını tartışmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1136/bmjment-2026-302895",
+  "journal": "bmjmh",
+  "title": "Six-year clinical course of depressive and anxiety disorders: analysis by age",
+  "authors": "Federico Triolo, Laura K M Han, Hans W Jeuring ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Depresyon ve anksiyete bozukluklarının 6 yıllık seyrinin yaşla ilişkisi incelendi. Netherlands Study of Depression and Anxiety'den güncel depresif ve/veya anksiyete bozukluğu olan 18–65 yaş 1701 katılımcı iki yılda bir değerlendirildi (CIDI, IDS, BAI vb.). İleri yaş, depresif (10 yılda b=0,191) ve anksiyete belirtilerinde (b=0,119) daha yavaş iyileşme ile, korku ve endişede ise ilişkili değildi; kronik seyir olasılığı daha yüksekti (RRR 1,19; 1,05–1,36), esas olarak depresyon kaynaklı. Sosyal ve yaşam tarzı düzeltmesiyle depresyon kronikleşmesindeki ilişki zayıfladı. Yazarlar ileri yaşın bağımsız bir kötü seyir risk faktörü olduğunu ve yaşa uyarlanmış, daha yakın izlemli tedavi gerektiğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1136/bmjment-2026-302953",
+  "journal": "bmjmh",
+  "title": "Randomised controlled trial of fluoxetine versus naltrexone in compulsive sexual behaviour disorder",
+  "authors": "Josephine Savard, Marta Piwowar, Roberth Adebahr ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Kompulsif cinsel davranış bozukluğunda (KCDB) naltrekson ile fluoksetinin etkililik ve tolerabilitesi karşılaştırıldı. ICD-11 ölçütleriyle KCDB tanılı 80 katılımcı (79 erkek, 1 kadın) açık etiketli üstünlük çalışmasında 1:1 fluoksetin (n=40) veya naltrekson (n=40) aldı; 8 hafta tedavi, 6 hafta tedavisiz izlem, HD:CAS ile değerlendirme. Birincil sonlanım noktasında HD:CAS azalmasında anlamlı fark yoktu; naltrekson üstün değildi, ancak iyileşme örüntüleri farklıydı. Fluoksetin grubunda iki kişi (%5,1) yan etkiyle (ürtiker, karaciğer enzim yüksekliği) çıkarıldı, dört kişi (%10,3) bıraktı; naltrekson grubunda altı kişi (%15) bıraktı. Yazarlar örüntü ve yan etki farklarının bireyselleştirilmiş kararlara yol gösterebileceğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1111/acps.70147",
+  "journal": "acta",
+  "title": "Side Effects of Electroconvulsive Therapy ( ECT )",
+  "authors": "Alexander Sartorius, Charles H. Kellner, Randall T. Espinoza",
+  "online": "2026-10-06",
+  "pmid": "42834791",
+  "ozet": "Editoryal/görüş yazısı. Başlığına göre elektrokonvülsif tedavinin (EKT) yan etkilerini ele almaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1038/s41380-026-03917-5",
+  "journal": "molpsy",
+  "title": "Association between polygenic liability to depression and lifetime depression in at-risk adolescents",
+  "authors": "Enda M. Byrne, Nathan A. Gillespie, Jake M. Najman ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Depresyon için poligenik risk skorunun (MD-PGS), yüksek içselleştirme belirtisi olan ergenlerde risk sınıflamasını iyileştirip iyileştirmediği araştırıldı. Brisbane'den iki boylamsal topluluk kohortunun mega-analizinde (302 yaşam boyu MDB olgusu, 1693 kontrol) 14 yaşta içselleştirme belirtileri, genç erişkinlikte CIDI ile MDB değerlendirildi. İçselleştirme belirtilerinde en üst desilde olmak MDB odds'unu artırdı (OR 2,56; 1,92–3,49); MD-PGS üst desili için OR 3,45 (2,53–4,71); her ikisinde birden üst desilde olanlarda OR yaklaşık sekiz kat (8,58; 4,04–18,26). Yazarlar PGS'nin belirtili ergenlerde çok yüksek riskli alt grubu belirlemede klinik yarar sağlayabileceğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1038/s41380-026-03920-w",
+  "journal": "molpsy",
+  "title": "Acetaminophen produces limited molecular and functional effects in human cortical organoids",
+  "authors": "Luca Trovò, George Kucera, Gimena Gomez ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Gebelikte en sık kullanılan analjezik olan asetaminofenin (APAP) erken insan kortikal gelişimine etkisi, altı bağımsız hücre hattından türetilen iPSC kökenli kortikal organoidlerde incelendi (25, 50, 100 μM, 5 gün, ilk trimester sonuna denk gelen dönemde). APAP organoid boyutunu, sitoarşitektürü, canlılığı, nöron/progenitör oranlarını ve sinaptik puncta yoğunluğunu etkilemedi. Toplu RNA-seq'te yalnızca en yüksek dozda 16 diferansiyel ifade gösteren gen saptandı; 3. ayda snRNA-seq'te hücre bileşimi ve gen ifadesi değişmedi, elektrofizyolojik ölçümler (ateşleme hızı, burst, senkronizasyon) kontrolden farklı değildi. Yazarlar bulguların yalnızca ana bileşik APAP için geçerli olduğunu, metabolit aracılı veya sistemik etkilerin dışlanamayacağını belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107012",
+  "journal": "nbr",
+  "title": "Post-mortem human brain evidence for presynaptic dopaminergic dysregulation in cocaine use disorder: A systematic review",
+  "authors": "Letizia Biso, Matteo Lippi, Donato Morena ve ark.",
+  "online": "2026-10-06",
+  "pmid": "42837973",
+  "ozet": "Kokain kullanım bozukluğunda (KKB) postmortem insan beyni kanıtlarının presinaptik dopaminerjik düzensizliğe işaret edip etmediğini inceleyen PRISMA 2020 sistematik derleme; 17 vaka-kontrol çalışması, 887 beyin (533 KKB, 354 kontrol). En tutarlı örüntü presinaptik dopaminerjik düzensizlikti: DAT (SLC6A3) ölçümleri sık değişmişti (striatal bağlanma/immünreaktivite ile ventral orta beyin DAT mRNA azalması arasında uyumsuzluk), bazı çalışmalarda VMAT2 azalmıştı; orta beyinde NR4A2, TH ve FOXA2 ifadesi bazı çalışmalarda düşüktü, iki çalışmada α-sinüklein artmıştı. Serotonerjik ve noradrenerjik belirteçlerde tutarlı sinyal yoktu. Yazarlar yöntem/bölge heterojenitesi, postmortem aralık ve kadınların az temsil edilmesini sınırlılık olarak belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107019",
+  "journal": "nbr",
+  "title": "Title: Maternal circulating cytokine and chemokine levels during pregnancy and risk of autism spectrum disorder in offspring: a systematic review and meta-analysis",
+  "authors": "Md Ashik Imran, MD Rashadul Islam, Craig Robert Wright ve ark.",
+  "online": "2026-10-06",
+  "pmid": "42838428",
+  "ozet": "Gebelikte maternal dolaşımdaki sitokin/kemokin düzeyleri ile çocukta otizm spektrum bozukluğu (OSB) riskinin ilişkisini inceleyen sistematik derleme ve meta-analiz (yedi gözlemsel çalışma). OR temelli analizlerde nominal ilişkiler bulundu: IL-10 (OR 1,34), CXCL10 (1,62), IL-1α (1,42), IL-5 (1,49) ve IL-17A (0,81; ters yönde); CCL4 sınırda idi. SMD analizleri OSB ile ilişkili gebeliklerde daha yüksek IL-6 ve daha düşük IL-1β düzeyine işaret etti. Heterojenite IL-10 ve CCL4 için belirgindi. Yazarlar gebelikteki immün profilin farklı olabileceğini ancak tek bir güçlü sitokin biyobelirteci desteklenmediğini, tekrarlı örneklemeli büyük prospektif kohortlar gerektiğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107026",
+  "journal": "nbr",
+  "title": "Task Structure and Construct Validity in the Neurobiology of Trust: A Systematic Structural Synthesis",
+  "authors": "Davood Bayat, Fatemeh Zahra Shahraki Pour, Yan Wu ve ark.",
+  "online": "2026-10-06",
+  "pmid": "42838429",
+  "ozet": "Güven nörobiyolojisi literatürünün sistematik yapısal sentezi (198 çalışma, 200 deney; PRISMA rehberli). Etki büyüklüğü veya koordinat meta-analizi yapılmadı; paradigma mimarisi, ekonomik yapı, zamansal dinamikler, kontrol koşulları, ölçüm yöntemleri ve analiz stratejileri kodlandı. Alan standart ve ikili Güven Oyunu varyantları, simüle edilmiş partnerler, sınırlı açık kontroller ve karar/sonuç evresi analizleriyle baskındı. Görev mimarisi, ölçüm ve analitik işlemselleştirme arasında ilişkiler bulundu. Yazarlar nörobiyolojik bulguların gözlendikleri görev özellikleri ve karşıtlıklar bağlamında yorumlanması için yapısal-hesaplamalı hizalama çerçevesi önerir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1038/s41386-026-02568-y",
+  "journal": "npp",
+  "title": "ICER-Controlled inhibitory plasticity of amygdala engram neurons regulates fear memory precision",
+  "authors": "Hyunyong Lee, Seungho Lee, Taesik Yoo ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Korku ayrımı kesinliğinin (fear discrimination) nöral mekanizmaları farelerde incelendi. İşitsel korku koşullanması sonrası lateral amigdaladaki korku engram nöronlarına parvalbumin-pozitif internöron (PV-IN) aracılı ileri beslemeli inhibisyonun, Gabra1 (α1) içeren GABA-A reseptörlerinin postsinaptik artışıyla seçici olarak güçlendiği bulundu. Geri çağırma sırasında PV-IN aktivitesinin optogenetik/kemogenetik baskılanması veya PV→EN sinapslarında inhibitör LTD indüklenmesi, koşullu uyaranı etkilemeden yeni tonlara donmayı artırarak ayrımı bozdu. ICER'in Gabra1 ifadesini azaltarak inhibitör plastisiteyi sınırlandırdığı ve korku genellemesini artırdığı gösterildi. Yazarlar TSSB gibi bozukluklarda aşırı korku genellemesi için olası terapötik hedeflere işaret eder.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1038/s41386-026-02577-x",
+  "journal": "npp",
+  "title": "Multiple-context extinction strengthens fear suppression through hippocampal dopamine D2R-dependent memory updating",
+  "authors": "Eve A. Hammerman, Suzanne R. Penna, Shania E. Gonzalez ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Maruz bırakma tedavisinin temelindeki sönme öğrenmesinin bağlama bağımlılığı, farelerde tek bağlamda (SCFE) veya çoklu bağlamlarda (MCFE) sönme karşılaştırılarak incelendi (129S1 ve C57BL/6J). MCFE sönme öğrenmesini ve yeni bağlamlarda genelleşmiş sönme hatırlamasını artırdı; avantaj 30. günde de sürdü, ancak spontan geri dönüşü ve US ile yeniden başlamayı önlemedi. Dorsal (ventral değil) hipokampüsün kemogenetik susturulması ve dorsal hipokampüste D2 benzeri (D1 değil) dopamin reseptörlerinin bloke edilmesi MCFE'nin avantajını ortadan kaldırdı. Yazarlar bağlamsal çeşitliliğin dorsal hipokampal D2R'ye bağımlı bellek güncellemesiyle sönmeyi güçlendirdiğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1155/da/9921579",
+  "journal": "da",
+  "title": "Cross‐Disease Classification of Depression, Bipolar Disorder, and Schizophrenia Using Multiscale Spatiotemporal Network Fusion Features From fNIRS",
+  "authors": "Yajing Meng, Yulu Yang, Qing Li ve ark.",
+  "online": "2026-10-06",
+  "ozet": "fNIRS ve sözel akıcılık testi (VFT) kullanılarak MDB, BB ve şizofreni (SCZ) ayrımı için zamansal dinamikleri ve çizge-kuramsal topolojiyi birleştiren çok ölçekli uzay-zamansal ağ füzyonu (MSNF) özellik çıkarım yöntemi önerildi. MDB, BB, SCZ ve sağlıklı kontrolleri içeren 414 katılımcıda makine öğrenmesi modelleri ikili ve çok sınıflı ayrımda yöntemin sağlam ve geleneksel tek boyutlu özelliklerden üstün tanısal performans sağladığını gösterdi; grup düzeyinde fonksiyonel bağlantısallık analizleri gruplar arası ayrı nörobiyolojik imzalar ortaya koydu. Yazarlar MSNF-destekli fNIRS'in ölçeklenebilir bir nörogörüntüleme yaklaşımı olma potansiyeline işaret ediyor. (Sayısal performans değerleri erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112432",
+  "journal": "clinph",
+  "title": "Association among white matter lesions, rseeg rhythms, amyloid tau markers, and cognitive status in mild cognitive impairment patients",
+  "authors": "Claudio Del Percio, Roberta Lizio, Giuseppe Noce ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Clinical Neurophysiology'de yayımlanmış çalışma. Başlığa göre hafif bilişsel bozukluklu hastalarda beyaz cevher lezyonları, istirahat EEG ritimleri, amiloid-tau belirteçleri ve bilişsel durum arasındaki ilişkiyi incelemektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71885",
+  "journal": "alz",
+  "title": "Clusterin is enriched in plaque‐associated astrocytes and localizes to synapses in Alzheimer's disease",
+  "authors": "Robert A. J. Byrne, Aurora Veteleanu, Hannah L. Cramp ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Klusterinin (CLU, AH için önde gelen GWAS lokusu) insan beynindeki hücresel ve hücre altı yerleşimi incelendi. Salgılanan ve hücre içi klusterini ayıran monoklonal antikorlar geliştirilip biyosıvılarda, beyin dokusunda ve iPSC kökenli astrositlerde uygulandı. Antikorlar plazma, serum, BOS ve beyin homojenatında klusterin ölçümüne olanak verdi; klusterin AH beyninde amiloid plaklarıyla ilişkiliydi, sağlıklı ve AH dokusunda sinapslarda yerleşiyordu, hücre içi klusterin astrositlere özgüydü. Büyük plakları çevreleyen plakla ilişkili astrositlerde klusterin sinyali artmıştı. Yazarlar bulguların klusterinin beyin homeostazı ve AH patogenezindeki rolünü anlamaya katkı sağladığını belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71895",
+  "journal": "alz",
+  "title": "Cell‐based polygenic risk scores predict clinical progression and prioritize network‐based therapeutic targets in Alzheimer's disease",
+  "authors": "Nathan Sahelijo, Priya Rajagopalan, Lu Qian ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Geç başlangıçlı AH heterojenitesine yönelik hücre bazlı poligenik risk skorları (cbPRS) tek çekirdek RNA-seq koekspresyon ağlarından türetilerek ADNI ve Framingham kohortlarında değerlendirildi; ağ merkezleri PageRank ile önceliklendirildi, aday ilaçlar hiPSC kökenli astrositlerde test edildi. APOE'de yoğunlaşan (Ast-M2/Oli-M45) ve APOE'den bağımsız (Ast-M10/Oli-M50) iki genetik risk ekseni AH'ye hızlanmış ilerlemeyi öngördü (HR 1,25–2,02) ve temporal lob atrofisi, azalmış glukoz metabolizması, amiloid yükü ile ilişkiliydi; yüksek risk postmortem beyinde C4a ifadesini artırdı. Östradiol ve levetirasetam hiPSC astrositlerinde APOE ve kompleman C4 gen ifadesini anlamlı azalttı.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71788",
+  "journal": "alz",
+  "title": "A murine model of amyloid‐enhanced tauopathy: Comparison of wild‐type and P301L‐tau",
+  "authors": "Dylan J. Finneran, Taylor Desjarlais, Brianna M. Jackman ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Amiloidle güçlenen tauopati modelini optimize etmek için olgun amiloidli APP+PS1 farelere AAV.CAP-B10 ile intravenöz yabanıl tip (WT) veya P301L insan tau verilip karşılaştırıldı (davranış 5 ve 8 ay, doku 9 ay). İki grup mekansal öğrenme ve bellekte eşit derecede bozulmuştu. WT-tau grubunda tau hiperfosforilasyonu P301L'ye göre anlamlı fazlaydı; ancak P301L grubunda fosfo-tau birikimi ve Gallyas-pozitif nörofibriler yumak daha fazlaydı. WT-tau nörofibriler yumak olmadan da bilişsel bozulma yaptı; yazarlar WT-tau kullanımının ön klinik tedavi değerlendirmelerinde daha çevrilebilir olabileceğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71890",
+  "journal": "alz",
+  "title": "Longitudinal untargeted metabolomics of cognitive impairment in Parkinson's disease",
+  "authors": "Yuyuan Lin, Yu Yu, Keren Zhang ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Parkinson hastalığında (PH) bilişsel bozukluğun mekanizması, topluluk temelli vaka-kontrol çalışmasından boylamsal serum örneklerinin yönlendirilmemiş metabolomiğiyle incelendi (MMSE ile biliş). Üç metabolom çapında ilişkilendirme çalışması yapıldı: başlangıç kesitsel (n=632), olay-zamanı (n=412) ve tekrarlı ölçüm (n=265). 4762 özellikten başlangıç analizinde dördü, olay-zamanı analizinde 22'si anlamlıydı, tekrarlı ölçümde hiçbiri anlamlı değildi. Purin metabolizması, pentoz fosfat yolu, yağ asidi yolakları ve C21-steroid hormon biyosentezi bozuk bulundu. Yazarlar pentoz ve purin yolaklarındaki bozuklukların klinik bilişsel düşüşten önce olabileceğini ve erken metabolik belirteç sağlayabileceğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71839",
+  "journal": "alz",
+  "title": "A murine model of amyloid enhanced tauopathy: progressive changes in tau pathology and behavior",
+  "authors": "Dylan J. Finneran, Taylor Desjarlais, Brianna M. Jackman ve ark.",
+  "online": "2026-10-06",
+  "ozet": "Önceki çalışmada olgun amiloidli farelere sistemik P301L-tau enjeksiyonunun tauopatiyi çok kat artırdığı gösterilmişti; bu çalışmada APP+PS1 farelere AAV.CAP-B10 ile P301L tau (A/P+P301L) verilerek patolojinin ilerleyişi izlendi. A/P+P301L fareler, APP+PS1 kontrol ve AAV-tau verilen non-transgenik farelerden daha ağır mekansal navigasyon belleği bozukluğu gösterdi. Tau fosforilasyonu ve birikimi enjeksiyondan 5 aydan 9. aya artarak çok sayıda Gallyas-pozitif yumakla sonuçlandı. Yazarlar tau patolojisinin amiloidozla sinerjik olarak bilişsel bozulmayı artırdığını ve patolojinin evrelenmesinin AH'ye benzediğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71868",
+  "journal": "alz",
+  "title": "Cognitive impairment in Parkinson disease correlates with loss of cholinergic axon projections to cortex in an autopsy study",
+  "authors": "Rebecca Miller, Jennifer O'Shea, Laura M. Rosok ve ark.",
+  "online": "2026-10-06",
+  "ozet": "PH'de bilişsel bozukluk ile Meynert bazal çekirdeğinden neokortekse kolinerjik akson projeksiyonlarının kaybı arasındaki ilişki otopsi çalışmasıyla incelendi. 37 PH otopsi olgusunda sekiz beyin bölgesinde kolin asetiltransferaz (ChAT) düzeyleri ELISA ile ölçüldü; global bilişsel bozukluk ölçütleriyle dört neokortikal bölgenin ortalama ChAT düzeyi karşılaştırıldı. Ortalama neokortikal ChAT, MMSE ve global biliş z-skoruyla pozitif korelasyon gösterdi; Klinik Demans Derecelendirmesi kutu toplamıyla ters yönde eğilim vardı. Yazarlar neokortekse kolinerjik projeksiyon kaybının PH'de bilişsel bozukluğun gelişimindeki rolünü destekleyen sonuç olarak yorumluyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10820",
+  "journal": "bjp",
+  "title": "‘Playing the Manic Game’ revisited",
+  "authors": "Mohamed A. Soliman, Andrew A. Nierenberg, Gary S. Sachs",
+  "online": "2026-10-05",
+  "ozet": "Editoryal. 50 yılı aşkın süre önceki 'Playing the Manic Game' makalesindeki klinik gözlemleri yeniden ele alarak akut maniyada ortaya çıkan yıkıcı davranışın ne kadarının epizodun kendisine, ne kadarının kalıcı bir kişilik örüntüsüne bağlı olduğu sorusunu tartışmaktadır. Yazarlara göre bu ayrım tedavi, ekip yaklaşımı, aileler ve damgalanma açısından önemlidir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1136/bmjment-2026-302859",
+  "journal": "bmjmh",
+  "title": "EDIT-B consortium: an external pan-European validation of an innovative machine learning-based test for bipolar disorder diagnosis",
+  "authors": "Dinah Weissmann, Nicolas Salvetat, Christopher Cayzac ve ark.",
+  "online": "2026-10-05",
+  "ozet": "Majör depresif epizodda bipolar bozukluk (BB) ile MDB ayrımı için, klinik veriyle sekiz gende A-to-I RNA editleme imzasını birleştiren makine öğrenmesi tabanlı EDIT-B testi bağımsız, çift kör, çok merkezli Avrupa kohortunda (İspanya, Fransa, Danimarka) doğrulandı. Güncel majör depresif epizodu olan 393 hastada (238 MDB, 155 BB) AUC 0,873 (0,837–0,909), duyarlılık %82,6 ve özgüllük %80,3 bulundu; sonuçlar merkezler ve alt gruplar arasında tutarlıydı. Açıklanabilirlik analizinde en önemli değişkenler RNA editleme belirteçleriydi. Yazarlar testin tanı gecikmesini azaltabilecek tamamlayıcı bir araç olduğunu belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107023",
+  "journal": "nbr",
+  "title": "How Does Adolescent Neurodevelopment Impact Substance Use? The Substance use Neuroplasticity And Peer (SNAP) Model: a Novel Neurodevelopmental Model of Adolescent Substance Use",
+  "authors": "Genevieve F. Dash, Sarah D. Lichenstein, Annie Cheng ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42833428",
+  "ozet": "Derleme ve model önerisi. Erişkin bağımlılık modellerinin ergenlerde (13–18 yaş) güvenilir biçimde gözlenmeyen bulgulara dayandığı, bu nedenle ergen madde kullanımının kavramsallaştırılması, ölçümü ve tedavisinde uyumsuzluk yarattığı savunulur. Ergenlerde madde kullanımına özgü nörobiyolojik risk etkenleri ve mekanizmalara ilişkin insan ve ön klinik modeller gözden geçirilir ve başlangıç ile artışı açıklayan, Substance use Neuroplasticity And Peer (SNAP) adlı yeni bir nörogelişimsel model sunulur.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107022",
+  "journal": "nbr",
+  "title": "Muscle oxygen saturation (SmO2): An Upstream Metabolic Link Connecting Peripheral Muscle Metabolism to Central Neurobiological Adaptations",
+  "authors": "Karuna Regmi, Ekta Kohli",
+  "online": "2026-10-05",
+  "pmid": "42833427",
+  "ozet": "Derleme/kavramsal model. Fiziksel aktivitenin beyne etkisinde kas oksijen satürasyonunun (SmO2) rolü tartışılır: egzersizle kas oksijenasyonundaki düşüş laktat üretimiyle ilişkilidir; laktat beyinde enerji substratı, sinyal molekülü ve epigenetik modülatör olarak BDNF ifadesini ve nöroplastisiteyi destekleyebilir. Yazarlar bir 'SmO2–laktat–beyin ekseni' önerir ve SmO2'nin nöropsikoloji için invaziv olmayan bir biyobelirteç olabileceğini, fiziksel aktivite temelli müdahalelerin optimize edilmesine katkı sağlayabileceğini belirtir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1038/s41386-026-02573-1",
+  "journal": "npp",
+  "title": "The claustrum encodes and scales appetitive feeding",
+  "authors": "Camille de Almeida, Nejmeh Mashhour, Benoit Bertrand ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42834093",
+  "ozet": "Kısa bildiri (fare çalışması). Klaustrumun beslenmedeki rolü araştırılmış; lezzetli gıdanın klaustrum nöronlarını ve klaustrum–medial prefrontal korteks devresini devreye soktuğu, bu devrenin aktivasyonunun yüksek yağlı diyet alımını azalttığı bildirilmiştir. Yazarlar klaustrumu iştahsal beslenmenin anahtar düzenleyicisi olarak tanımlar ve metabopsikiyatrik bozukluklar için olası önemine işaret eder. (Yalnızca kısa özet mevcut.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.09.017",
+  "journal": "neuromod",
+  "title": "CORE-VNS Seizure and Non-Seizure 36 Month Outcomes in People with Drug-resistant Epilepsy",
+  "authors": "Arjune Sen, Patrick Kwan, Paul Lyons ve ark.",
+  "online": "2026-10-05",
+  "ozet": "Neuromodulation dergisinde yayımlanmış çalışma. Başlığa göre ilaca dirençli epilepsili kişilerde vagus sinir stimülasyonunun (CORE-VNS) nöbet ve nöbet dışı sonuçlarını 36 ay boyunca bildirmektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.09.019",
+  "journal": "neuromod",
+  "title": "Motor Cortex Stimulation in the Treatment of Chronic Neuropathic Pain: Real-World Data on Long-Term Outcomes, Predictors of Response, and Safety",
+  "authors": "Emil Isagulyan, Evgeniy Dorokhov, Viktor Kondratyev ve ark.",
+  "online": "2026-10-05",
+  "ozet": "Neuromodulation dergisinde yayımlanmış çalışma. Başlığa göre kronik nöropatik ağrı tedavisinde motor korteks stimülasyonunun uzun dönem sonuçları, yanıt belirleyicileri ve güvenliğine ilişkin gerçek yaşam verilerini sunmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.09.018",
+  "journal": "neuromod",
+  "title": "Acute Effects of Transcutaneous Spinal Cord Stimulation (tSCS) on Gait Symmetry in People with Chronic Stroke",
+  "authors": "Mitchell Tillman, Nicole Veit, Ameen Kishta ve ark.",
+  "online": "2026-10-05",
+  "ozet": "Neuromodulation dergisinde yayımlanmış çalışma. Başlığa göre kronik inmeli kişilerde transkutanöz spinal kord stimülasyonunun (tSCS) yürüyüş simetrisine akut etkilerini incelemektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.02.005",
+  "journal": "neuromod",
+  "title": "Response to: Vagal Nerve Stimulation for Chronic Constipation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+  "authors": "Mohamad Abi Nassif, Neha R. Santucci",
+  "online": "2026-10-05",
+  "pmid": "42833767",
+  "ozet": "Neuromodulation dergisinde yanıt/yazışma (letter). Kronik konstipasyonda vagal sinir stimülasyonuna ilişkin RKÇ'lerin sistematik derleme ve meta-analizine yönelik bir yanıttır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/s1094-7159(26)01334-6",
+  "journal": "neuromod",
+  "title": "INS Board of Directors",
+  "authors": "",
+  "online": "2026-10-05",
+  "ozet": "Neuromodulation dergisinde idari/dernek duyurusu: Uluslararası Nöromodülasyon Derneği (INS) Yönetim Kurulu listesi. Bilimsel içerik yoktur. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/s1094-7159(26)01347-4",
+  "journal": "neuromod",
+  "title": "2026 Calendar of Events",
+  "authors": "",
+  "online": "2026-10-05",
+  "ozet": "Neuromodulation dergisinde 2026 etkinlik takvimi duyurusu. Bilimsel içerik yoktur. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112434",
+  "journal": "clinph",
+  "title": "Resting motor threshold as a predictor of rehabilitation Outcomes in Multiple Sclerosis",
+  "authors": "Michelangelo Dini, Letizia Turchi, Marika Ranieri ve ark.",
+  "online": "2026-10-05",
+  "ozet": "Clinical Neurophysiology'de yayımlanmış çalışma. Başlığa göre dinlenme motor eşiğinin multipl sklerozda rehabilitasyon sonuçlarını öngörmedeki rolünü incelemektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.euroneuro.2026.113881",
+  "journal": "enp",
+  "title": "Nutraceuticals and phytoceuticals in the treatment of bipolar disorder: A systematic review and network meta-analysis",
+  "authors": "Michele Fornaro, Nicolas A. Nunez, Chiara Di Lorenzo ve ark.",
+  "online": "2026-10-05",
+  "pmid": "42832826",
+  "ozet": "Bipolar bozuklukta (BB) nutrasötik ve fitosötiklerin etkisini değerlendiren sistematik derleme ve ağ meta-analizi (Temmuz 2025'e kadar taranan veri tabanları; 22 tedaviyi değerlendiren 28 RKÇ, n=2222). Depresif belirtilerde plasebodan üstün tedavi yoktu; palmitoyletanolamid plasebodan kötüydü (SMD 2,69; tek çalışma, I²=%86). Manik belirtilerde palmitoyletanolamid (SMD −4,58) ve folik asit (SMD −2,42) plasebodan üstündü (I²=%91,3); palmitoyletanolamid bulgusu tek RKÇ'ye dayanıyordu. Free-and-easy-wanderer-plus™ + karbamazepin yanıt ve kabul edilebilirlikte plasebodan üstündü. CINeMA güvenilirliği çoğunlukla düşük/çok düşüktü. Yazarlar akut BB için hiçbir nutrasötik/fitosötik adına kesin öneri yapılamayacağını belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/alz.71827",
+  "journal": "alz",
+  "title": "Structural compression and entorhinal vulnerability: Linking tentorial adjacency to tau burden and dementia progression",
+  "authors": "Luyue Zhang, Ana M. Franceschi, John F. Crary ve ark.",
+  "online": "2026-10-05",
+  "ozet": "Entorinal korteksin (EK) tentoryal insizüra (TI) ile yakınlığının kronik mekanik stres yoluyla tau patolojisine katkıda bulunabileceği biyomekanik kaskad hipotezi test edildi. ADNI çok modelli görüntü verisiyle (n=47) EK–TI yakınlığını ölçen nöroanatomik temas katsayısı (NCC) geliştirildi ve katılımcılar yüksek/düşük bitişiklik gruplarına ayrıldı. Risk faktörleri kontrol edildiğinde EK tau PET sinyali, hafif bilişsel bozukluktan AH'ye dönüşümü yalnızca yüksek bitişiklik grubunda öngördü (P=0,036). Yazarlar EK–TI yakınlığını olası yeni, anatomik temelli bir AH risk biyobelirteci olarak öneriyor (küçük örneklem).",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107016",
+  "journal": "nbr",
+  "title": "The impact of social isolation on the development of alcohol use and alcohol addiction-related processes in animals: A systematic review",
+  "authors": "Sofie van Koppen, Karis Colyer-Patel, Emel Souiki ve ark.",
+  "online": "2026-10-04",
+  "pmid": "42830163",
+  "ozet": "Hayvanlarda sosyal izolasyonun alkol kullanımı ve bağımlılıkla ilişkili süreçlerin gelişimine etkisini inceleyen sistematik derleme (Nisan 2026'ya kadar Embase, PubMed, PsycInfo; 66 çalışma). Sosyal izolasyon daha yüksek alkol tüketimi ve motivasyonla ilişkiliydi, ancak etki izolasyonun başlama yaşına ve diğer düzenleyicilere bağlıydı; sütten kesme döneminde izolasyon erişkinlikten daha güçlü etki yarattı, cinsiyetin düzenleyici rolü tutarsızdı. Nörobiyolojik çalışmalarda (14 çalışma) alkol sonrası izole hayvanlarda dopaminerjik ve noradrenerjik sinyalin arttığı görüldü; GABAerjik, opioiderjik ve serotonerjik sistemlerde bölge ve alt birime özgü etkiler vardı. Yazarlar bulguları ön mekanistik açıklama olarak sunuyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112431",
+  "journal": "clinph",
+  "title": "Responsiveness and clinical correlates of continuous turns-amplitude analysis measures in myositis: A prospective longitudinal study",
+  "authors": "L. Bosco, C. Laurini, C. Butera ve ark.",
+  "online": "2026-10-04",
+  "ozet": "Clinical Neurophysiology'de yayımlanmış prospektif boylamsal çalışma. Başlığa göre miyozitte sürekli turns-amplitude analiz ölçümlerinin yanıt verebilirliğini ve klinik korelasyonlarını incelemektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1007/s40263-026-01341-5",
+  "journal": "cnsdrugs",
+  "title": "A Phase 3, Multicenter, Randomized, Placebo-Controlled Trial Evaluating the Efficacy, Safety, and Tolerability of Serdexmethylphenidate/d-Methylphenidate Capsules in Chinese Children with Attention-Deficit/Hyperactivity Disorder",
+  "authors": "Jing Liu, Ying Yang, Yi Wang ve ark.",
+  "online": "2026-10-04",
+  "pmid": "42830387",
+  "ozet": "Serdeksmetilfenidat/deksmetilfenidatın (SDX/d-MPH) Çinli DEHB'li çocuklarda etkinlik ve güvenliği faz 3, çok merkezli, çift kör, plasebo kontrollü köprüleme çalışmasında değerlendirildi (6–12 yaş, DSM-5). 55 çocuk randomize edildi (SDX/d-MPH 28, plasebo 27). 3. haftada ADHD-RS-5 toplam skorunda plaseboya göre anlamlı üstünlük görüldü (LSM farkı −5,8; p=0,0292; etki büyüklüğü 0,61); 4. haftada toplam skor (−8,4), dikkat eksikliği (−4,4) ve hiperaktivite-dürtüsellik (−3,7) alt skorları, CGI-S, CGI-I ve WREMB-R'de anlamlı iyileşme vardı. (Güvenlik sonuçlarının ayrıntısı erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1038/s41380-026-03918-4",
+  "journal": "molpsy",
+  "title": "Psychedelics and disorders of consciousness: a new frontier in neurotherapeutics",
+  "authors": "Xiubo Du, Feiyuan Peng, Xiaohui Wang",
+  "online": "2026-10-03",
+  "pmid": "42829371",
+  "ozet": "Perspektif yazısı. Koma, yanıtsız uyanıklık sendromu ve minimal bilinçli durum gibi bilinç bozukluklarında (DoC) psilosibin, LSD ve DMT gibi psikedeliklerin potansiyel tedavi rolünü tartışır. 5-HT2A agonizmi ile yaygın kortikal bağlantısallık ve nöral entropiyi artırarak izole bölgeler arası iletişimi onarabileceği varsayılır. İnsanlarda pilot ve olgu çalışmalarıyla ilk fizibilite verileri ortaya çıkmış olsa da bilincin kalıcı geri kazanıldığını gösteren kontrollü klinik kanıt yoktur. Doz, güvenlik ve etik sorunların çözülmesi gerektiği vurgulanır.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107014",
+  "journal": "nbr",
+  "title": "Maturation of Cognitive Control in the Inferior Frontal Junction: A Combined Systematic Review and Coordinate-Based fMRI Meta-Analysis",
+  "authors": "Cidney Montford, Jeremy Hogeveen",
+  "online": "2026-10-03",
+  "pmid": "42829143",
+  "ozet": "Sistematik derleme ve koordinat tabanlı fMRG meta-analizi: inferior frontal kavşağın (IFJ) bilişsel kontrol süreçlerinde (inhibisyon, geçiş, çalışma belleği) gençlerde ve erişkinlerde olgunlaşması incelendi (72 kontrast, 779 odak, N=1913). Erişkinlerde IFJ aktivasyonu üç alanda da tutarlıyken, gençlerde iki taraflı IFJ yakınsaması yalnızca inhibisyon görevlerinde görüldü. Erişkinlerde sol IFJ geçiş ve çalışma belleğine özgü duyarlılık gösterirken gençlerde bu görülmedi. Yazarlar IFJ'nin tek parça değil, farklı evrelerde olgunlaşan dinamik bir merkez olduğunu belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107018",
+  "journal": "nbr",
+  "title": "Paternal infections and immune activation program offspring neurobehavior in a sex-dependent manner",
+  "authors": "Da Lu, Huan Liao, Anthony J. Hannan",
+  "online": "2026-10-03",
+  "pmid": "42829141",
+  "ozet": "Derleme. Babanın SARS-CoV-2, parazit, mantar enfeksiyonu, polimikrobiyal sepsis ve patojen taklidi immün aktivasyon modellerini kapsayan preconception bağışıklık yüklerinin yavrunun nörodavranışı ve bağışıklığı üzerindeki cinsiyete bağlı etkilerini sentezler. Etkiler erkek ya da dişi yönlü olabilir veya farklı alanlarda ifade edilir; tek bir 'erkek kırılganlığı' anlatısı desteklenmez. Sperm RNA çalışmaları, germ hattı sinyalinin paylaşılıp gelişimsel yorumlanmanın cinsiyete göre ayrıştığı bir iletim-çözümleme çerçevesini destekler. Plasental dimorfizm, hormon–bağışıklık etkileşimi ve cinsiyet kromozomu biyolojisi aday mekanizmalar olarak tartışılır.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107017",
+  "journal": "nbr",
+  "title": "The neural architecture of first-person moral choice: a demand-dependent working model",
+  "authors": "Alana Arrouet, Jennifer Chandler, Steven Laureys ve ark.",
+  "online": "2026-10-03",
+  "pmid": "42829142",
+  "ozet": "Anlatısal derleme. Birinci tekil şahıs ahlaki seçimin nöral mimarisini, nörogörüntüleme ve elektrofizyoloji kanıtlarından 'bütünleştirme talebi'ne dayanan zamansal bir çalışma modeliyle sentezler. Model dört katkı ayırır: belirginlik odaklı yönelim, posterior default-mode/medial temporal öz-ilişkili durum kurgusu, rakip kural/sonuçlar varken yürütücü kontrol/frontoparyetal karşılaştırma ve ventromedial prefrontal değer bütünleştirmesi. Bu katkılar sabit bir sıra izlemez; ahlaki seçimin özel bir ağdan çok alan-genel süreçlerin değişen koordinasyonundan doğduğu öne sürülür. Test edilebilir öngörüler üretilir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1155/da/5875889",
+  "journal": "da",
+  "title": "A Randomized Controlled Trial of a Digital Stepped‐Care Program to Reduce Anxiety and Depressive Symptoms Among Long‐Term Care Workers With Psychological Distress: The REPICAL Study",
+  "authors": "Leticia González-Spinoglio, Mireia Esplugues-Tormo, Iago Giné-Vázquez ve ark.",
+  "online": "2026-10-03",
+  "ozet": "Psikolojik sıkıntısı olan uzun süreli bakım çalışanlarında (LTCW) anksiyete ve depresif belirtileri azaltmak için DSÖ müdahalelerinden uyarlanan dijital kademeli bakım programının (DWM, sürerse PM+) etkisi paralel gruplu RKÇ'de değerlendirildi (REPICAL, Katalonya; K10 ≥16). Ekim 2022–Mayıs 2024'te 165 katılımcı randomize edildi (müdahale 83, kontrol 82); herkes Psikolojik İlk Yardım aldı. 21. haftada (programdan 2 ay sonra) PHQ-ADS ile depresif ve anksiyete belirtileri müdahale grubunda anlamlı düşüktü (ortalama fark 4,2; %95 GA 1,1–7,3), etki büyüklüğü orta-büyüktü. (Özetin devamı erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1155/da/6981320",
+  "journal": "da",
+  "title": "Comparative Analysis of Antidepressant Mechanisms and Side Effects: Network Pharmacology and Molecular Docking Study of Amitriptyline, Mirtazapine, and Escitalopram for Treating Major Depressive Disorder",
+  "authors": "Chuanjun Zhuo, Qiuyu Zhang, Haitao Song ve ark.",
+  "online": "2026-10-03",
+  "ozet": "Amitriptilin, mirtazapin ve essitalopramın etkinlik ve yan etkilerindeki benzerlik/farklılıkları ağ farmakolojisi ve moleküler doking ile inceleyen hesaplamalı çalışma. Halka açık veri tabanlarından hedefler alındı; PPI ve ilaç-hedef-yolak ağları kuruldu, GO/KEGG analizleri ve AutoDock Vina ile doking yapıldı. MDB tedavisi için 48 ortak hedef ve ilaç başına özgül hedefler (amitriptilin 66, mirtazapin 50, essitalopram 30) bulundu; kritik yollar arasında nöroaktif ligand–reseptör etkileşimi, kalsiyum sinyali ve serotonerjik sinaps vardı. Anahtar hedefler DRD2, CYP2D6, MAOB, SLC6A3, SLC6A4, HTR2C ve CHRNA4'tü; MAOB amitriptilinle en yüksek bağlanma afinitesini gösterdi, onu SLC6A4 ve DRD2 izledi. (Özetin devamı erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112422",
+  "journal": "clinph",
+  "title": "Targeting the temporal architecture of movement in Parkinson’s disease",
+  "authors": "Caterina Pauletti, Antonio Suppa",
+  "online": "2026-10-03",
+  "pmid": "42833893",
+  "ozet": "Clinical Neurophysiology'de yayımlanmış çalışma. Başlığa göre Parkinson hastalığında hareketin zamansal mimarisini hedeflemeyi ele almaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10804",
+  "journal": "bjp",
+  "title": "ADHD, autism or complex trauma? The complicated nature of the question",
+  "authors": "Nicole Koziel",
+  "online": "2026-10-02",
+  "pmid": "42825402",
+  "ozet": "Editoryal/görüş yazısı. Başlığına göre DEHB, otizm ve karmaşık travma ayrımının zorluğunu tartışmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10777",
+  "journal": "bjp",
+  "title": "Demographic, history, university and lifestyle factors associated with university student mental health: cross-sectional analysis across five UK universities",
+  "authors": "Jemima Dooley, Katheryn F. Morse, Nicola Byrom ve ark.",
+  "online": "2026-10-02",
+  "ozet": "Üniversite öğrencilerinde ruh sağlığı ve iyilik halini ilişkilendiren faktörleri belirlemek amaçlandı. Nurture-U anketi (2022–2024, İngiltere'de beş üniversite) ile akademik yıl başında 14.172 öğrencide kesitsel analiz yapıldı; PHQ-9, GAD-7 ve SWEMWBS ile depresyon, anksiyete ve iyilik hali hiyerarşik doğrusal regresyonla incelendi. Öğrencilerin dörtte birinden fazlasında olası anksiyete veya depresyon saptandı. Genç yaş, kadın cinsiyet, LGBTQIA+ kimlik ve engelli olma daha kötü ruh sağlığıyla ilişkiliydi. Yazarlar bulguların bütüncül üniversite yaklaşımı kapsamındaki girişimler için kanıt tabanı sunduğunu belirtmektedir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s0033291726106230",
+  "journal": "psymed",
+  "title": "From lack of assertiveness to depression: A co-twin control study of hostility and social support across 23 years",
+  "authors": "Sherard Guan Jie Tan, Nur Hani Zainal",
+  "online": "2026-10-02",
+  "ozet": "Atılganlık eksikliği (LOA) ve düşmanlığın depresyonla bağlantısında sosyal destek (SS) eksikliğinin aracılığı, Swedish Adoption/Twin Study of Aging verisiyle test edildi. 2034 ikiz (1017 çift) 23 yıla kadar izlendi; seri ve paralel aracılık modelleri ve çift içi fark analizleri kullanıldı. Monozigot ikizlerde LOA düşmanlığı öngörmedi, seri dolaylı etki anlamsızdı; düşmanlık→SS→depresyon dolaylı etkisi anlamlıydı (b=0,020). LOA ve düşmanlık her iki modelde depresyonu doğrudan öngördü (β=0,100–0,227). Dizigot ikizlerde LOA düşmanlığı öngördü (β=0,089). Yazarlar monozigot ikizlerdeki yokluğun genetik karıştırıcıyla uyumlu olduğunu, ancak sınırlı güç ve ölçüm hatasının dışlanamayacağını belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s0033291726106072",
+  "journal": "psymed",
+  "title": "Estimating trends in serious psychological distress and depression among 18- to 64-year-olds in the United States from 2004 to 2019 using K6 and PHQ scales",
+  "authors": "Christopher Ruhm",
+  "online": "2026-10-02",
+  "ozet": "2004–2019 arasında ABD'de 18–64 yaş yetişkinlerde ciddi psikolojik sıkıntı ve depresyon eğilimlerinin farklı ulusal anketlerde tutarlı olup olmadığı incelendi. Dört hanehalkı anketinden K6, PHQ-2 ve PHQ-9 ile yıllık oranlar hesaplandı ve kötü ruh sağlığının dört olası sonucuyla karşılaştırıldı. Bu sonuçlar zamanla arttı; NHIS ve NSDUH'ta K6 ile ölçülen sıkıntı ve NHANES'te PHQ-2/PHQ-9 ile ölçülen depresyon da arttı, buna karşın MEPS'te K6 ve PHQ-2 ile ölçülen oranlar 2012 sonrası belirgin düştü. Yazarlar yetişkin ruh sağlığının 2004–2019'da büyük olasılıkla kötüleştiğini, ancak bazı yüksek kaliteli anketlerin bunu yansıtmadığını belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s0033291726106096",
+  "journal": "psymed",
+  "title": "Response to Schöpfer et al. ‘Neural systems underlying autobiographical memory dysregulations in depression: A neuroimaging meta-analysis’",
+  "authors": "Cheuk Chi Charlotte Cheng, Mercy Chepngetich Bore, Benjamin Becker",
+  "online": "2026-10-02",
+  "pmid": "42823857",
+  "ozet": "Yanıt/yazışma (letter). Schöpfer ve ark.'nın depresyonda otobiyografik bellek düzensizliğinin nöral sistemlerini inceleyen nörogörüntüleme meta-analizine yönelik bir yanıttır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s0033291726106060",
+  "journal": "psymed",
+  "title": "Loneliness as a risk factor for bipolar disorder and its related brain structure alterations",
+  "authors": "Jianing Wang, Zhongpeng Dai",
+  "online": "2026-10-02",
+  "ozet": "Yalnızlığın bipolar bozukluk (BB) riski ve beyin yapısal değişiklikleriyle ilişkisi araştırıldı. UK Biobank'tan başlangıçta BB tanısı olmayan 491.472 kişi (38–73 yaş) 2022'ye kadar izlendi; 16 yılda 1316 kişi BB geliştirdi. Yalnızlık BB riskini üç kattan fazla artırdı (HR 3,31; %95 GA 2,97–3,69) ve karıştırıcılar düzeltildikten sonra da anlamlıydı (HR 2,83; 2,47–3,23). Görüntülemede yalnızlık, duygu düzenlemesi ve sosyal bilişle ilgili bölgelerde yaygın gri madde hacmi azalmasıyla ilişkiliydi; etki BB poligenik risk skoru yüksek bireylerde daha belirgindi. Yazarlar yalnızlığın ele alınmasının BB riskini azaltmada önemli olabileceğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107006",
+  "journal": "nbr",
+  "title": "Oscillopathic features and neuromodulation with tACS in people with Parkinson’s disease: A semi-systematic review",
+  "authors": "George M. Opie",
+  "online": "2026-10-02",
+  "pmid": "42822133",
+  "ozet": "Yarı sistematik derleme. Parkinson hastalığındaki osilatuvar değişikliklerin ve bunları hedefleyen transkraniyal alternatif akım stimülasyonunun (tACS) literatürünü özetler. Mevcut çalışmalarda tACS'ın semptomlar ve nörofizyolojik açıkta yararlı etkileri bildirilmiş, çok seanslı ön denemeler kalıcı etkiye işaret etmiş, hayvan modelleri nörotrofin içeren nöroprotektif süreçleri göstermiştir. Yazarlar yeni nörofizyolojik özelliklerin incelenmesi, bireyselleştirme ve hedeflemenin optimizasyonu gibi alanlarda gelişme gerektiğini belirtir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.106998",
+  "journal": "nbr",
+  "title": "The neural architecture of social threat: A meta-analytic comparison of indirect and direct social threat",
+  "authors": "Giovanni Bonacina, Lisa Wagels, Ute Habel ve ark.",
+  "online": "2026-10-02",
+  "pmid": "42822799",
+  "ozet": "Dolaylı (IST) ve doğrudan (DST) sosyal tehdidin nöral temellerini karşılaştıran koordinat tabanlı ALE meta-analizi (28 IST kontrastı, N=1081; 28 DST kontrastı, N=855). Ortak yakınsama sol ön insula–inferior frontal girusta bulundu. DST, IST'ye göre sağ ön insula, iki taraflı klaustrum ve ön/orta singulat kortekste daha güçlü yakınsama gösterdi; IST>DST için küme çıkmadı. Öngörülen IST'ye özgü temporoparyetal kavşak/posterior singulat ve DST'ye özgü amigdala/ventral striatum yakınsamaları gözlenmedi. Yazarlar çerçevenin kısmen desteklendiğini, hayvan modelleriyle uyumun geçici olduğunu belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107008",
+  "journal": "nbr",
+  "title": "Analyzing multisensory integration: Do’s and don’ts",
+  "authors": "Haocheng Zhu, Ulrik Beierholm, Ladan Shams",
+  "online": "2026-10-02",
+  "pmid": "42826599",
+  "ozet": "Metodolojik/görüş yazısı. Çoklu duyusal bütünleşmeyi ölçen davranışsal göstergelerin (çapraz-modal yanılsama büyüklüğü, zamansal bağlama penceresi) tek başına yorumlanamayacağını, tek duyulu duyarlılık ve amodal öncüllerden etkilendiğini savunur. Bayesçi Nedensel Çıkarım simülasyonlarıyla aynı davranışsal örüntünün farklı nedenlerden doğabildiği ve grup farklarının yanlışlıkla bütünleşme 'eksikliği' ya da 'artışı' sayılabildiği gösterilir. Tamamlayıcı hesaplamalı çerçeveler gözden geçirilir ve deneysel tasarımdan parametre kestirimine uzanan modele dayalı bir çıkarım hattı önerilir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107005",
+  "journal": "nbr",
+  "title": "Acidic cannabinoids in brain disorders: Neurobiological mechanisms, preclinical evidence, and translational challenges",
+  "authors": "Alessandro Rava, Melania Di Trapano, Calvin Tse ve ark.",
+  "online": "2026-10-02",
+  "pmid": "42826598",
+  "ozet": "Derleme. THCA, CBDA, CBGA gibi asidik kannabinoidlerin biyosentezi, kararlılığı, farmakokinetiği ve nötr kannabinoidlerden farklarını özetler. Ön klinik kanıtlar serotonerjik ve endokannabinoid sinyal, nöroenflamasyon, oksidatif stres, mitokondriyal işlev bozukluğu ve sinaptik iletimin modülasyonuna işaret eder; epilepsi, anksiyete, depresyon, psikozla ilişkili durumlar ve nörodejeneratif hastalıklardaki potansiyel etkileri incelenir. Yapay zekâ ve hesaplamalı yaklaşımların rolü ile metodolojik ve translasyonel engeller tartışılır. Yazarlar bu bileşiklerin umut verici ama az incelenmiş çok hedefli moleküller olduğunu belirtir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1007/s40263-026-01340-6",
+  "journal": "cnsdrugs",
+  "title": "Cognitive Effects of Cenobamate as Compared to Perampanel: A Cross-Sectional Multicentre Study in 600 Patients",
+  "authors": "Juri-Alexander Witt, Judit Catalán-Aguilar, Elisa Schütz ve ark.",
+  "online": "2026-10-02",
+  "pmid": "42827227",
+  "ozet": "Epilepsi hastalarında senobamat (CNB) ile perampanelin (PER; objektif bilişe sistematik olumsuz etkisi olmayan bir ASM) bilişsel performansa etkisi retrospektif kesitsel çok merkezli çalışmada karşılaştırıldı. 600 hasta (ort. yaş 38,7; %48,5 kadın): 200 CNB (ort. 190,9 mg/gün) ve eşleştirilmiş 400 PER (ort. 7,1 mg/gün); yürütücü işlevler EpiTrack ile değerlendirilip Bayesçi ANOVA yapıldı. CNB ve PER arasında bilişsel performans farkı yoktu (BF=0,207); eşlik eden ASM sayısı arttıkça belirgin olumsuz etki vardı (BF=9,5×10⁶). Yazarlar çalışmanın doza bağlı bilişsel yan etkileri değerlendirmeye uygun olmadığını belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1017/s0033291726105583",
+  "journal": "psymed",
+  "title": "Cognitive fusion-modulated structural covariance networks predict treatment response in drug-naive OCD: A multiscale neuroimaging-transcriptomic study",
+  "authors": "Xingbo Suo, Yang Zhang, Xinming Li ve ark.",
+  "online": "2026-10-01",
+  "ozet": "Obsesif-kompulsif bozuklukta (OKB) bilişsel füzyonun (CF) nöroanatomik temeli ve tedavi yanıtını öngörme değeri araştırıldı. İlk atak, ilaç kullanmamış 80 OKB hastası ve 70 sağlıklı kontrol yapısal MRG ile incelendi; hastalar 8 hafta SSRI aldı ve Allen İnsan Beyni Atlası ile transkriptomik analiz yapıldı. OKB'de frontal-limbik bölgelerde gri madde hacmi azalması, parietal/inferior frontal bölgelerde artış ve fronto-parieto-serebellar devrelerde artmış yapısal kovaryans görüldü. Yüksek CF skorları sol angüler girus ile sağ orta temporal/medial üst frontal girus arasındaki daha güçlü yapısal bağlantıyla ilişkiliydi; sol dorsolateral üst frontal girus (SFGdl) başlangıç hacmi CF düzelmesiyle pozitif korelasyon gösterdi. (Özetin devamı erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1038/s41380-026-03888-7",
+  "journal": "molpsy",
+  "title": "Reframing stress adaptation as a dynamic system failure along a threat-response continuum: towards a phase-specific, mechanism-driven framework",
+  "authors": "Dong’e Huang, Munan Lin, Junqing Dong",
+  "online": "2026-10-01",
+  "pmid": "42823450",
+  "ozet": "Derleme/perspektif yazısı. Başlığına göre stres uyumunu, tehdit-yanıt sürekliliği boyunca dinamik sistem başarısızlığı olarak yeniden çerçeveleyen, evreye özgü ve mekanizma temelli bir model önermektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107015",
+  "journal": "nbr",
+  "title": "Extracellular vesicles: Multi-source regulatory mechanisms in hippocampal homeostasis",
+  "authors": "Quan Liu, Liang Guo",
+  "online": "2026-10-01",
+  "pmid": "42822801",
+  "ozet": "Derleme. Hipokampal homeostazın yaşlanma, obezite ve bağışıklık durumu gibi sistemik etkenlerle ekstrasellüler veziküller (EV) aracılığıyla düzenlendiğini sentezler. Yağ dokusu, bağırsak/mikrobiyota, akciğer, kemik, kas, karaciğer, böbrek, kalp ve dalak kaynaklı periferik EV'ler ile nöron, mikroglia, astrosit, nöral kök hücre ve endotel kaynaklı santral EV'lerin nörojenez, enflamasyon ve sinaptik plastisiteyi nasıl modüle ettiği anlatılır; migrasomlar özel bir EV alt grubu olarak vurgulanır. Hipokampal işlev bozukluğuyla ilişkili hastalıklar için yeni tedavi bakış açıları önerilir.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107010",
+  "journal": "nbr",
+  "title": "Sensory processing and executive functioning interaction in neurodevelopmental disorders and at-risk conditions: A systematic review and meta-analysis",
+  "authors": "Stefano Scatigna, Marta Berni, Camilla Tognetti Nieri ve ark.",
+  "online": "2026-10-01",
+  "pmid": "42822800",
+  "ozet": "Nörogelişimsel bozukluk veya risk durumu (prematürite, genetik sendromlar) olan 0–18 yaş çocuk ve ergenlerde duyusal işlemleme (Dİ) ile yürütücü işlevler (Yİ) arasındaki ilişkiyi inceleyen PRISMA uyumlu sistematik derleme ve meta-analiz (30 çalışma). Tutarlı ve anlamlı korelasyon bulundu (r=0,19–0,77); meta-analitik etki büyüklüğü orta düzeydeydi (d=0,58), heterojenite yüksekti (I²=%82,9) ve tanı, yaş veya Yİ bileşeniyle açıklanmadı; performansa dayalı ölçümlerde ilişki daha güçlü ve heterojenite daha düşüktü. Duyusal ölçümler Yİ varyansının %28–71'ini açıkladı. Yazarlar değerlendirme ve müdahalede her iki alanın birlikte düşünülmesini öneriyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112427",
+  "journal": "clinph",
+  "title": "Individualized TMS–EEG mapping reveals clinically relevant early prefrontal cortical activity in major depressive disorder",
+  "authors": "Elena Ukharova, Isabella O’Meeghan, Ida Granö ve ark.",
+  "online": "2026-10-01",
+  "ozet": "Clinical Neurophysiology'de yayımlanmış çalışma. Başlığa göre bireyselleştirilmiş TMS–EEG haritalaması majör depresif bozuklukta klinik açıdan anlamlı erken prefrontal kortikal aktiviteyi ortaya koymaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112429",
+  "journal": "clinph",
+  "title": "Characteristics of accelerometric activity of the head in healthy subjects at rest and in postures",
+  "authors": "Andrea Kovács, Laura Hejczei, Christopher Váraljai ve ark.",
+  "online": "2026-10-01",
+  "ozet": "Clinical Neurophysiology'de yayımlanmış çalışma. Başlığa göre sağlıklı bireylerde istirahat ve farklı postürlerde başın akselerometrik aktivite özelliklerini tanımlamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112430",
+  "journal": "clinph",
+  "title": "Clinical validation of autoSCORE: A human-in-the-loop AI tool for interpretation of long-term EEG recordings",
+  "authors": "Jesper Tveit, Harald Aurlien, Aatif M. Husain ve ark.",
+  "online": "2026-10-01",
+  "ozet": "Clinical Neurophysiology'de yayımlanmış çalışma. Başlığa göre uzun süreli EEG kayıtlarının yorumlanması için insanın döngüde olduğu yapay zekâ aracı autoSCORE'un klinik doğrulamasını sunmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112428",
+  "journal": "clinph",
+  "title": "Serum neurofilament and measures of lower motor neuron dysfunction in amyotrophic lateral sclerosis",
+  "authors": "Aicee Dawn Calma, Nathan Pavey, Yukiko Tsuji ve ark.",
+  "online": "2026-10-01",
+  "ozet": "Clinical Neurophysiology'de yayımlanmış çalışma. Başlığa göre amyotrofik lateral sklerozda serum nörofilament ile alt motor nöron işlev bozukluğu ölçümleri arasındaki ilişkiyi incelemektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002263",
+  "journal": "jcp",
+  "title": "Somatic Nihilistic Delusions After Olanzapine Discontinuation in Psychotic Depression",
+  "authors": "Rodan Alqudah, Mohammed Saadeh, Daniel Khalil",
+  "online": "2026-10-01",
+  "pmid": "42821358",
+  "ozet": "Olgu sunumu (J Clin Psychopharmacol). Başlığa göre psikotik depresyonda olanzapin kesilmesinin ardından gelişen somatik nihilistik sanrıları anlatmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1002/gps.70257",
+  "journal": "ijgp",
+  "title": "Longitudinal Impact of Agitation and Aggression Symptoms on Societal Costs in Alzheimer's Disease: A Focus on Informal Care and Socioeconomic Disparities",
+  "authors": "Nadège Costa, Célya Marcélo Fleuret, Eugénie Gombault ve ark.",
+  "online": "2026-10-01",
+  "ozet": "Alzheimer hastalığında (AH) ajitasyon ve agresyon (A/A) belirtilerinin zaman içindeki seyrinin, enformel bakım dahil toplumsal maliyetlere etkisi incelendi. Fransa güneybatısındaki hafıza merkezlerinden, klinik olarak anlamlı A/A'sı olan 60 yaş üstü 262 topluluk ve uzun süreli bakım kurumu (LTCF) hastası 12 ay izlendi; NPI-c ile A/A, RUD ile maliyet ölçüldü, K-ortalamalar boylamsal kümelemeyle iki seyir profili belirlendi: başlangıçta hafif ve düzelen (A) ve başlangıçta orta şiddetli, sınırlı düzelen/sabit (B). Yıllık maliyet, gözetim hariç A grubunda 22.959 €, B grubunda 23.625 €; gözetim dahil sırasıyla 52.111 € ve 56.149 €. LTCF sakinlerinde daha ağır A/A daha fazla tıbbi vizit ve ilaç maliyetiyle ilişkiliydi. (Özetin devamı erişilemedi.)",
+  "added": "2026-10-08"
+ },
+ {
   "doi": "10.1016/j.biopsych.2026.09.024",
   "journal": "bp",
   "title": "Sleep and Drug Use: Neuroimaging Evidence for a Multidimensional Brain Framework",
