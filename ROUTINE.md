@@ -21,6 +21,12 @@ Bu dosya her sabah bulutta çalışan Claude görevinin izlediği adımlardır.
    - Özet (abstract) boşsa ya da tek cümleyse (JAMA'da sık) başlıktan ve o cümleden
      ne ile ilgili olduğunu 1–2 cümlede yaz ve sonuna
      "(Ayrıntılı özet mevcut değil.)" ekle.
+   - Metin yapılandırılmış bir özet değil de makalenin giriş paragrafıysa (kaynaklara
+     [1] gibi atıflar, "Kısa rapor"/editoryal) türünü belirt, ana konuyu 2–3 cümlede
+     anlat ve sonuna "(Yalnızca giriş bölümüne erişilebildi.)" ekle.
+   - `"update": true` olan kayıtlar daha önce özetsiz yayımlanmış ve özeti sonradan
+     bulunmuş makalelerdir: aynı kurallarla yeni özet yaz; eskisinin yerine geçer.
+     (fetch.py özeti eksik makaleleri 14 gün boyunca her gün yeniden arar.)
 3. `python3 scripts/build.py` çalıştır. Sayfa `index.html` (ve `docs/index.html`) olarak üretilir.
 4. Değişiklikleri commit'le ve aynı dala push et:
    `git add -A && git commit -m "Günlük güncelleme $(date +%F)" && git push`

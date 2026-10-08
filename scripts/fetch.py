@@ -23,13 +23,15 @@ MAILTO = "drismailbucgun@gmail.com"
 UA = f"dergi-takip/1.0 (mailto:{MAILTO})"
 FIRST_RUN_DAYS = 7
 OVERLAP_DAYS = 3
+FULL_ABSTRACT = 300      # bundan kısa özetler "eksik" sayılır
+RECHECK_DAYS = 14        # eksik özetler bu kadar gün her çalışmada yeniden aranır
 
 SKIP_TITLE = re.compile(
     r"^\s*(corrigendum|erratum|correction|errors? in\b|incorrect|missing\b|"
     r"retraction|retracted|expression of concern|notice of|withdrawn|"
     r"editorial board|issue information|table of contents|cover\b|"
     r"guide for authors|welcome letter|masthead|contents\b|in this issue|subscribers? page|"
-    r"front matter|back matter|author index|reviewer acknowledg)",
+    r"front matter|back matter|author index|reviewer acknowledg|subscribers['’]? page)",
     re.I,
 )
 
@@ -128,6 +130,66 @@ def openalex_abstracts(dois):
     return found
 
 
+def europepmc_abstracts(dois):
+    found = {}
+    for d in dois:
+        try:
+            q = urllib.parse.urlencode({"query": f'DOI:"{d}"', "format": "json", "resultType": "core"})
+            rs = json.loads(get(f"https://www.ebi.ac.uk/europepmc/webservices/rest/search?{q}"))["resultList"]["result"]
+            if rs and rs[0].get("abstractText"):
+                found[d] = clean(rs[0]["abstractText"])
+        except Exception as e:
+            print(f"  Europe PMC hatası ({d}): {e}", file=sys.stderr)
+        time.sleep(0.2)
+    return found
+
+
+def cambridge_abstracts(dois):
+    """Cambridge sayfaları özeti citation_abstract etiketinde verir (diğer yayıncılar bot erişimini engelliyor)."""
+    found = {}
+    for d in dois:
+        if not d.startswith("10.1017/") and not d.startswith("10.1192/"):
+            continue
+        try:
+            page = get(f"https://doi.org/{d}").decode("utf-8", "ignore")
+            m = re.search(r'<meta[^>]+name="citation_abstract"[^>]+content="([^"]*)"', page, re.I)
+            if m:
+                found[d] = clean(m.group(1))
+        except Exception as e:
+            print(f"  Cambridge hatası ({d}): {e}", file=sys.stderr)
+        time.sleep(0.5)
+    return found
+
+
+def find_abstracts(items):
+    """items: [{doi, abstract}] — eksik özetleri sırayla diğer kaynaklarda arar, en uzununu tutar."""
+    def need():
+        return [a["doi"] for a in items if len(a.get("abstract") or "") < FULL_ABSTRACT]
+
+    def take(found):
+        for a in items:
+            ab = found.get(a["doi"]) or ""
+            if len(ab) > len(a.get("abstract") or ""):
+                a["abstract"] = ab
+
+    if need():
+        try:
+            pm = pubmed_abstracts(need())
+            for a in items:
+                if a["doi"] in pm:
+                    a["pmid"] = pm[a["doi"]][1]
+            take({d: v[0] for d, v in pm.items()})
+        except Exception as e:
+            print(f"PubMed hatası: {e}", file=sys.stderr)
+    for source, fn in (("Europe PMC", europepmc_abstracts), ("OpenAlex", openalex_abstracts), ("Cambridge", cambridge_abstracts)):
+        if not need():
+            break
+        try:
+            take(fn(need()))
+        except Exception as e:
+            print(f"{source} hatası: {e}", file=sys.stderr)
+
+
 def main():
     journals = load_json(ROOT / "journals.json", [])
     articles = load_json(DATA / "articles.json", [])
@@ -151,7 +213,7 @@ def main():
         for it in items:
             doi = it["DOI"].lower()
             title = clean((it.get("title") or [""])[0])
-            if doi in seen or not title or SKIP_TITLE.match(title):
+            if doi in seen or not title or SKIP_TITLE.match(title) or title.lower() == j["name"].lower():
                 continue
             if it.get("type") not in ("journal-article", None):
                 continue
@@ -170,36 +232,39 @@ def main():
         print(f"{j['name']}: {count} yeni")
         time.sleep(1)
 
-    missing = [a["doi"] for a in new if len(a["abstract"]) < 100]
-    if missing:
-        try:
-            pm = pubmed_abstracts(missing)
-            for a in new:
-                if a["doi"] in pm:
-                    ab, pmid = pm[a["doi"]]
-                    a["pmid"] = pmid
-                    if len(a["abstract"]) < 100 and ab:
-                        a["abstract"] = ab
-        except Exception as e:
-            print(f"PubMed hatası: {e}", file=sys.stderr)
-    missing = [a["doi"] for a in new if len(a["abstract"]) < 100]
-    if missing:
-        try:
-            oa = openalex_abstracts(missing)
-            for a in new:
-                if len(a["abstract"]) < 100 and oa.get(a["doi"]):
-                    a["abstract"] = oa[a["doi"]]
-        except Exception as e:
-            print(f"OpenAlex hatası: {e}", file=sys.stderr)
+    find_abstracts(new)
+
+    # Özeti eksik kalan eski makaleler: özet sonradan PubMed vb. kaynaklara düşebilir
+    recheck = load_json(DATA / "recheck.json", {})
+    by_doi = {a["doi"]: a for a in articles}
+    cutoff = (today - dt.timedelta(days=RECHECK_DAYS)).isoformat()
+    recheck = {d: r for d, r in recheck.items() if d in by_doi and r["since"] >= cutoff}
+    old = [{"doi": d, "abstract": ""} for d in recheck]
+    updated = []
+    if old:
+        find_abstracts(old)
+        for o in old:
+            r = recheck[o["doi"]]
+            if len(o["abstract"]) >= max(FULL_ABSTRACT, r["len"] + 150):
+                a = by_doi[o["doi"]]
+                updated.append({k: a[k] for k in ("doi", "journal", "title", "authors", "online") if k in a}
+                               | {"abstract": o["abstract"], "update": True, **({"pmid": o["pmid"]} if o.get("pmid") else {})})
+                del recheck[o["doi"]]
+    for a in new:
+        if len(a["abstract"]) < FULL_ABSTRACT:
+            recheck[a["doi"]] = {"since": today.isoformat(), "len": len(a["abstract"])}
 
     # Önceki çalışmadan kalıp özetlenmemiş olanlar da korunur
     pending = load_json(DATA / "pending.json", [])
     pending_dois = {p["doi"] for p in pending}
-    pending += [a for a in new if a["doi"] not in pending_dois]
+    pending += [a for a in new + updated if a["doi"] not in pending_dois]
     (DATA / "pending.json").write_text(json.dumps(pending, ensure_ascii=False, indent=1), "utf-8")
+    (DATA / "recheck.json").write_text(json.dumps(recheck, indent=1), "utf-8")
     (DATA / "state.json").write_text(json.dumps(state, indent=1), "utf-8")
-    with_ab = sum(1 for a in new if a["abstract"])
-    print(f"Toplam {len(new)} yeni makale ({with_ab} tanesinin özeti var). Özet bekleyen: {len(pending)}")
+    full = sum(1 for a in new if len(a["abstract"]) >= FULL_ABSTRACT)
+    print(f"Toplam {len(new)} yeni makale ({full} tanesinin tam özeti var).")
+    print(f"Sonradan özeti bulunan eski makale: {len(updated)}. Özeti hâlâ beklenen: {len(recheck)}.")
+    print(f"Özet yazılacak toplam: {len(pending)} (\"update\": true olanlar mevcut özetin yerine yazılacak)")
 
 
 if __name__ == "__main__":

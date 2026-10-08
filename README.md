@@ -8,6 +8,7 @@ makaleleri toplayıp Türkçe kısa özetleriyle tek sayfada gösterir.
 - `scripts/build.py` — özetleri birleştirir, `docs/index.html` sayfasını üretir
 - `ROUTINE.md` — her sabah bulutta çalışan Claude görevinin talimatı
 - `data/articles.json` — son 90 günün arşivi
+- `data/recheck.json` — özeti eksik makaleler; 14 gün boyunca her gün PubMed, Europe PMC, OpenAlex ve Cambridge'de yeniden aranır
 - `claude/dergi-veri` dalı — sayfadan kaydedilenler (`data/saved.json`) ve okundu işaretleri (`data/read.json`); sayfa GitHub API ile yazar, böylece tüm cihazlar eşit kalır
 
 ## Dergi eklemek

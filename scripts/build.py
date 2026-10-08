@@ -20,11 +20,17 @@ def main():
     summaries = {k.lower(): v for k, v in load_json(DATA / "summaries.json", {}).items()}
     today = dt.date.today().isoformat()
 
-    known = {a["doi"] for a in articles}
+    known = {a["doi"]: a for a in articles}
     for p in pending:
         if p["doi"] in known:
+            # Özeti sonradan bulunan makale: yeni Türkçe özet eskisinin yerine geçer
+            a = known[p["doi"]]
+            if summaries.get(p["doi"]):
+                a["ozet"] = summaries[p["doi"]]
+            if p.get("pmid"):
+                a["pmid"] = p["pmid"]
             continue
-        a = {k: v for k, v in p.items() if k != "abstract"}
+        a = {k: v for k, v in p.items() if k not in ("abstract", "update")}
         a["ozet"] = summaries.get(p["doi"], "")
         a["added"] = today
         articles.append(a)

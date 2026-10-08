@@ -9,15 +9,6 @@
   "added": "2026-10-08"
  },
  {
-  "doi": "10.1001/jamapsychiatry.2025.2838",
-  "journal": "jamap",
-  "title": "JAMA Psychiatry",
-  "authors": "",
-  "online": "2026-10-07",
-  "ozet": "JAMA Psychiatry dergisine ait, başlığı ve özeti bulunmayan bir kayıt; içeriği hakkında bilgi yok. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-08"
- },
- {
   "doi": "10.1001/jamapsychiatry.2026.2923",
   "journal": "jamap",
   "title": "Characterizing Artificial Intelligence Psychosis in a Large Medical Setting",
@@ -191,7 +182,7 @@
   "authors": "William S. Kemball-Cook, Edward R. Bader, Alexis D. Boro ve ark.",
   "online": "2026-10-05",
   "pmid": "42833358",
-  "ozet": "İnsan pulvinarının elektriksel stimülasyonunun görsel algı (fosfen) oluşturduğunu ele alan bir Brain Stimulation çalışması; başlıktan anlaşıldığı kadarıyla pulvinar stimülasyonunun görsel algılar yarattığı gösteriliyor. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Kısa rapor. İnsanda talamusun pulvinar çekirdeğinin elektriksel stimülasyonunun görsel algılar (fosfenler) oluşturduğunu bildiriyor. Görme protezi çalışmaları bugüne kadar retina, optik sinir, LGN ve görsel korteks gibi erken yolaklara odaklanmıştı. Yazarlar, karmaşık görsel özellikleri kodlamada avantaj sağlayabilecek üst düzey görsel işleme bölgelerinin yapay görme için yeni bir hedef olabileceğini öne sürüyor. (Yalnızca giriş bölümüne erişilebildi.)",
   "added": "2026-10-06"
  },
  {
@@ -285,15 +276,6 @@
   "added": "2026-10-06"
  },
  {
-  "doi": "10.1016/s2451-9022(26)00266-1",
-  "journal": "cnni",
-  "title": "Subscribers' Page",
-  "authors": "",
-  "online": "2026-10-05",
-  "ozet": "Biological Psychiatry: CNNI dergisinin abonelere yönelik duyuru sayfası; bilimsel içerik taşımıyor. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-06"
- },
- {
   "doi": "10.1016/s2215-0366(26)00267-1",
   "journal": "lanpsy",
   "title": "From discovery to proof: a Translation Evidence Map for precision psychiatry",
@@ -319,8 +301,9 @@
   "title": "A standard coil placement for reliable transcranial magnetic stimulation of the frontoparietal depression network: the ‘F5-AF7 method‘",
   "authors": "Maximilian Lueckel, Kathrin Kachel, Jan Engelmann ve ark.",
   "online": "2026-10-03",
-  "ozet": "Depresyonda frontoparietal ağı hedefleyen TMS için standart bir bobin yerleştirme yöntemi olan 'F5-AF7 yöntemi'ni tanıtan çalışma. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-04"
+  "ozet": "Kısa rapor. Depresyon tedavisinde sol DLPFC'ye uygulanan rTMS'de bobin yerleşimini standartlaştırmak için 'F5-AF7 yöntemi' adlı EEG 10-20 temelli bir konumlandırma öneriliyor. Gerekçe, lezyon ve stimülasyon haritalamasıyla tanımlanan depresyon devresinin frontoparyetal ağla büyük ölçüde örtüşmesi ve bobin konumunun hangi ağın uyarıldığını belirlemesi. Amaç, nöronavigasyon gerektirmeden bu ağı güvenilir biçimde hedefleyerek yanıt oranlarındaki değişkenliği azaltmak. (Yalnızca giriş bölümüne erişilebildi.)",
+  "added": "2026-10-04",
+  "pmid": "42829025"
  },
  {
   "doi": "10.1016/j.brs.2026.103227",
@@ -328,8 +311,9 @@
   "title": "Cognitive state dependent enhancement of cognitive control with transcranial magnetic stimulation",
   "authors": "Aaron N. McInnes, Victoria L. Pipia, Kiyana L. Maynard ve ark.",
   "online": "2026-10-03",
-  "ozet": "TMS ile bilişsel kontrolün, bilişsel duruma bağlı biçimde artırılmasını inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-04"
+  "ozet": "rTMS'nin bilişsel kontrol üzerindeki etkisinin, stimülasyon sırasında beynin o anki durumuna bağlı olup olmadığı test edilmiş. 23 katılımcıya prefrontal kortekse rTMS uygulanmış; uygulama sırasında katılımcılar ya PFC'yi yoğun kullanan bir bilişsel kontrol görevi ya da düşük PFC yüklü bir algı görevi yapmış. rTMS bilişsel kontrolü yalnızca bilişsel kontrol göreviyle eşzamanlı uygulandığında iyileştirmiş; bu koşulda görevle ilişkili teta gücü de azalmış. TMS-EEG'de bilişsel görev sırasında TMS ile uyarılan teta aktivitesi daha güçlü bulunmuş. Yazarlar, stimülasyon sırasında hedef ağın görevle aktive edilmesinin TMS etkilerini daha tutarlı hale getirebileceğini öne sürüyor.",
+  "added": "2026-10-04",
+  "pmid": "42829029"
  },
  {
   "doi": "10.1016/j.brs.2026.103225",
@@ -337,8 +321,9 @@
   "title": "Toward Brain-State-Dependent tACS Individualization: Task-Evoked, Not Resting-State, Peak Frequency Predicts tACS Efficacy",
   "authors": "Isabella Hartley, Kevin Jones, Elizabeth Johnson ve ark.",
   "online": "2026-10-03",
-  "ozet": "tACS'in bireyselleştirilmesinde, istirahat durumu yerine göreve bağlı tepe frekansının tACS etkinliğini öngördüğünü bildiren, beyin durumuna bağlı yaklaşımı ele alan çalışma. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-04"
+  "ozet": "Kısa rapor. tACS'de stimülasyon frekansının bireyselleştirilmesinde, istirahat EEG'sinden değil, görev sırasında ölçülen tepe frekansından yararlanmanın etkinliği daha iyi öngördüğünü bildiriyor. Kanonik frekanslar yerine kişinin kendi tepe frekansına göre stimülasyonun sonuçları iyileştirdiği biliniyordu; bu çalışma, frekansın hangi beyin durumunda ölçülmesi gerektiğine odaklanıyor. (Yalnızca giriş bölümüne erişilebildi.)",
+  "added": "2026-10-04",
+  "pmid": "42829028"
  },
  {
   "doi": "10.1016/j.brs.2026.103229",
@@ -346,8 +331,9 @@
   "title": "Subharmonic entrainment of thalamic gamma during deep brain stimulation for multiple sclerosis tremor",
   "authors": "Nagaraja Sarangmat, Fernando Rodriguez-Plazas, Shenghong He ve ark.",
   "online": "2026-10-03",
-  "ozet": "Multipl skleroz tremoru için derin beyin stimülasyonu sırasında talamik gama aktivitesinin subharmonik sürüklenmesini inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-04"
+  "ozet": "Kısa rapor. Multipl skleroza bağlı tremorda talamusun ventral intermediyet çekirdeğine (VIM) uygulanan DBS sırasında talamik gama aktivitesinin stimülasyon frekansının alt harmoniklerine kilitlendiğini (subharmonik sürüklenme) bildiriyor. VIM-DBS'nin tremoru nasıl baskıladığına dair nörofizyolojik mekanizmaya ışık tutmayı amaçlıyor. (Yalnızca giriş bölümüne erişilebildi.)",
+  "added": "2026-10-04",
+  "pmid": "42829026"
  },
  {
   "doi": "10.1016/j.brs.2026.103224",
@@ -355,8 +341,9 @@
   "title": "Optical Cortico-Cortical Evoked Potentials Reveal Structural and State-Dependent Cortical Communication",
   "authors": "Francesco Resta, Alessandro Scaglione, Emilia Conti ve ark.",
   "online": "2026-10-03",
-  "ozet": "Optik kortiko-kortikal uyarılmış potansiyellerle kortikal iletişimin yapısal ve duruma bağlı özelliklerini inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-04"
+  "ozet": "İnsanlarda kullanılan kortiko-kortikal uyarılmış potansiyellerin (CCEP) hayvan modelinde bir karşılığını geliştirmek amaçlanmış. Uyanık farelerde transkraniyal optogenetik stimülasyon ile geniş alan kalsiyum görüntülemesi birleştirilerek motor, duyusal ve asosiyatif alanlardan korteks çapında yanıtlar kaydedilmiş. Yanıtlar iki aşamalı bir örüntü göstermiş: önce doğrudan anatomik bağlantılar boyunca yayılan erken faz, ardından beyin durumuna (anestezi derinliğine) duyarlı, daha yaygın geç faz. Yerel uyarılabilirlik arttıkça korteks çapında katılım da genişlemiş. Yöntem, kortikal iletişimin nedensel haritalanması için ölçeklenebilir bir araç olarak sunuluyor.",
+  "added": "2026-10-04",
+  "pmid": "42829027"
  },
  {
   "doi": "10.1016/j.biopsych.2026.09.020",
@@ -364,8 +351,9 @@
   "title": "Connection-Level Multi-Omics Reveals Cerebellar-Cortical Dysconnectivity and Divergent Molecular Signatures Across Major Psychiatric Disorders",
   "authors": "Yunheng Diao, Yuanyuan Huang, Baoyuan Zhu ve ark.",
   "online": "2026-10-03",
-  "ozet": "Başlıca psikiyatrik bozukluklarda serebellar-kortikal bağlantısızlığı ve bozukluklar arası farklı moleküler imzaları bağlantı düzeyinde çoklu-omik yaklaşımla inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-04"
+  "ozet": "Psikiyatrik bozukluklardaki beyin bağlantısallığı değişikliklerini moleküler sistemlerle ilişkilendirmek için BrainNetAnno adlı açık kaynak bir çerçeve geliştirilmiş; bu çerçeve çoklu-omik haritalamayı bölgelerden bölgeler arası bağlantılara genişletiyor. İstirahat fMRI verileri 2453 kişilik keşif ve 442 kişilik doğrulama kohortunda (MDB, şizofreni, YAB, otizm, DEHB ve sağlıklı kontroller) analiz edilmiş. Tüm tanılarda ortak, serebellar-kortikal bağlantı bozukluğuyla belirgin bir örüntü ve buna ek olarak tanıya özgü sapmalar bulunmuş. Ortak örüntü mitokondriyal fenotiplerle, tanıya özgü sapmalar ise daha çok nörotransmitter reseptör/taşıyıcı profilleriyle ilişkili çıkmış.",
+  "added": "2026-10-04",
+  "pmid": "42829056"
  },
  {
   "doi": "10.1016/j.biopsych.2026.09.021",
@@ -373,8 +361,9 @@
   "title": "Inhibitory control and error processing in Obsessive-Compulsive Disorder: A mega-analysis of task-based fMRI data by the ENIGMA-OCD consortium",
   "authors": "Nadža Džinalija, Odile A. van den Heuvel, H. Blair Simpson ve ark.",
   "online": "2026-10-03",
-  "ozet": "ENIGMA-OKB konsorsiyumunun, obsesif-kompulsif bozuklukta inhibitör kontrol ve hata işlemeyi görev temelli fMRG verileriyle değerlendirdiği mega-analiz. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-04"
+  "ozet": "ENIGMA-OCD konsorsiyumu ve ABCD çalışmasının görev temelli fMRI verileriyle OKB'de yanıt inhibisyonu ve hata işleme incelenmiş (mega-analiz). Erişkinlerde 563 OKB ve 348 kontrol, çocuklarda 83 OKB ve 114 kontrol, ABCD'de 343 olası OKB ve 361 kontrol Bayesçi çok düzeyli modellerle değerlendirilmiş. Yanıt inhibisyonunda erişkin hastalarda somatomotor, çocuklarda oksipital aktivasyon daha güçlü bulunmuş. Hata işlemede erişkinlerde frontostriatal aktivasyon daha zayıfken, çocuklarda frontoparyetal ve dikkat ağlarında daha güçlü. Belirti şiddeti erişkinlerde daha zayıf, çocuklarda daha güçlü aktivasyonla ilişkili; yazarlara göre OKB'deki inhibisyon bozukluğu duruma bağlı ve gelişim dönemine özgü.",
+  "added": "2026-10-04",
+  "pmid": "42829058"
  },
  {
   "doi": "10.1016/j.biopsych.2026.09.022",
@@ -382,8 +371,9 @@
   "title": "TMS-Evoked Cortical Reactivity Signatures as a Multidimensional Biomarker of Depression: A TMS-EEG Meta-Analysis from Diagnosis to Prognosis",
   "authors": "Ji-Yu Xie, Tao Zhao, Liang Guo ve ark.",
   "online": "2026-10-03",
-  "ozet": "Depresyonda TMS ile uyarılmış kortikal reaktivite imzalarının tanıdan prognoza çok boyutlu biyobelirteç olarak değerlendirildiği TMS-EEG meta-analizi. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-04"
+  "ozet": "Meta-analiz. Tek pulslu TMS-EEG ile ölçülen kortikal reaktivitenin depresyonda tanı, tedavi izlemi ve prognoz için biyobelirteç değeri değerlendirilmiş. 21 çalışmadan 1025 MDB hastası ve 517 sağlıklı kontrol dahil edilmiş. Negatif polariteli bileşenler, özellikle N100, depresyonda artmış (g=0,35) ve belirti şiddetiyle ilişkili (g=0,67). Tedavi N100'ü azaltıp P180'i artırmış; negatif bileşenlerdeki azalma remisyonla güçlü ilişkili (g=0,91). Ön veriler, başlangıçtaki negatif bileşenlerin tedavi yanıtını öngördüğünü gösteriyor (g=1,35). Yazarlar N100'ü biyobelirteç rehberli hassas psikiyatri için umut verici bir aday olarak öneriyor.",
+  "added": "2026-10-04",
+  "pmid": "42829057"
  },
  {
   "doi": "10.1016/j.jad.2026.122584",
@@ -391,8 +381,9 @@
   "title": "Trajectory of maternal perinatal negative psychological states and its association with early offspring neurodevelopment: A longitudinal cohort study",
   "authors": "Yijuan Du, Yanfei Cao, Zhirun Cheng ve ark.",
   "online": "2026-10-03",
-  "ozet": "Annenin perinatal dönemdeki olumsuz psikolojik durumlarının seyri ile bebeğin erken nörogelişimi arasındaki ilişkiyi inceleyen boylamsal kohort çalışması. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-04"
+  "ozet": "Annede perinatal dönemde depresyon, anksiyete ve stresin birlikte seyri ile bebeğin erken nörogelişimi arasındaki ilişki incelenmiş. Çin'de üçüncü trimesterdeki 609 gebe EPDS, GAD-7 ve Algılanan Stres Ölçeği ile doğum sonrası 6. aya kadar izlenmiş; bebekler ASQ-3 ile değerlendirilmiş, 417 anne-bebek çifti izlemi tamamlamış. Üç seyir belirlenmiş: düşük ve stabil (%29,9), orta ve stabil (%55,2), yüksek ve dalgalı (%14,8). Olumsuz psikolojik durumlar iletişim, kaba ve ince motor, problem çözme ve kişisel-sosyal gelişimde daha kötü sonuçlarla ilişkili; etkiler bebeğin cinsiyetine göre farklılık göstermiş. Yazarlar perinatal dönemde bu durumların birlikte taranmasını öneriyor.",
+  "added": "2026-10-04",
+  "pmid": "42829165"
  },
  {
   "doi": "10.1016/j.jad.2026.122585",
@@ -400,8 +391,9 @@
   "title": "PDE2A is involved in negative emotional behaviors via the cAMP-PKA signaling pathway in the SPS&S model",
   "authors": "Baoying Jiang, Lanxia Wu, Guohui Zhang ve ark.",
   "online": "2026-10-03",
-  "ozet": "SPS&S modelinde PDE2A'nın cAMP-PKA sinyal yolağı üzerinden olumsuz duygusal davranışlarla ilişkisini inceleyen hayvan çalışması. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-04"
+  "ozet": "Hayvan çalışması. TSSB'nin olumsuz duygulanım belirtilerinde fosfodiesteraz 2A (PDE2A) ve cAMP-PKA sinyal yolunun rolü araştırılmış. Transkriptom verilerinde PDE2A, TSSB ile ilişkili merkezi bir gen olarak öne çıkmış. Tek uzun süreli stres ve ayak şoku (SPS&S) modelindeki sıçanlarda anksiyete, depresyon benzeri davranış ve anhedoni görülmüş; amigdalada PDE2A artmış, cAMP ve fosforile PKA azalmış. PDE2A inhibitörü Hcyb1 davranışları düzeltmiş ve sinyal yolunu onarmış; PKA inhibitörü H89 bu yararı kısmen geri çevirmiş. Yazarlar periferik kan transkriptomu ve sınırlı biyokimyasal doğrulamayı sınırlılık olarak belirtiyor.",
+  "added": "2026-10-04",
+  "pmid": "42829164"
  },
  {
   "doi": "10.1016/j.inpsyc.2026.100296",
@@ -418,8 +410,9 @@
   "title": "The SOAR project: Developing a framework for screening for older adults’ abuse risk",
   "authors": "Yoram Barak, Paul Glue, Linda Hobbs ve ark.",
   "online": "2026-10-03",
-  "ozet": "Yaşlı istismarı riskini taramaya yönelik bir çerçeve geliştiren SOAR projesini tanıtan yazı. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-04"
+  "ozet": "Yaşlı istismarı riskini taramak için kısa ve kanıta dayalı bir araç (SOAR çerçevesi) geliştirilmiş; dünyada her altı yaşlıdan biri istismara uğruyor ancak çoğu fark edilmiyor. Yeni Zelanda'da evde bakım değerlendirme (interRAI-HC) verilerinde temel bileşenler analizi yapılmış, ardından çok disiplinli uzmanlarla Delphi uzlaşısı sağlanmış. Analizde korku, ihmal, aileyle çatışma ve kötü hijyen en güçlü göstergeler olarak çıkmış. Delphi paneli bunlara bakım veren stresi, maddi istismar ve karar verme bağımsızlığının olmamasını ekleyerek yedi değişkeni onaylamış. Yazarlar aracın doğrulanıp rutin toplum sağlığı hizmetlerine entegre edilmesini öneriyor.",
+  "added": "2026-10-04",
+  "pmid": "42829298"
  },
  {
   "doi": "10.1016/j.jad.2026.122573",
@@ -448,7 +441,7 @@
   "authors": "Susan W. Lehmann",
   "online": "2026-10-02",
   "pmid": "42827058",
-  "ozet": "Demans bakımına ilişkin, farklı demans tiplerine özgü yeni bilgileri ele alan bir yazı (Susan W. Lehmann); türü belirtilmemiş, büyük olasılıkla editoryal/görüş niteliğinde. Başlıktan, demanslı bireylere bakım verirken demans türüne özgü yaklaşımların önemi üzerinde durduğu anlaşılıyor. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Editoryal. Demans türlerine özgü bakım ihtiyaçlarına dair yeni bulguları içeren özel bölümü tanıtıyor. Dünyada yaklaşık 57 milyon olan demanslı kişi sayısının 2050'de 152 milyona çıkmasının beklendiğini ve aile bakım verenleri ile toplum üzerindeki yükün büyüklüğünü vurguluyor; 65 yaş altı başlangıçlı demansa da dikkat çekiyor. (Yalnızca giriş bölümüne erişilebildi.)",
   "added": "2026-10-03"
  },
  {
@@ -662,7 +655,7 @@
   "authors": "Beth E. Snitz, Mary Ganguli",
   "online": "2026-09-30",
   "pmid": "42816186",
-  "ozet": "Konuk editoryal: \"Cogito ergo sum: We think, therefore we are\" başlıklı yazı, düşünme ve biliş temasını ele alan bir editoryaldır. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Konuk editoryal. International Psychogeriatrics'in 'Yaşlanma ve biliş' temalı özel koleksiyonunu tanıtıyor: beş ülkeden bir yorum ve altı araştırma makalesi. Descartes'ın 'düşünüyorum, öyleyse varım' sözünden yola çıkarak, yaşlanırken en çok korkulan şeyin düşünme ve hatırlama yetisini kaybetmek olduğunu ve koleksiyondaki çalışmaların ortak noktalarını ele alıyor. (Yalnızca giriş bölümüne erişilebildi.)",
   "added": "2026-10-01"
  },
  {
@@ -698,8 +691,9 @@
   "title": "Electrical stimulation elicits space- and parameter-dependent spiking responses in human cortical organoids",
   "authors": "N. Seseri, D. Nigrisoli, F. Faraci ve ark.",
   "online": "2026-09-30",
-  "ozet": "İnsan kaynaklı kortikal organoidlerde elektriksel stimülasyonun uzamsal konuma ve stimülasyon parametrelerine bağlı olarak farklı nöronal ateşleme yanıtları oluşturduğunu bildiren çalışma. Beyin stimülasyonu parametrelerinin insan dokusunda laboratuvar ortamında test edilmesi için bir model sunuyor. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-09-30"
+  "ozet": "Kısa rapor. İnsan kaynaklı kortikal organoidlerde elektriksel stimülasyonun tek nöron düzeyinde, elektrot konumuna ve stimülasyon parametrelerine bağlı olarak farklı ateşleme yanıtları oluşturduğunu bildiriyor. Stimülasyon parametre seçimi bugüne kadar büyük ölçüde deneyime ve hayvan/patolojik doku verilerine dayanıyordu; organoidler insan nöronlarında bu etkileri sistematik olarak test etmek için bir model sunuyor. (Yalnızca giriş bölümüne erişilebildi.)",
+  "added": "2026-09-30",
+  "pmid": "42815767"
  },
  {
   "doi": "10.1016/j.biopsych.2026.07.024",
@@ -842,7 +836,7 @@
   "authors": "Preethy Kathiresan, Hina Bano",
   "online": "2026-09-29",
   "pmid": "42805876",
-  "ozet": "İleri yaşta aile bakım verme sürecini dinamik ve ilişkisel bir bakış açısıyla ele alan yazı. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Editoryal/yorum. Demanslı yaşlılara bakımın çoğunlukla aile ve yakınlar tarafından verildiğini ve bakım deneyiminin tek tip olmadığını vurguluyor: bazı bakım verenler belirgin sıkıntı yaşarken, bazıları anlam ve kişisel gelişim deneyimliyor. Bakım vermeyi tek seferlik değil, sürekli bir anlam kurma ve uyum süreci olarak ele alıyor. (Yalnızca giriş bölümüne erişilebildi.)",
   "added": "2026-09-30"
  },
  {
@@ -882,7 +876,7 @@
   "authors": "Dilip V. Jeste, Kate Chaloux, Adriana Hermida",
   "online": "2026-09-28",
   "pmid": "42805877",
-  "ozet": "Editoryal. International Psychogeriatrics dergisinin gelişimi, uluslararası açılımı ve gelecek yönelimleri üzerine. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Editoryal. International Psychogeriatrics'in son yıllardaki gelişimini değerlendiriyor: derginin geldiği nokta, yayın politikasını şekillendiren kararların gerekçeleri ve önümüzdeki dönemin öncelikleri okur, yazar ve hakemlerle paylaşılıyor. (Yalnızca giriş bölümüne erişilebildi.)",
   "added": "2026-09-30"
  },
  {
@@ -901,7 +895,7 @@
   "authors": "Yuehua Geng, Wendi Wang, Xiang Zhai ve ark.",
   "online": "2026-09-27",
   "pmid": "42801976",
-  "ozet": "Sanal gerçeklikte görülen hareket tutmasını azaltmak için kullanılan galvanik vestibüler stimülasyonun (GVS) nöral mekanizmaları incelenmiş. GVS, mastoidlere yerleştirilen elektrotlarla zayıf akım vererek vestibüler afferentleri modüle eden non-invaziv bir nöromodülasyon yöntemi. Davranışsal düzeyde yararlı görünse de etkisinin beyin–davranış ilişkisi bilinmiyordu; bu kısa rapor hedefe yönelik stimülasyon protokolleri için bu mekanizmayı ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Kısa rapor. Sanal gerçeklikte görülen hareket tutmasını azaltmak için kullanılan galvanik vestibüler stimülasyonun (GVS) nöral mekanizmalarını inceliyor. GVS, mastoidlere yerleştirilen elektrotlarla zayıf akım vererek vestibüler afferentleri modüle ediyor. Davranışsal düzeyde yararlı görünse de beyin–davranış ilişkisinin bilinmemesi, hedefe yönelik protokollerin geliştirilmesini sınırlıyor. (Yalnızca giriş bölümüne erişilebildi.)",
   "added": "2026-09-30"
  },
  {
@@ -1343,8 +1337,9 @@
   "title": "Is wisdom a predictor of quality of life in people with experience of dementia?",
   "authors": "Swapneel Mirani, Tessa Williams, Shi Tang ve ark.",
   "online": "2026-09-23",
-  "ozet": "Demans deneyimi olan kişilerde (hastalar ve olasılıkla bakım verenler) bilgelik özelliklerinin yaşam kalitesini öngörüp öngörmediğini inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-09-30"
+  "ozet": "Bilgeliğin demans deneyimi olan kişilerde yaşam kalitesiyle ilişkisi araştırılmış. İngiltere'deki Join Dementia Research platformuna kayıtlı 3144 erişkinde (demanslı kişiler, aile bakım verenleri ve diğerleri) çevrim içi kesitsel anketle 3D-WS-12 bilgelik ölçeği ve CASP-12 yaşam kalitesi ölçeği uygulanmış. Bilgelik yaşam kalitesiyle pozitif ilişkili; en güçlü ilişki yansıtıcı bilgelikte. Kadınlar ve daha yaşlılar daha yüksek bilgelik puanı almış; aile bakım verenleri demanslı kişilerden daha yüksek puanlamış. Yazarlar öz farkındalık ve bakış açısı almayı destekleyen müdahalelerin demans bakımında yararlı olabileceğini ve boylamsal çalışma gerektiğini belirtiyor.",
+  "added": "2026-09-30",
+  "pmid": "42823248"
  },
  {
   "doi": "10.1176/appi.ajp.20251082",
