@@ -19,9 +19,7 @@
   --accent: #1d5c78;
   --accent-soft: #e2eef3;
   --new: #b4541b;
-  --j-bja: #7a3e8e; --j-brs: #1f7a5a; --j-bp: #a33b3b; --j-jamap: #22578f; --j-jad: #8a6a12;
-  --j-cnni: #b0406f; --j-lanpsy: #0f6e7a; --j-ipg: #5a5fb0; --j-bd: #6d7a1c;
-  --j-wps: #9a4a1f; --j-transm: #2f6f3e; --j-ajp: #8c2f4a; --j-cns: #3d6b99;
+  --g-genel: #22578f; --g-bio: #a33b3b; --g-mood: #8a6a12; --g-neuromod: #1f7a5a; --g-pharm: #7a3e8e; --g-geri: #0f6e7a;
   --font-title: "Source Serif 4", Georgia, "Times New Roman", serif;
   --font-ui: "IBM Plex Sans", -apple-system, "Segoe UI", Roboto, sans-serif;
   color-scheme: light;
@@ -30,18 +28,14 @@
   :root:not([data-theme="light"]) {
     --bg: #11161c; --surface: #19202a; --ink: #e6ebf1; --muted: #9aa6b4; --line: #2a3441;
     --accent: #7cc0dc; --accent-soft: #1d3340; --new: #f0a36b;
-    --j-bja: #c79bd8; --j-brs: #7ccfae; --j-bp: #ec9a9a; --j-jamap: #8fb8ea; --j-jad: #e0c46e;
-    --j-cnni: #ee9cc0; --j-lanpsy: #72d0da; --j-ipg: #a9adf0; --j-bd: #c3d27a;
-    --j-wps: #eaa27a; --j-transm: #8fd6a0; --j-ajp: #eb94ac; --j-cns: #9cc3ec;
+  --g-genel: #8fb8ea; --g-bio: #ec9a9a; --g-mood: #e0c46e; --g-neuromod: #7ccfae; --g-pharm: #c79bd8; --g-geri: #72d0da;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #11161c; --surface: #19202a; --ink: #e6ebf1; --muted: #9aa6b4; --line: #2a3441;
   --accent: #7cc0dc; --accent-soft: #1d3340; --new: #f0a36b;
-  --j-bja: #c79bd8; --j-brs: #7ccfae; --j-bp: #ec9a9a; --j-jamap: #8fb8ea; --j-jad: #e0c46e;
-    --j-cnni: #ee9cc0; --j-lanpsy: #72d0da; --j-ipg: #a9adf0; --j-bd: #c3d27a;
-  --j-wps: #eaa27a; --j-transm: #8fd6a0; --j-ajp: #eb94ac; --j-cns: #9cc3ec;
+  --g-genel: #8fb8ea; --g-bio: #ec9a9a; --g-mood: #e0c46e; --g-neuromod: #7ccfae; --g-pharm: #c79bd8; --g-geri: #72d0da;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -95,7 +89,8 @@ article h3 a:hover { color: var(--accent); text-decoration: underline; }
 .ozet { margin: 2px 0 0; font-size: 0.92rem; }
 .ozet.none { color: var(--muted); font-style: italic; }
 .ozet.clamp { display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
-.actions { display: flex; gap: 14px; font-size: 0.8rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.8rem; }
+.actions a, .actions button { white-space: nowrap; }
 .actions a, .actions button { color: var(--accent); background: none; border: 0; padding: 0; font: 500 0.8rem var(--font-ui); cursor: pointer; text-decoration: none; }
 article.read { opacity: 0.5; }
 article.read .mark::before { content: "✓ "; }
@@ -170,7 +165,8 @@ footer a { color: var(--muted); }
       </div>
       <label class="toggle"><input type="checkbox" id="unread"> Sadece okunmamışlar</label>
     </div>
-    <div class="row chips" id="chips"></div>
+    <div class="row chips" id="groups"></div>
+    <div class="row chips" id="chips" hidden></div>
     <div class="row"><input id="q" type="search" placeholder="Başlıkta, özette veya yazarda ara…" autocomplete="off"></div>
   </div>
   <main id="main"></main>
@@ -188,6 +184,11 @@ const store = {
 const state = Object.assign({ range: "last", unread: false, only: null }, store.get("dt-view", {}));
 delete state.off;
 if (state.only && !J[state.only]) state.only = null;
+const G = Object.fromEntries((DATA.groups || []).map(g => [g.id, g]));
+if (state.group && !G[state.group]) state.group = null;
+if (state.only) state.group = J[state.only].group;
+const color = id => `var(--g-${(J[id] || {}).group}, var(--accent))`;
+const inFilter = a => state.only ? a.journal === state.only : (!state.group || (J[a.journal] || {}).group === state.group);
 state.q = "";
 state.view = location.hash === "#kaydedilenler" ? "saved" : "feed";
 
@@ -336,7 +337,7 @@ function inRange(a) {
 }
 
 function render() {
-  store.set("dt-view", { range: state.range, unread: state.unread, only: state.only });
+  store.set("dt-view", { range: state.range, unread: state.unread, only: state.only, group: state.group || null });
   renderSync();
   document.querySelectorAll("#tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.v === state.view));
   document.getElementById("savedN").textContent = files.saved.data.length || "";
@@ -351,13 +352,13 @@ function render() {
 
   renderChips(base.filter(match));
 
-  const shown = base.filter(a => (!state.only || a.journal === state.only) && match(a));
+  const shown = base.filter(a => inFilter(a) && match(a));
   const days = {};
   shown.forEach(a => (days[a.added] = days[a.added] || []).push(a));
 
   const main = document.getElementById("main");
   if (!shown.length) {
-    const who = state.only ? `${esc(J[state.only].name)} için ` : "";
+    const who = state.only ? `${esc(J[state.only].name)} için ` : state.group ? `${esc(G[state.group].name)} grubunda ` : "";
     const msg = state.unread ? `${who}bu aralıkta okunmamış makale kalmadı.` : `${who}bu aralıkta makale yok.`;
     const wider = state.range !== "all" ? `<br><button type="button" id="widen">Son 90 güne bak</button>` : "";
     main.innerHTML = `<p class="empty">${msg.charAt(0).toUpperCase() + msg.slice(1)}${wider}</p>`;
@@ -376,7 +377,7 @@ function renderSaved() {
   const match = a => !q || norm(a.title + " " + a.ozet + " " + a.authors).includes(q);
   const base = files.saved.data.filter(match);
   renderChips(base);
-  const shown = base.filter(a => !state.only || a.journal === state.only);
+  const shown = base.filter(inFilter);
   const main = document.getElementById("main");
   if (!files.saved.data.length) {
     main.innerHTML = `<p class="empty">Henüz kaydedilmiş makale yok.<br>Makalelerin altındaki <b>☆ Kaydet</b> ile buraya ekleyebilirsiniz.</p>`;
@@ -389,12 +390,23 @@ function renderSaved() {
 }
 
 function renderChips(base) {
+  const inGroup = (a, g) => (J[a.journal] || {}).group === g;
+  document.getElementById("groups").innerHTML =
+    `<button class="chip all" data-g="" aria-pressed="${!state.group}">Tümü <span class="n">${base.length}</span></button>` +
+    (DATA.groups || []).map(g => {
+      const n = base.filter(a => inGroup(a, g.id)).length;
+      return `<button class="chip${n ? "" : " zero"}" style="--c:var(--g-${g.id})" data-g="${g.id}" aria-pressed="${state.group === g.id}">
+        <span class="dot"></span>${esc(g.name)} <span class="n">${n}</span></button>`;
+    }).join("");
   const chips = document.getElementById("chips");
-  chips.innerHTML = `<button class="chip all" data-j="" aria-pressed="${!state.only}">Tüm dergiler <span class="n">${base.length}</span></button>` +
-    DATA.journals.map(j => {
-      const n = base.filter(a => a.journal === j.id).length;
-      return `<button class="chip${n ? "" : " zero"}" style="--c:var(--j-${j.id}, var(--accent))" data-j="${j.id}" aria-pressed="${state.only === j.id}">
-        <span class="dot"></span>${esc(j.name)} <span class="n">${n}</span></button>`;
+  chips.hidden = !state.group;
+  if (!state.group) return;
+  const gb = base.filter(a => inGroup(a, state.group));
+  chips.innerHTML = `<button class="chip all" data-j="" aria-pressed="${!state.only}">Gruptaki tüm dergiler <span class="n">${gb.length}</span></button>` +
+    DATA.journals.filter(j => j.group === state.group).map(j => {
+      const n = gb.filter(a => a.journal === j.id).length;
+      return `<button class="chip${n ? "" : " zero"}" style="--c:var(--g-${j.group})" data-j="${j.id}" aria-pressed="${state.only === j.id}">
+        ${esc(j.name)} <span class="n">${n}</span></button>`;
     }).join("");
 }
 
@@ -408,7 +420,7 @@ function card(a) {
   const j = J[a.journal] || { name: a.journal };
   const isR = isRead(a.doi);
   const isSaved = savedSet().has(a.doi);
-  return `<article class="${isR ? "read" : ""}" data-doi="${esc(a.doi)}" style="--c:var(--j-${a.journal}, var(--accent))">
+  return `<article class="${isR ? "read" : ""}" data-doi="${esc(a.doi)}" style="--c:${color(a.journal)}">
     <div class="head"><span class="jn" lang="en">${esc(j.name)}</span><span>online ${esc(fmtShort.format(d(a.online)))}</span></div>
     <h3><a href="https://doi.org/${esc(a.doi)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
     ${a.authors ? `<div class="authors">${esc(a.authors)}</div>` : ""}
@@ -428,6 +440,15 @@ document.getElementById("range").addEventListener("click", e => {
 });
 document.getElementById("unread").addEventListener("change", e => { state.unread = e.target.checked; render(); });
 document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
+document.getElementById("groups").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  const id = b.dataset.g || null;
+  state.group = state.group === id ? null : id;
+  state.only = null;
+  render();
+  const sel = document.querySelector('#groups [aria-pressed="true"]');
+  if (sel) sel.scrollIntoView({ block: "nearest", inline: "nearest" });
+});
 document.getElementById("chips").addEventListener("click", e => {
   const b = e.target.closest(".chip"); if (!b) return;
   const id = b.dataset.j || null;

@@ -49,7 +49,8 @@ def main():
 
     payload = {
         "updated": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "journals": [{"id": j["id"], "name": j["name"], "url": j["url"]} for j in journals],
+        "groups": load_json(ROOT / "groups.json", []),
+        "journals": [{"id": j["id"], "name": j["name"], "url": j["url"], "group": j.get("group", "")} for j in journals],
         "articles": articles,
     }
     blob = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")

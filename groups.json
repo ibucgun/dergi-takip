@@ -1,0 +1,26 @@
+[
+ {
+  "id": "genel",
+  "name": "Genel psikiyatri"
+ },
+ {
+  "id": "bio",
+  "name": "Biyolojik psikiyatri ve nörobilim"
+ },
+ {
+  "id": "mood",
+  "name": "Duygudurum ve anksiyete"
+ },
+ {
+  "id": "neuromod",
+  "name": "Nöromodülasyon ve nörofizyoloji"
+ },
+ {
+  "id": "pharm",
+  "name": "Psikofarmakoloji"
+ },
+ {
+  "id": "geri",
+  "name": "Geriatrik psikiyatri ve demans"
+ }
+]

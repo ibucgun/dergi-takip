@@ -31,9 +31,18 @@ SKIP_TITLE = re.compile(
     r"retraction|retracted|expression of concern|notice of|withdrawn|"
     r"editorial board|issue information|table of contents|cover\b|"
     r"guide for authors|welcome letter|masthead|contents\b|in this issue|subscribers? page|"
-    r"front matter|back matter|author index|reviewer acknowledg|subscribers['’]? page)",
+    r"front matter|back matter|author index|reviewer acknowledg|subscribers['’]? page|"
+    r"title page for abstracts|information for (readers|authors)|[A-Z]{1,3}\d+\.\s)",
     re.I,
 )
+
+
+def is_congress_abstract(title):
+    """Kongre bildirileri: 'ID# 2181425 ...' ya da tamamı büyük harfle yazılmış başlıklar."""
+    letters = [c for c in title if c.isalpha()]
+    if re.match(r"^\s*ID#\s*\d+", title):
+        return True
+    return len(letters) > 15 and sum(c.isupper() for c in letters) / len(letters) > 0.85
 
 
 def get(url, retries=3):
@@ -214,6 +223,10 @@ def main():
             doi = it["DOI"].lower()
             title = clean((it.get("title") or [""])[0])
             if doi in seen or not title or SKIP_TITLE.match(title) or title.lower() == j["name"].lower():
+                continue
+            if is_congress_abstract(title):
+                continue
+            if j.get("title_filter") and not re.search(j["title_filter"], title, re.I):
                 continue
             if it.get("type") not in ("journal-article", None):
                 continue
