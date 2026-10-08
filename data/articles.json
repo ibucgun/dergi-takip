@@ -1,5 +1,120 @@
 [
  {
+  "doi": "10.1001/jamapsychiatry.2026.3129",
+  "journal": "jamap",
+  "title": "Temporal, Geographic, and Polysubstance Patterns in Orphine Analogue Detections",
+  "authors": "David T. Zhu, Nicole D. Fitzgerald, Joseph J. Palamar ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Kesitsel çalışma; orfin analoglarının tespit edilme örüntülerini zamansal, coğrafi ve çoklu madde kullanımı açısından inceliyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2025.2838",
+  "journal": "jamap",
+  "title": "JAMA Psychiatry",
+  "authors": "",
+  "online": "2026-10-07",
+  "ozet": "JAMA Psychiatry dergisine ait, başlığı ve özeti bulunmayan bir kayıt; içeriği hakkında bilgi yok. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.2923",
+  "journal": "jamap",
+  "title": "Characterizing Artificial Intelligence Psychosis in a Large Medical Setting",
+  "authors": "Zachary Bergson, Sarah G. Vassall, Adam Wright ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Kohort çalışması; geniş bir tıbbi kurumda yapay zekâ psikozunun prevalansını tahmin ediyor, etkilenen hastaları tanımlıyor ve belgelenmiş psikotik atakların ortaya çıkışında konuşmaya dayalı yapay zekânın rolünü belirlemeyi amaçlıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3165",
+  "journal": "jamap",
+  "title": "Attention-Deficit/Hyperactivity Disorder and Late-Life Cognitive Impairment",
+  "authors": "Guilherme Bauer-Negrini, Douglas Teixeira Leffa, Pamela C. L. Ferreira ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Amaç, DEHB'nin ileri yaşta MCI veya demans gelişimiyle ilişkisini hem EHR tanıları hem de DEHB poligenik risk skoru (PRS) ile incelemekti. ABD All of Us programından 50 yaş üstü 187.341 katılımcıyla kohort çalışması yapıldı (ortalama takip 10,26 yıl); 3026'sında (%1,6) DEHB vardı. Bilişsel bozukluk gelişimi DEHB'li olanlarda %6,7, olmayanlarda %3,4 idi; düzeltilmiş HR 4,60 (%95 GA 3,99-5,29). DEHB PRS'nin en yüksek-en düşük kuintili için HR 1,35 (1,25-1,46) bulundu. Bilişsel bozukluk gelişenlerde DEHB eşlik etmesi daha kötü ruh sağlığı, yaşam kalitesi ve sosyal doyum ile %20 daha yüksek sağlık hizmeti kullanımıyla ilişkiliydi (IRR 1,20). Yazarlar, DEHB'nin ileri yaş bilişsel bozukluk riskini belirgin artırdığını ve bu grupta hedefli izlem ile bütüncül bakım gerektiğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3198",
+  "journal": "jamap",
+  "title": "Voice-First Mental Health Care for Older Adults in Africa",
+  "authors": "Isaac Akinkunmi Adedeji, Saheed Akinmayowa Lawal, Andrew Sixsmith ve ark.",
+  "online": "2026-10-07",
+  "ozet": "Görüş yazısı (Viewpoint); Afrika'daki yaşlı erişkinlerin ruh sağlığı bakımını desteklemek için sesli öncelikli (voice-first) sistemlerin, öncelikli geliştirme ve değerlendirme gerektiren bir tasarım hipotezi olarak ele alınmasını öneriyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122596",
+  "journal": "jad",
+  "title": "Lithium during maintenance electroconvulsive therapy: Secondary neuropsychological outcomes from the open-label PRASED randomized controlled trial",
+  "authors": "Liese Van den Eynde, Kristof Vansteelandt, Jasmien Obbels ve ark.",
+  "online": "2026-10-07",
+  "pmid": "42843471",
+  "ozet": "Amaç, EKT sonrası nüks önlemede kullanılan lityumun idame EKT (M-EKT) sırasında bilişsel tolerabiliteye etkisini değerlendirmekti. Açık etiketli, çok merkezli PRASED RKÇ'sinde akut EKT ile remisyona giren MDB hastaları, M-EKT ve idame farmakoterapiye lityum eklenen (n=50) veya eklenmeyen (n=46) gruplara randomize edildi; altı ay boyunca kapsamlı nöropsikolojik batarya tekrarlandı ve doğrusal karma modeller kullanıldı. Gruplar arasında bilişsel seyirde anlamlı fark yoktu; sözel akıcılık dışındaki tüm alanlarda her iki grupta zamanla iyileşme görüldü, serum lityum düzeyleri bilişsel performansla ilişkili değildi. Yazarlar, M-EKT sırasında lityum eklenmesinin objektif veya öznel bilişsel işlevi bozmadığını ve bu birlikteliğin nüks önleme kararlarında desteklendiğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122599",
+  "journal": "jad",
+  "title": "Mapping reproducible brain-based depression stratification across clinical, cognitive, and neurotransmitter dimensions",
+  "authors": "Federica Colombo, Lidia Fortaner-Uyà, Tommaso Cazzella ve ark.",
+  "online": "2026-10-07",
+  "pmid": "42843469",
+  "ozet": "Amaç, MDB heterojenliğini çözmek için bağımsız kohortlarda tekrarlanabilir beyin temelli alt gruplar belirlemekti. UK Biobank'taki 1531 MDB'li bireyin kortikal kalınlık (CT) verisine kararlılık temelli kümeleme uygulandı; 144 yatan hastalık HSR örnekleminde replikasyon yapıldı. İki kararlı küme çıktı ve bunlar hold-out UKB örneğine %96,5 doğrulukla genellendi (çoğunluk küme tabanı %59,5); kümelerden biri kortikal incelme, çocukluk çağı travması ve diyabet komorbiditesiyle ilişkiliydi, ancak klinik korelatlar çoklu karşılaştırma düzeltmesinden sonra replike olmadı. HSR'de de benzer iki küme bulundu. Nörotransmitter haritalamasında UKB'de dopamin taşıyıcısı, HSR'de histamin H3 reseptörü baskın katkıyı yaptı. Yazarlar klinik uygunluğun daha fazla araştırma gerektirdiğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122595",
+  "journal": "jad",
+  "title": "Mild depressive symptoms in older U.S. veterans: Prevalence, correlates, and psychiatric and functional burden",
+  "authors": "Michael F. Georgescu, Ian C. Fischer, Peter J. Na ve ark.",
+  "online": "2026-10-07",
+  "pmid": "42843468",
+  "ozet": "Amaç, yaşlı ABD gazilerinde hafif depresif belirtilerin prevalansını, korelatlarını ve psikiyatrik ile işlevsel yükünü incelemekti. Ulusal temsili National Health and Resilience in Veterans Study'den 60 yaş üstü 2979 gazi ile kesitsel analiz yapıldı; depresif belirtiler PHQ-2 ile yok, hafif veya pozitif tarama olarak sınıflandı. Hafif depresif belirtiler (%18,2), pozitif PHQ-2 taramasından (%4,3) yaklaşık 4 kat yaygındı ve psikiyatrik ile madde kullanım bozuklukları ve intihar davranışlarıyla belirgin biçimde yüksek olasılıkla ilişkiliydi. Belirti şiddeti arttıkça psikiyatrik ve işlevsel yük de artıyordu. Yazarlar, erken müdahalelerin sonuçları iyileştirip iyileştirmediğinin değerlendirilmesi için daha fazla değerlendirme ve izlemin önemini vurguluyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122598",
+  "journal": "jad",
+  "title": "Work and depression during emerging adulthood: Longitudinal associations of general and phase specific factors with depressive symptoms",
+  "authors": "Inge Seiffge-Krenke, Carsten Spitzer, Laura Lübke",
+  "online": "2026-10-07",
+  "pmid": "42843473",
+  "ozet": "Amaç, ilk yetişkinlik döneminde (18-29 yaş) iş ile ilişkili faktörlerin depresyonla boylamsal ilişkisini incelemekti. Başlangıçta 1209 katılımcının (ort. 23,77 yaş) yaşam doyumu, iş özellikleri ve mesleki kimliği değerlendirildi; dört yıllık dalgalarda iş öz-yeterliği, iş stresiyle başa çıkma ve kritik yaşam olayları ölçüldü, son dalgada (N=954) CES-D ile depresyon belirtileri değerlendirildi (hiyerarşik regresyon). Başlangıç yaşam doyumu daha sonraki depresyonla negatif; iş stresi, ruminatif keşif, algılanan istikrarsızlık ve kritik yaşam olayları pozitif ilişkiliydi. Kaçıngan başa çıkma daha yüksek, aktif başa çıkma ve öz-yeterlik daha düşük depresyonla ilişkiliydi; kaçıngan başa çıkma klinik kesme noktalarıyla yapılan lojistik regresyonda da korundu. Başlangıç depresyon ölçümünün olmaması nedeniyle ilişkiler nedensel değildir; yazarlar başa çıkma ve öz-yeterliği hedefleyen müdahaleleri öneriyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122594",
+  "journal": "jad",
+  "title": "A two-stage diagnostic classification framework integrating heart rate variability and clinical features to identify recent suicide-related status in psychiatric inpatients",
+  "authors": "Yi Wang, Shanshan Shi, Yang Lu ve ark.",
+  "online": "2026-10-07",
+  "pmid": "42843470",
+  "ozet": "Amaç, psikiyatri yatan hastalarında yakın zamanlı intihar ile ilişkili durumu klinik özellikler ve kalp hızı değişkenliği (HRV) ile belirleyen iki aşamalı bir makine öğrenmesi çerçevesi geliştirmekti. Retrospektif çalışmada 619 yatan hasta (416 intihar düşüncesi/davranışı yok, 137 yalnızca düşünce, 66 davranış) 5 dakikalık dinlenim HRV kaydı ve klinik değerlendirmeyle incelendi; yinelenen iç içe çapraz doğrulama kullanıldı. Birleşik model en iyi performansı gösterdi: 1. aşamada (herhangi bir intihar düşüncesi/davranışı) AUC 0,894, AUPRC 0,831; 2. aşamada (davranış vs düşünce) AUC 0,778, AUPRC 0,686. Depresif belirti şiddeti, kendine zarar, geçmiş girişim, genç yaş ve azalmış vagal HRV belirleyiciydi. Yazarlar HRV'nin sınırlı tamamlayıcı katkı sağladığını ve dış prospektif doğrulama gerektiğini belirtiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122593",
+  "journal": "jad",
+  "title": "Interactive effect of childhood adversity and HPA-axis multilocus genetic variation on alexithymia in adolescents",
+  "authors": "Hongjia Zhou, Wei Lü",
+  "online": "2026-10-07",
+  "pmid": "42843472",
+  "ozet": "Amaç, HPA ekseni ile ilişkili çoklu lokus genetik profil skorunun (MGPS) çocukluk çağı olumsuz yaşantıları ile ergen aleksitimisi arasındaki ilişkiyi düzenleyip düzenlemediğini incelemekti. Kesitsel çalışmada 460 ergen (ort. yaş 12,73; %54,1 kız) Çocukluk Çağı Travma Ölçeği ve Toronto Aleksitimi Ölçeği'ni doldurdu; tükürükten altı aday polimorfizmle MGPS oluşturuldu ve hiyerarşik ile yeniden parametrelendirilmiş regresyon yapıldı. Çocukluk çağı olumsuzlukları aleksitimiyle pozitif ilişkiliydi; yüksek MGPS'li ergenlerde yüksek olumsuzlukta aleksitimi daha yüksek, düşük olumsuzlukta daha düşüktü; bu bulgu diferansiyel duyarlılık modelini ön düzeyde destekliyor. Kesitsel desen nedensellik çıkarımını sınırlıyor ve bulguların boylamsal, klinik örneklerde replikasyonu gerekiyor.",
+  "added": "2026-10-08"
+ },
+ {
+  "doi": "10.1016/s2215-0366(26)00277-4",
+  "journal": "lanpsy",
+  "title": "Towards a convergent biomarker and treatment for obsessive-compulsive disorder",
+  "authors": "Shrey Grover, Liming Qiu, Katherine W Scangos ve ark.",
+  "online": "2026-10-07",
+  "pmid": "42843396",
+  "ozet": "Lancet Psychiatry'de yayımlanan, obsesif-kompulsif bozukluk için yakınsayan bir biyobelirteç ve tedavi hedefine yönelik bir yazı; başlıktan anlaşıldığı kadarıyla OKB'de biyobelirteç ve tedavi kavramlarının birleştirilmesini ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-08"
+ },
+ {
   "doi": "10.1016/j.biopsych.2026.09.024",
   "journal": "bp",
   "title": "Sleep and Drug Use: Neuroimaging Evidence for a Multidimensional Brain Framework",
