@@ -3,8 +3,10 @@
 Bu dosya her sabah bulutta çalışan Claude görevinin izlediği adımlardır.
 
 1. `python3 scripts/fetch.py` çalıştır. Yeni makaleler `data/pending.json` dosyasına yazılır.
-2. `data/pending.json` içindeki **her** makale için Türkçe kısa özet yaz ve
-   `data/summaries.json` dosyasına `{"<doi>": "<özet>"}` biçiminde kaydet.
+2. `data/pending.json` içindeki **her** makale için Türkçe özet yaz ve özeti o makalenin
+   kendi nesnesine `"ozet"` alanı olarak ekle (aynı nesnedeki `title` ve `abstract`'a
+   bakarak; ayrı bir DOI listesi tutma, yanlış makaleye yazma riski doğar).
+   Az sayıda makalede Python ile pending.json'u okuyup her nesneye `ozet` eklemek en güvenlisi.
    - 3–5 cümle, yaklaşık 60–110 kelime. Okuyucu bir psikiyatrist: tıbbi terimleri
      Türkçe klinik kullanımıyla yaz (ör. "RKÇ", "meta-analiz", "EKT", "TSSB"),
      ölçek ve belirteç kısaltmalarını olduğu gibi bırak (PHQ-9, EPDS, IL-6…).
@@ -30,7 +32,8 @@ Bu dosya her sabah bulutta çalışan Claude görevinin izlediği adımlardır.
    - `"update": true` olan kayıtlar daha önce özetsiz yayımlanmış ve özeti sonradan
      bulunmuş makalelerdir: aynı kurallarla yeni özet yaz; eskisinin yerine geçer.
      (fetch.py özeti eksik makaleleri 14 gün boyunca her gün yeniden arar.)
-3. `python3 scripts/build.py` çalıştır. Sayfa `index.html` (ve `docs/index.html`) olarak üretilir.
+3. `python3 scripts/build.py` çalıştır. Bir özet başka makalenin sayılarını içeriyorsa
+   build "HATA" verip durur: ilgili özetleri kendi abstract'ına göre yeniden yaz ve tekrar çalıştır. Sayfa `index.html` (ve `docs/index.html`) olarak üretilir.
 4. Değişiklikleri commit'le ve aynı dala push et:
    `git add -A && git commit -m "Günlük güncelleme $(date +%F)" && git push`
    Yeni makale yoksa bile 3. ve 4. adımı yap (sayfadaki "son güncelleme" saati yenilenir).

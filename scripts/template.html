@@ -7,124 +7,227 @@
 <title>Dergi Takibi</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/light/style.css">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
 <style>
-/* Layout: tek sütunlu okuma listesi; üstte yapışkan filtre çubuğu, gün gün gruplanmış makaleler */
+/* Soft Structuralism: soğuk gümüş zemin, havada duran beyaz kartlar, çok yumuşak ve zemine tonlanmış gölgeler.
+   Şekil kuralı: dış kabuk 28px, iç çekirdek 22px (eşmerkezli çift çerçeve); tüm etkileşimli öğeler tam hap.
+   Tek vurgu rengi (zümrüt). Grup renkleri yalnızca dergi grubunu gösterir. */
 :root {
-  --bg: #f4f6f8;
+  --bg: #eceef1;
+  --shell: rgba(24, 33, 45, 0.035);
+  --ring: rgba(24, 33, 45, 0.075);
   --surface: #ffffff;
-  --ink: #18202b;
-  --muted: #5b6776;
-  --line: #dde3ea;
-  --accent: #1d5c78;
-  --accent-soft: #e2eef3;
-  --new: #b4541b;
-  --g-genel: #22578f; --g-bio: #a33b3b; --g-mood: #8a6a12; --g-neuromod: #1f7a5a; --g-pharm: #7a3e8e; --g-geri: #0f6e7a;
-  --font-title: "Source Serif 4", Georgia, "Times New Roman", serif;
-  --font-ui: "IBM Plex Sans", -apple-system, "Segoe UI", Roboto, sans-serif;
+  --surface-2: #f5f6f8;
+  --ink: #14181e;
+  --muted: #5b6470;
+  --faint: #868e99;
+  --accent: #0d7a64;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(13, 122, 100, 0.1);
+  --glass: rgba(255, 255, 255, 0.72);
+  --shadow: 0 1px 2px rgba(31, 41, 55, 0.04), 0 18px 40px -18px rgba(31, 41, 55, 0.16);
+  --highlight: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --g-genel: #3d5f8f; --g-bio: #9c4f58; --g-mood: #8a6b1c; --g-neuromod: #4d7a36; --g-pharm: #765894; --g-geri: #2b7380;
+  --font: "Geist", ui-sans-serif, -apple-system, "Segoe UI", sans-serif;
+  --ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --r-shell: 28px; --r-core: 22px;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #11161c; --surface: #19202a; --ink: #e6ebf1; --muted: #9aa6b4; --line: #2a3441;
-    --accent: #7cc0dc; --accent-soft: #1d3340; --new: #f0a36b;
-  --g-genel: #8fb8ea; --g-bio: #ec9a9a; --g-mood: #e0c46e; --g-neuromod: #7ccfae; --g-pharm: #c79bd8; --g-geri: #72d0da;
+    --bg: #0e1114; --shell: rgba(255, 255, 255, 0.03); --ring: rgba(255, 255, 255, 0.07);
+    --surface: #161a1f; --surface-2: #1c2127; --ink: #e8ebef; --muted: #9aa2ac; --faint: #6d7580;
+    --accent: #4fc2a4; --accent-ink: #0a1411; --accent-soft: rgba(79, 194, 164, 0.14);
+    --glass: rgba(22, 26, 31, 0.72);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 18px 40px -18px rgba(0, 0, 0, 0.6);
+    --highlight: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    --g-genel: #93b2df; --g-bio: #e09ca3; --g-mood: #d7b866; --g-neuromod: #a2cb8d; --g-pharm: #c0a6dc; --g-geri: #7fc5cf;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #11161c; --surface: #19202a; --ink: #e6ebf1; --muted: #9aa6b4; --line: #2a3441;
-  --accent: #7cc0dc; --accent-soft: #1d3340; --new: #f0a36b;
-  --g-genel: #8fb8ea; --g-bio: #ec9a9a; --g-mood: #e0c46e; --g-neuromod: #7ccfae; --g-pharm: #c79bd8; --g-geri: #72d0da;
+  --bg: #0e1114; --shell: rgba(255, 255, 255, 0.03); --ring: rgba(255, 255, 255, 0.07);
+  --surface: #161a1f; --surface-2: #1c2127; --ink: #e8ebef; --muted: #9aa2ac; --faint: #6d7580;
+  --accent: #4fc2a4; --accent-ink: #0a1411; --accent-soft: rgba(79, 194, 164, 0.14);
+  --glass: rgba(22, 26, 31, 0.72);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 18px 40px -18px rgba(0, 0, 0, 0.6);
+  --highlight: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --g-genel: #93b2df; --g-bio: #e09ca3; --g-mood: #d7b866; --g-neuromod: #a2cb8d; --g-pharm: #c0a6dc; --g-geri: #7fc5cf;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 var(--font-ui); }
+body { margin: 0; min-height: 100dvh; background: var(--bg); color: var(--ink);
+  font: 15px/1.6 var(--font); -webkit-font-smoothing: antialiased; }
 [hidden] { display: none !important; }
-.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; }
+button { font-family: inherit; }
+.wrap { max-width: 780px; margin: 0 auto; padding-inline: 20px; padding-bottom: calc(120px + env(safe-area-inset-bottom, 0px)); }
 
-header.top { padding-block: calc(20px + env(safe-area-inset-top, 0px)) 8px; }
-header.top h1 { font: 600 1.6rem/1.2 var(--font-title); margin: 0; letter-spacing: -0.01em; }
-.meta { color: var(--muted); font-size: 0.85rem; margin-top: 4px; font-variant-numeric: tabular-nums; }
-.meta strong { color: var(--new); font-weight: 600; }
+/* Çift çerçeve: dış kabuk + iç çekirdek */
+.bezel { background: var(--shell); box-shadow: 0 0 0 1px var(--ring); border-radius: var(--r-shell); padding: 6px; }
+.core { background: var(--surface); border-radius: var(--r-core); box-shadow: var(--highlight), var(--shadow); }
 
-.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
-  border-bottom: 1px solid var(--line); padding-block: 10px; display: flex; flex-direction: column; gap: 8px; }
-.row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
-.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
-.seg button { border: 0; background: none; font: 500 0.82rem var(--font-ui); color: var(--muted); padding: 6px 11px; cursor: pointer; }
-.seg button + button { border-left: 1px solid var(--line); }
-.seg button[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
-.chip { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px;
-  font: 500 0.78rem var(--font-ui); padding: 4px 10px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
-.chip .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
-.chip .n { color: var(--muted); font-variant-numeric: tabular-nums; }
-.chip[aria-pressed="true"] { background: var(--c); border-color: var(--c); color: var(--surface); }
-.chip[aria-pressed="true"] .dot { background: var(--surface); }
-.chip[aria-pressed="true"] .n { color: inherit; opacity: 0.85; }
-.chip.zero:not([aria-pressed="true"]) { opacity: 0.5; }
+/* Başlık */
+header.top { padding-block: calc(40px + env(safe-area-inset-top, 0px)) 24px; display: flex; flex-direction: column; gap: 14px; }
+.top-row { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.pill-tag { white-space: nowrap; align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; padding: 5px 12px;
+  background: var(--accent-soft); color: var(--accent); font-size: 12.5px; font-weight: 600; font-variant-numeric: tabular-nums; }
+header.top h1 { margin: 0; font-size: clamp(2.1rem, 6vw, 3rem); line-height: 1.02; font-weight: 700; letter-spacing: -0.035em; }
+.meta { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+
+/* Hap düğmeler */
+.btn-pill { display: inline-flex; align-items: center; gap: 8px; border: 0; border-radius: 999px; cursor: pointer;
+  padding: 8px 14px; font-size: 13.5px; font-weight: 500; color: var(--ink); background: var(--surface);
+  box-shadow: 0 0 0 1px var(--ring), var(--highlight); white-space: nowrap; text-decoration: none;
+  transition: transform 400ms var(--ease), background-color 400ms var(--ease), color 400ms var(--ease); }
+.btn-pill:hover { background: var(--surface-2); }
+.btn-pill:active { transform: scale(0.97); }
+.btn-pill i { font-size: 17px; }
+.btn-pill.accent { background: var(--accent); color: var(--accent-ink); box-shadow: none; }
+.btn-pill.on { color: var(--accent); background: var(--accent-soft); box-shadow: none; }
+.sync i { transition: transform 700ms var(--ease); }
+.sync:hover i { transform: rotate(120deg); }
+
+/* Eşitleme paneli */
+.panel .core { padding: 22px; display: flex; flex-direction: column; gap: 12px; font-size: 14px; }
+.panel h2 { margin: 0; font-size: 18px; font-weight: 600; letter-spacing: -0.015em; }
+.panel ol { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; color: var(--muted); }
+.panel ol b { color: var(--ink); font-weight: 600; }
+.panel a { color: var(--accent); }
+.panel code { font-size: 12.5px; background: var(--surface-2); padding: 2px 7px; border-radius: 999px; }
+.panel label { font-size: 13px; font-weight: 600; }
+.panel .field { display: flex; flex-direction: column; gap: 8px; }
+.panel .row { display: flex; gap: 8px; flex-wrap: wrap; }
+.panel input { flex: 1; min-width: 0; border: 0; border-radius: 999px; padding: 10px 16px; background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--ring); color: var(--ink); font: 13px ui-monospace, "SF Mono", Menlo, monospace; }
+.panel .note { color: var(--muted); font-size: 13px; margin: 0; }
+
+/* Filtre alanı */
+.controls .core { padding: 14px; display: flex; flex-direction: column; gap: 12px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.seg { display: inline-flex; padding: 4px; gap: 2px; border-radius: 999px; background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--ring); }
+.seg button { white-space: nowrap; border: 0; background: none; border-radius: 999px; padding: 7px 14px; font-size: 13.5px; font-weight: 500;
+  color: var(--muted); cursor: pointer; transition: background-color 400ms var(--ease), color 400ms var(--ease), box-shadow 400ms var(--ease); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 2px rgba(31, 41, 55, 0.08), 0 0 0 1px var(--ring); }
+.switch { margin-left: auto; display: inline-flex; align-items: center; gap: 10px; font-size: 13.5px; color: var(--muted); cursor: pointer; user-select: none; }
+.switch input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.switch .track { width: 38px; height: 22px; border-radius: 999px; background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--ring);
+  position: relative; transition: background-color 400ms var(--ease); }
+.switch .track::after { content: ""; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%;
+  background: var(--surface); box-shadow: 0 1px 3px rgba(31, 41, 55, 0.25); transition: transform 500ms var(--ease); }
+.switch input:checked + .track { background: var(--accent); box-shadow: none; }
+.switch input:checked + .track::after { transform: translateX(16px); }
+.switch input:focus-visible + .track { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chips { gap: 6px; }
+.chip { border: 0; border-radius: 999px; padding: 7px 13px; cursor: pointer; display: inline-flex; gap: 7px; align-items: center;
+  font-size: 13px; font-weight: 500; color: var(--ink); background: var(--surface); box-shadow: 0 0 0 1px var(--ring);
+  transition: transform 400ms var(--ease), background-color 400ms var(--ease), color 400ms var(--ease); }
+.chip:active { transform: scale(0.97); }
+.chip .n { color: var(--faint); font-variant-numeric: tabular-nums; font-size: 12px; }
+.chip[aria-pressed="true"] { background: var(--c, var(--ink)); color: var(--surface); box-shadow: none; }
+.chip[aria-pressed="true"] .n { color: inherit; opacity: 0.75; }
+.chip.zero:not([aria-pressed="true"]) { opacity: 0.45; }
 .chip.all { --c: var(--ink); }
-.empty button { margin-top: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--accent);
-  border-radius: 8px; padding: 6px 12px; font: 500 0.85rem var(--font-ui); cursor: pointer; }
-.toggle { margin-left: auto; font-size: 0.82rem; color: var(--muted); display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
-#q { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
-  border-radius: 8px; padding: 7px 10px; font: 0.9rem var(--font-ui); }
+.journals { padding: 10px; border-radius: var(--r-core); background: var(--surface-2); }
+.search { position: relative; display: flex; }
+.search i { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); font-size: 18px; color: var(--faint); pointer-events: none; }
+#q { flex: 1; min-width: 0; border: 0; border-radius: 999px; padding: 11px 16px 11px 44px; background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--ring); color: var(--ink); font: 14.5px var(--font); }
+#q::placeholder { color: var(--faint); }
 button:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-main { padding-block: 8px 48px; }
-.day { margin-top: 22px; }
-.day h2 { font: 600 0.78rem var(--font-ui); text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted);
-  margin: 0 0 8px; display: flex; gap: 8px; align-items: baseline; }
-.day h2 .count { font-weight: 500; letter-spacing: 0; text-transform: none; }
-.list { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
-article { padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
-article + article { border-top: 1px solid var(--line); }
-.head { display: flex; gap: 8px; align-items: center; font-size: 0.74rem; color: var(--muted); flex-wrap: wrap; }
-.jn { font-weight: 600; color: var(--c); text-transform: uppercase; letter-spacing: 0.05em; }
-article h3 { margin: 0; font: 600 1.06rem/1.35 var(--font-title); text-wrap: pretty; overflow-wrap: anywhere; }
-article h3 a { color: var(--ink); text-decoration: none; }
-article h3 a:hover { color: var(--accent); text-decoration: underline; }
-.authors { font-size: 0.8rem; color: var(--muted); }
-.ozet { margin: 2px 0 0; font-size: 0.92rem; }
-.ozet.none { color: var(--muted); font-style: italic; }
+/* Liste */
+main { padding-top: 12px; }
+.day { margin-top: 36px; display: flex; flex-direction: column; gap: 12px; }
+.day h2 { margin: 0 0 2px 8px; font-size: 15px; font-weight: 600; letter-spacing: -0.01em; display: flex; gap: 10px; align-items: baseline; }
+.day h2 .count { font-weight: 500; color: var(--faint); font-size: 13.5px; font-variant-numeric: tabular-nums; }
+.list { display: flex; flex-direction: column; gap: 12px; }
+article.bezel { min-width: 0; transition: opacity 500ms var(--ease); }
+article .core { padding: 22px 22px 18px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.head { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; font-size: 13px; }
+.jn { font-weight: 600; color: var(--c); letter-spacing: -0.005em; }
+.when { color: var(--faint); font-variant-numeric: tabular-nums; white-space: nowrap; }
+article h3 { margin: 0; font-size: 18px; line-height: 1.32; font-weight: 600; letter-spacing: -0.018em; text-wrap: pretty; overflow-wrap: anywhere; }
+article h3 a { color: var(--ink); text-decoration: none; transition: color 400ms var(--ease); }
+article h3 a:hover { color: var(--accent); }
+.authors { font-size: 13.5px; color: var(--muted); }
+.ozet { margin: 2px 0 0; font-size: 15px; line-height: 1.65; color: var(--ink); max-width: 68ch; }
+.ozet.none { color: var(--muted); }
 .ozet.clamp { display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
-.actions { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.8rem; }
-.actions a, .actions button { white-space: nowrap; }
-.actions a, .actions button { color: var(--accent); background: none; border: 0; padding: 0; font: 500 0.8rem var(--font-ui); cursor: pointer; text-decoration: none; }
-article.read { opacity: 0.5; }
-article.read .mark::before { content: "✓ "; }
-.empty { text-align: center; color: var(--muted); padding: 48px 16px; }
-footer { color: var(--muted); font-size: 0.78rem; padding-block: 0 40px; display: flex; flex-direction: column; gap: 4px; }
-footer a { color: var(--muted); }
-.top-row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
-.sync { background: none; border: 0; padding: 0; font: 500 0.78rem var(--font-ui); color: var(--muted); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
-.sync.on { color: var(--accent); text-decoration: none; }
-.tabs { display: flex; gap: 18px; margin-top: 14px; border-bottom: 1px solid var(--line); }
-.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; padding: 6px 0 8px;
-  font: 600 0.92rem var(--font-ui); color: var(--muted); cursor: pointer; }
-.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
-.tabs .n { font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
-.actions .save { font-weight: 600; }
-.actions .save.on { color: var(--new); }
-.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-top: 12px;
-  display: flex; flex-direction: column; gap: 10px; font-size: 0.88rem; }
-.panel h2 { margin: 0; font: 600 1rem var(--font-ui); }
-.panel ol { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 4px; }
-.panel a { color: var(--accent); }
-.panel code { font-size: 0.82rem; background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; }
-.panel .row input { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--bg); color: var(--ink);
-  border-radius: 8px; padding: 7px 10px; font: 0.85rem ui-monospace, Menlo, monospace; }
-.btn { border: 1px solid var(--accent); background: var(--accent); color: var(--surface); border-radius: 8px; padding: 7px 12px;
-  font: 600 0.85rem var(--font-ui); cursor: pointer; }
-.btn.ghost { background: none; color: var(--accent); }
-.panel .note { color: var(--muted); font-size: 0.8rem; margin: 0; }
-#toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 20;
-  background: var(--ink); color: var(--bg); padding: 9px 14px; border-radius: 8px; font-size: 0.85rem; max-width: calc(100% - 32px); }
-@media (max-width: 480px) {
-  .toggle { margin-left: 0; }
-  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -16px; padding-inline: 16px; }
+.more-link { align-self: flex-start; border: 0; background: none; padding: 0; color: var(--accent); font-size: 13.5px; font-weight: 600; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 4px; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 6px; padding-top: 14px; box-shadow: 0 -1px 0 var(--ring); }
+.actions .spacer { flex: 1; }
+.act { display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 999px; padding: 7px 12px; cursor: pointer;
+  font-size: 13px; font-weight: 500; color: var(--muted); background: var(--surface-2); text-decoration: none; white-space: nowrap;
+  transition: transform 400ms var(--ease), background-color 400ms var(--ease), color 400ms var(--ease); }
+.act:hover { color: var(--ink); }
+.act:active { transform: scale(0.97); }
+.act i { font-size: 16px; }
+.act.on { color: var(--accent); background: var(--accent-soft); }
+/* Ada düğme: ok kendi dairesinin içinde */
+.island { display: inline-flex; align-items: center; gap: 10px; padding: 5px 5px 5px 14px; border-radius: 999px; text-decoration: none;
+  background: var(--ink); color: var(--bg); font-size: 13px; font-weight: 600; white-space: nowrap;
+  transition: transform 400ms var(--ease); }
+.island .ic { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: rgba(255, 255, 255, 0.14);
+  transition: transform 500ms var(--ease); }
+.island:hover .ic { transform: translate(2px, -1px) scale(1.05); }
+.island:active { transform: scale(0.97); }
+article.read { opacity: 0.55; }
+article.read:hover { opacity: 0.85; }
+
+/* Giriş animasyonu (yalnızca liste yeniden oluşturulduğunda) */
+.rise { opacity: 0; transform: translateY(18px); }
+.rise.in { opacity: 1; transform: none; transition: opacity 800ms var(--ease), transform 800ms var(--ease); }
+@media (prefers-reduced-motion: reduce) {
+  .rise { opacity: 1; transform: none; }
+  * { transition-duration: 1ms !important; }
+}
+
+.empty { text-align: center; color: var(--muted); padding: 56px 24px; font-size: 15px; line-height: 1.7; }
+.empty .btn-pill { margin-top: 14px; }
+
+/* Yüzen alt gezinme adası */
+.dock { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 20;
+  display: flex; gap: 4px; padding: 5px; border-radius: 999px; background: var(--glass);
+  -webkit-backdrop-filter: blur(24px) saturate(1.4); backdrop-filter: blur(24px) saturate(1.4);
+  box-shadow: 0 0 0 1px var(--ring), 0 18px 40px -16px rgba(31, 41, 55, 0.35); }
+.dock button { border: 0; background: none; border-radius: 999px; padding: 10px 18px; font-size: 14px; font-weight: 600; color: var(--muted);
+  cursor: pointer; display: inline-flex; align-items: center; gap: 8px; white-space: nowrap;
+  transition: background-color 500ms var(--ease), color 500ms var(--ease), transform 400ms var(--ease); }
+.dock button:active { transform: scale(0.97); }
+.dock button[aria-selected="true"] { background: var(--ink); color: var(--bg); }
+.dock .n { font-variant-numeric: tabular-nums; font-size: 12px; min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px;
+  display: inline-grid; place-items: center; background: var(--accent); color: var(--accent-ink); }
+.dock .n:empty { display: none; }
+#toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(86px + env(safe-area-inset-bottom, 0px)); z-index: 21;
+  background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: 13.5px; max-width: calc(100% - 40px);
+  box-shadow: 0 18px 40px -16px rgba(31, 41, 55, 0.4); }
+
+footer { color: var(--faint); font-size: 13px; padding-top: 48px; display: flex; flex-direction: column; gap: 10px; }
+footer .links { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+footer a { color: var(--muted); text-decoration: none; }
+footer a:hover { color: var(--accent); }
+
+@media (max-width: 767px) {
+  .wrap { padding-inline: 14px; }
+  header.top { padding-top: calc(28px + env(safe-area-inset-top, 0px)); }
+  .bezel { border-radius: 24px; padding: 5px; }
+  .core { border-radius: 19px; }
+  article .core { padding: 18px 16px 14px; }
+  article h3 { font-size: 17px; }
+  .switch { margin-left: 4px; }
+  #feedCtl { gap: 12px; }
+  .seg { width: 100%; }
+  .seg button { flex: 1; padding: 8px 6px; font-size: 13px; }
+  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -14px; padding-inline: 14px; }
+  .chips::-webkit-scrollbar { display: none; }
   .chips .chip { flex: none; }
+  .journals { margin-inline: -4px; padding: 8px 4px; }
+  .journals.chips { margin-inline: -14px; padding-inline: 14px; border-radius: 0; background: none; }
+  .dock button { padding: 10px 16px; }
 }
 </style>
 </head>
@@ -132,46 +235,54 @@ footer a { color: var(--muted); }
 <div class="wrap">
   <header class="top">
     <div class="top-row">
-      <h1>Dergi Takibi</h1>
-      <button class="sync" id="syncBtn" type="button"></button>
+      <span class="pill-tag" id="tag"></span>
+      <button class="btn-pill sync" id="syncBtn" type="button"></button>
     </div>
+    <h1>Dergi Takibi</h1>
     <div class="meta" id="meta"></div>
-    <section class="panel" id="syncPanel" hidden>
-      <h2>Kaydedilenleri cihazlar arasında eşitle</h2>
-      <p class="note" style="margin:0">Kaydettiğiniz makaleler GitHub deponuzdaki <code>data/saved.json</code> dosyasına yazılır. Bu cihazdan kaydedebilmek için bir kez erişim anahtarı girmeniz gerekir.</p>
-      <ol>
-        <li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub'da yeni anahtar oluşturma sayfasını</a> açın.</li>
-        <li>Ad: <code>dergi-takip</code>, süre: en uzun seçenek.</li>
-        <li>Repository access: <b>Only select repositories</b> → <code>dergi-takip</code>.</li>
-        <li>Permissions → Repository permissions → <b>Contents: Read and write</b>.</li>
-        <li><b>Generate token</b> deyin, çıkan anahtarı kopyalayıp aşağıya yapıştırın.</li>
-      </ol>
-      <div class="row"><input id="token" type="password" placeholder="github_pat_…" autocomplete="off" spellcheck="false"><button class="btn" id="tokenSave" type="button">Bağla</button></div>
-      <p class="note">Anahtar yalnızca bu tarayıcıda saklanır ve sadece GitHub'a gönderilir. Telefonda da bir kez aynı anahtarı girmeniz yeterli.</p>
-      <div class="row"><button class="btn ghost" id="tokenRemove" type="button" hidden>Bu cihazda bağlantıyı kaldır</button><button class="btn ghost" id="syncClose" type="button">Kapat</button></div>
-    </section>
-    <nav class="tabs" role="tablist" id="tabs">
-      <button role="tab" data-v="feed" type="button">Yeni makaleler</button>
-      <button role="tab" data-v="saved" type="button">Kaydedilenler <span class="n" id="savedN"></span></button>
-    </nav>
-  </header>
-  <div class="bar">
-    <div class="row" id="feedCtl">
-      <div class="seg" role="group" aria-label="Zaman aralığı" id="range">
-        <button data-r="last">Son gelenler</button>
-        <button data-r="7">7 gün</button>
-        <button data-r="30">30 gün</button>
-        <button data-r="all">Tümü</button>
+    <section class="panel bezel" id="syncPanel" hidden>
+      <div class="core">
+        <h2>Cihazlar arasında eşitleme</h2>
+        <p class="note">Kaydettikleriniz ve okundu işaretleri GitHub deponuzda tutulur; telefon ve bilgisayar aynı listeyi görür. Bu cihaz için bir kez erişim anahtarı girmeniz yeterli.</p>
+        <ol>
+          <li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub'da yeni anahtar sayfasını</a> açın.</li>
+          <li>Ad: <code>dergi-takip</code>, süre: en uzun seçenek.</li>
+          <li>Repository access: <b>Only select repositories</b>, ardından <code>dergi-takip</code>.</li>
+          <li>Repository permissions: <b>Contents: Read and write</b>.</li>
+          <li><b>Generate token</b> deyin ve anahtarı aşağıya yapıştırın.</li>
+        </ol>
+        <div class="field">
+          <label for="token">Erişim anahtarı</label>
+          <div class="row"><input id="token" type="password" autocomplete="off" spellcheck="false"><button class="btn-pill accent" id="tokenSave" type="button">Bağla</button></div>
+          <p class="note">Anahtar yalnızca bu tarayıcıda saklanır ve sadece GitHub'a gönderilir.</p>
+        </div>
+        <div class="row"><button class="btn-pill" id="tokenRemove" type="button" hidden>Bu cihazda bağlantıyı kaldır</button><button class="btn-pill" id="syncClose" type="button">Kapat</button></div>
       </div>
-      <label class="toggle"><input type="checkbox" id="unread"> Sadece okunmamışlar</label>
+    </section>
+  </header>
+  <section class="controls bezel">
+    <div class="core">
+      <div class="row" id="feedCtl">
+        <div class="seg" role="group" aria-label="Zaman aralığı" id="range">
+          <button data-r="last" type="button">Son gelenler</button>
+          <button data-r="7" type="button">7 gün</button>
+          <button data-r="30" type="button">30 gün</button>
+          <button data-r="all" type="button">Tümü</button>
+        </div>
+        <label class="switch"><input type="checkbox" id="unread"><span class="track"></span>Okunmamışlar</label>
+      </div>
+      <div class="row chips" id="groups"></div>
+      <div class="row chips journals" id="chips" hidden></div>
+      <div class="search"><i class="ph-light ph-magnifying-glass"></i><input id="q" type="search" aria-label="Ara" placeholder="Başlık, özet ya da yazar ara" autocomplete="off"></div>
     </div>
-    <div class="row chips" id="groups"></div>
-    <div class="row chips" id="chips" hidden></div>
-    <div class="row"><input id="q" type="search" placeholder="Başlıkta, özette veya yazarda ara…" autocomplete="off"></div>
-  </div>
+  </section>
   <main id="main"></main>
   <footer id="foot"></footer>
 </div>
+<nav class="dock" role="tablist" id="tabs" aria-label="Görünüm">
+  <button role="tab" data-v="feed" type="button"><i class="ph-light ph-newspaper"></i>Yeni</button>
+  <button role="tab" data-v="saved" type="button"><i class="ph-light ph-bookmark-simple"></i>Kaydedilenler<span class="n" id="savedN"></span></button>
+</nav>
 <div id="toast" role="status" hidden></div>
 <script id="data" type="application/json">__DATA__</script>
 <script>
@@ -318,7 +429,7 @@ function openSync() {
 }
 function renderSync() {
   const b = document.getElementById("syncBtn");
-  b.textContent = token ? "✓ Eşitleme açık" : "Eşitlemeyi aç";
+  b.innerHTML = token ? `<i class="ph-light ph-check-circle"></i>Eşitleme açık` : `<i class="ph-light ph-arrows-clockwise"></i>Eşitlemeyi aç`;
   b.classList.toggle("on", !!token);
 }
 const lastAdded = DATA.articles.length ? DATA.articles[0].added : null;
@@ -328,6 +439,24 @@ const fmtShort = new Intl.DateTimeFormat("tr-TR", { day: "numeric", month: "shor
 const d = s => new Date(s + "T12:00:00");
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const norm = s => (s || "").toLocaleLowerCase("tr-TR");
+const txt = s => esc(String(s || "").replace(/\s?[–—]\s?/g, m => (m.trim() === m ? "-" : " - ")));
+let animateNext = true;
+const io = "IntersectionObserver" in window ? new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+}), { rootMargin: "0px 0px -6% 0px" }) : null;
+function reveal(main) {
+  if (!animateNext || !io || matchMedia("(prefers-reduced-motion: reduce)").matches) { animateNext = false; return; }
+  animateNext = false;
+  main.querySelectorAll("article").forEach((el, i) => {
+    el.classList.add("rise");
+    el.style.transitionDelay = i < 6 ? `${i * 60}ms` : "0ms";
+    io.observe(el);
+  });
+  setTimeout(() => main.querySelectorAll(".rise:not(.in)").forEach(el => {
+    if (el.getBoundingClientRect().top < innerHeight) el.classList.add("in");
+  }), 1200);
+}
+const go = () => { animateNext = true; render(); };
 
 function inRange(a) {
   if (state.range === "last") return a.added === lastAdded;
@@ -360,16 +489,17 @@ function render() {
   if (!shown.length) {
     const who = state.only ? `${esc(J[state.only].name)} için ` : state.group ? `${esc(G[state.group].name)} grubunda ` : "";
     const msg = state.unread ? `${who}bu aralıkta okunmamış makale kalmadı.` : `${who}bu aralıkta makale yok.`;
-    const wider = state.range !== "all" ? `<br><button type="button" id="widen">Son 90 güne bak</button>` : "";
+    const wider = state.range !== "all" ? `<br><button class="btn-pill" type="button" id="widen">Son 90 güne bak</button>` : "";
     main.innerHTML = `<p class="empty">${msg.charAt(0).toUpperCase() + msg.slice(1)}${wider}</p>`;
     return;
   }
   main.innerHTML = Object.keys(days).sort().reverse().map(day => `
     <section class="day">
-      <h2>${esc(fmtDay.format(d(day)))} <span class="count">· ${days[day].length} makale</span></h2>
+      <h2>${esc(fmtDay.format(d(day)))} <span class="count">${days[day].length} makale</span></h2>
       <div class="list">${days[day].map(card).join("")}</div>
     </section>`).join("");
   showMore(main);
+  reveal(main);
 }
 
 function renderSaved() {
@@ -380,13 +510,14 @@ function renderSaved() {
   const shown = base.filter(inFilter);
   const main = document.getElementById("main");
   if (!files.saved.data.length) {
-    main.innerHTML = `<p class="empty">Henüz kaydedilmiş makale yok.<br>Makalelerin altındaki <b>☆ Kaydet</b> ile buraya ekleyebilirsiniz.</p>`;
+    main.innerHTML = `<p class="empty">Henüz kaydedilmiş makale yok.<br>Okumak istediğiniz makalelerde <b>Kaydet</b>'e dokunun, burada toplanır.</p>`;
     return;
   }
   if (!shown.length) { main.innerHTML = `<p class="empty">Bu filtrelerle eşleşen kayıt yok.</p>`; return; }
-  main.innerHTML = `<section class="day"><h2>Kaydedilenler <span class="count">· ${shown.length} makale</span></h2>
+  main.innerHTML = `<section class="day"><h2>Kaydedilenler <span class="count">${shown.length} makale</span></h2>
     <div class="list">${shown.map(card).join("")}</div></section>`;
   showMore(main);
+  reveal(main);
 }
 
 function renderChips(base) {
@@ -396,7 +527,7 @@ function renderChips(base) {
     (DATA.groups || []).map(g => {
       const n = base.filter(a => inGroup(a, g.id)).length;
       return `<button class="chip${n ? "" : " zero"}" style="--c:var(--g-${g.id})" data-g="${g.id}" aria-pressed="${state.group === g.id}">
-        <span class="dot"></span>${esc(g.name)} <span class="n">${n}</span></button>`;
+        ${esc(g.name)} <span class="n">${n}</span></button>`;
     }).join("");
   const chips = document.getElementById("chips");
   chips.hidden = !state.group;
@@ -420,32 +551,37 @@ function card(a) {
   const j = J[a.journal] || { name: a.journal };
   const isR = isRead(a.doi);
   const isSaved = savedSet().has(a.doi);
-  return `<article class="${isR ? "read" : ""}" data-doi="${esc(a.doi)}" style="--c:${color(a.journal)}">
-    <div class="head"><span class="jn" lang="en">${esc(j.name)}</span><span>online ${esc(fmtShort.format(d(a.online)))}</span></div>
-    <h3><a href="https://doi.org/${esc(a.doi)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
-    ${a.authors ? `<div class="authors">${esc(a.authors)}</div>` : ""}
-    <p class="ozet ${a.ozet ? (expanded.has(a.doi) ? "" : "clamp") : "none"}">${a.ozet ? esc(a.ozet) : "Türkçe özet henüz yok."}</p>
-    <div class="actions">
-      <button class="save${isSaved ? " on" : ""}" type="button">${isSaved ? "★ Kaydedildi" : "☆ Kaydet"}</button>
-      <button class="more" type="button" ${expanded.has(a.doi) ? "" : "hidden"}>${expanded.has(a.doi) ? "Kısalt" : "Devamını göster"}</button>
-      <button class="mark" type="button">${isR ? "Okundu" : "Okundu işaretle"}</button>
-      ${a.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(a.pmid)}/" target="_blank" rel="noopener">PubMed</a>` : ""}
+  const open = expanded.has(a.doi);
+  return `<article class="bezel${isR ? " read" : ""}" data-doi="${esc(a.doi)}" style="--c:${color(a.journal)}">
+    <div class="core">
+      <div class="head"><span class="jn" lang="en">${esc(j.name)}</span><span class="when">${esc(fmtShort.format(d(a.online)))}</span></div>
+      <h3><a href="https://doi.org/${esc(a.doi)}" target="_blank" rel="noopener">${txt(a.title)}</a></h3>
+      ${a.authors ? `<div class="authors">${esc(a.authors)}</div>` : ""}
+      <p class="ozet ${a.ozet ? (open ? "" : "clamp") : "none"}">${a.ozet ? txt(a.ozet) : "Türkçe özet henüz yok."}</p>
+      <button class="more more-link" type="button" ${open ? "" : "hidden"}>${open ? "Kısalt" : "Devamını oku"}</button>
+      <div class="actions">
+        <button class="act save${isSaved ? " on" : ""}" type="button"><i class="${isSaved ? "ph-fill" : "ph-light"} ph-bookmark-simple"></i>${isSaved ? "Kaydedildi" : "Kaydet"}</button>
+        <button class="act mark${isR ? " on" : ""}" type="button"><i class="${isR ? "ph-fill" : "ph-light"} ph-check-circle"></i>${isR ? "Okundu" : "Okundu say"}</button>
+        ${a.pmid ? `<a class="act" href="https://pubmed.ncbi.nlm.nih.gov/${esc(a.pmid)}/" target="_blank" rel="noopener">PubMed</a>` : ""}
+        <span class="spacer"></span>
+        <a class="island" href="https://doi.org/${esc(a.doi)}" target="_blank" rel="noopener">Makale<span class="ic"><i class="ph-light ph-arrow-up-right"></i></span></a>
+      </div>
     </div>
   </article>`;
 }
 
 document.getElementById("range").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
-  state.range = b.dataset.r; render();
+  state.range = b.dataset.r; go();
 });
-document.getElementById("unread").addEventListener("change", e => { state.unread = e.target.checked; render(); });
+document.getElementById("unread").addEventListener("change", e => { state.unread = e.target.checked; go(); });
 document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
 document.getElementById("groups").addEventListener("click", e => {
   const b = e.target.closest(".chip"); if (!b) return;
   const id = b.dataset.g || null;
   state.group = state.group === id ? null : id;
   state.only = null;
-  render();
+  go();
   const sel = document.querySelector('#groups [aria-pressed="true"]');
   if (sel) sel.scrollIntoView({ block: "nearest", inline: "nearest" });
 });
@@ -453,12 +589,12 @@ document.getElementById("chips").addEventListener("click", e => {
   const b = e.target.closest(".chip"); if (!b) return;
   const id = b.dataset.j || null;
   state.only = state.only === id ? null : id;
-  render();
+  go();
   const sel = document.querySelector('#chips [aria-pressed="true"]');
   if (sel) sel.scrollIntoView({ block: "nearest", inline: "nearest" });
 });
 document.getElementById("main").addEventListener("click", e => {
-  if (e.target.id === "widen") { state.range = "all"; render(); return; }
+  if (e.target.id === "widen") { state.range = "all"; go(); return; }
   const art = e.target.closest("article"); if (!art) return;
   const doi = art.dataset.doi;
   if (e.target.closest(".save")) { toggleSave(doi); return; }
@@ -466,26 +602,28 @@ document.getElementById("main").addEventListener("click", e => {
     const p = art.querySelector(".ozet");
     const open = p.classList.toggle("clamp") === false;
     open ? expanded.add(doi) : expanded.delete(doi);
-    e.target.closest(".more").textContent = open ? "Kısalt" : "Devamını göster";
+    e.target.closest(".more").textContent = open ? "Kısalt" : "Devamını oku";
     return;
   }
   if (e.target.closest(".mark")) setRead(doi, !isRead(doi));
-  else if (e.target.closest("h3 a")) setRead(doi, true);
+  else if (e.target.closest("h3 a, .island")) setRead(doi, true);
 });
 
 (function meta() {
   const upd = new Date(DATA.updated);
   const t = new Intl.DateTimeFormat("tr-TR", { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Istanbul" }).format(upd);
   const n = DATA.articles.filter(a => a.added === lastAdded).length;
-  document.getElementById("meta").innerHTML = `Son güncelleme ${esc(t)} · son taramada <strong>${n} yeni makale</strong>`;
-  document.getElementById("foot").innerHTML = "<div>Dergi sayfaları:</div>" +
-    DATA.journals.map(j => `<a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>`).join("");
+  document.getElementById("tag").textContent = `${n} yeni makale`;
+  document.getElementById("meta").textContent = `${DATA.journals.length} dergi takip ediliyor. Son güncelleme ${t}.`;
+  document.getElementById("foot").innerHTML = "<div>Dergi sayfaları</div><div class=\"links\">" +
+    DATA.journals.map(j => `<a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)}</a>`).join("") + "</div>";
 })();
 document.getElementById("tabs").addEventListener("click", e => {
   const b = e.target.closest("button"); if (!b) return;
   state.view = b.dataset.v;
   try { history.replaceState(null, "", state.view === "saved" ? "#kaydedilenler" : location.pathname); } catch {}
-  render();
+  go();
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 document.getElementById("syncBtn").addEventListener("click", () => {
   const p = document.getElementById("syncPanel");
