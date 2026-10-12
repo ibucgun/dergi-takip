@@ -27,7 +27,10 @@ FIRST_RUN_DAYS = 7
 OVERLAP_DAYS = 3
 FULL_ABSTRACT = 300      # bundan kısa özetler "eksik" sayılır
 RECHECK_DAYS = 14        # eksik özetler bu kadar gün her çalışmada yeniden aranır
-ELSEVIER_KEY = os.environ.get("ELSEVIER_API_KEY")  # bulut ortamının ortam değişkeni; depoda tutulmaz
+# Elsevier anahtarı depoda tutulmaz. Tercihen bulut ortamında "network secret" olarak eklenir
+# (ağ geçidi X-ELS-APIKey başlığını kendisi ekler); alternatif olarak ELSEVIER_API_KEY ortam değişkeni.
+ELSEVIER_KEY = os.environ.get("ELSEVIER_API_KEY")
+elsevier_enabled = True
 FULLTEXT_MARK = "TAM METİN (ilk bölüm): "
 
 SKIP_TITLE = re.compile(
@@ -189,23 +192,34 @@ def is_complete(text):
 
 def elsevier_texts(dois):
     """Elsevier Article Retrieval API: özet makale çıktığı gün gelir; açık erişimli Letter'larda tam metin de gelir."""
+    global elsevier_enabled
     found = {}
-    if not ELSEVIER_KEY:
-        return found
     for d in dois:
+        if not elsevier_enabled:
+            break
         if not d.startswith("10.1016/"):
             continue
         for view in ("FULL", "META_ABS"):
             try:
+                headers = {"Accept": "application/json", "User-Agent": UA}
+                if ELSEVIER_KEY:
+                    headers["X-ELS-APIKey"] = ELSEVIER_KEY
                 req = urllib.request.Request(
-                    f"https://api.elsevier.com/content/article/doi/{urllib.parse.quote(d)}?view={view}",
-                    headers={"X-ELS-APIKey": ELSEVIER_KEY, "Accept": "application/json", "User-Agent": UA})
+                    f"https://api.elsevier.com/content/article/doi/{urllib.parse.quote(d)}?view={view}", headers=headers)
                 with urllib.request.urlopen(req, timeout=60) as r:
                     res = json.load(r)["full-text-retrieval-response"]
             except urllib.error.HTTPError as e:
                 if e.code in (401, 403) and view == "FULL":
                     continue  # tam metne yetki yok: yalnızca özet iste
-                print(f"  Elsevier hatası ({d}): {e}", file=sys.stderr)
+                if e.code in (401, 403):
+                    print("Elsevier anahtarı yok ya da geçersiz; Elsevier atlanıyor.", file=sys.stderr)
+                    elsevier_enabled = False
+                else:
+                    print(f"  Elsevier hatası ({d}): {e}", file=sys.stderr)
+                break
+            except urllib.error.URLError as e:
+                print(f"Elsevier'e ulaşılamadı ({e.reason}); Elsevier atlanıyor.", file=sys.stderr)
+                elsevier_enabled = False
                 break
             except Exception as e:
                 print(f"  Elsevier hatası ({d}): {e}", file=sys.stderr)
@@ -237,12 +251,11 @@ def find_abstracts(items):
             if (is_complete(ab), len(ab)) > (is_complete(cur), len(cur)):
                 a["abstract"] = ab
 
-    sources = [("Elsevier", elsevier_texts)] if ELSEVIER_KEY else []
-    for source, fn in sources:
+    if elsevier_enabled and need():
         try:
-            take(fn(need()))
+            take(elsevier_texts(need()))
         except Exception as e:
-            print(f"{source} hatası: {e}", file=sys.stderr)
+            print(f"Elsevier hatası: {e}", file=sys.stderr)
     if need():
         try:
             pm = pubmed_abstracts(need())
@@ -337,8 +350,8 @@ def main():
     (DATA / "recheck.json").write_text(json.dumps(recheck, indent=1), "utf-8")
     (DATA / "state.json").write_text(json.dumps(state, indent=1), "utf-8")
     full = sum(1 for a in new if is_complete(a["abstract"]))
-    if not ELSEVIER_KEY:
-        print("Not: ELSEVIER_API_KEY tanımlı değil; Elsevier özetleri gecikmeli gelir.")
+    if not elsevier_enabled:
+        print("Not: Elsevier API kullanılamadı; Elsevier özetleri PubMed'e düştükçe gelir.")
     print(f"Toplam {len(new)} yeni makale ({full} tanesinin tam özeti var).")
     print(f"Sonradan özeti bulunan eski makale: {len(updated)}. Özeti hâlâ beklenen: {len(recheck)}.")
     print(f"Özet yazılacak toplam: {len(pending)} (\"update\": true olanlar mevcut özetin yerine yazılacak)")

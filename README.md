@@ -10,7 +10,7 @@ makaleleri toplayıp Türkçe kısa özetleriyle tek sayfada gösterir.
 - `ROUTINE.md` — her sabah bulutta çalışan Claude görevinin talimatı
 - `data/articles.json` — son 90 günün arşivi
 - `data/recheck.json` — özeti eksik makaleler; 14 gün boyunca her gün Elsevier API, PubMed, Europe PMC, OpenAlex ve Cambridge'de yeniden aranır.
-  Elsevier için bulut ortamında `ELSEVIER_API_KEY` ortam değişkeni gerekir (depoda tutulmaz)
+  Elsevier anahtarı bulut ortamında "network secret" olarak tutulur (api.elsevier.com, başlık X-ELS-APIKey); depoda tutulmaz
 - `claude/dergi-veri` dalı — sayfadan kaydedilenler (`data/saved.json`) ve okundu işaretleri (`data/read.json`); sayfa GitHub API ile yazar, böylece tüm cihazlar eşit kalır
 
 ## Dergi eklemek
