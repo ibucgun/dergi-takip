@@ -212,7 +212,12 @@ def elsevier_texts(dois):
                 if e.code in (401, 403) and view == "FULL":
                     continue  # tam metne yetki yok: yalnızca özet iste
                 if e.code in (401, 403):
-                    print("Elsevier anahtarı yok ya da geçersiz; Elsevier atlanıyor.", file=sys.stderr)
+                    try:
+                        detail = e.read().decode("utf-8", "ignore")[:300]
+                    except Exception:
+                        detail = ""
+                    print(f"Elsevier anahtarı yok ya da geçersiz (HTTP {e.code}, anahtar ortam değişkeninde: "
+                          f"{'evet' if ELSEVIER_KEY else 'hayır'}); Elsevier atlanıyor. Yanıt: {detail}", file=sys.stderr)
                     elsevier_enabled = False
                 else:
                     print(f"  Elsevier hatası ({d}): {e}", file=sys.stderr)
