@@ -26,9 +26,6 @@ Bu dosya her sabah bulutta çalışan Claude görevinin izlediği adımlardır.
    - Metin yapılandırılmış bir özet değil de makalenin giriş paragrafıysa (kaynaklara
      [1] gibi atıflar, "Kısa rapor"/editoryal) türünü belirt, ana konuyu 2–3 cümlede
      anlat ve sonuna "(Yalnızca giriş bölümüne erişilebildi.)" ekle.
-   - Metin "TAM METİN (ilk bölüm):" ile başlıyorsa makalenin tam metninden alınmıştır
-     (özeti olmayan Letter/kısa rapor): türünü belirt ve normal araştırma makalesi gibi
-     amaç, yöntem, bulgular, sonuç sırasıyla özetle; sona not ekleme.
    - `"update": true` olan kayıtlar daha önce özetsiz yayımlanmış ve özeti sonradan
      bulunmuş makalelerdir: aynı kurallarla yeni özet yaz; eskisinin yerine geçer.
      (fetch.py özeti eksik makaleleri 14 gün boyunca her gün yeniden arar.)

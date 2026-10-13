@@ -9,7 +9,6 @@ Sadece standart kütüphane kullanır.
 import datetime as dt
 import html
 import json
-import os
 import re
 import sys
 import time
@@ -27,11 +26,6 @@ FIRST_RUN_DAYS = 7
 OVERLAP_DAYS = 3
 FULL_ABSTRACT = 300      # bundan kısa özetler "eksik" sayılır
 RECHECK_DAYS = 14        # eksik özetler bu kadar gün her çalışmada yeniden aranır
-# Elsevier anahtarı depoda tutulmaz. Tercihen bulut ortamında "network secret" olarak eklenir
-# (ağ geçidi X-ELS-APIKey başlığını kendisi ekler); alternatif olarak ELSEVIER_API_KEY ortam değişkeni.
-ELSEVIER_KEY = os.environ.get("ELSEVIER_API_KEY")
-elsevier_enabled = True
-FULLTEXT_MARK = "TAM METİN (ilk bölüm): "
 
 SKIP_TITLE = re.compile(
     r"^\s*(corrigendum|erratum|correction|errors? in\b|incorrect|missing\b|"
@@ -179,8 +173,6 @@ def cambridge_abstracts(dois):
 
 def looks_intro(text):
     """Gerçek özet değil de makalenin giriş paragrafı mı? (Letter'larda OpenAlex/PubMed bunu verir.)"""
-    if text.startswith(FULLTEXT_MARK):
-        return False
     has_refs = re.search(r"\[\d+(?:\s*[,–-]\s*\d+)*\]", text)
     has_sections = re.search(r"\b(results?|conclusions?|findings|methods?)\s*:", text, re.I)
     return bool(has_refs) and not has_sections
@@ -188,60 +180,6 @@ def looks_intro(text):
 
 def is_complete(text):
     return len(text or "") >= FULL_ABSTRACT and not looks_intro(text)
-
-
-def elsevier_texts(dois):
-    """Elsevier Article Retrieval API: özet makale çıktığı gün gelir; açık erişimli Letter'larda tam metin de gelir."""
-    global elsevier_enabled
-    found = {}
-    for d in dois:
-        if not elsevier_enabled:
-            break
-        if not d.startswith("10.1016/"):
-            continue
-        for view in ("FULL", "META_ABS"):
-            try:
-                headers = {"Accept": "application/json", "User-Agent": UA}
-                if ELSEVIER_KEY:
-                    headers["X-ELS-APIKey"] = ELSEVIER_KEY
-                req = urllib.request.Request(
-                    f"https://api.elsevier.com/content/article/doi/{urllib.parse.quote(d)}?view={view}", headers=headers)
-                with urllib.request.urlopen(req, timeout=60) as r:
-                    res = json.load(r)["full-text-retrieval-response"]
-            except urllib.error.HTTPError as e:
-                if e.code in (401, 403) and view == "FULL":
-                    continue  # tam metne yetki yok: yalnızca özet iste
-                if e.code in (401, 403):
-                    try:
-                        detail = e.read().decode("utf-8", "ignore")[:300]
-                    except Exception:
-                        detail = ""
-                    print(f"Elsevier anahtarı yok ya da geçersiz (HTTP {e.code}, anahtar ortam değişkeninde: "
-                          f"{'evet' if ELSEVIER_KEY else 'hayır'}); Elsevier atlanıyor. Yanıt: {detail}", file=sys.stderr)
-                    elsevier_enabled = False
-                else:
-                    print(f"  Elsevier hatası ({d}): {e}", file=sys.stderr)
-                break
-            except urllib.error.URLError as e:
-                print(f"Elsevier'e ulaşılamadı ({e.reason}); Elsevier atlanıyor.", file=sys.stderr)
-                elsevier_enabled = False
-                break
-            except Exception as e:
-                print(f"  Elsevier hatası ({d}): {e}", file=sys.stderr)
-                break
-            ab = clean(res.get("coredata", {}).get("dc:description") or "")
-            body = res.get("originalText")
-            if isinstance(body, str) and len(ab) < FULL_ABSTRACT:
-                body = re.sub(r"\s+", " ", body)
-                m = re.search(r"\b(Introduction|Dear Editor|Background)\b", body)
-                body = body[m.start() if m else 0:]
-                body = re.split(r"\b(References|Declaration of competing interest|CRediT authorship)\b", body)[0]
-                found[d] = FULLTEXT_MARK + body[:7000].strip()
-            elif ab:
-                found[d] = ab
-            break
-        time.sleep(0.3)
-    return found
 
 
 def find_abstracts(items):
@@ -256,11 +194,6 @@ def find_abstracts(items):
             if (is_complete(ab), len(ab)) > (is_complete(cur), len(cur)):
                 a["abstract"] = ab
 
-    if elsevier_enabled and need():
-        try:
-            take(elsevier_texts(need()))
-        except Exception as e:
-            print(f"Elsevier hatası: {e}", file=sys.stderr)
     if need():
         try:
             pm = pubmed_abstracts(need())
@@ -355,8 +288,6 @@ def main():
     (DATA / "recheck.json").write_text(json.dumps(recheck, indent=1), "utf-8")
     (DATA / "state.json").write_text(json.dumps(state, indent=1), "utf-8")
     full = sum(1 for a in new if is_complete(a["abstract"]))
-    if not elsevier_enabled:
-        print("Not: Elsevier API kullanılamadı; Elsevier özetleri PubMed'e düştükçe gelir.")
     print(f"Toplam {len(new)} yeni makale ({full} tanesinin tam özeti var).")
     print(f"Sonradan özeti bulunan eski makale: {len(updated)}. Özeti hâlâ beklenen: {len(recheck)}.")
     print(f"Özet yazılacak toplam: {len(pending)} (\"update\": true olanlar mevcut özetin yerine yazılacak)")
