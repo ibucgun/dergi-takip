@@ -1,5 +1,274 @@
 [
  {
+  "doi": "10.1017/s0033291726105510",
+  "journal": "psymed",
+  "title": "Global trends in adolescent school loneliness from 2000 to 2022: An analysis of gender and socioeconomic inequalities across 87 countries",
+  "authors": "Mariko Hosozawa, Kenta Igami, Daniel Stanyon ve ark.",
+  "online": "2026-10-16",
+  "ozet": "2000–2022 arasında 87 ülkede ergenlerde okul yalnızlığının eğilimleri ile cinsiyet ve sosyoekonomik eşitsizlikleri incelendi. 15 yaşındaki öğrencilerin katıldığı PISA anketlerinden (2000–2022) 2.155.046 öğrencinin verisi (%50,8 kız) karma etkili regresyon ve meta-regresyonla analiz edildi; okul yalnızlığı altı soruluk bileşik skorla ölçüldü. Okul yalnızlığı zamanla arttı; başlangıçta erkekler daha yüksek bildirirken kızlarda artış daha hızlıydı ve yüksek gelirli ülkelerde yaklaşık 2012'de, üst-orta gelirli ülkelerde yaklaşık 2018'de erkekleri geçti; bu cinsiyet tersinmesi düşük ve alt-orta gelirli ülkelerde görülmedi. Düşük sosyoekonomik düzey tüm cinsiyetlerde ve gelir gruplarında daha yüksek yalnızlıkla ilişkiliydi. Yazarlar, özellikle zengin ülkelerdeki kızlarda belirgin olan bu artışa ve sosyoekonomik eşitsizliğe yönelik halk sağlığı stratejilerinin gerektiğini belirtiyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1192/bja.2026.10245",
+  "journal": "bja",
+  "title": "Transference and countertransference in clinical supervision: relational and ethical perspective on practice and professional development",
+  "authors": "Sewanu Awhangansi",
+  "online": "2026-10-15",
+  "ozet": "Klinik süpervizyonda aktarım ve karşı aktarımı ele alan bir görüş/derleme yazısı. Yazar, bu süreçlerin yalnızca engel değil, hem klinik hem süpervizyon ilişkisine dair değerli bir içgörü kaynağı olduğunu savunuyor. Aktarımın süpervizyon alanın otorite, geri bildirim ve değerlendirme algısını, karşı aktarımın ise süpervizörün yargı ve kararlarını nasıl etkileyebileceği tartışılıyor; güç farkı, kültürel etkiler ve kurumsal bağlama özel vurgu yapılıyor. Fark edilmeyen ilişkisel dinamiklerin riskleri (süpervizyon alanın bilgi saklaması, yanlılık, zayıflayan süpervizyon ittifakı, bozulan klinik karar verme) ve bunların yönetimi için yansıtıcı uygulama, ortak keşif, rol netleştirme ve psikolojik olarak güvenli ortam gibi yaklaşımlar özetleniyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1017/s1092852926101278",
+  "journal": "cns",
+  "title": "Merging art with science: the reflex hammer meets the algorithm",
+  "authors": "Jagannadha Avasarala",
+  "online": "2026-10-15",
+  "ozet": "Nörolojik muayenenin sanat ve algoritmik/dijital veri yaklaşımının birleşimini ele alan kısa bir görüş yazısı. Muayene, klinik bulguları anlamlı veriye dönüştüren ve uzmanlık öğrencisine tanı formülasyonu için çerçeve sunan bir süreç olarak tanımlanıyor; bu zanaat birkaç ustada yaşarken dijitalleşmiş veri noktalarının giderek öne çıktığı belirtiliyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1017/s1092852926101205",
+  "journal": "cns",
+  "title": "Clinical outcomes following five-day accelerated intermittent theta burst stimulation for treatment-resistant depression in routine clinical practice: A prospective naturalistic cohort study",
+  "authors": "Asmi Khanna, Adrian Espiritu, Lynn Zhu ve ark.",
+  "online": "2026-10-15",
+  "ozet": "Tedaviye dirençli depresyonda (TRD) 5 günlük hızlandırılmış aralıklı theta burst stimülasyonun (aiTBS) rutin klinik uygulamadaki sonuçları incelendi. Tek merkezli, açık etiketli, kontrolsüz, prospektif doğal izlem kohortunda MDB veya BP-II'si olan yetişkinler 5 günde 50 dakika arayla 30 iTBS seansı (toplam 18.000 puls) aldı; HAMD-17 başlangıçta, tedavi sonunda ve 2. ayda ölçüldü. Longitudinal veriye katkıda bulunan 46 katılımcıda HAMD-17 yanıt oranı tedavi sonunda %28,3, takipte %37,0; remisyon oranı sırasıyla %26,1 ve %32,6 idi; PHQ-9 ve GAD-7'de de düzelme görüldü, CGI-I'ya göre katılımcıların %52,2'si (tedavi sonu) ve %60,9'u (takip) düzelmiş bulundu. En sık yan etki geçici, ciddi olmayan uygulama yeri ağrısıydı. Yazarlar protokolü uygulanabilir ve iyi tolere edilir bulmuş, ancak bulguların kontrollü çalışmalarla doğrulanması gerektiğini vurguluyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10787",
+  "journal": "bjp",
+  "title": "From prediction to mechanism: rethinking PTSD treatment non-response through an iron–inflammation framework",
+  "authors": "Mayuresh S. Korgaonkar, Richard A. Bryant",
+  "online": "2026-10-15",
+  "ozet": "Tedavi yanıtının öngörülmesindeki ilerlemelere rağmen biyobelirteçlerin tedavi stratejisine çevrilmesinin zor olduğunu belirten bir görüş/kavramsal yazı. TSSB modeli üzerinden, tedavi yanıtını öngören nöral devreleri daha üst düzey bir biyolojik mekanizmaya bağlayan bir demir–inflamasyon çerçevesi öneriliyor. Nörogörüntülemenin biyolojik temelli sınıflamayı ve hedefe yönelik ek tedavileri destekleyebileceği savunuluyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10809",
+  "journal": "bjp",
+  "title": "Mental health of nurses and doctors in Ukraine during wartime: nationwide cross-sectional survey",
+  "authors": "Vicente Andrés Arrona Gómez, Roberto Mediavilla, Tomas Zapata ve ark.",
+  "online": "2026-10-15",
+  "ozet": "Ukrayna'da savaş döneminde sağlık çalışanlarının ruh sağlığı sorunlarının yaygınlığı ve ilişkili faktörler araştırıldı. Mayıs–Eylül 2025'te, olasılıksız örneklemle yürütülen ulusal kesitsel ankette 23.805 doktor ve hemşire PHQ-9, GAD-7 ve intihar düşüncesi ölçümleriyle ile iş yeri risk (zorbalık, cinsel taciz, şiddet tehdidi, fiziksel şiddet) ve koruyucu faktörler (sosyal destek, işte amaç ve anlam) açısından değerlendirildi; çok düzeyli regresyon, Bayesyen modeller ve ağırlıklandırma ile analiz edildi. Doktorların 1/3'ünde, hemşirelerin 1/4'ünde olası depresyon; doktorların 1/4'ünde, hemşirelerin 1/6'sında olası anksiyete; her iki grupta yaklaşık 1/10'unda intihar düşüncesi bildirildi. İş yerinde şiddet, özellikle zorbalık, depresyon ve anksiyeteyle; fiziksel şiddet ise intihar düşünceleriyle en güçlü ilişkiyi gösterdi, işte amaç ve anlam daha iyi ruh sağlığıyla ilişkiliydi. Sonuçlar çatışma düzeyi farklı bölgelerde benzerdi; yazarlar şiddete sıfır tolerans ve koruyucu faktörleri güçlendiren ölçeklenebilir ruh sağlığı stratejilerini öneriyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10818",
+  "journal": "bjp",
+  "title": "Rationing ADHD services? A potentially risky strategy",
+  "authors": "Anita Thapar, Lucy Riglin, Stephan Collishaw ve ark.",
+  "online": "2026-10-15",
+  "pmid": "42880400",
+  "ozet": "DEHB hizmetlerinin kısıtlanmasının (hizmet tayınlaması) riskli bir strateji olabileceğini ele alan bir görüş/editoryal yazı. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1017/s0033291726106370",
+  "journal": "psymed",
+  "title": "Response to Professor Uta Frith questioning whether autism has lost its meaning and is leading to misdiagnosis",
+  "authors": "Nicholas Chown, Elsa Suckle",
+  "online": "2026-10-15",
+  "pmid": "42876406",
+  "ozet": "Prof. Uta Frith'in otizmin anlamını yitirdiği ve yanlış tanıya yol açtığı yönündeki eleştirisine yanıt veren bir yanıt/yorum yazısı. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1111/acps.70150",
+  "journal": "acta",
+  "title": "Stimulant Persistence in Adult ADHD : A Retrospective Analysis of a Large Clinical Cohort",
+  "authors": "R. Wettstein, E. Pirgon, J. Kroesen ve ark.",
+  "online": "2026-10-15",
+  "ozet": "Erişkin DEHB'de metilfenidat (MPH) ile deksamfetaminin (dAMP) 12 aylık tedaviye devam (persistans) açısından karşılaştırıldığı retrospektif çok merkezli kohort çalışması. Birincil sonuç, başlangıçtan stimülan sınıfı değiştirme, stimülan olmayan ilaca geçiş veya tedaviyi bırakmaya kadar geçen süreydi; klinisyen için rastgele kesişimli çok değişkenli karma etkili Cox modeli kullanıldı. 12.995 katılımcıda (%49 kadın) %62 dAMP, %38 MPH ile başladı; ortanca geçiş süresi dAMP için 33,1, MPH için 15,0 hafta idi. MPH, dAMP'ye göre %45 daha yüksek devamsızlık hazardı ile ilişkiliydi (HR 1,45; %95 GA 1,36–1,55). Hiperaktif/impulsif sunum (HR 1,14) ve nesnel impulsivite (HR 1,05) bağımsız olarak devamsızlıkla ilişkiliydi; dAMP'nin avantajı nesnel hiperaktivite arttıkça belirginleşti (p=0,003). Yazarlar, tüm sunumlarda dAMP'nin 12 aylık devamlılık avantajı olduğunu ve dAMP'yi öncelemenin uzun dönem devamı artırabileceğini belirtiyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107037",
+  "journal": "nbr",
+  "title": "From Gut Microbiome to Aging Brain: Butyrate as a Neurogeroscience Effector",
+  "authors": "Laura Mitrea, Lavinia-Florina Calinoiu, Gheorghe-Adrian Martau ve ark.",
+  "online": "2026-10-15",
+  "pmid": "42880461",
+  "ozet": "Bağırsak mikrobiyomu ve beyin yaşlanması ekseninde bütirat rolünü ele alan bir derleme. Yaşa bağlı disbiyozun bütirat üretimini azalttığı, deneysel çalışmalarda bütiratın histon deasetilaz aktivitesi, nöroinflamasyon, mikroglia fenotipleri, kan-beyin bariyeri bütünlüğü, sinaptik plastisite ve nörogenezi etkileyebildiği anlatılıyor. Nörodejeneratif ve nöropsikiyatrik durumlarla ilişkiler ile terapötik modülasyon stratejileri (öncül ilaç tasarımı, nanopartikül ve lipozomal taşıyıcılar, bağırsağa hedefli formülasyonlar, mikrobiyom mühendisliği) inceleniyor. Yazarlar insanda doğrudan nedensel kanıtın sınırlı ve çoğunlukla ilişkisel/dolaylı olduğunu vurguluyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107033",
+  "journal": "nbr",
+  "title": "Repetitive Intrusive Thinking Process: A Transdiagnostic Perspective Framework for Rumination, Obsession and Delusion",
+  "authors": "Michelle Y. Deng, Simon S.Y. Lui, Raymond C.K. Chan",
+  "online": "2026-10-15",
+  "pmid": "42880460",
+  "ozet": "Ruminasyon, obsesyon ve sanrıyı bir süreklilik olarak birbirine bağlayan, transdiagnostik bir kavramsal çerçeve öneren teorik bir makale (görüş/derleme). Önerilen tekrarlayıcı-istilacı düşünce süreci (RITP) çerçevesinin çekirdek özellikleri dikkat kontrol eksikliği, bilişsel esnemezlik ve bozulmuş gerçeklik izlemi olarak tanımlanıyor; bunlar varsayılan mod ağında aşırı aktivasyon ile salyans ve frontoparietal ağlarda düzenleme bozukluğuyla ilişkilendiriliyor. Yazarlar ortak mekanizmaların açıklığa kavuşmasının komorbidite ve heterojenite sorunlarına katkı sağlayacağını ve kişiselleştirilmiş, alan özgül değerlendirme ve müdahaleleri destekleyeceğini savunuyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1038/s41386-026-02574-0",
+  "journal": "npp",
+  "title": "Sex differences in circulating endocannabinoid concentrations during adolescence: Associations with pubertal development",
+  "authors": "Julia M. Evanski, Tristin Smith, Adriene M. Beltz ve ark.",
+  "online": "2026-10-15",
+  "ozet": "Ergenlikte dolaşımdaki endokannabinoid konsantrasyonlarındaki cinsiyet farkları ve pubertal gelişimle ilişkisi incelendi. 1.159 ergende kızlarda beş endokannabinoidin (AEA, 2-AG, PEA, OEA, 2-OG) konsantrasyonları erkeklere göre anlamlı düşüktü; AEA, PEA ve OEA için cinsiyet-puberte etkileşimleri anlamlıydı. Keşfedici analizlerde endokannabinoidlerin kendi bildirilen ağrı, stres, içselleştirme ve dikkat sorunlarıyla cinsiyete özgü ilişkileri saptandı.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122636",
+  "journal": "jad",
+  "title": "Recent clinical encounters for suicidal thoughts and behaviours: Disclosure, assessment, missed opportunities, and implications for practice",
+  "authors": "Jennifer Q.P. Nguyen, Glenn A. Melvin, David J. Hallford",
+  "online": "2026-10-15",
+  "pmid": "42880604",
+  "ozet": "İntihar düşüncesi ve davranışı (İDD) yaşayan bireylerin yakın zamanlı klinik görüşmelerdeki deneyimleri araştırıldı. Son iki hafta içinde ruh sağlığı uzmanına başvurmuş, İDD deneyimi olan 266 Avustralyalı yetişkin (ortalama yaş 32,9) çevrimiçi anketi doldurdu. Katılımcıların %95,7'si İDD'yi konuşmayı en azından biraz önemli bulurken yalnızca %67,9'u konuşmuştu; konuşmayanların %50,0'ı sorulmadığını belirtti. Klinisyenler genel duygusal iyilik halini (%80,6) doğrudan İDD'den (%55,3) daha sık sormuştu; konuşanların %52,1'i bilgi sakladığını, %46,2'si açılmakta tereddüt ettiğini bildirdi. Güvenlik planı (%36,9) ve takip (%37,4) seyrekti, buna karşın %75,4 memnun olduğunu belirtti. Yazarlar ilk görüşme sonrasında da İDD'yi konuşma fırsatları yaratılmasını, şefkatli bakımla açılmanın desteklenmesini ve intihara özgü bakımın sağlanmasını öneriyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122615",
+  "journal": "jad",
+  "title": "Value-based decision-making and non-suicidal self-injury in adolescent females: A dimensional and computational analysis",
+  "authors": "Spencer Burris-Brown, Aparna U. Nair, Trevor Swanson ve ark.",
+  "online": "2026-10-15",
+  "pmid": "42880608",
+  "ozet": "Ergen kızlarda intihar amaçsız kendine zarar verme (NSSI) ile değer temelli karar vermenin hesaplamalı analizi yapıldı. Doğumda kadın atanmış 107 ergen (ortalama yaş 15,6) ödüllü Iowa Kumar Görevi'ni (IGT) tamamladı ve Kendine Zarar Verici Düşünce ve Davranışlar Görüşmesi yapıldı; NSSI sıklığı ile toplam IGT başarımı ve hiyerarşik Bayesyen Sonuç-Temsil Öğrenme modelinden elde edilen beş parametre ilişkilendirildi. Düşük IGT başarımı yaşam boyu (IRR 0,47) ve geçen yıl (IRR 0,40) NSSI sıklığıyla ilişkiliydi; geçen yıl NSSI sıklığı, azalmış cezalandırma öğrenme hızı (IRR 0,13) ve seçim kararlılığı (IRR 0,56) ile ilişkiliydi. Bu ilişkiler yaş, depresyon ve zeka düzeltmesinden sonra büyük ölçüde sürdü. Yazarlar bozulmuş değer temelli karar vermeyi NSSI ile boyutsal ilişkili bulmuş, azalmış cezalandırma öğrenmesi ve seçim kararlılığını ön belirteç olarak öneriyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122641",
+  "journal": "jad",
+  "title": "Temporal organization of negative affect shapes reciprocal feedback with psychotic-like experiences in daily life",
+  "authors": "Błażej Misiak, Łukasz Gawęda, Jerzy Samochowiec",
+  "online": "2026-10-15",
+  "pmid": "42880606",
+  "ozet": "Günlük yaşamda negatif duygulanımın zamansal örüntüsünün psikotik benzeri yaşantılarla (PLE) karşılıklı ilişkiyi nasıl şekillendirdiği incelendi. PLE'si olan 99 ve kontrol 102 yetişkin 7 gün deneyim örnekleme yaptı; negatif duygulanım ortalaması, değişkenlik, labilite ve atalet gruplar arasında karşılaştırıldı, gecikmeli çok düzeyli modellerle PLE'li grupta ilişki modere eden göstergeler sınandı. PLE'li kişilerde negatif duygulanım dalgalanmaları ortalamadan bağımsız olarak daha büyüktü (düzeltilmiş d 0,63–0,80); yalnızca atalet bağlantıyı modere ediyordu (düşük ataletle bağlantı yok, yüksek ataletle belirgin). Sınırlılıklar: gözlemsel desen, genç, ağırlıklı kadın, klinik olmayan örneklem ve düşük bölünmüş yarı güvenirlikle ölçülen atalet. Yazarlar psikoz sürekliliğinde duygulanım dinamiklerinde amplitüd ile süreklilik ayrımının yapılması gerektiğini belirtiyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122606",
+  "journal": "jad",
+  "title": "Transcranial alternating current stimulation for major depressive disorder: An updated systematic review and meta-analysis of randomized trials with GRADE assessment",
+  "authors": "Yehia Nabil, Khaled Abdalla Moghib, Zeyad Tarek ve ark.",
+  "online": "2026-10-15",
+  "pmid": "42880603",
+  "ozet": "Majör depresif bozuklukta (MDB) transkraniyal alternatif akım stimülasyonunun (tACS) etkinliği ve güvenliği için güncellenmiş sistematik derleme ve meta-analiz (GRADE ile). Mart 2026'ya dek taranan veri tabanlarından dokuz RKÇ'den 11 rapor dahil edildi; rastgele etkili modeller kullanıldı. Aktif tACS klinisyen puanlı depresyon şiddetini kontrole göre anlamlı azaltmadı (8 çalışma, 471 katılımcı; MD −1,80; %95 GA −4,80 – 1,20; I²=%89,8), ancak yanıt (OR 2,41) ve remisyon (OR 4,69) olasılığı yüksekti; son değerlendirmede yanıt da anlamlıydı (OR 2,70). En az bir yan etki olasılığı artmıştı (OR 1,95); kanıt kesinliği çok düşük–orta düzeydeydi. Yazarlar yüksek heterojenite ve küçük kanıt tabanı nedeniyle rutin klinik kullanımın önerilemeyeceğini, daha büyük standardize çalışmalara ihtiyaç olduğunu belirtiyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122640",
+  "journal": "jad",
+  "title": "Cannabis detection in postmortem toxicology among suicide decedents in the Federal District, Brazil, 2009–2019",
+  "authors": "Amanda Oliveira Lyrio, Elivan Silva Souza, Juliano de Andrade Gomes ve ark.",
+  "online": "2026-10-15",
+  "pmid": "42880605",
+  "ozet": "Brezilya Federal Bölgesi'nde 2009–2019 arasında intihar ölümlerinde postmortem kannabis tespitini ilişkili faktörler açısından inceleyen popülasyon temelli kesitsel çalışma. Toksikolojik verisi olan 1164 intihar ölümü ölüm belgeleri, polis raporları ve adli tıp incelemelerinden değerlendirildi; sağlam varyanslı Poisson regresyonuyla prevalans oranları (PR) hesaplandı. Kannabis olguların %7,8'inde saptandı; bağımsız ilişkili faktörler 12–17 yaş (aPR 4,61), önceki suç kaydı (aPR 1,71), 2016–2019 dönemi (aPR 2,83) ve eş zamanlı kokain tespitiydi (aPR 2,57). Yazarlar kannabis tespitinin genç yaş, suç geçmişi ve çoklu madde kullanımı olan yüksek kırılganlıklı alt gruplarda kümelendiğini, bunun postvansiyon sürveyansı ve madde kullanımı taramasına yön verebileceğini belirtiyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122639",
+  "journal": "jad",
+  "title": "Elevated borderline features in bipolar disorder: Clinical characteristics and symptom course in South Korea",
+  "authors": "Eunhee Jang, Ye-Eun Shin, Min Jun Choi ve ark.",
+  "online": "2026-10-15",
+  "pmid": "42880607",
+  "ozet": "Bipolar bozuklukta (BB) yüksek borderline özelliklerin (EBF) klinik özellikleri ve 6 aylık depresif belirti seyri Güney Kore'de incelendi. Üç üçüncü basamak hastaneden 520 BB-I/BB-II hasta alındı; EBF, PAI-Borderline Özellikler Ölçeği (≥38) ile belirlendi ve doğal tedavi altında 6 aylık depresif belirti seyri karşılaştırıldı. Hastaların 237'sinde (%45,5) EBF vardı; EBF daha fazla depresif atak, daha çok çocukluk travması, yaşam boyu kendine zarar verme, intihar düşüncesi ve girişimi, şiddet ve birçok komorbiditeyle ilişkiliydi. Belirtiler iki grupta da düzeldi, ancak EBF grubunda şiddet takip boyunca daha yüksekti (düzeltilmiş ortalama fark 4,00; %95 GA 1,83–6,18); yanıt olasılığı daha düşük (aOR 0,40), remisyon farklı değildi. Sınırlılıklar: öz bildirim taraması ve kesitsel korelatlar. Yazarlar borderline özelliklerin risk değerlendirmesi ve izlem için değerlendirilmesini destekliyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1155/da/5060244",
+  "journal": "da",
+  "title": "Assessing the Impact of Metacognitive Therapy on OCD Severity and Beliefs: A Three‐Wave Multisite RCT With Panel Mediation Analysis",
+  "authors": "Saeed Anwar, Romana Younas, Wejdan Deebani ve ark.",
+  "online": "2026-10-15",
+  "ozet": "OKB'de metakognitif terapinin (MKT) belirti şiddeti ve inançlar üzerindeki etkisi, Pakistan'da üç dalgalı çok merkezli, değerlendiricinin kör olduğu bir RKÇ'de panel aracılık analiziyle incelendi. OKB'li 76 yetişkin 12 haftalık bireysel MKT (n=38) veya olağan tedavi (TAU; n=38) grubuna randomize edildi; başlangıç, tedavi sonu ve 6. ay takibi yapıldı. MKT, klinisyen puanlı Y-BOCS şiddetini TAU'dan daha fazla azalttı (ortalama fark tedavi sonunda −4,00, takipte −6,92; ikisi de p<0,001) ve yanıt daha sıktı; MCQ-30 inanç alanlarında da kazanımlar takipte sürdü. Ancak tedavi sonu inançlar üzerinden öngörülen gecikmeli dolaylı etki desteklenmedi (β −0,01). Yazarlar bulguların MKT kanıtını Batılı olmayan bağlama genişlettiğini, geniş metakognitif inanç alanlarının yakın mekanizma yerine klinik durum belirteci gibi davrandığını belirtiyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103235",
+  "journal": "brs",
+  "title": "Effects of Hair and Coupling Conditions on Acoustic Transmission in Transcranial Ultrasound Stimulation: A Hair-Phantom Study",
+  "authors": "Liyuan Ren, Yu Hu, Shanbao Tong ve ark.",
+  "online": "2026-10-15",
+  "pmid": "42880442",
+  "ozet": "Transkraniyal ultrason stimülasyonunda saç ve bağlantı koşullarının akustik iletim üzerindeki etkilerini inceleyen bir saç fantomu çalışması. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103236",
+  "journal": "brs",
+  "title": "Reliable Change in Autobiographical Memory After Electroconvulsive Therapy: Depressed-Control Reference Data and One-Year Follow-Up",
+  "authors": "Ana Jelovac, Sarah Thompson, Kevin McDonnell ve ark.",
+  "online": "2026-10-15",
+  "pmid": "42880444",
+  "ozet": "EKT sonrası otobiyografik bellekte güvenilir değişimi belirlemek için Columbia Otobiyografik Bellek Görüşmesi-Kısa Formu (AMI-SF) referans verisi sunuldu. EKT öyküsü olmayan 99 depresif yatan hasta ile sağ unilateral (RUL) veya bitemporal (BT) EKT alan 218 hastanın bireysel verisi analiz edildi; güvenilir azalma depresif kontrollere göre güvenilir değişim indeksleri ve regresyon yöntemleriyle tanımlandı. Kontrollerde başlangıç bilgisinin yeniden üretilen yüzdesi tedavi sonunda %76,9, 3. ayda %75,1, 6. ayda %68,4, 12. ayda %65,5 idi. Tedavi sonunda RUL hastalarının yaklaşık 3/10'unda, BT hastalarının yarısında güvenilir azalma vardı; 12. ayda bu oranlar sırasıyla yaklaşık 1/10 ve 3/10'du. Yazarlar azalmanın akut dönemde yaygın olduğunu, BT EKT'de bir yıl sonra da belirgin sıklıkta sürdüğünü, RUL sonrası 9/10 hastada azalma görülmediğini; bu eşiklerin istatistiksel olarak alışılmadık değişimi gösterdiğini, klinik anlamlı retrograd amnezi anlamına gelmeyebileceğini belirtiyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103237",
+  "journal": "brs",
+  "title": "Fronto-medial ultrabrief electroconvulsive therapy in major depression: a prospective pilot case series",
+  "authors": "Prashanth Mayur, Anthony Harris, Samantha Serrao ve ark.",
+  "online": "2026-10-15",
+  "pmid": "42880443",
+  "ozet": "Majör depresyonda frontomedial ultra kısa EKT'yi inceleyen prospektif bir pilot olgu serisi. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002272",
+  "journal": "jcp",
+  "title": "Kratom Is an Opioid",
+  "authors": "Andrew Kolodny, Christopher P. Holstege",
+  "online": "2026-10-15",
+  "pmid": "42876377",
+  "ozet": "\"Kratom bir opioiddir\" başlıklı bir görüş/editoryal yazı; kratomun opioid niteliği konusunu ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002284",
+  "journal": "jcp",
+  "title": "Pulmonary Embolism During Clozapine and Olanzapine Treatment",
+  "authors": "Takahiko Nagamine",
+  "online": "2026-10-15",
+  "pmid": "42877998",
+  "ozet": "Klozapin ve olanzapin tedavisi sırasında pulmoner emboli gelişimini ele alan bir yayın (olgu/rapor niteliğinde olabilir). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002270",
+  "journal": "jcp",
+  "title": "Probable Olanzapine-Induced Drug Reaction With Eosinophilia and Systemic Symptoms (DRESS) Syndrome",
+  "authors": "Dattawadkar P. Pramod, Ranjitha Ramachandraiah, Veena Ramesh ve ark.",
+  "online": "2026-10-15",
+  "pmid": "42877995",
+  "ozet": "Olası olanzapin kaynaklı eozinofili ve sistemik semptomlarla seyreden ilaç reaksiyonu (DRESS) sendromunu bildiren bir yayın (olgu sunumu niteliğinde olabilir). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1016/j.inpsyc.2026.100303",
+  "journal": "ipg",
+  "title": "Changes in modifiable dementia risk factors and subjective cognitive decline in mid and later life",
+  "authors": "Joanne Allen, Michelle Kelly, Gill Livingston ve ark.",
+  "online": "2026-10-15",
+  "pmid": "42881068",
+  "ozet": "Değiştirilebilir demans risk faktörlerindeki (MDRF) değişimlerin öznel bilişsel gerilemeyle (SCD) ilişkisi incelendi. Yeni Zelanda'da yaşlanma boylamsal anketinin 2018 ve 2020 dalarını tamamlayan 55–92 yaş 2370 yetişkinde hipertansiyon, diyabet, işitme ve görme bozukluğu, sigara, riskli alkol, fiziksel inaktivite, depresyon ve yalnızlık dört kategoride (sürekli yok, azalma, başlangıç, sürekli var) sınıflandı; SCD 2020'de değerlendirildi ve lojistik regresyon kullanıldı. Yaşlıların %8,6'sında SCD vardı. Diyabet, işitme bozukluğu, güncel görme bozukluğu, süregelen fiziksel inaktivite, depresyon ve güncel yalnızlık artmış SCD olasılığıyla ilişkiliydi. Yazarlar psikososyal ve duyusal risk faktörlerinin başlangıcının ve azalmasının öznel bilişsel sonuçlarda ölçülebilir etkisi olduğunu, diyabet, duyusal kayıp, inaktivite, depresyon ve sosyal izolasyonun önlenmesinin hedef olabileceğini belirtiyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1002/gps.70262",
+  "journal": "ijgp",
+  "title": "The Impact of a Stepwise Method Involving Family Caregivers in Managing Challenging Behavior and Pain in Nursing Home Residents With Dementia",
+  "authors": "Petra E. M. Tasseron‐Dries, Hanneke J. A. Smaling, Wilco P. Achterberg ve ark.",
+  "online": "2026-10-15",
+  "ozet": "Demanslı huzurevi sakinlerinde zorlayıcı davranış ve ağrıyı yönetmek için aileyi dahil eden aşamalı STA OP! yöntemi öncesi-sonrası desenle incelendi. Hollanda'da bir huzurevinin on biriminde 77 sakin ve aile bakım vericisi dahil edildi; birincil sonuç Nöropsikiyatrik Envanter Huzurevi Formu ile zorlayıcı davranıştı, 3. ve 6. ayda çok düzeyli analiz yapıldı. Zorlayıcı davranış 3. ayda (standardize katsayı −0,2) ve 6. ayda (−0,2) azaldı; gözlenen ağrı 6. ayda (−0,2) ve personelin duygusal yükü hem 3. hem 6. ayda (−0,3) azaldı. Yaşam kalitesi, ilaç kullanımı, ailenin katılımı, bakım verici yükü ve olumlu bakım deneyiminde değişiklik yoktu. Yazarlar yöntemin zorlayıcı davranışı ve bazı ikincil sonuçları iyileştirdiğini, aile katılımının optimize edilmesi için daha fazla araştırma gerektiğini belirtiyor.",
+  "added": "2026-10-16"
+ },
+ {
+  "doi": "10.1002/alz.71770",
+  "journal": "alz",
+  "title": "Attention‐deficit/hyperactivity disorder polygenic risk score and incidence of cognitive impairment in older adults: A prospective multicohort study",
+  "authors": "Douglas Teixeira Leffa, Guilherme Bauer‐Negrini, Livia Amaral ve ark.",
+  "online": "2026-10-15",
+  "ozet": "DEHB poligenik risk skorunun (DEHB-PRS) yaşlılarda bilişsel bozukluk insidansıyla ilişkisi prospektif çok kohortlu çalışmada incelendi. Alzheimer Hastalığı Sekanslama Projesi'ndeki sekiz kohorttan tüm genom dizilemesi olan, bilişsel olarak sağlam 7761 yaşlı analiz edildi. Takipte 1347 katılımcıda bilişsel bozukluk (hafif bilişsel bozukluk veya Alzheimer demansı) gelişti; 10 yıllık kümülatif insidans en yüksek DEHB-PRS tersilinde %33,8, en düşükte %23,4 idi. Cox modellerinde yüksek DEHB-PRS, eğitim, APOE ε4 veya vasküler risk düzeltmesinden sonra da daha yüksek riskle ilişkiliydi; diğer psikiyatrik bozuklukların PRS'leri ilişkili değildi ve biyobelirteç alt örnekleminde ilişki amiloid-β durumuyla değişmedi. Yazarlar DEHB-PRS'yi yaşlanmada bilişsel kırılganlığın yeni bir korelatı olarak değerlendiriyor.",
+  "added": "2026-10-16"
+ },
+ {
   "doi": "10.1016/j.bpsc.2026.09.011",
   "journal": "cnni",
   "title": "Caffeine Consumption and Adolescent Mental Health: The Role of Sleep and Brain Structure",
@@ -350,7 +619,7 @@
   "authors": "Minjae Choi, Sylvana M Côté, Caroline E Temcheff ve ark.",
   "online": "2026-10-13",
   "pmid": "42869552",
-  "ozet": "Öğretmen tarafından bildirilen çocukluk çağı duygusal, davranışsal ve sosyal sorunların, erişkinlikte (18–40 yaş) alkol, madde ve kendine zarar verme ile ilişkili hastaneye yatış ve ölümle ilişkisini inceleyen nüfus temelli bir kohort çalışmasıdır. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Öğretmenlerce bildirilen çocukluk çağı duygusal, davranışsal ve sosyal sorunların erişkinlikte (18–40 yaş) umutsuzluk hastalıkları (alkol, madde ve kasıtlı kendine zarar) nedeniyle hastaneye yatış ve ölümle ilişkisi incelendi. Québec Kreş Çocukları Boylamsal Çalışması'nda 5290 kişi 6 yaşından izlendi ve sağlık kayıtlarına bağlandı; sorunlar 6–12 yaşta öğretmenlerce (yıkıcı davranış, DEHB belirtileri, duygusal sıkıntı, prososyallik) bildirildi, Cox modelleri kullanıldı. Orta erişkinliğe dek %4,7'si (n=249) umutsuzluk hastalığı nedeniyle hastaneye yattı veya öldü (madde %3,5, alkol %2,1, kendine zarar %0,7). Genel sorunlarda her 1 SD artış %49 daha yüksek hazard ile ilişkiliydi (aHR 1,49; %95 GA 1,32–1,68); yıkıcı davranış (aHR 1,39) ve DEHB belirtileri (aHR 1,44) riski artırırken prososyallik azaltıyordu (aHR 0,81). İlişkiler çoğunlukla alkol ve madde kaynaklıydı, yıkıcı davranış için kadınlarda daha güçlüydü (etkileşim p=0,040). Yazarlar müdahale çalışmalarına ihtiyaç olduğunu belirtiyor.",
   "added": "2026-10-14"
  },
  {
@@ -504,8 +773,9 @@
   "title": "Assessing the impact of a postnatal singing intervention on mental health, well-being measures and mother–infant interaction: results from the SHAPER-PND trial",
   "authors": "Riddhi Laijawala, Rebecca H Bind, Sorcha Alford ve ark.",
   "online": "2026-10-12",
-  "ozet": "SHAPER-PND çalışmasının sonuçlarını bildiren araştırma makalesi: doğum sonrası dönemde uygulanan şarkı söyleme müdahalesinin annelerin ruh sağlığı, iyilik hali ölçümleri ve anne-bebek etkileşimi üzerindeki etkisi değerlendirilmiştir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-13"
+  "ozet": "Doğum sonrası depresyonda (PND) 10 haftalık grup şarkı söyleme müdahalesinin (Breathe Melodies for Mums, M4M) ruh sağlığı, iyilik hali ve anne-bebek etkileşimi üzerindeki etkileri SHAPER-PND RKÇ'sinde incelendi. PND'li 199 anne 2:1 oranında şarkı grubuna veya şarkısız topluluk etkinliği (aktif kontrol) grubuna randomize edildi; HDRS ve öz bildirim ölçekleri 36. haftaya dek, anne-bebek etkileşimi Infant CARE Index ile değerlendirildi. Şarkı grubunda müdahale sonrası depresif belirtilerde daha belirgin düşüş (HDRS F=9,27; p=0,003) ve sosyal destekte iyileşme (p<0,001) görüldü; stres, anksiyete, iyilik hali, yalnızlık ve benlik saygısında grup etkisi yoktu. İki grupta da anne-bebek etkileşimi (dyadik senkroni dahil) düzeldi. Yazarlar M4M'nin PND'de umut verici bir ek tedavi olduğunu, ancak iyilik hali ve anne-bebek etkileşiminin bu düzelmenin altında yatmadığını, doğrulayıcı araştırma gerektiğini belirtiyor.",
+  "added": "2026-10-13",
+  "pmid": "42864119"
  },
  {
   "doi": "10.1136/bmjment-2026-302738",
@@ -513,8 +783,9 @@
   "title": "Psychological and anthropometric outcomes in preschool children exposed to antenatal maternal obesity: modelling of early life risk factors",
   "authors": "Julie Sigurdardottir, Kathryn Dalrymple, Mary Rutherford ve ark.",
   "online": "2026-10-12",
-  "ozet": "Antenatal maternal obeziteye maruz kalan okul öncesi çocuklarda psikolojik ve antropometrik sonuçları inceleyen araştırma makalesi; erken yaşam risk faktörleri modellenmiştir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-13"
+  "ozet": "Gebelikte anne obezitesinin okul öncesi çocuklarda psikopatoloji ve antropometrik sonuçlarla ilişkisi, klinik ve biyolojik yollar açısından incelendi. UK Pregnancies Better Eating and Activity Trial'dan obez (BMI ≥30) 462 anne ve 3–4 yaşındaki çocukları yapısal eşitlik modelleriyle değerlendirildi; antenatal enflamasyon (IL-6), glisemi, plasental fonksiyon (PlGF) ve depresif belirtiler çocuk SDQ skorları ve örtük sınıf analiziyle belirlenen fenotiplerle ilişkilendirildi. Çocukların %11,3'ünde yüksek psikopatoloji riski vardı (erkek %14,7, kız %8). Yüksek antenatal anne depresyonu ve düşük plasental fonksiyon riski artırırken enflamasyon ve glisemi ilişkili değildi (R²=%44,5); dışsallaştıran (%8) ve içselleştiren (%4,1) fenotipler belirlendi, dışsallaştıran fenotip daha yüksek BMI, ağırlık z-skoru ve bel çevresiyle ilişkiliydi, her iki fenotipte yemek seçiciliği daha fazlaydı. Yazarlar obezite olan gebeliklerde anne depresyonu ve plasental fonksiyonun taranmasının yararlı olabileceğini belirtiyor.",
+  "added": "2026-10-13",
+  "pmid": "42864118"
  },
  {
   "doi": "10.1136/bmjment-2026-302883",
@@ -522,8 +793,9 @@
   "title": "Adverse sexual and reproductive health outcomes in female adolescents with ADHD and their associations with ADHD medication: a Swedish register-based study",
   "authors": "Helena Kopp Kallner, Xinchen Wang, Le Zhang ve ark.",
   "online": "2026-10-12",
-  "ozet": "İsveç kayıtlarına dayalı bir çalışma: DEHB'li kız ergenlerde olumsuz cinsel ve üreme sağlığı sonuçları ile bunların DEHB ilaç kullanımı ile ilişkileri araştırılmıştır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-13"
+  "ozet": "DEHB'li kız ergenlerde olumsuz cinsel ve üreme sağlığı (SRH) sonuçları ile DEHB ilaç kullanımı arasındaki ilişki İsveç kayıt temelli çalışmada incelendi. Stockholm'de 2011–2021'de yeni DEHB tanısı alan veya ilaç başlanan 4–20 yaşındaki 18.776 kız, yaş ve sosyoekonomik düzeye göre 1:5 eşlenen 93.880 kontrolle karşılaştırıldı; sonuçlar cinsel yolla bulaşan enfeksiyon veya istenmeyen gebelikti, ilaç etkisi iç içe vaka-kontrol ile değerlendirildi. Olumsuz SRH sonucu DEHB'lilerde 1787 (29,3/1000 kişi-yıl), kontrollerde 4779 (15,2/1000 kişi-yıl) kişide görüldü (düzeltilmiş HR 1,70; %95 GA 1,59–1,81); ilişki istenmeyen gebelikte daha güçlüydü, komorbidite olmayanlarda da sürdü, madde kullanım bozukluğu komorbiditesinde en yüksekti. Uzun süreli ilaç kullanımı daha düşük riskle ilişkiliydi (>5 yıl vs ≤1 yıl: aOR 0,64; %95 GA 0,44–0,94). Yazarlar kızlarda zamanında tanı ve sürdürülen DEHB yönetiminin önemini vurguluyor.",
+  "added": "2026-10-13",
+  "pmid": "42864120"
  },
  {
   "doi": "10.1016/j.biopsych.2026.09.027",
@@ -2515,8 +2787,9 @@
   "title": "Individualized TMS–EEG mapping reveals clinically relevant early prefrontal cortical activity in major depressive disorder",
   "authors": "Elena Ukharova, Isabella O’Meeghan, Ida Granö ve ark.",
   "online": "2026-10-01",
-  "ozet": "Clinical Neurophysiology'de yayımlanmış çalışma. Başlığa göre bireyselleştirilmiş TMS–EEG haritalaması majör depresif bozuklukta klinik açıdan anlamlı erken prefrontal kortikal aktiviteyi ortaya koymaktadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-08"
+  "ozet": "MDB'de bireyselleştirilmiş TMS-EEG haritalamanın, geleneksel Beam F3 hedeflemesine göre DLPFC'deki erken kortikal yanıtların değerlendirmesini ve depresif belirti şiddetiyle ilişkisini iyileştirip iyileştirmediği incelendi. 30 MDB hastası ve 15 sağlıklı kontrolde tek pulslu TMS-EEG yapıldı; bireyselleştirilmiş haritalama artefaktı en aza indirip 60 ms içinde güçlü erken TEP veren bölge ve yoğunlukları belirledi, yanıtlar 120% istirahat motor eşiğinde Beam F3 ile karşılaştırıldı. Bireyselleştirilmiş haritalama belirgin biçimde farklı ve daha küçük erken GMFP ve ROI AUC yanıtları verdi (q<0,001). MDB grubunda düşük GMFP AUC daha yüksek depresyon (PHQ-9 ρ=−0,43) ve anksiyete (GAD-7 ρ=−0,58) ile; düşük ROI AUC depresyon (PHQ-9 ρ=−0,57; QIDS-SR ρ=−0,48) ve anksiyete (ρ=−0,45) ile ilişkiliydi; Beam F3 ölçümlerinde anlamlı klinik ilişki yoktu. Yazarlar bireyselleştirilmiş hedeflemenin prefrontal TMS-EEG duyarlılığını artırabileceğini belirtiyor.",
+  "added": "2026-10-08",
+  "pmid": "42879997"
  },
  {
   "doi": "10.1016/j.clinph.2026.2112429",
@@ -2544,8 +2817,9 @@
   "title": "Serum neurofilament and measures of lower motor neuron dysfunction in amyotrophic lateral sclerosis",
   "authors": "Aicee Dawn Calma, Nathan Pavey, Yukiko Tsuji ve ark.",
   "online": "2026-10-01",
-  "ozet": "Clinical Neurophysiology'de yayımlanmış çalışma. Başlığa göre amyotrofik lateral sklerozda serum nörofilament ile alt motor nöron işlev bozukluğu ölçümleri arasındaki ilişkiyi incelemektedir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-08"
+  "ozet": "ALS'de serum nörofilament hafif zincir (NfL) ile alt motor nöron fonksiyon bozukluğunun nörofizyolojik ölçümleri arasındaki ilişki incelendi. 96 ALS'li ve 53 ALS taklit eden bozukluğu olan katılımcıda Simoa ile serum NfL ve ulnar far-field potansiyel (FFP), CMAP, NFP, split-hand indeksi ve nörofizyolojik indeks ölçüldü. FFP amplitüdü ALS'de düşüktü (5,0±3,0 mV; kontrol 7,9±3,2 mV; p<0,001), NFP ve CMAP de benzerdi; serum NfL ALS'de daha yüksekti (72,5 pg/mL; kontrol 14 pg/mL; p<0,001). NfL, CMAP (ρ=−0,23) ve NFP (ρ=−0,28) ile zayıf negatif ilişkiliydi, FFP, split-hand indeksi ve nörofizyolojik indeksle ilişkisiz; hastalık süresi ve işlev kaybı düzeltmesinden sonra CMAP ve NFP NfL'yi bağımsız öngörmedi. Yazarlar bu belirteçlerin hastalık biyolojisinin farklı yönlerini yansıttığını ve tanıda tamamlayıcı olabileceğini belirtiyor.",
+  "added": "2026-10-08",
+  "pmid": "42879998"
  },
  {
   "doi": "10.1097/jcp.0000000000002263",
