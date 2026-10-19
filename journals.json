@@ -14,6 +14,7 @@
   {"id": "molpsy", "name": "Molecular Psychiatry", "issn": ["1359-4184", "1476-5578"], "url": "https://www.nature.com/mp/", "group": "bio"},
   {"id": "nbr", "name": "Neuroscience & Biobehavioral Reviews", "issn": ["0149-7634", "1873-7528"], "url": "https://www.sciencedirect.com/journal/neuroscience-and-biobehavioral-reviews", "group": "bio"},
   {"id": "npp", "name": "Neuropsychopharmacology", "issn": ["0893-133X", "1740-634X"], "url": "https://www.nature.com/npp/", "group": "bio"},
+  {"id": "dcn", "name": "Dialogues in Clinical Neuroscience", "issn": ["1294-8322", "1958-5969"], "url": "https://www.tandfonline.com/journals/tdcn20", "group": "bio"},
   {"id": "jad", "name": "Journal of Affective Disorders", "issn": ["0165-0327", "1573-2517"], "url": "https://www.sciencedirect.com/journal/journal-of-affective-disorders/articles-in-press", "group": "mood"},
   {"id": "bd", "name": "Bipolar Disorders", "issn": ["1398-5647", "1399-5618"], "url": "https://onlinelibrary.wiley.com/journal/13995618", "group": "mood"},
   {"id": "ijbd", "name": "International Journal of Bipolar Disorders", "issn": ["2194-7511"], "url": "https://link.springer.com/journal/40345", "group": "mood"},
