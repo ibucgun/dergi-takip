@@ -1,5 +1,61 @@
 [
  {
+  "doi": "10.1038/s41380-026-03930-8",
+  "journal": "molpsy",
+  "title": "Repetitive transcranial magnetic stimulation (rTMS) combined with antidepressant pharmacotherapy for depression: state-dependent mechanisms, clinical evidence, and translational challenges",
+  "authors": "Junwen Deng, Yingbo Shao, Lina Jiang ve ark.",
+  "online": "2026-10-18",
+  "ozet": "Derleme makalesi: depresyonda rTMS'nin antidepresan farmakoterapi ile kombinasyonu ele alınıyor; başlıktan anlaşıldığı kadarıyla duruma bağlı (state-dependent) mekanizmalar, klinik kanıtlar ve translasyonel zorluklar tartışılıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-19"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107055",
+  "journal": "nbr",
+  "title": "Impact of previous acute and chronic stress on negative glucocorticoid feedback in laboratory animal: theoretical background and methodological concerns",
+  "authors": "Antonio Armario",
+  "online": "2026-10-18",
+  "pmid": "42893748",
+  "ozet": "Derleme makalesi: akut ve kronik stresin negatif glukokortikoid geri bildirim (nGF) üzerindeki etkilerini gösteren laboratuvar hayvanı çalışmaları eleştirel olarak inceleniyor; nGF istirahat ve stres koşullarında ayrı değerlendiriliyor. Kronik stresin bozulmuş nGF ile ilişkisine dair kanıt, istirahat HHA aktivitesi dışında zayıf; tek seferlik ağır stresörün nGF'yi artırdığına dair kanıt ise tartışmalı ve sınırlılıklar içeriyor. Başlıca sınırlılıklar plazma ACTH verisinin olmaması, hayvanların daha önce deneyimlediği stresörle test edilmesi ve doğal glukokortikoid yerine deksametazon kullanımıdır; deksametazon bu dozlarda ağırlıklı olarak beyinde değil hipofiz ön lobda etki eder.",
+  "added": "2026-10-19"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112438",
+  "journal": "clinph",
+  "title": "Functional neural activity and connectivity deficits underlying vocal auditory feedback control in post-stroke aphasia: An fMRI study",
+  "authors": "Roozbeh Behroozmand, Jonathan Venezia, Kimaya Sarmukadam ve ark.",
+  "online": "2026-10-18",
+  "ozet": "Afazi hastalarında ses geri bildirim kontrolünün altında yatan nöral aktivite ve bağlantısallık bozukluklarını inceleyen bir fMRI çalışması (inme sonrası afazi). Başlıktan anlaşıldığı kadarıyla vokal işitsel geri bildirim kontrolünde işlevsel nöral aktivite ve bağlantısallık eksiklikleri saptanmıştır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-19"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112440",
+  "journal": "clinph",
+  "title": "Hemispheric lesion asymmetry — An overlooked variable in tDCS targeting for multiple sclerosis",
+  "authors": "Hussein Youssef",
+  "online": "2026-10-18",
+  "ozet": "Multipl skleroz için tDCS hedeflemesinde hemisferik lezyon asimetrisinin gözden kaçan bir değişken olduğunu ele alan bir yazı. Başlıktan anlaşıldığı kadarıyla lezyon asimetrisinin stimülasyon hedeflemesinde dikkate alınması gerektiği savunuluyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-19"
+ },
+ {
+  "doi": "10.1016/j.euroneuro.2026.113885",
+  "journal": "enp",
+  "title": "Targeting affective cognition during pregnancy to prevent postpartum depression: a randomized controlled trial with parity-specific effects",
+  "authors": "Anne Bjertrup, Karoline HE Rasmussen, Sille Tørring ve ark.",
+  "online": "2026-10-18",
+  "pmid": "42893683",
+  "ozet": "Gebelikte duygusal bilişi hedefleyerek doğum sonrası depresyonu (DSD) önlemeyi amaçlayan RKÇ. DSD riski yüksek 147 gebe, doğum öncesi duygusal bilişsel eğitime (PACT; 5 haftada beş 90 dakikalık bilgisayar ve sanal gerçeklik görevi) ya da olağan bakıma randomize edildi; 121'i (%83) izlendi. PACT, DSD insidansını (p=0,18) ve depresif belirtileri (p=0,31) genel olarak azaltmadı, ancak bebek duygularının olumlu yorumlanmasını artırdı (p=0,003). Keşfedici analizde çok doğurganlarda DSD insidansı PACT'ta daha düşüktü (%5'e karşı %35; OR=0,10, %95 GA 0,01–0,92, p=0,04). Yazarlar bu keşfedici bulguların daha büyük çalışmalarda doğrulanması gerektiğini belirtiyor.",
+  "added": "2026-10-19"
+ },
+ {
+  "doi": "10.1016/j.jagp.2026.10.006",
+  "journal": "ajgp",
+  "title": "From Fairytale to Fundamental Right: Rethinking “Happily Ever After” in an Ageing World",
+  "authors": "Chitralekha Massey, Zvezdan Pirtošek",
+  "online": "2026-10-18",
+  "ozet": "Yaşlanan bir dünyada \"mutlu son\" kavramını yeniden düşünen bir yazı; başlığa göre yaşlılıkta mutlu yaşamın masaldan temel bir hak olarak ele alınmasını tartışıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-19"
+ },
+ {
   "doi": "10.1002/gps.70261",
   "journal": "ijgp",
   "title": "Barriers and Facilitators in Help‐Seeking Among Male Informal Caregivers of Individuals With Dementia: A Systematic Review",
@@ -14,8 +70,9 @@
   "title": "Impaired causal reasoning in methamphetamine use disorder under dynamic uncertainty",
   "authors": "Zi-Jian Cheng, Yu-Yan Gao, Yu-Feng Xia ve ark.",
   "online": "2026-10-17",
-  "ozet": "Makale, metamfetamin kullanım bozukluğunda dinamik belirsizlik koşullarında nedensel muhakemenin bozulduğunu ele alan bir çalışmadır; başlığa göre bu bozulma bu hastalarda gözlenmiştir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-18"
+  "ozet": "Metamfetamin kullanım bozukluğunda (MKB) belirsizlik altında atıfsal akıl yürütme, yoksunluğu bozma etkisi (AVE) çerçevesinde incelendi. 26 MKB'li birey ve 40 sağlıklı kontrol, olumsuz geri bildirimin içsel algısal hataya mı yoksa dışsal çevre değişikliğine mi atfedildiğini test eden çevre akıl yürütme görevini yaptı. MKB'liler olumsuz geri bildirim sonrası güven ile ilişkili algısal kanıtı ve biriken olumsuz geri bildirimi dışsal değişim inancını güncellemek için daha az kullandı; modelleme, dinamik çevresel değişimler için kanıtı izleme ve sürdürmede eksiklik gösterdi ve bu kanıtı sürdürme becerisi yoksunluk süresiyle anlamlı ilişkiliydi. Yazarlar, belirsizlik altında atipik nedensel akıl yürütmenin nüksün temel bilişsel mekanizması olabileceğini ve hedefli bilişsel-davranışçı müdahaleler için temel sağlayabileceğini belirtiyor.",
+  "added": "2026-10-18",
+  "pmid": "42892496"
  },
  {
   "doi": "10.1038/s41380-026-03927-3",
@@ -23,8 +80,9 @@
   "title": "A microglial basis for fragile X syndrome via impairment of FMRP-regulated lysosomal function",
   "authors": "Heng Li, Jennifer Ja-Yoon Choi, Eric J. Huang ve ark.",
   "online": "2026-10-17",
-  "ozet": "Makale, frajil X sendromunun mikroglia temelini ele almakta; FMRP tarafından düzenlenen lizozomal işlevdeki bozulmanın sendromdaki rolünü incelemektedir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-18"
+  "ozet": "Frajil X sendromunda (FXS) mikroglia temelli bir mekanizma araştırıldı (fare çalışması). Mikroglia'da seçici Fmr1 delesyonu olan farelerde, FXS (Fmr1-/y) farelerindeki iki temel fenotip olan işitsel nöbetler (AGS) ve parvalbümin (PV) nöron kaybı görüldü. snRNA-Seq ve RNA immünopresipitasyonu ile birçok lizozomal mRNA'nın FMRP hedefi olduğu bulundu; FMRP eksikliği mikroglia'da lizozomal işlevi bozdu, salgısal progranülin (Grn) düzeyini azalttı ve erken dönem beyinlerde PV nöron apoptozunu artırdı. Progranülin aşırı ifadesi Fmr1-/y farelerde AGS'yi ve PV nöron kaybını düzeltti. Yazarlar mikroglia ve progranülini FXS patogenezinde kritik düzenleyiciler ve olası tedavi hedefleri olarak tanımlıyor.",
+  "added": "2026-10-18",
+  "pmid": "42892634"
  },
  {
   "doi": "10.1016/j.neubiorev.2026.107054",
@@ -42,8 +100,9 @@
   "title": "Stage- and context-dependent modulation of fear memory by oxytocin: neurobiological mechanisms and implications for PTSD",
   "authors": "Baihui Wei, Xinyi Li, Xiaohang Che",
   "online": "2026-10-17",
-  "ozet": "Makale, oksitosinin korku belleğini evreye ve bağlama bağımlı olarak nasıl modüle ettiğini, altta yatan nörobiyolojik mekanizmaları ve TSSB açısından olası çıkarımları ele almaktadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-18"
+  "ozet": "Derleme makalesi: oksitosinin (OXT) korku belleğini evre ve bağlama bağlı olarak nasıl modüle ettiği ve TSSB açısından önemi inceleniyor. Ağır travma endojen OXT sinyalini bozarken, ekzojen OXT'nin etkileri bölge, doz, yol ve bağlama göre değişiyor; edinim, konsolidasyon, geri çağırma, yeniden konsolidasyon ve sönme aşamalarında etki yönü tek tip anksiyolitik ve sönmeyi destekleyici değil, heterojen. İnsan çalışmalarında intranazal OXT TSSB'yle ilişkili nöral, fizyolojik ve sosyal-bilişsel süreçleri değiştirebiliyor, ancak tutarlı klinik etkinlik kanıtı sınırlı ve heterojen. Yazarlar, preklinik modellerin TSSB'nin yalnızca bazı boyutlarını yansıttığını vurguluyor.",
+  "added": "2026-10-18",
+  "pmid": "42892461"
  },
  {
   "doi": "10.1016/j.jad.2026.122637",
@@ -61,8 +120,9 @@
   "title": "Altered resting-state EEG microstate dynamics are associated with auditory hallucinations in patients with major depressive disorder",
   "authors": "Yuhang He, Fengchun Wu, Fengling Liao ve ark.",
   "online": "2026-10-17",
-  "ozet": "Makale, majör depresif bozukluğu olan hastalarda dinlenme hali EEG mikrodurum dinamiklerindeki değişikliklerin işitsel halüsinasyonlarla ilişkili olduğunu bildirmektedir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-18"
+  "ozet": "Majör depresif bozuklukta (MDB) işitsel halüsinasyon deneyimleri ile istirahat EEG mikrodurum dinamikleri arasındaki ilişki incelendi. İlk epizod, ilaç naif veya minimal ilaç kullanmış 182 MDB hastası (halüsinasyon öyküsü olan AH+ n=42, olmayan AH- n=140) ve 95 sağlıklı kontrol karşılaştırıldı. Çoklu karşılaştırma düzeltmesinden sonra yalnızca mikrodurum C sıklığı AH+ grubunda hem AH- hem kontrollerden yüksekti; yaş, cinsiyet, eğitim ve depresyon şiddeti ayarlamasından sonra da anlamlıydı (OR=1,773, %95 GA 1,211–2,595, p=0,003), halüsinasyon şiddetiyle ilişkili değildi; ayırt edicilik sınırlıydı (AUC=0,614). Yazarlar, mikrodurum C değişikliklerinin işitsel halüsinasyon deneyiminin elektrofizyolojik bir korelatı olabileceğini, ancak ileri araştırma gerektiğini belirtiyor.",
+  "added": "2026-10-18",
+  "pmid": "42892400"
  },
  {
   "doi": "10.1016/j.jad.2026.122645",
@@ -70,8 +130,9 @@
   "title": "Childhood trauma dimensions in major depressive disorder: associations with symptoms, inflammation, cognition, and 12-week change",
   "authors": "Bo Zhang, Yigang Liu, Honghong Ren ve ark.",
   "online": "2026-10-17",
-  "ozet": "Makale, majör depresif bozuklukta çocukluk çağı travma boyutlarının belirtiler, enflamasyon ve biliş ile ilişkilerini ve 12 haftalık değişimi incelemektedir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-18"
+  "ozet": "MDB'de çocukluk çağı travması boyutlarının belirti, inflamasyon, biliş ve 12 haftalık değişimle ilişkisi vaka-kontrol ve izlem çalışmasıyla incelendi (73 MDB, 60 sağlıklı kontrol). Travma CTQ ile değerlendirildi; ayrıca periferik inflamatuvar belirteçler, WCST ve 12 hafta boyunca PHQ-9, GAD-7 ve ISI ölçüldü. MDB'lilerde CTQ toplam ve tüm alt ölçek puanları kontrollerden yüksekti; FDR düzeltmesi sonrası duygusal istismar PHQ-9 ve GAD-7 ile, fiziksel istismar ISI ile ilişkiliydi. İnflamatuvar belirteçler ve WCST ile sağlam ilişki saptanmadı; birincil karışık etki modellerinde CTQ ana etkisi veya vizit etkileşimi anlamlı değildi. LOCF duyarlılık analizinde duygusal ihmal daha düşük 12. hafta ISI ile ilişkiliydi (q=0,035) ancak bu bulgu keşfedici kabul edilmeli.",
+  "added": "2026-10-18",
+  "pmid": "42892399"
  },
  {
   "doi": "10.1016/j.jad.2026.122642",
@@ -79,8 +140,9 @@
   "title": "The dynamic interplay between subjective and objective cognitive performance and their impact on the prognosis of major depressive disorder: A cross-lagged panel network analysis",
   "authors": "Qianqian Zhang, Si-Wen Wang, Hua Tu ve ark.",
   "online": "2026-10-17",
-  "ozet": "Makale, majör depresif bozuklukta öznel ve nesnel bilişsel performansın dinamik etkileşimini ve prognoza etkisini çapraz gecikmeli panel ağ analiziyle incelemektedir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-18"
+  "ozet": "MDB'de öznel ve nesnel bilişsel performansın birbiriyle ve depresif belirtilerle etkileşimi, çapraz gecikmeli panel ağ analiziyle incelendi. Başlangıçta 621, 8. haftada 373 MDB hastası analiz edildi (gerçek yaşam kohortu ve perospiron/plasebo ilaveli RKÇ). Öznel biliş, nesnel biliş ve depresif belirtiler ayrı etkileşimli modüller oluşturdu; ağ gücü başlangıçtan 8. haftaya arttı (ΔS=0,65, p=0,01). Remisyona girmeyenlerde öznel yürütücü işlev, remisyona girenlerde nesnel işlem hızı en merkezi düğümdü. Daha iyi başlangıç öznel yürütücü işlevi ve belleği 8. hafta enerji/ilgi ile olumlu ilişkiliyken, daha iyi nesnel anlık sözel bellek 8. haftada daha kötü keder, yorgunluk ve ilgi düzeyleriyle ilişkiliydi (β=-0,12, -0,07, -0,05). Yazarlar öznel ve nesnel bilişin birlikte değerlendirilmesini destekliyor.",
+  "added": "2026-10-18",
+  "pmid": "42892401"
  },
  {
   "doi": "10.1155/da/3448143",
@@ -97,8 +159,9 @@
   "title": "A Reproducible Safety Assessment Model for Concurrent Transcranial Magnetic Stimulation with Implanted Intracranial Electroencephalography Electrodes",
   "authors": "Andrew Chang, Jakob Michiels, Gustavo Campos ve ark.",
   "online": "2026-10-17",
-  "ozet": "Makale, kafa içi EEG elektrotları implante edilmiş hastalarda eşzamanlı transkraniyal manyetik stimülasyon (TMS) için yeniden üretilebilir bir güvenlik değerlendirme modeli geliştirmeyi ele almaktadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-18"
+  "ozet": "TMS ile eşzamanlı yerleştirilmiş intrakraniyal EEG (sEEG) elektrotları için tekrarlanabilir bir güvenlik değerlendirme modeli geliştirildi. Platin sEEG elektrotlu agaroz fantom, tek pulslu TMS, rTMS (1–50 Hz) ve aralıklı theta burst stimülasyonuna maruz bırakıldı; elektrot yer değiştirmesi, ısınma ve indüklenen voltaj/yük yoğunluğu ölçüldü. Yer değiştirme mikrometre ölçeğinde kaldı (en fazla 10,99 μm geçici; 16,27 μm ortalama), sıcaklık artışı en fazla 0,073°C ile 2°C eşiğinin çok altındaydı ve indüklenen voltaj ile yük yoğunlukları güvenlik sınırlarının altındaydı. Yazarlar, kontrollü fantom koşullarında klinik aralığı aşan protokoller dahil güvenlik sınırları içinde kalındığını ve çerçevenin TMS-sEEG ile ilgili gelecek güvenlik deneylerine standart sağlayabileceğini belirtiyor.",
+  "added": "2026-10-18",
+  "pmid": "42892416"
  },
  {
   "doi": "10.1016/j.brs.2026.103226",
@@ -106,8 +169,9 @@
   "title": "Transdiagnostic Efficacy, Durability, and Optimal Parameters of rTMS for Cognitive Rehabilitation: A Comprehensive Meta-Analysis",
   "authors": "Ahmad M.S. Ali, Maxine Gorter, Rasheed Zakaria ve ark.",
   "online": "2026-10-17",
-  "ozet": "Meta-analiz. Başlığa göre çalışma, bilişsel rehabilitasyonda rTMS'nin transdiagnostik etkinliğini, kalıcılığını ve en uygun parametrelerini kapsamlı biçimde değerlendirmektedir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-18"
+  "ozet": "Nörolojik ve psikiyatrik hastalıklarda rTMS'nin bilişe etkisini ve etkinlik düzenleyicilerini değerlendiren meta-analiz. Temmuz 2025'e kadar gerçek ve sham rTMS'yi karşılaştıran RKÇ'lerden 137 çalışma, 5.972 katılımcı ve 748 ölçüm üç düzeyli modellerle analiz edildi. Gerçek rTMS bilişi anlamlı artırdı (g=0,28, p<0,0001, I2=%37,3), etki 2–52 hafta boyunca sürdü ve tüm bilişsel alanlarda görüldü; nörodejeneratif (g=0,35) ve fokal (g=0,44) durumlarda psikiyatrik durumlardan (g=0,20) güçlüydü. En büyük etki inferior frontal girusta (g=0,45) görüldü; 1 Hz (g=0,39) 10 Hz'den (g=0,19) anlamlı üstündü, 10 ek seans bilişi artırdı (Δg=+0,077). Öznel biliş çalışmaların yalnızca %6'sında ölçülmüştü; bilişsel kazanımların öznel biliş ve işlevselliğe yansıyıp yansımadığı belirsiz.",
+  "added": "2026-10-18",
+  "pmid": "42892417"
  },
  {
   "doi": "10.1016/j.inpsyc.2026.100304",
