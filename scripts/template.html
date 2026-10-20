@@ -63,7 +63,7 @@ body { margin: 0; min-height: 100dvh; background: var(--bg); color: var(--ink);
   font: 15px/1.6 var(--font); -webkit-font-smoothing: antialiased; }
 [hidden] { display: none !important; }
 button { font-family: inherit; }
-.wrap { max-width: 780px; margin: 0 auto; padding-inline: 20px; padding-bottom: calc(120px + env(safe-area-inset-bottom, 0px)); }
+.wrap { max-width: 1360px; margin: 0 auto; padding-inline: 24px; padding-bottom: calc(120px + env(safe-area-inset-bottom, 0px)); }
 
 /* Çift çerçeve: dış kabuk + iç çekirdek */
 .bezel { background: var(--shell); box-shadow: 0 0 0 1px var(--ring); border-radius: var(--r-shell); padding: 6px; }
@@ -211,23 +211,65 @@ footer .links { display: flex; flex-wrap: wrap; gap: 6px 14px; }
 footer a { color: var(--muted); text-decoration: none; }
 footer a:hover { color: var(--accent); }
 
+/* Masaüstü: solda yapışkan filtre çubuğu, sağda makaleler; çok geniş ekranda iki sütun kart */
+.layout { display: flex; flex-direction: column; gap: 0; }
+.content { min-width: 0; }
+@media (min-width: 1024px) {
+  header.top { padding-bottom: 32px; }
+  .layout { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 36px; align-items: start; }
+  .side { position: sticky; top: calc(20px + env(safe-area-inset-top, 0px)); max-height: calc(100dvh - 40px);
+    overflow-y: auto; scrollbar-width: thin; border-radius: var(--r-shell); }
+  .side .core { gap: 16px; }
+  .side #feedCtl { flex-direction: column; align-items: stretch; gap: 12px; }
+  .side .seg { width: 100%; }
+  .side .seg button { flex: 1; padding: 8px 4px; }
+  .side .switch { margin-left: 4px; }
+  .side .chips { flex-direction: column; align-items: stretch; flex-wrap: nowrap; gap: 4px; }
+  .side .chip { justify-content: space-between; text-align: left; padding: 9px 14px; }
+  .side .chip .n { margin-left: 8px; }
+  .side .journals { padding: 6px; }
+  .side .search { order: -1; }
+  main { padding-top: 0; }
+  .day:first-child { margin-top: 0; }
+}
+@media (min-width: 1400px) {
+  .list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 14px; }
+}
+
+/* Telefon: daha ince kenar boşlukları ve daha kompakt kartlar */
 @media (max-width: 767px) {
-  .wrap { padding-inline: 14px; }
-  header.top { padding-top: calc(28px + env(safe-area-inset-top, 0px)); }
-  .bezel { border-radius: 24px; padding: 5px; }
-  .core { border-radius: 19px; }
-  article .core { padding: 18px 16px 14px; }
-  article h3 { font-size: 17px; }
-  .switch { margin-left: 4px; }
-  #feedCtl { gap: 12px; }
+  body { font-size: 14.5px; }
+  .wrap { padding-inline: 10px; }
+  header.top { padding-top: calc(22px + env(safe-area-inset-top, 0px)); padding-bottom: 16px; gap: 10px; padding-inline: 4px; }
+  header.top h1 { font-size: 1.95rem; }
+  .meta { font-size: 13px; }
+  .btn-pill { padding: 7px 12px; font-size: 13px; }
+  .bezel { border-radius: 20px; padding: 4px; }
+  .core { border-radius: 16px; }
+  .controls .core { padding: 10px; gap: 10px; }
+  article .core { padding: 15px 14px 12px; gap: 8px; }
+  .head { font-size: 12px; }
+  article h3 { font-size: 16.5px; line-height: 1.3; }
+  .authors { font-size: 12.5px; }
+  .ozet { font-size: 14.5px; line-height: 1.6; }
+  .actions { gap: 6px; padding-top: 12px; }
+  .act { padding: 6px 10px; font-size: 12.5px; }
+  .island { font-size: 12.5px; }
+  .day { margin-top: 26px; gap: 10px; }
+  .day h2 { font-size: 14px; margin-left: 6px; }
+  .list { gap: 10px; }
+  .switch { margin-left: 4px; font-size: 13px; }
+  #feedCtl { gap: 10px; }
   .seg { width: 100%; }
-  .seg button { flex: 1; padding: 8px 6px; font-size: 13px; }
-  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -14px; padding-inline: 14px; }
+  .seg button { flex: 1; padding: 7px 4px; font-size: 12.5px; }
+  .chip { padding: 6px 11px; font-size: 12.5px; }
+  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -10px; padding-inline: 10px; }
   .chips::-webkit-scrollbar { display: none; }
   .chips .chip { flex: none; }
-  .journals { margin-inline: -4px; padding: 8px 4px; }
-  .journals.chips { margin-inline: -14px; padding-inline: 14px; border-radius: 0; background: none; }
-  .dock button { padding: 10px 16px; }
+  .journals.chips { margin-inline: -10px; padding: 6px 10px; border-radius: 0; background: none; }
+  #q { padding: 9px 14px 9px 40px; font-size: 14px; }
+  .search i { left: 14px; }
+  .dock button { padding: 9px 15px; font-size: 13.5px; }
 }
 </style>
 </head>
@@ -260,7 +302,8 @@ footer a:hover { color: var(--accent); }
       </div>
     </section>
   </header>
-  <section class="controls bezel">
+  <div class="layout">
+  <aside class="side controls bezel" aria-label="Filtreler">
     <div class="core">
       <div class="row" id="feedCtl">
         <div class="seg" role="group" aria-label="Zaman aralığı" id="range">
@@ -275,9 +318,12 @@ footer a:hover { color: var(--accent); }
       <div class="row chips journals" id="chips" hidden></div>
       <div class="search"><i class="ph-light ph-magnifying-glass"></i><input id="q" type="search" aria-label="Ara" placeholder="Başlık, özet ya da yazar ara" autocomplete="off"></div>
     </div>
-  </section>
-  <main id="main"></main>
-  <footer id="foot"></footer>
+  </aside>
+  <div class="content">
+    <main id="main"></main>
+    <footer id="foot"></footer>
+  </div>
+  </div>
 </div>
 <nav class="dock" role="tablist" id="tabs" aria-label="Görünüm">
   <button role="tab" data-v="feed" type="button"><i class="ph-light ph-newspaper"></i>Yeni</button>
