@@ -63,7 +63,7 @@ body { margin: 0; min-height: 100dvh; background: var(--bg); color: var(--ink);
   font: 15px/1.6 var(--font); -webkit-font-smoothing: antialiased; }
 [hidden] { display: none !important; }
 button { font-family: inherit; }
-.wrap { max-width: 1360px; margin: 0 auto; padding-inline: 24px; padding-bottom: calc(120px + env(safe-area-inset-bottom, 0px)); }
+.wrap { max-width: 900px; margin: 0 auto; padding-inline: 24px; padding-bottom: calc(120px + env(safe-area-inset-bottom, 0px)); }
 
 /* Çift çerçeve: dış kabuk + iç çekirdek */
 .bezel { background: var(--shell); box-shadow: 0 0 0 1px var(--ring); border-radius: var(--r-shell); padding: 6px; }
@@ -211,29 +211,23 @@ footer .links { display: flex; flex-wrap: wrap; gap: 6px 14px; }
 footer a { color: var(--muted); text-decoration: none; }
 footer a:hover { color: var(--accent); }
 
-/* Masaüstü: solda yapışkan filtre çubuğu, sağda makaleler; çok geniş ekranda iki sütun kart */
-.layout { display: flex; flex-direction: column; gap: 0; }
-.content { min-width: 0; }
+/* Masaüstü: daha geniş tek sütun; filtreler üstte, zaman aralığı ve arama aynı satırda */
 @media (min-width: 1024px) {
-  header.top { padding-bottom: 32px; }
-  .layout { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 36px; align-items: start; }
-  .side { position: sticky; top: calc(20px + env(safe-area-inset-top, 0px)); max-height: calc(100dvh - 40px);
-    overflow-y: auto; scrollbar-width: thin; border-radius: var(--r-shell); }
-  .side .core { gap: 16px; }
-  .side #feedCtl { flex-direction: column; align-items: stretch; gap: 12px; }
-  .side .seg { width: 100%; }
-  .side .seg button { flex: 1; padding: 8px 4px; }
-  .side .switch { margin-left: 4px; }
-  .side .chips { flex-direction: column; align-items: stretch; flex-wrap: nowrap; gap: 4px; }
-  .side .chip { justify-content: space-between; text-align: left; padding: 9px 14px; }
-  .side .chip .n { margin-left: 8px; }
-  .side .journals { padding: 6px; }
-  .side .search { order: -1; }
-  main { padding-top: 0; }
-  .day:first-child { margin-top: 0; }
-}
-@media (min-width: 1400px) {
-  .list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 14px; }
+  .wrap { max-width: 1100px; padding-inline: 32px; }
+  header.top { padding-bottom: 28px; }
+  .controls .core { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px 20px; align-items: center; padding: 16px; }
+  .controls #feedCtl { grid-column: 1; grid-row: 1; flex-wrap: nowrap; gap: 18px; }
+  .controls .search { grid-column: 2; grid-row: 1; }
+  .controls #feedCtl[hidden] ~ .search { grid-column: 1 / -1; }
+  .controls #groups { grid-column: 1 / -1; grid-row: 2; }
+  .controls #chips { grid-column: 1 / -1; grid-row: 3; }
+  .switch { margin-left: 0; }
+  .controls .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: thin; padding-bottom: 2px; }
+  .controls .chips .chip { flex: none; }
+  .controls .chip { padding: 7px 12px; }
+  article .core { padding: 26px 30px 20px; }
+  article h3 { font-size: 19px; }
+  .ozet { max-width: 92ch; }
 }
 
 /* Telefon: daha ince kenar boşlukları ve daha kompakt kartlar */
@@ -302,8 +296,7 @@ footer a:hover { color: var(--accent); }
       </div>
     </section>
   </header>
-  <div class="layout">
-  <aside class="side controls bezel" aria-label="Filtreler">
+  <section class="controls bezel" aria-label="Filtreler">
     <div class="core">
       <div class="row" id="feedCtl">
         <div class="seg" role="group" aria-label="Zaman aralığı" id="range">
@@ -318,12 +311,9 @@ footer a:hover { color: var(--accent); }
       <div class="row chips journals" id="chips" hidden></div>
       <div class="search"><i class="ph-light ph-magnifying-glass"></i><input id="q" type="search" aria-label="Ara" placeholder="Başlık, özet ya da yazar ara" autocomplete="off"></div>
     </div>
-  </aside>
-  <div class="content">
-    <main id="main"></main>
-    <footer id="foot"></footer>
-  </div>
-  </div>
+  </section>
+  <main id="main"></main>
+  <footer id="foot"></footer>
 </div>
 <nav class="dock" role="tablist" id="tabs" aria-label="Görünüm">
   <button role="tab" data-v="feed" type="button"><i class="ph-light ph-newspaper"></i>Yeni</button>
