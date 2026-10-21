@@ -1,5 +1,158 @@
 [
  {
+  "doi": "10.1002/alz.71918",
+  "journal": "alz",
+  "title": "H3K9me3 inhibition reverses Alzheimer's progression by restoring synaptic and immune proteostasis across the brain–retina axis",
+  "authors": "Dieu‐Trang Fuchs, Jean‐Philippe Vit, Altan Rentsendorj ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Alzheimer hastalığında (AH) retina ve beyin patolojisine represif epigenetik işaret H3K9me3'ün katkısı, insan örnekleri ve iki transgenik fare modelinde incelendi. Normal biliş, hafif bilişsel bozukluk ve AH demansı olan donörlerin post-mortem retina ve beyinlerinde H3K9me3 ölçüldü; SUV39H1 ve diğer metiltransferazlara karşı ETP69'un etkisi hücresiz testlerde ve APPswe/PS1dE9 ile APPswe/tauP301L/PS1 farelerinde değerlendirildi. H3K9me3, AH sürekliliğinde hem beyinde hem retinada erken arttı, bilişsel bozukluk ve nöropatolojiyle ilişkiliydi; eşleşmiş beyin ve retina düzeyleri güçlü korelasyon gösterdi (r = 0,72). ETP69 SUV39H1'i ve diğer metiltransferazları inhibe etti; farelerde AH benzeri patolojiyi azalttı, sinapsları korudu, bilişsel ve görsel performansı iyileştirdi, proteostazı ve doğal bağışıklık yolaklarını ile BDNF/VGF–granin sinyalini yeniden düzenledi. Yazarlar H3K9me3 birikimini geri döndürülebilir ortak bir epigenetik katkı olarak tanımlıyor; retina beyin epigenetik işlev bozukluğunun erişilebilir göstergesi olabilir.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1002/alz.71922",
+  "journal": "alz",
+  "title": "Direction‐specific biomarker profiles and clinical significance of plasma p‐tau217/amyloid PET discordance in cognitively normal adults",
+  "authors": "Yanlu Huang, Lin Huang, Liang Cui ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Bilişsel olarak normal erişkinlerde plazma p-tau217 ile amiloid PET uyumsuzluğunun biyolojik ve klinik anlamı araştırıldı. Çin Preklinik AH Çalışması (CPAS; n = 594) ve ADNI (n = 475) katılımcılarında amiloid PET pozitifliği Centiloid ≥ 20, p-tau217 pozitifliği PET'e dayalı (özgüllük ≥ 0,90) kesim değerleriyle tanımlanarak dört grup oluşturuldu. p-tau+/PET− grubunda p-tau−/PET−'ye göre GFAP ve NfL daha yüksekti; p-tau−/PET+ grubunda ADNI'de plazma Aβ42/40 oranı daha düşüktü; p-tau+/PET+ en yaygın anormallikleri gösterdi. ADNI'de her iki p-tau+ grupta klinik ilerleme riski yüksek ve bazı bilişsel alanlarda gerileme hızlıydı; her iki PET+ grupta Centiloid birikimi hızlıydı, p-tau+/PET−'de hızlı birikim yalnızca daha düşük özgüllük eşiklerinde görüldü. Yazarlar uyumsuz sonuçların hem pozitiflik örüntüsüne hem uygulanan kesim değerine göre yorumlanması gerektiğini, bunun risk sınıflamasına katkı sağlayabileceğini ancak klinik kullanım öncesi doğrulama gerektiğini belirtiyor.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10798",
+  "journal": "bjp",
+  "title": "Clinical and genetic correlates of a circadian subtype of depression in the Australian Genetics of Depression Study",
+  "authors": "Emiliana Tonini, Jacob J. Crouse, Mirim Shin ve ark.",
+  "online": "2026-10-20",
+  "ozet": "Depresyonun sirkadiyen bir alt tipinin klinik seyir, ilaç yanıtı ve genetik risk profili açısından biyolojik geçerliliği ve klinik yararı araştırıldı. Avustralya Depresyon Genetiği Çalışması'ndan kesitsel verilerde, sosyal jetlag, mevsimsellik, gecikmiş uyku orta noktası, akşam kronotipi, sabah yorgunluğu ve hipersomni özelliklerinden en az üçünü karşılayanlar 'sirkadiyen' alt tip sayıldı. Sirkadiyen alt tip 2604 katılımcıda (%23; %80 kadın) saptandı; bu grupta başlangıç yaşı daha erken, (hipo)manik benzeri ve psikotik benzeri yaşantılar, intihar düşüncesi, psikolojik sıkıntı ve somatik yakınmalar daha belirgindi, depresif dönemde kilo alımı ve yan etkiler daha fazlaydı; SSRI (OR 0,88) ve SNRI (OR 0,89) yanıtı daha zayıftı. Ayrıca DEHB, depresyon, anksiyete, bipolar bozukluk, VKİ, trigliserid, IL-6, insülin direnci, geç uyku orta noktası ve insomnia için poligenik risk skorları daha yüksekti (OR 1,08–1,15). Yazarlar, bağımsız replikasyon beklenirken sirkadiyen alt tipin klinik bir profil olarak yüz geçerliliğini desteklediğini belirtiyor.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1136/bmjment-2026-303070",
+  "journal": "bmjmh",
+  "title": "Brief depressive and anxiety symptom measures rank alongside comorbidity burden as predictors of health-related quality of life in 15 countries",
+  "authors": "Xun Li, Calvin Wei Jie Chern, Xin Zhang ve ark.",
+  "online": "2026-10-20",
+  "pmid": "42901722",
+  "ozet": "Makalenin özeti mevcut değil; başlığa göre 15 ülkede kısa depresyon ve anksiyete belirti ölçümlerinin, eşlik eden hastalık yüküyle birlikte sağlıkla ilişkili yaşam kalitesini öngörmedeki yerini ele alan bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1136/bmjment-2026-302840",
+  "journal": "bmjmh",
+  "title": "Centralised referral platform for child and adolescent mental health services: a mixed-methods evaluation of implementation processes and care pathways",
+  "authors": "Léa Gonnon, Rachel Foare, Tristan Dagonneau ve ark.",
+  "online": "2026-10-20",
+  "pmid": "42901721",
+  "ozet": "Makalenin özeti mevcut değil; başlığa göre çocuk ve ergen ruh sağlığı hizmetleri için merkezî bir sevk platformunun uygulama süreçlerini ve bakım yollarını değerlendiren karma yöntemli bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1038/s41380-026-03929-1",
+  "journal": "molpsy",
+  "title": "Two distinct projection pathways converge onto the same BLA neurons to contribute to fear memory retrieval",
+  "authors": "Hao Yang, Ting Xia, Siying Kuang ve ark.",
+  "online": "2026-10-20",
+  "ozet": "Makalenin özeti mevcut değil; başlığa göre iki farklı projeksiyon yolunun aynı bazolateral amigdala (BLA) nöronlarına yakınsayarak korku belleğinin geri çağrılmasına katkıda bulunduğunu bildiren bir temel nörobilim çalışmasıdır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107057",
+  "journal": "nbr",
+  "title": "Resting-state fMRI biomarkers of surgical outcome in temporal lobe epilepsy: Network reorganization, rsfMRI-based prediction models, and cognition - A systematic review",
+  "authors": "Camilla Mingzi Cao Xu, Maja Rou Marstrand-Joergensen, Drummond E-Wen McCulloch ve ark.",
+  "online": "2026-10-20",
+  "pmid": "42901389",
+  "ozet": "Temporal lob epilepsisi (TLE) cerrahisi sonrası sonuç ve bilişle ilişkili ağ değişikliklerinde istirahat durumu fMRG'nin (rsfMRI) rolü, PRISMA'ya uygun ve PROSPERO'da kayıtlı bir sistematik derlemeyle incelendi. En az 1 yıl izlemi olan, rezektif cerrahi geçirmiş 474 TLE hastasını içeren 15 çalışma dahil edildi. Çalışmalar heterojen olsa da TLE'de sağlıklı kontrollere göre DMN ilişkili bağlantısallığın azaldığı tutarlı biçimde bildirildi; nöbetsiz hastalarda ameliyat sonrası bağlantısallık birkaç çalışmada sağlıklı kontrol örüntüsüne yaklaştı. Ameliyat öncesi rsfMRI tabanlı öngörü modelleri nöbet sonucunu umut verici doğrulukla tahmin etti ancak küçük örneklemlerde geliştirilmişti ve dış doğrulamadan yoksundu; bilişle ilişki kanıtı sınırlıydı (talamus, asendan retiküler aktivasyon sistemi, talamo-oksipital bağlantılar; dikkat, dil, yürütücü işlevler). Yazarlar rsfMRI'nin umut verici bir araştırma biyobelirteci olduğunu, ancak klinik uygulama için kanıtın yetersiz kaldığını belirtiyor.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107056",
+  "journal": "nbr",
+  "title": "Interpersonal neural synchrony and parent-child behaviors during naturalistic interactions: A systematic review",
+  "authors": "Mélanie De Leener, Michel Sfeir, Sarah Galdiolo ve ark.",
+  "online": "2026-10-20",
+  "pmid": "42901388",
+  "ozet": "Ebeveyn-çocuk doğal etkileşimleri sırasında kişilerarası nöral senkroninin (INS) gözlenebilir davranışlarla ilişkisini inceleyen bir sistematik derlemedir. PRISMA'ya uygun aramayla okul öncesinden erken ergenliğe kadar çocukları içeren 15 çalışma dahil edildi. INS-davranış ilişkileri heterojendi; yüksek INS en tutarlı olarak karşılıklı katılım, paylaşılan olumlu duygulanım ve destekleyici ebeveynlikle ilişkiliydi, karşılıklılık, duyarlılık ve çocuk özerkliği ile ilişkiler bağlama bağımlıydı. Zaman çözünürlüklü analizler INS'nin belirli davranış olaylarıyla dalgalandığını ve ebeveyn ya da çocuk nöral aktivitesinin diğerinden önce geldiği asimetrik örüntüler olduğunu gösterdi; bunlar nedensel yönü kanıtlamıyor. Görev yapısı ve doğrudan sosyal ipuçları ilişkileri şekillendirdi; ebeveyn stresi ve çocuğun sosyal işlevselliği değişkenlik kaynağı olabilir. Bulgular sınırlı sayıda ve heterojen çalışma nedeniyle ön ve hipotez üretici kabul edilmelidir.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122648",
+  "journal": "jad",
+  "title": "Stage-dependent gray matter morphological alterations across the clinical spectrum of depressive disorder",
+  "authors": "Kun Xu, Baolin Wu, Ziru Zhao ve ark.",
+  "online": "2026-10-20",
+  "pmid": "42901399",
+  "ozet": "Depresyonun farklı evrelerinde gri cisim hacmi (GMV) anormalliklerinin ortak mı farklı mı olduğu, voksel bazlı morfometri (VBM) çalışmalarının SDM ile yapılan nicel meta-analiziyle incelendi. Subklinik depresyon (STD; 12 çalışma, 467 kişi), ilk atak ilaç-naif depresyon (FEND; 19 çalışma, 854 hasta) ve uzun süreli MDB (14 çalışma, 525 hasta) kontrollerle karşılaştırıldı. STD ve FEND'de duygu ve DMN bölgelerini ağırlıklı etkileyen karışık GMV artış/azalışları görüldü; uzun süreli MDB'de ise parasingulat girus ile insulaya uzanan sol orta temporal girusta sınırlı, pekişmiş GMV azalması saptandı. Evreler arası karşılaştırmalar prefrontal ve temporal bölgelerde erken evreden kronik evreye ilerleyici ayrışma gösterdi; meta-regresyon evreye özgü klinik ilişkiler ortaya koydu. Yazarlar ilerleyici bir modeli destekleyen bulguların, subklinik evredeki fronto-limbik eksikliklerin erken yatkınlık belirteci olabileceğini ve erken müdahalenin önemini vurguladığını belirtiyor.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122646",
+  "journal": "jad",
+  "title": "The effects of an online mindfulness-based intervention for parents of children with attention deficit/hyperactivity disorder",
+  "authors": "Zoe Jiwen Zhang, Herman Hay Ming Lo, Rebecca Y.M. Cheung ve ark.",
+  "online": "2026-10-20",
+  "pmid": "42901396",
+  "ozet": "DEHB'li çocukların ebeveynleri için çevrimiçi farkındalık temelli müdahalenin (MBI) etkinliği, çevrimiçi psikoeğitim (PSY) ile karşılaştırıldı. İki kollu bir RKÇ'de, 6–12 yaş DEHB belirtili çocukların 248 ebeveyni (131 MBI, 117 PSY) müdahale öncesi, sonrası ve 3. ay izlemde değerlendirildi. Her iki grupta çocukların DEHB belirtileri, yürütücü işlevleri ve ebeveyn iyilik halinde anlamlı ve kalıcı iyileşme; ebeveyn stresi ile ifade edilen duygunun iki boyutunda (eleştirel yorumlar, başlangıç ifadeleri) anlamlı azalma görüldü. Çevrimiçi MBI'ya özgü yarar insomnia'da saptandı; ebeveyn-çocuk ilişki kalitesindeki küçük iyileşme tekrarlı ölçümlü ANOVA'da görüldü ancak duyarlılık analiziyle tutarlı biçimde desteklenmedi. Yazarlar, MBI'nın özgül ve sürdürülebilir etkilerinin ve ebeveyn katılımının ileri çalışmalarda doğrulanması gerektiğini belirtiyor.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122649",
+  "journal": "jad",
+  "title": "Interaction patterns of internalized and perceived stigma with antidepressant adverse reactions on medication adherence in major depressive disorder: A prospective cohort study",
+  "authors": "Chuanhui Liu, Lerong Liu, Qinger Li ve ark.",
+  "online": "2026-10-20",
+  "pmid": "42901397",
+  "ozet": "Majör depresif bozuklukta (MDB) damgalanma ile antidepresan advers ilaç reaksiyonlarının (ADR) ilaç uyumu üzerindeki etkileşimi ve zamansal dinamiği araştırıldı. Çin Depresyon Kohortu'ndan 1770 MDB hastası (ort. yaş 28,74; %68,53 kadın) başlangıç ile 4, 8, 12, 24, 48 ve 72. haftalarda ilaç uyum, depresyon damgalanma ve antidepresan yan etki ölçekleriyle izlendi; etkileşim GAMM ile analiz edildi. İçselleştirilmiş damgalanma (IS) ile ADR ve algılanan damgalanma (PS) ile ADR arasında anlamlı doğrusal olmayan etkileşimler bulundu (ikisinde P < 0,001); IS ADR şiddetliyken, PS ise ADR hafifken uyumu en çok bozuyordu. Zamansal heterojenlik için istatistiksel kanıt yoktu (P = 0,175 ve 0,673). Yazarlar, IS yüksek hastalarda ADR yönetimine, PS yüksek hastalarda erken psikososyal desteğe öncelik veren farklılaştırılmış müdahaleleri önermektedir.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1111/bdi.70192",
+  "journal": "bd",
+  "title": "Women With Bipolar Disorder are at Increased Risk of Sarcopenia",
+  "authors": "Lana J. Williams, Amanda L. Stuart, Michael Berk ve ark.",
+  "online": "2026-10-20",
+  "ozet": "Bipolar bozukluğun kas sağlığıyla ilişkisi, kas gücü, kütlesi, kalitesi ve sarkopeni açısından araştırıldı. Sağlık kuruluşlarından alınan bipolar bozukluklu 106 kadın (SCID-I/NP), Geelong Osteoporoz Çalışması'ndan yaşa eşlenen 300 kontrolle (Güneydoğu Avustralya, ≥20 yaş) karşılaştırıldı; el kavrama gücü (Jamar), apendiküler yağsız kütle (Lunar) ve VKİ ölçüldü, sarkopeni FNIH ve EWGSOP2 algoritmalarıyla belirlendi. Bipolar bozukluklu kadınlarda düşük el kavrama gücü ve düşük yağsız kütle oranı daha yüksekti; FNIH ile 36 (%8,9), EWGSOP2 ile 46 (%11,4) kadın sarkopeni ölçütlerini karşıladı. Bipolar bozukluklu kadınlarda sarkopeni olasılığı yaş, sigara, aktivite, alkol, diyet ve sosyoekonomik düzeyden bağımsız yaklaşık iki kat yüksekti (FNIH OR 2,24; EWGSOP2 OR 2,78). Yazarlar replikasyon ve altta yatan mekanizmaların araştırılmasını gerekli görüyor.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1186/s40345-026-00446-6",
+  "journal": "ijbd",
+  "title": "Methodological concerns limiting the detection of treatment effects in the OSAN trial of blue-blocking glasses for mania",
+  "authors": "Tone Elise Gjøtterud Henriksen, Jörg Assmus, Barbara Barbini ve ark.",
+  "online": "2026-10-20",
+  "pmid": "42900401",
+  "ozet": "Bu yazı, Fiedorowicz ve ark.'nın OSAN çalışmasına (mani için mavi ışık engelleyici gözlük) yönelik bir editöre mektup/yorumdur; karanlık terapisi araştırmalarını da kapsayan metodolojik eleştiriler sunar. Yazarlara göre örneklemde mani belirtileri önceki karanlık terapisi çalışmalarına göre belirgin yüksek, hastalar daha fazla ilaç kullanan ve müdahaleye daha az uyumluydu; değerlendirici körlemesine uyum çabası belirti düzeyini olduğundan düşük gösteriyor olabilir. 2 haftalık uzatılmış müdahale süresi yüksek kayıba (2. haftada 35/42; %83) yol açmış olabilir ve istatistiksel yöntem ile veri raporlamasındaki sorunlar sonuçların yorumunu güçleştiriyor. Sonuç olarak OSAN çalışmasının istatistiksel gücünün kayıp ve çoklu varyans kaynakları nedeniyle önemli ölçüde azalmış olabileceği ve sonuçların dikkatle yorumlanması gerektiği belirtiliyor.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1155/da/6847420",
+  "journal": "da",
+  "title": "Magnitude and Associated Factors of Depressive Symptoms Among Adult Patients With Cirrhosis: An Experience From a Resource‐Limited Setting",
+  "authors": "Gashahun Mekonnen Dissassa, Geda Lelisa Kube, Henok Fisseha ve ark.",
+  "online": "2026-10-20",
+  "ozet": "Etiyopya'da sub-Sahra Afrika'da az karakterize edilen sirozlu hastalarda depresif belirtilerin sıklığı ve ilişkili faktörler incelendi. Addis Ababa'da üçüncü basamak bir hepatoloji kliniğinde ardışık 134 yetişkin siroz hastasıyla hastane temelli kesitsel çalışma yapıldı; depresif belirtiler PHQ-9 (≥10), sosyal destek OSS-3 ile değerlendirildi ve çok değişkenli lojistik regresyon kullanıldı. Klinik olarak anlamlı depresif belirti oranı 12/134 (%9,0; %95 GA 5,3–15,1) idi. Daha uzun hastalık süresi (AOR 1,48), dekompanse siroz (kompanseye göre yaklaşık dokuz kat), yüksek MELD skoru (AOR 1,58) ilişkiliydi; eşlik eden kronik hastalık yokluğu (AOR 0,14) ile orta (AOR 0,18) ve güçlü (AOR 0,04) sosyal destek daha düşük olasılıkla ilişkiliydi. Kesitsel tasarım nedensellik çıkarımını sınırlıyor; yazarlar kaynak kısıtlı ortamlarda rutin siroz bakımına ruh sağlığı taraması ve psikososyal müdahalelerin entegre edilmesi gerektiğini vurguluyor.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103240",
+  "journal": "brs",
+  "title": "Intrinsic and extrinsic connectivity of the seizure onset zone at rest and during stimulation",
+  "authors": "Joshua J. LaRocque, William K.S. Ojemann, Jay Xu ve ark.",
+  "online": "2026-10-20",
+  "pmid": "42901375",
+  "ozet": "Cerrahi öncesi epileptojenik bölgenin belirlenmesinde ağ bağlantısallığının tutarsız bulgularını açıklamak için nöbet başlangıç bölgesinin (SOZ) içsel ve dışsal bağlantısallığı incelendi. İntrakraniyal EEG ve beyin stimülasyonu yapılmış 37 erişkin ve 42 pediatrik hastadan oluşan çok merkezli kohort retrospektif analiz edildi; spontan bağlantısallık Pearson korelasyonuyla, perturbasyonel bağlantısallık stimülasyonla uyandırılmış potansiyellerle ölçüldü. Hem erişkin hem pediatrik hastalarda istirahat bağlantısallığı SOZ içinde dışına göre yüksek, SOZ içi ile dışı kanallar arasında ise azalmıştı; stimülasyon bağlantısallığı da benzer örüntü gösterdi. Bulgular SOZ'un beynin geri kalanından ayrışmış ancak içsel olarak aşırı bağlantılı olduğunu destekliyor; yazarlar bunun önceki tutarsızlıkları uzlaştırdığını ve epileptojenik bölgenin lokalizasyonuna yönelik çalışmalara yol gösterebileceğini belirtiyor.",
+  "added": "2026-10-21"
+ },
+ {
+  "doi": "10.1002/alz.71870",
+  "journal": "alz",
+  "title": "Why diabetes matters in dementia studies: Failure to account for diabetes status masks regional mitochondrial DNA copy number changes in human hippocampus, amygdala, and cerebellum in Alzheimer's disease",
+  "authors": "Aakruti Kaikini, Anqi Shi, Paul Francis ve ark.",
+  "online": "2026-10-20",
+  "ozet": "Alzheimer hastalığında (AH) mitokondriyal DNA kopya sayısının (mtDNA-CN) beyin bölgelerinde azaldığı ve diyabetin bu değişimi modifiye ettiği hipotezi test edildi. Post-mortem hipokampus, amigdala ve serebellumda mtDNA-CN qPCR ile, bilişsel kontrol (CC), AH ve diyabetli gruplarda (CC+D, AD+D; N = 66–77) ölçüldü. mtDNA-CN amigdalada en yüksek, hipokampusta orta, serebellumda en düşüktü (503, 421, 160 kopya/hücre). Havuzlanmış analizde AH'de hafif düşüklük vardı, ancak diyabet dahil edilince fark maskelendi: diyabetli donörlerde mtDNA-CN hipokampusta %37,5, amigdalada %30,6, serebellumda %48,5 daha yüksekti. Diyabetli donörler çıkarıldığında AH, mtDNA-CN'de %19–30 düşüşle ilişkiliydi (çoklu test düzeltmesi sonrası amigdala ve serebellumda anlamlı). Yazarlar AH'deki mtDNA-CN kaybının en net diyabetsizlerde görüldüğünü, diyabetin etki değiştirici olarak demans çalışmalarında dikkate alınması gerektiğini belirtiyor; diyabetli beyinde yüksek mtDNA-CN'nin işlevsel anlamı belirsizdir.",
+  "added": "2026-10-21"
+ },
+ {
   "doi": "10.1192/bja.2026.10241",
   "journal": "bja",
   "title": "Neuropsychiatric sequelae of traumatic brain injury",
@@ -174,8 +327,9 @@
   "title": "Shared cortical morphometry and molecular signatures across depression and physical diseases",
   "authors": "Chenguang Jiang, Hongliang Zhou, Yucheng Yuan ve ark.",
   "online": "2026-10-19",
-  "ozet": "Depresyon ile fiziksel hastalıklar arasında ortak kortikal morfometri ve moleküler imzaları inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-20"
+  "ozet": "Depresyonun fiziksel hastalıklarla yüksek eş-tanılılığının ortak yapısal ve moleküler temelleri araştırıldı. MDB, astım, fibromiyalji, GÖRH ve tip 2 diyabetli 577 hasta ile 275 sağlıklı kontrolün çok modlu MRG verilerinden bireysel morfometrik benzerlik ağları (MSN) oluşturuldu; temel bileşen analizi ve çok ölçekli moleküler anotasyon (transkriptomik, hücre tipi, nörotransmitter, bilişsel haritalama) uygulandı. Tüm hasta gruplarında bölgesel MSN anormallikleri vardı; görsel ve somatomotor bölgelerde artmış, ventral dikkat, limbik ve DMN bölgelerinde azalmış benzerlikten oluşan ortak bir örüntü saptandı ve bağımsız kohortlarda replike edildi. Bu örüntü sinaptik sinyalleşme, membran potansiyeli ve nöronal mimariyle ilişkili gen ekspresyonuyla, uyarıcı/engelleyici nöronlar ve astrositlerdeki baskın ekspresyonla ve belirli nörotransmitter sistemleriyle eşleşti; ilgili genler AH ve bipolar bozukluk risk lokuslarıyla örtüştü. Yazarlar bunun depresyon ve fiziksel hastalıklardaki ortak yatkınlık ve transdiagnostik mekanizmaları incelemek için bir çerçeve sunduğunu belirtiyor.",
+  "added": "2026-10-20",
+  "pmid": "42897264"
  },
  {
   "doi": "10.1155/da/9138758",
