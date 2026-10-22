@@ -1,5 +1,249 @@
 [
  {
+  "doi": "10.1001/jamapsychiatry.2026.3341",
+  "journal": "jamap",
+  "title": "Issues Regarding GLP-1 RA Use in Eating Disorders",
+  "authors": "Kimberly Dennis, Timothy D. Brewerton",
+  "online": "2026-10-21",
+  "ozet": "JAMA Psychiatry'de yayımlanan, yeme bozukluklarında GLP-1 reseptör agonistlerinin (GLP-1 RA) kullanımına ilişkin konuları ele alan bir okuyucu mektubudur. Başlık dışında içerik bilgisi bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3344",
+  "journal": "jamap",
+  "title": "Issues Regarding GLP-1 RA Use in Eating Disorders",
+  "authors": "Anu Raevuori",
+  "online": "2026-10-21",
+  "ozet": "JAMA Psychiatry'de yayımlanan, yeme bozukluklarında GLP-1 reseptör agonistlerinin (GLP-1 RA) kullanımına ilişkin konuları ele alan bir okuyucu mektubudur. Başlık dışında içerik bilgisi bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3232",
+  "journal": "jamap",
+  "title": "Multimodal Machine Learning–Based Prediction of Relapse in Major Depressive Disorder",
+  "authors": "Lea Teutenberg, Nils R. Winter, Paula Usemann ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Majör depresif bozuklukta (MDB) 2 yıl içindeki nüksü, alışılmadık genişlikte çok modlu verilerle çalışan bir makine öğrenmesi hattıyla öngörmek amaçlanmıştır. Almanya'daki (Marburg ve Münster) doğal seyirli boylamsal Marburg-Münster Duygudurum Bozuklukları Kohortu'ndan, şimdiki veya yaşam boyu MDB tanılı 564 hasta (%65,1 kadın; ort. yaş 37,34) alınmış; klinik/psikometrik veri, 4 yapısal ve fonksiyonel MR modalitesi, genetik, nörokognisyon, kan belirteçleri ve bağırsak mikrobiyomu dahil 9 modalite kullanılmıştır. Hastaların 270'i takipte nüks etmiştir; nüks öngörüsünde dengeli doğruluk (BACC) %47,21 ile %64,43 arasında değişmiştir. En iyi model yalnızca birkaç klinik nüks risk faktörüne dayanmış, çok modlu veri entegrasyonu performansı artırmamıştır. Yazarlar modellerin orta düzeyde doğruluk sağladığını, bireysel klinik karar vermeyi yönlendirme kapasitesinin sınırlı olduğunu ve ileride zamanla değişen çok modlu belirteçleri boylamsal sonuçlarla eşleyen dinamik modellemelerin yararlı olabileceğini belirtmiştir.",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.2733",
+  "journal": "jamap",
+  "title": "Psilocybin and Inflammatory and Mitochondrial Stress Markers in Parkinson Disease",
+  "authors": "Ellen R. Bradley, Parker Kelley, Balázs Szigeti ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Parkinson hastalığı ve duygudurum bozukluğu olan kişilerde psilosibin tedavisinin sistemik inflamasyon ve mitokondriyal stres belirteçlerindeki değişimlerle ilişkisini değerlendiren randomize olmayan bir klinik çalışmadır. Başlık ve kısa özet dışında sonuçlara dair ayrıntı verilmemiştir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3229",
+  "journal": "jamap",
+  "title": "Evaluating Large Language Models for Mental Health Care",
+  "authors": "Kevin W. Jin, Hua Xu, Sarah W. Yip ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Görüş yazısı (Viewpoint): Ruh sağlığı bakımında büyük dil modellerinin değerlendirilmesi için topluluk genelinde koordinasyon çağrısı yapılmaktadır. Başlık ve kısa özet dışında ayrıntı bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3347",
+  "journal": "jamap",
+  "title": "Issues Regarding GLP-1 RA Use in Eating Disorders—Reply",
+  "authors": "Nicholas C. Peiper, Jon E. Zibbell, Cheri A. Levinson",
+  "online": "2026-10-21",
+  "ozet": "Yeme bozukluklarında GLP-1 RA kullanımına dair yayımlanan okuyucu mektuplarına yazarların verdiği yanıttır. Başlık dışında içerik bilgisi bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3338",
+  "journal": "jamap",
+  "title": "Issues Regarding GLP-1 RA Use in Eating Disorders",
+  "authors": "Gemma Sharp",
+  "online": "2026-10-21",
+  "ozet": "JAMA Psychiatry'de yayımlanan, yeme bozukluklarında GLP-1 reseptör agonistlerinin (GLP-1 RA) kullanımına ilişkin konuları ele alan bir okuyucu mektubudur. Başlık dışında içerik bilgisi bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10826",
+  "journal": "bjp",
+  "title": "Critiquing the ‘epidemic’ of ‘adult ADHD’",
+  "authors": "Derek Summerfield",
+  "online": "2026-10-21",
+  "ozet": "British Journal of Psychiatry'de yayımlanan, 'erişkin DEHB' olarak adlandırılan durumun 'salgın' olarak nitelendirilmesini eleştiren bir yazıdır (muhtemelen görüş/editoryal). Başlık dışında içeriğe ulaşılamamıştır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1017/s0033291726106217",
+  "journal": "psymed",
+  "title": "Transdiagnostic factors differentially shape choices and decision times in social evaluative learning",
+  "authors": "Aamir Sohail, Aleksandra Magda, Muna Said ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Başkalarından gelen geri bildirimle öğrenmenin sosyal kaygı ve depresyon gibi bozukluklarda önemli olması nedeniyle, sosyal değerlendirici öğrenmenin transdiagnostik özelliklerle ilişkisi incelenmiştir. 193 katılımcı, bilgisayar kişiliklerinin kendilerini 'sevdiğini', 'sevmediğini' ya da nötr olduğunu öğrendikleri Sosyal Değerlendirme Öğrenme Görevi'ni tamamlamış ve sosyal açıdan ilgili psikiyatrik özellikleri ölçen altı anket doldurmuştur; pekiştirmeli öğrenme modelleri uygulanmıştır. Olumlu ve olumsuz geri bildirim için ayrı öğrenme parametreli model davranışı en iyi açıklamıştır; açımlayıcı faktör analizi üç transdiagnostik faktör vermiştir. Sosyal kaçınma faktörü, olumsuz geri bildirimden daha güçlü öğrenme ve azalmış olumlu öğrenme yanlılığı ile ilişkili bulunmuş; olumsuz öğrenme hızı yüksek kaçınmacı bireylerde olumlu sosyal bağlamlarda karar süreleri yavaşlamıştır. Başkalarına yönelik duygusal duyarsızlık faktörü hem olumlu hem olumsuz koşullarda daha düşük seçim doğruluğunu öngörmüş, depresif/duygudurum faktörü ile anlamlı ilişki bulunmamıştır. Yazarlar, transdiagnostik boyutların sosyal öğrenmeyi belirli davranışsal ve hesaplamalı süreçlerle şekillendirdiğini bildirmiştir.",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1017/s0033291726106412",
+  "journal": "psymed",
+  "title": "Semaglutide modulates explore/exploit decision-making in major depressive disorder: A randomized clinical trial",
+  "authors": "Ziyuan Zhang, Ningyuan Chen, Darcy Wang ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Keşif/sömürü (explore/exploit) karar vermesi güdülenmiş davranışın temel bileşenidir ve metabolik mekanizmaların bunu etkileyebileceği öne sürülmüştür; oral semaglutidin (GLP-1 RA) MDB'li hastalardaki etkisi incelenmiştir. Randomize klinik çalışmanın ikincil analizinde, MDB'li 72 katılımcı oral semaglutid (n=35) veya plasebo (n=37) almış; başlangıçta ve 16 hafta sonra dört kollu 'restless bandit' görevi uygulanmış, davranış pekiştirmeli öğrenme modeliyle analiz edilmiştir. Semaglutid; sömürüyü (ATE=0,0242, p<0,001), yönlendirilmiş keşfi (ATE=0,0619, p=0,013) ve persevarasyonu (ATE=0,3017, p=0,013) artırmıştır. Bu etkiler başlangıç özelliklerinden etkilenmiş ancak bunlardan ve çalışma sırasındaki kilo kaybından bağımsız bulunmuştur. Yazarlar, MDB'de karar vermede metabolik mekanizmaların rolüne ve GLP-1 RA'ların olası nöropsikiyatrik etkilerine dikkat çekmiştir.",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1111/acps.70151",
+  "journal": "acta",
+  "title": "Bipolar Disorder and the Risk of Cardiovascular Diseases: A Systematic Review and Meta‐Analysis of Observational Studies",
+  "authors": "Fernando Daibert de Souza Motta, Matheus de Lima Ruffini, Amanda Cunha Ritter ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Bipolar bozukluk (BB) erken ölümlülük ve kardiyovasküler hastalık (KVH) ile ilişkilidir; erişkin BB'de KVH prevalansı ve insidansını derleyen bir sistematik derleme ve meta-analiz yapılmıştır (PRISMA, PROSPERO CRD42023484712). Beş veri tabanında 11.909 kayıt taranmış, Newcastle–Ottawa Ölçeği ile değerlendirilen 32 gözlemsel çalışma dahil edilmiştir; rastgele etkili modeller kullanılmıştır. Havuzlanmış KVH prevalansı %7,70 (%95 GA 5,07–11,52), koroner arter hastalığı %6,89, serebrovasküler hastalık %4,45, periferik arter hastalığı %3,30 olup prevalans tahminlerinde aşırı heterojenlik bulunmuştur. Kontrollü çalışmalarda BB, artmış KVH insidansı ile ilişkilidir (IRR 1,66; %95 GA 1,32–2,08); koroner ve serebrovasküler tahminler de yüksektir. İlaç kullanımı, yaşam tarzı ve komorbiditelere ait analizler yetersiz ve karşılaştırılamaz raporlama nedeniyle yapılamamıştır. Yazarlar BB'de ciddi kardiyovasküler yük olduğunu, ancak heterojenlik, sınırlı insidans verisi ve gözlemsel desenin kesinliği sınırladığını belirtmiş; BB popülasyonlarında entegre kardiyovasküler tarama ve ileri çalışmaları desteklemiştir.",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.10.009",
+  "journal": "bp",
+  "title": "Simultaneous measurement of Midbrain and Striatal Dopamine in Schizophrenia using an agonist radiotracer",
+  "authors": "Mark Slifstein, Roberto Gil, Jodi Weinstein ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Şizofrenide bir agonist radyotrasör kullanılarak orta beyin ve striatal dopaminin eşzamanlı ölçümünü ele alan bir çalışmadır (görüntüleme çalışması). Başlık dışında içeriğe ulaşılamamıştır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.10.008",
+  "journal": "bp",
+  "title": "Brain NaV1.5 fine-tunes neuronal excitability to facilitate female-directed social behavior in male mice",
+  "authors": "Wei Ke, Heyuan Zhang, Liang Li ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Erkek farelerde dişiye yönelik sosyal davranışı kolaylaştırmak üzere nöronal uyarılabilirliği ince ayarlayan beyin NaV1.5 kanalını inceleyen bir hayvan çalışmasıdır. Başlık dışında ayrıntı bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.10.010",
+  "journal": "bp",
+  "title": "Thalamocortical dysconnectivity shapes cortical hierarchy disruption across illness durations in schizophrenia",
+  "authors": "Huan Huang, Lena Palaniyappan, Hechun Li ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Şizofrenide hastalık süreleri boyunca kortikal hiyerarşi bozulmasını talamokortikal bağlantı bozukluğunun şekillendirdiğini ele alan bir çalışmadır (görüntüleme çalışması olduğu düşünülmektedir). Başlık dışında ayrıntı bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.bpsc.2026.10.006",
+  "journal": "cnni",
+  "title": "Enhancing diagnostic and prognostic prediction of child psychopathology via multivariate predictive modeling: Where are we and where do we need to go?",
+  "authors": "Sarah L. Karalunas, Stephen V. Faraone, Michael A. Mooney ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Çocuk psikopatolojisinde çok değişkenli öngörü modellemesiyle tanısal ve prognostik tahminin geliştirilmesini, mevcut durumu ve gelecekte neye ihtiyaç duyulduğunu ele alan bir yazıdır (derleme/görüş niteliğinde olabilir). Başlık dışında ayrıntı bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1038/s41380-026-03947-z",
+  "journal": "molpsy",
+  "title": "Breast carcinoma amplified sequence 2 rescues adult hippocampal neurogenesis and cognitive deficits in Alzheimer’s disease via regulating BDNF/TrkB signaling",
+  "authors": "Haixia Ma, Congcong Liu, Wenbo Liu ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Alzheimer hastalığında, BCAS2'nin BDNF/TrkB sinyalini düzenleyerek erişkin hipokampal nörojenezi ve bilişsel bozuklukları düzelttiğini bildiren bir hayvan/deneysel çalışmadır. Başlık dışında ayrıntı bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107053",
+  "journal": "nbr",
+  "title": "When brain networks crash: connectivity, slow-wave activity and neural replay in Alzheimer's disease",
+  "authors": "Lorenzo Pini, Catalina Campuzano, Lu Zhang ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Alzheimer hastalığında beyin ağları çöktüğünde bağlantısallık, yavaş dalga aktivitesi ve nöral replay'i ele alan bir yazıdır (derleme niteliğinde olabilir). Başlık dışında ayrıntı bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122652",
+  "journal": "jad",
+  "title": "Right putaminal gray matter change tracks psychomotor recovery after accelerated iTBS in melancholic treatment-resistant depression",
+  "authors": "Deng Mao, Guo-Rong Wu, Beatriz Araújo Cavendish ve ark.",
+  "online": "2026-10-21",
+  "pmid": "42901398",
+  "ozet": "Melankolik depresyonda psikomotor yavaşlama belirgin ve işlevsellik bozucudur; hızlandırılmış aralıklı theta-burst stimülasyonunun (aiTBS) erken iyileşmesinin sinirsel alt yapısı araştırılmıştır. Melankolik tedaviye dirençli depresyonlu (TDD) 61 hasta ve 77 sağlıklı kontrolde yapısal MR ve voksel tabanlı morfometri ile striatal gri cevher hacmi (GMV) karşılaştırılmış; hastalara sol DLPFC'ye dört günde 20 seans randomize, çift kör, sham kontrollü aiTBS uygulanmıştır. Tam verisi olan 50 hastada (aktif ve sham n=25) taban çizgisinde belirlenen striatal bölgedeki GMV değişimi klinik değişimle ilişkilendirilmiştir. Hastalarda sağ putamen GMV'si kontrollerden yüksektir; aktif aiTBS sonrası sağ putamen GMV artışı psikomotor yavaşlamadaki daha fazla düzelmeyle ilişkili bulunmuş, bu ilişki sham grubunda ve genel depresyon şiddeti için görülmemiştir. Yazarlar bunun yapısal normalleşme olarak yorumlanmaması gerektiğini, putamen değişimi ile erken psikomotor iyileşme arasındaki ilişkiyi yansıtabileceğini belirtmiştir.",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122655",
+  "journal": "jad",
+  "title": "EEG-VTSFN: An enhanced approach for differentiating between unipolar and bipolar mood disorders",
+  "authors": "Xixi Zhao, Yi Cui, Tong Zhao ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Unipolar ve bipolar duygudurum bozukluklarını ayırt etmeye yönelik geliştirilmiş bir EEG tabanlı yaklaşımı (EEG-VTSFN) sunan bir çalışmadır. Başlık dışında yöntem ve sonuç bilgisi bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122647",
+  "journal": "jad",
+  "title": "Suicidality during intranasal (es)ketamine treatment: A retrospective cohort study",
+  "authors": "Yamina Ehrt-Schäfer, Georgios Schoretsanitis, Erich Seifritz ve ark.",
+  "online": "2026-10-21",
+  "ozet": "İntranazal (es)ketamin tedavisi sırasında intihar düşüncesi/davranışını inceleyen retrospektif bir kohort çalışmasıdır. Başlık dışında örneklem ve bulgu bilgisi bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122656",
+  "journal": "jad",
+  "title": "Co-developmental trajectories of internalizing symptoms and psychotic-like experiences among adolescents: The predictive role of sleep disturbance",
+  "authors": "Dongfang Wang, Mingze Sun, Yukai Li ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Ergenlerde içselleştirme belirtileri ile psikoz benzeri yaşantıların birlikte gelişim yörüngelerini ve uyku bozukluğunun öngördürücü rolünü inceleyen bir çalışmadır. Başlık dışında ayrıntı bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122654",
+  "journal": "jad",
+  "title": "Emotion regulation diversity and depressive symptoms in mid- to older adulthood: A longitudinal investigation",
+  "authors": "Alainna Wen, Niccole Nelson, Cindy S. Bergeman ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Orta ve ileri yetişkinlikte duygu düzenleme çeşitliliği ile depresif belirtiler arasındaki ilişkiyi inceleyen boylamsal bir araştırmadır. Başlık dışında ayrıntı bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122653",
+  "journal": "jad",
+  "title": "Efficacy and safety of interactive digital therapeutics with cognitive behavioral therapy for depressive symptoms in patients with major depressive disorder: A multicenter, randomized, assessor-blinded trial versus an active mood diary control",
+  "authors": "Yoo Jin Jang, Woojae Myung, C. Hyung Keun Park ve ark.",
+  "online": "2026-10-21",
+  "ozet": "MDB'li hastalarda depresif belirtiler için bilişsel davranışçı terapi (BDT) içeren etkileşimli dijital terapötiklerin etkinlik ve güvenliğini, aktif kontrol olan duygudurum günlüğüyle karşılaştıran çok merkezli, değerlendirici-kör, randomize bir çalışmadır. Başlık dışında sonuç bilgisi bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122650",
+  "journal": "jad",
+  "title": "National trends in suicidal ideation, planning, and attempts among US adults aged 50 and older, 2021–2024",
+  "authors": "Kevin H. Yang, Tyler Simi, Krish Jagasia ve ark.",
+  "online": "2026-10-21",
+  "ozet": "2021–2024 yıllarında 50 yaş ve üzeri ABD'li erişkinlerde intihar düşüncesi, planı ve girişimlerindeki ulusal eğilimleri inceleyen bir çalışmadır. Başlık dışında ayrıntı bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.09.020",
+  "journal": "neuromod",
+  "title": "Investigating the physiological effects of repetitive tibial nerve stimulation treating detrusor overactivity in rats",
+  "authors": "Linquan Jin, Yun Guo, Limin Liao ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Sıçanlarda detrusor aşırı aktivitesinin tedavisinde tekrarlayan tibial sinir stimülasyonunun fizyolojik etkilerini inceleyen bir hayvan çalışmasıdır. Başlık dışında ayrıntı bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1016/j.jagp.2026.10.010",
+  "journal": "ajgp",
+  "title": "Transdiagnostic mechanisms underlying non-affective psychosis: A role for hippocampal networks?",
+  "authors": "Claire Kaplan, Kate Perepezko, Gregory M. Pontone ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Non-affektif psikozun altında yatan transdiagnostik mekanizmalarda hipokampal ağların rolünün olabileceğini tartışan bir yazıdır (derleme/görüş niteliğinde olabilir). Başlık dışında ayrıntı bulunmamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-22"
+ },
+ {
+  "doi": "10.1002/alz.71739",
+  "journal": "alz",
+  "title": "Biomarker profiles in late‐life depression and Alzheimer's disease across and beyond the A/T/N framework: A scoping review",
+  "authors": "Yiqi Zhu, Nikitha Damera, Ramkrishna K. Singh ve ark.",
+  "online": "2026-10-21",
+  "ozet": "Geç dönem depresyon ile Alzheimer hastalığını (AH) amiloid/tau/nörodejenerasyon (A/T/N) çerçevesi içinde ve dışında ayırt eden biyobelirteç kanıtlarını haritalayan bir kapsam derlemesidir (PRISMA-ScR). MEDLINE, Embase ve Scopus'ta 2010–2025 yayınları taranmış, 48 çalışma dahil edilmiştir. Amiloid belirteçleri en tutarlı biçimde klinik olarak tanı konmuş AH ile ilişkili bulunmuş, diğer belirteçlerde bulgular daha heterojen kalmıştır. Hipokampal atrofi gibi nörodejenerasyon belirteçleri AH ile, vasküler anormallikler ve değişmiş fonksiyonel bağlantısallık ise daha çok depresif belirtilerle ilişkilendirilmiştir. Yazarlar iki durumun kısmen ayrışan ancak örtüşen biyobelirteç profilleri gösterdiğini, nedensel ve zamansal ilişkileri aydınlatmak için ölçeklenebilir belirteçlerle boylamsal çalışmalara ihtiyaç olduğunu belirtmiştir.",
+  "added": "2026-10-22"
+ },
+ {
   "doi": "10.1002/alz.71918",
   "journal": "alz",
   "title": "H3K9me3 inhibition reverses Alzheimer's progression by restoring synaptic and immune proteostasis across the brain–retina axis",
@@ -52,8 +296,9 @@
   "title": "Two distinct projection pathways converge onto the same BLA neurons to contribute to fear memory retrieval",
   "authors": "Hao Yang, Ting Xia, Siying Kuang ve ark.",
   "online": "2026-10-20",
-  "ozet": "Makalenin özeti mevcut değil; başlığa göre iki farklı projeksiyon yolunun aynı bazolateral amigdala (BLA) nöronlarına yakınsayarak korku belleğinin geri çağrılmasına katkıda bulunduğunu bildiren bir temel nörobilim çalışmasıdır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-21"
+  "ozet": "Bağlama bağlı korku belleği geri çağırımının sinir devrelerini inceleyen bir çalışmadır; amaç TSSB nüksünü önleyecek yeni tedavi yaklaşımları geliştirmeye katkı sağlamaktır. Ventral hipokampus CA1'den bazolateral amigdalaya (vCA1-BLA) uzanan nöronların bu süreçte rol aldığı bilinmekte, diğer BLA projeksiyon nöronlarının katkısı ve vCA1-BLA ile etkileşimi belirsiz kalmaktaydı. Bulgulara göre postrinal korteks–BLA (POR-BLA) nöronları da bağlama bağlı korku belleği geri çağırımında rol oynamakta ve vCA1-BLA nöronlarıyla aynı BLA nöronlarını innerve etmektedir. Yazarlar, iki farklı projeksiyon nöronunun aynı BLA nöronlarında birleşerek korku belleği geri çağırımına katkıda bulunduğunu bildirmiş ve mekanizmaya yeni bakış sağladığını belirtmiştir.",
+  "added": "2026-10-21",
+  "pmid": "42901948"
  },
  {
   "doi": "10.1016/j.neubiorev.2026.107057",
