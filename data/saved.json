@@ -1,5 +1,14 @@
 [
  {
+  "doi": "10.1017/s1092852926101187",
+  "journal": "cns",
+  "title": "Multimodal predictors of response to intravenous ketamine in treatment-resistant depression: toward personalized treatment in major depressive and bipolar disorders",
+  "authors": "Magda Malewska-Kasprzak, Filip Rybakowski, Monika Dmitrzak-Weglarz",
+  "online": "2026-09-28",
+  "ozet": "Sistematik derleme. Tedaviye dirençli depresyonda (MDB ve bipolar bozukluk) intravenöz ketamine yanıtı öngören klinik, nörofizyolojik, biyolojik, metabolik ve bilişsel etkenler bir arada değerlendirilmiş. PRISMA'ya göre son 5 yılda yayımlanan 150 çalışma sentezlenmiş. Öne çıkan öngörücüler: başlangıç depresyon şiddeti, eşlik eden anksiyete, atipik depresyon ve uyku fenotipleri, inflamatuvar ve nöroplastisite belirteçleri (monosit sayısı, BDNF), VKİ ve B12 düzeyi, genetik varyantlar, EEG/TMS/fMRI bağlantısallık bulguları, bilişsel performans ve erken belirti düzelmesi. Yazarlar kişiselleştirilmiş tedavi için ön bir araştırma çerçevesi ve pilot anket öneriyor; öngörücülerin çoğunun ileriye dönük doğrulanması gerekiyor.",
+  "saved": "2026-10-25"
+ },
+ {
   "doi": "10.1016/j.jad.2026.122602",
   "journal": "jad",
   "title": "Predicting remission following repetitive transcranial magnetic stimulation in treatment-resistant depression: a comparison of parsimonious and ensemble machine learning models",
