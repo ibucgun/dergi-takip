@@ -1,5 +1,15 @@
 [
  {
+  "doi": "10.1016/j.jad.2026.122602",
+  "journal": "jad",
+  "title": "Predicting remission following repetitive transcranial magnetic stimulation in treatment-resistant depression: a comparison of parsimonious and ensemble machine learning models",
+  "authors": "Laurent Elkrief, Brayan Estiven Gonzalez, Sara Boubekri ve ark.",
+  "online": "2026-10-08",
+  "ozet": "Çalışma, tedaviye dirençli depresyonda (TRD) rTMS sonrası remisyonu öngörmede basit klinik modelin, daha karmaşık/topluluk (ensemble) makine öğrenmesi modellerine göre üstün olup olmadığını sorgulamıştır. rTMS uygulanan 263 yetişkinin retrospektif kohortunda yaş, cinsiyet ve başlangıç MADRS’a dayalı basit lojistik regresyon, ayarlanmış regresyon ve SuperLearner modelleriyle karşılaştırılmış; 10 kez tekrarlı 10 katlı çapraz geçerlilik kullanılmıştır. Katılımcıların %27’si remisyona girmiş; ROC-AUC değerleri 0,685–0,711 arasında kalmış (basit model 0,707, yalnızca MADRS 0,708) ve karşılaştırmaların hiçbirinde fark anlamlı bulunmamıştır. Daha zengin veya topluluk modeller basit üç değişkenli modele kıyasla ayırt ediciliği artırmamıştır; yazarlar bulguların eşdeğerliği veya başka popülasyonlara aktarılabilirliği kanıtlamadığını belirtmektedir.",
+  "pmid": "42849857",
+  "saved": "2026-10-25"
+ },
+ {
   "doi": "10.1016/j.transm.2026.100337",
   "journal": "transm",
   "title": "The role of targeting methods on treatment outcome in rTMS for treatment resistant depression: evidence gaps and considerations for the field",
