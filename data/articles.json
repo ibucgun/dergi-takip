@@ -1,5 +1,230 @@
 [
  {
+  "doi": "10.1038/s41380-026-03952-2",
+  "journal": "molpsy",
+  "title": "Polygenic dissection of suicidal thoughts and behaviours in high-risk mood-disorder cohorts",
+  "authors": "Zuriel Ceja, Luis M. García-Marín, Ian B. Hickie ve ark.",
+  "online": "2026-10-30",
+  "ozet": "Kendine zarar düşüncesi ve davranışlarında (STB) düşünce (SI), girişim (SA) ve ölüm (SD) ile ilişkili genetik yatkınlığın katkıları yüksek riskli duygudurum bozukluğu gruplarında incelendi. Avustralya Depresyon ve Bipolar Bozukluk Genetiği çalışmalarından 17.622'ye kadar katılımcıda SI, SA ve SD için poligenik skorlar (PGS) çok terimli regresyonla birlikte modellendi. SI-PGS ve SA-PGS bağımsız ve farklı ilişkiler gösterdi: SI-PGS yalnızca-SI olasılığını azaltıp SI+SA olasılığını artırdı; SA-PGS girişimle ilgili sonuçları belirgin biçimde öngördü. Geçiş modellerinde SA-PGS, düşünce yaşayanlar arasında girişim olasılığını %23 artırdı; en üst ve en alt desil arasında mutlak risk farkı %9–12 idi. Ayırt edicilik küçük ölçüde arttı (ΔAUC ≈ 0,02–0,03). SD-PGS'nin sağlam etkisi yoktu; cinsiyete göre analizler tutarlıydı. Yazarlar düşünceden girişime geçişin genetik düzeyde kısmen ayrı yatkınlıklar içerdiğini, ancak öngörücü yararın sınırlı kaldığını belirtiyor.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103246",
+  "journal": "brs",
+  "title": "Transcranial alternating current stimulation as psychiatric intervention: A meta-analytic primer",
+  "authors": "Lais B. Razza, Maria Ogircin, Pablo Rivaz-Diaz ve ark.",
+  "online": "2026-10-30",
+  "pmid": "42957087",
+  "ozet": "Psikiyatrik belirtilerde transkraniyal alternatif akım stimülasyonunun (tACS) etkisi, randomize sham kontrollü çalışmaların meta-analiziyle değerlendirildi. MEDLINE, Embase, Scopus ve CENTRAL'de arama yapıldı; rastgele etkili modellerle Hedges g hesaplandı. 18 çalışma (19 veri seti; 1045 katılımcı) dâhil edildi. Sham uyarımına göre orta düzeyde genel etki saptandı (SMD = −0,41; %95 GA −0,60 ile −0,2; I² = %72). En güçlü bulgular depresif (n = 10; SMD = −0,44) ve anksiyete belirtilerinde (n = 4; SMD = −0,64) idi; obsesif-kompulsif, dikkat eksikliği ve TSSB belirtilerinde de sınırlı kanıtla iyileşme görüldü. Gama frekansı depresif belirtilerde anlamlı etki gösterdi. Yazarlar tACS için erken terapötik sinyaller bulunduğunu, parametrelerin optimizasyonu için ileri araştırma gerektiğini belirtiyor.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.10.010",
+  "journal": "neuromod",
+  "title": "Rescue Intracranial Neuromodulation Following Vagus Nerve Stimulation Failure in Drug-Resistant Epilepsy: A Systematic Review and Meta-Analysis",
+  "authors": "Pouria Delbari, Reza Moghaddam, Ramtin Pourahmad ve ark.",
+  "online": "2026-10-30",
+  "ozet": "Dirençli epilepside vagus sinir stimülasyonu başarısızlığı sonrası kurtarma amaçlı intrakraniyal nöromodülasyonu değerlendiren sistematik derleme ve meta-analiz. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1017/s1092852926101266",
+  "journal": "cns",
+  "title": "Global divergence of stroke and major depressive disorder: unveiling a potential “hidden stagnation” pattern through an integrated medicine perspective",
+  "authors": "Kui Jia, Ling-Ling Qian, Fu-Cheng Zhao ve ark.",
+  "online": "2026-10-29",
+  "ozet": "GBD 2023 verileriyle inme yükü ile majör depresif bozukluk (MDB) prevalansı arasındaki ülke düzeyindeki ekolojik ilişki incelendi ve Bütünleşik Tıp çerçevesinde yorumlandı. 204 ülke/bölgede 1990–2023 arası yaşa göre standardize inme DALY oranları ve MDB prevalansı analiz edildi; inme yükü ile bildirilen MDB arasındaki farkı gösteren keşfedici bir Tanısal Boşluk Skoru geliştirildi. Küresel düzeyde negatif bir korelasyon saptandı ve zamanla güçlendi (1990'da r = −0,059; 2023'te r = −0,218; P = 0,002). En yüksek inme yükü çeyreğinde MDB prevalansı (100.000'de 2639,9) en düşük çeyrekten (3067,0) düşüktü (fark 427,1/100.000; %95 GA 121,52–732,58). Yazarlar bunu biyolojik koruma yerine olası tanı, bildirim veya veri kalitesi uyumsuzluğu olarak yorumlayıp kültüre uyarlanmış ruh sağlığı taramasını önermektedir; bulgular nedensellik göstermez.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1017/s1092852926101291",
+  "journal": "cns",
+  "title": "Sex differences in glucagon-like peptide-1 signalling and the implications for Alzheimer’s disease: A narrative review",
+  "authors": "Serene Lee, Esha Purewal, Natalie Rasgon ve ark.",
+  "online": "2026-10-29",
+  "ozet": "Anlatı derlemesi: Alzheimer hastalığında (AH) glukagon benzeri peptid-1 (GLP-1) sinyalinin cinsiyete özgü yönleri ele alınıyor. GLP-1 reseptörleri AH patolojisiyle ilişkili beyin bölgelerinde bulunmakta; postmenopozal dönemde östrojen sinyalinin bozulması hipokampal insülin reseptör işlevini zayıflatıp mitokondriyal disfonksiyonu artırarak kadınlarda AH ilerlemesine katkıda bulunabilir. Bu mekanizmalar tip 2 diyabet gibi komorbiditeleri de açıklayabilir. Preklinik ve erken klinik veriler GLP-1 reseptör agonistlerinin hormonal ve metabolik yolakları cinsiyete göre farklı etkileyebileceğini düşündürmekte; yazarlar metabolik sinyalin cinsiyete özgü rolünün daha fazla araştırılmasını önermektedir.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.09.030",
+  "journal": "bp",
+  "title": "Distinguishing Prognostic Association From Neural Mediation in Stress-Related Memory Development",
+  "authors": "Nizhou Jiang, Yanchao Zhang, Lei Li",
+  "online": "2026-10-29",
+  "pmid": "42957123",
+  "ozet": "Stresle ilişkili bellek gelişiminde prognostik ilişki ile nöral aracılığın ayrımı üzerine bir yazı. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1038/s41380-026-03939-z",
+  "journal": "molpsy",
+  "title": "Evolutionary neuropharmacology of serotonergic psychedelics: a cross-species perspective on mechanisms, consciousness, and therapeutic potential",
+  "authors": "Haojiang Zhai, Hongshuang Wang, Yibo Wang ve ark.",
+  "online": "2026-10-29",
+  "ozet": "Serotonerjik psikedeliklerin evrimsel nörofarmakolojisini türler arası bir bakışla ele alan bir derleme; mekanizmalar, bilinç ve terapötik potansiyel başlıklarını kapsıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1038/s41380-026-03906-8",
+  "journal": "molpsy",
+  "title": "Multivariate genome-wide association study of post-traumatic stress disorder, alcohol use, and alcohol use disorders",
+  "authors": "Peter B. Barr, Kaitlin Bountress, Chris Chatzinakos ve ark.",
+  "online": "2026-10-29",
+  "ozet": "Travma sonrası stres bozukluğu (TSSB), alkol kullanımı ve alkol kullanım bozukluklarını birlikte inceleyen çok değişkenli bir genom çapında ilişkilendirme çalışması (GWAS). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1038/s41380-026-03948-y",
+  "journal": "molpsy",
+  "title": "Tryptophan metabolism within the gut–brain axis in depression: mechanisms, association with heterogeneity, and therapeutic opportunities",
+  "authors": "Zhijun Qin, Ting Lei, Tao Yi ve ark.",
+  "online": "2026-10-29",
+  "ozet": "Depresyonda bağırsak–beyin ekseni içinde triptofan metabolizmasını ele alan bir derleme; mekanizmalar, heterojenite ile ilişki ve terapötik fırsatlar başlıkları işleniyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107013",
+  "journal": "nbr",
+  "title": "Dyadic fNIRS Hyperscanning: Experimental Paradigms and What They Reveal About Interbrain Synchrony",
+  "authors": "Inês Rodrigues, Teresa Sousa, Diana Costa ve ark.",
+  "online": "2026-10-29",
+  "pmid": "42950963",
+  "ozet": "Sistematik derleme: ikili fNIRS hiperskanlama çalışmalarında deneysel paradigmalar ve beyinler arası senkroni (IBS) ilişkisi incelendi. Ocak 2026'ya kadar yayımlanan 206 çalışma değerlendirildi; birlikte eylem görevleri ağırlıktaydı. IBS genellikle yakın bağı olan ikililerde daha yüksekti ve cinsiyete göre değişti, ancak evrensel bir örüntü saptanmadı; yüz yüze etkileşim IBS'yi sıklıkla artırıyordu. IBS davranışsal ve psikolojik çıktılarla sıklıkla ilişkiliyken fizyolojik çıktılarla ilişkisi az incelenmişti. Yazarlar gelecek çalışmalarda ikili aşinalığı ve cinsiyet eşleşmesinin bildirilmesini, az temsil edilen ikililerin ve farklı paradigmaların araştırılmasını öneriyor.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107062",
+  "journal": "nbr",
+  "title": "Effort-based decision-making:A value-based dissection and arousal-focused synthesis",
+  "authors": "Nicolas Clairis, Philippe N. Tobler",
+  "online": "2026-10-29",
+  "pmid": "42957077",
+  "ozet": "Anlatı derlemesi: çaba temelli karar vermeyi değer temelli karar verme çerçevesinde ayrıştırıyor. Çabanın öznel olarak hoşnutsuz olması iş kaçınmasını motive eder; karar vericiler beklenen kazanç ile öngörülen çaba maliyetini tartar. Yazarlar çerçeveyi iş hazırlığı, yürütme ve toparlanma alt süreçleriyle genişletiyor, beklenen ve yaşanan çabanın karşılaştırılması ile uyarılmışlık (arousal) ilişkisinin az çalışıldığını vurguluyor, motor ve bilişsel çabanın (nöro)fizyolojik ortak ve ayrı yönlerini inceliyor. Son olarak gereken uyarılmışlık artışının çabayı doğurduğunu ve çaba temelli kararların bunu en aza indirmeyi amaçladığını öne süren yeni bir model öneriyor.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1038/s41386-026-02571-3",
+  "journal": "npp",
+  "title": "Sex- and frequency-dependent acute pharmacokinetic and pharmacodynamic effects of smoked cannabis: a randomized controlled trial",
+  "authors": "Stephanie Lake, Elisa Pabon, Samantha L. Baglot ve ark.",
+  "online": "2026-10-29",
+  "ozet": "Dumanı tüten kannabisin akut farmakokinetik ve farmakodinamik etkilerinin cinsiyet ve kullanım sıklığına göre değişip değişmediği araştırıldı. Randomize, çift kör, plasebo kontrollü, çapraz tasarımlı çalışmada 44 katılımcı (22 kadın) %0, %4 (~20 mg) ve %10 (~60 mg) THC içeren kannabis içti; plazma düzeyleri, öznel etkiler ve kendine uygulama görevi değerlendirildi. Aktif dozlar öznel etkileri ve plazma THC/metabolit düzeylerini artırdı (p < 0,05). Sık kullananlar kötüye kullanımla ilişkili puanlarda (“Beğendim”, “Tekrar alırım”) artış gösterdi ve seyrek kullananlardan daha çok kannabis kendine uyguladı; bu cinsiyetle değişmedi. “High”, sedasyon/bozulma gibi puanlar seyrek kullanan erkeklerde daha yüksekti (keşfedici analiz). Bulgular kadınların daha duyarlı olduğu önceki verilerle çelişiyor; yazarlar cinsiyete bağlı tolerans eşiklerinin araştırılmasını öneriyor.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122679",
+  "journal": "jad",
+  "title": "Rest-activity rhythm robustness and prospective mood symptoms in adolescence: Moderating effects of chronotype, sleep timing, and reward sensitivity",
+  "authors": "Mackenzie A. Maddox, Logan T. Smith, Kayla L. Baresich ve ark.",
+  "online": "2026-10-29",
+  "pmid": "42951040",
+  "ozet": "Ergenlerde dinlenme-aktivite ritmi (RAR) sağlamlığının sonraki duygudurum belirtileriyle ilişkisinde kronotip, uyku zamanı ve ödül duyarlılığının düzenleyici rolü incelendi. Bipolar spektrum bozukluğu (BSB) risk çalışmasındaki 199 ergende başlangıçta bir hafta aktigrafi ile Sirkadiyen İşlev İndeksi (CFI) ölçüldü, duygudurum belirtileri 6 ay sonra yeniden değerlendirildi. CFI tek başına duygudurum belirtileriyle ilişkili değildi. Akşamcılık (b = 0,59) ve uyku orta noktası (b = −2,77) CFI ile hipo-/manik belirtiler arasındaki ilişkiyi, uyku orta noktası (b = −5,40) ve ödül duyarlılığı (b = −1,32) ise depresif belirtilerle ilişkiyi düzenledi. Düşük CFI, akşamcı ve geç uyuyanlarda daha fazla hipo-/manik belirti öngördü; ödül hiposensitif ergenlerde ise yüksek CFI beklenmedik biçimde daha fazla depresif belirti öngördü. Bulgular BSB için hedef belirleme çalışmalarına işaret ediyor.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122682",
+  "journal": "jad",
+  "title": "Using stakeholder-weighted outcomes in depression trials",
+  "authors": "Niamh Molloy, Huajie Jin, Dame Til Wykes",
+  "online": "2026-10-29",
+  "pmid": "42956847",
+  "ozet": "Kısa bildiri (görüş yazısı): depresyon RKÇ'lerinde tek ve genellikle belirti temelli birincil sonlanım ölçütünün, hasta ve klinisyenlerin öncelik verdiği yaşam kalitesi, sosyal ve mesleki işlevsellik gibi alanlarla uyuşmadığı belirtiliyor. Yazarlar çok kriterli karar modellemesinin (MCDM) paydaş önceliklerini RKÇ verileriyle birleştirerek paydaş ağırlıklı bileşik sonlanımlar üretebileceğini, bunların birincil sonlanımın yanında tamamlayıcı bir bakış sunup tedavi yararındaki nüansları ve tedavinin paydaş beklentileriyle uyumunu gösterebileceğini savunuyor.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122664",
+  "journal": "jad",
+  "title": "Cross-metric convergence reveals altered white matter microstructural–functional correspondence in bipolar ii disorder",
+  "authors": "Yufei Shen, Jin Sun, Zihan Li ve ark.",
+  "online": "2026-10-29",
+  "pmid": "42956846",
+  "ozet": "Bipolar II bozuklukta (BD-II) beyaz cevher (BC) mikroyapısı ile BC fonksiyonel bağlantısallığı arasındaki uyumun değiştiği hipotezi test edildi. 86 BD-II hastası ve 84 sağlıklı kontrolde difüzyon MRG ve istirahat fMRG verisiyle 48 BC yolağında mikroyapısal profil benzerliği (MPS) ve fonksiyonel bağlantısallık (FC) uyumu Spearman korelasyonu ve Öklid mesafesiyle hesaplandı. BD-II'de sınırlı sayıda yolakta MPS-FC uyumu değişmişti (Spearman ile 4, Öklid ile 6); sol posterior korona radiata ve sol eksternal kapsülde her iki ölçütte yüksek sıralama uyumu ve düşük profil mesafesi görüldü. Bulgular duyarlılık analizlerinde büyük oranda sabitti, ancak difüzyon özelliği normalizasyonuna duyarlıydı. Çoklu karşılaştırma düzeltmesi sonrası belirti şiddetiyle ilişki yoktu; keşfedici analizde sol unsinat fasikül depresif belirtilerle ilişkiliydi. Yazarlar BD-II'de atipik BC organizasyonuna dair çok modlu kanıt sunduklarını belirtiyor.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1155/da/7875846",
+  "journal": "da",
+  "title": "Time‐Variant Patterns of Comorbid Depression and Anxiety Across Early to Late Adolescence: The Sex‐Specific Role of Emotion Regulation",
+  "authors": "Dongyu Liu, Xiyu Wei, Luxia Jia ve ark.",
+  "online": "2026-10-29",
+  "ozet": "Ergenlikte eşlik eden depresyon-anksiyete riskinin dinamik seyri ve duygu düzenlemenin cinsiyete göre düzenleyici rolü incelendi. Çin'in Chenzhou kentinde 4–12. sınıflardan 58.622 öğrencinin PHQ ve GAD ölçekleri ile duygu düzenleme ölçeği (ERQ) verileri zamana göre değişen etki modellemesi (TVEM) ile analiz edildi. Komorbidite riski ergenlik boyunca arttı; anksiyete (OR 1,67) ve depresyon (OR 1,68) ilişkili riskler benzerdi, geç ergenlikte depresyon ilişkili risk baskın hâle geldi. Kızlarda risk daha yüksekti; 8. sınıfta anksiyete ilişkili tepe görüldü (OR 1,74). Duygu düzenlemenin rolü kızlarda daha belirgindi: bilişsel yeniden değerlendirme anksiyete ilişkili riski azaltırken depresyon ilişkili riski artırdı (OR 1,01); ifade bastırma ortaokulda kızlarda uyumsuz rol oynadı. Yazarlar müdahalelerin cinsiyete ve gelişim dönemine göre uyarlanmasını öneriyor.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.10.006",
+  "journal": "neuromod",
+  "title": "Long-term health-related quality of life after globus pallidus internus deep brain stimulation versus optimized medical therapy in advanced Parkinson’s disease: a prospective nonrandomized cohort study",
+  "authors": "Bo Luo, Lin Wang, Bing Chen ve ark.",
+  "online": "2026-10-29",
+  "ozet": "İleri evre Parkinson hastalığında globus pallidus internus derin beyin stimülasyonu (DBS) ile optimize tıbbi tedavinin uzun dönem sağlıkla ilgili yaşam kalitesine etkisini karşılaştıran prospektif, randomize olmayan kohort çalışması. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.10.007",
+  "journal": "neuromod",
+  "title": "Longitudinal Pain Outcomes and Adverse Events of Peripheral Nerve Stimulation for Chronic Low Back Pain: A Retrospective Cohort Study",
+  "authors": "Nicholas R. Hooper, Joseph A. Ierulli, David W. Boorman ve ark.",
+  "online": "2026-10-29",
+  "ozet": "Kronik bel ağrısında periferik sinir stimülasyonunun uzun dönem ağrı sonuçları ve yan etkilerini değerlendiren retrospektif kohort çalışması. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.10.008",
+  "journal": "neuromod",
+  "title": "Distinct subthalamic signatures of DBS outcomes for bradykinesia and rigidity in Parkinson’s disease",
+  "authors": "Ksenia Sayfulina, Anna Gamaleya, Veronika Filyushkina ve ark.",
+  "online": "2026-10-29",
+  "ozet": "Parkinson hastalığında bradikinezi ve rijidite için DBS sonuçlarına ilişkin ayrı subtalamik özellikleri inceleyen bir çalışma. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112451",
+  "journal": "clinph",
+  "title": "Cortical evoked potentials from deep brain stimulation of the superolateral medial forebrain bundle: An exploratory study",
+  "authors": "Joana Pereira, Matthias Dold, Bastian E.A. Sajonz ve ark.",
+  "online": "2026-10-29",
+  "ozet": "Süperolateral medial ön beyin demeti DBS'sinden kaynaklanan kortikal uyarılmış potansiyelleri inceleyen keşfedici bir çalışma. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002274",
+  "journal": "jcp",
+  "title": "Caution Needed Regarding Conclusions of Meta-analysis on Coenzyme Q10 as Treatment for Depressive Symptoms",
+  "authors": "Alan R. Gaby",
+  "online": "2026-10-29",
+  "pmid": "42953923",
+  "ozet": "Koenzim Q10'un depresif belirtilerin tedavisindeki etkisine ilişkin bir meta-analizin sonuçlarına karşı dikkatli olunması gerektiğini savunan bir mektup/yorum yazısı. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002281",
+  "journal": "jcp",
+  "title": "Lithium Concentrations After Initiation or Discontinuation of SGLT2 Inhibitors in Psychiatric Inpatients",
+  "authors": "Pierre Duranleau-Gagnon, Laurent Béchard, Katryn Langlois-Parisé ve ark.",
+  "online": "2026-10-29",
+  "ozet": "SGLT2 inhibitörü (SGLT2i) başlanması veya bırakılması sonrası lityum düzeylerini ve klinik gidişi tanımlamak için lityum kullanan psikiyatri yatan hastalarında retrospektif olgu serisi yapıldı (2014–Mart 2026, tek psikiyatri hastanesi). Altı olgu belirlendi: 3 başlama, 3 bırakma. Lityum düzeylerinde tutarlı bir yönde değişim yoktu: başlamada 2 olguda düzey sabit/minimal değişti, 1 olguda hafif arttı. Bırakmada kronik böbrek hastalığı olan yaşlı hastada sabit kaldı, 1 olguda lityum doz artışıyla karışık hafif artış, 1 olguda pnömoni, ishal ve dehidratasyon eşliğinde 0,6'dan 0,8 mmol/l'ye artış oldu. Hiçbir olguda acil lityum kesilmesi, toksisite tedavisi veya uzamış hospitalizasyon gerekmedi. Yazarlar birlikte kullanımın gerektiğinde bireyselleştirilmiş izlemle yönetilebilir olabileceğini belirtiyor.",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1016/j.inpsyc.2026.100306",
+  "journal": "ipg",
+  "title": "Dementias: From assessment to caregiving",
+  "authors": "Rajesh R. Tampi",
+  "online": "2026-10-29",
+  "pmid": "42951753",
+  "ozet": "Demanslarda değerlendirmeden bakım vermeye uzanan konuları ele alan bir yazı. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-10-30"
+ },
+ {
+  "doi": "10.1002/alz.71931",
+  "journal": "alz",
+  "title": "EEG‐based brain effective and functional connectivity predict PET‐defined amyloid positivity in cognitively normal individuals",
+  "authors": "Boxin Sun, Ming Gu, Amanda Maher ve ark.",
+  "online": "2026-10-29",
+  "ozet": "Bilişsel olarak sağlıklı bireylerde PET ile tanımlanan amiloid-beta (Aβ) pozitifliğini, non-invazif istirahat kuru EEG'den elde edilen etkin ve fonksiyonel beyin bağlantısallığı özellikleriyle makine öğrenmesi modelleri kullanarak öngörmek amaçlandı. Modeller Aβ pozitifliğini, modele bağlı olarak, plazma p-tau217 ve bilişsel ölçüm, demografik ve sağlık faktörlerine dayalı önceki belirleyicilere benzer veya bazı durumlarda daha yüksek doğrulukla öngördü. Çerçeve ayrıca nörodejenerasyonla ilişkili en çok etkilenen bölge ve bağlantıları belirliyor. Yazarlar yaklaşımı kan biyobelirteçlerini tamamlayan, birinci basamakta ve nüfus taramasında erken AH saptaması için uygun maliyetli bir araç olarak değerlendiriyor.",
+  "added": "2026-10-30"
+ },
+ {
   "doi": "10.1016/j.brs.2026.103245",
   "journal": "brs",
   "title": "Low-intensity pulsed ultrasound activates Piezo1 to restore brain lymphatic drainage and improve outcomes in traumatic brain injury mice",
