@@ -1,5 +1,168 @@
 [
  {
+  "doi": "10.1017/s0033291726106394",
+  "journal": "psymed",
+  "title": "Medicating inhibitory control? Treatment with serotonergic antidepressants predicts stop-N200 amplitudes in major depressive disorder",
+  "authors": "Wesley J.B. Vaught, Eric Mann, Xi Ren ve ark.",
+  "online": "2026-11-03",
+  "ozet": "Majör depresif bozukluk (MDB) ve eşlik eden anksiyete bozukluğunda (KOM) inhibitör kontrol bozukluğunun serotonerjik antidepresan kullanımı, cinsiyet ve komorbidite ile ilişkisi araştırıldı. Tulsa 1000 çalışmasından 233 katılımcı (sağlıklı kontrol, MDB, KOM) durdurma sinyali görevi sırasında eşzamanlı EEG ve fMRG ile değerlendirildi; N200, P300 ve düzeltme ilişkili negatiflik (CRN) bileşenleri doğrusal karma etkili modeller ve propensity eşleştirmesiyle analiz edildi. Sağlıklı kontrollerde stop-P300 genliği MDB ve KOM'dan büyüktü (η² = 0,068); kadınlarda stop-N200 erkeklerden küçüktü (η² = 0,027); serotonerjik antidepresan kullanan MDB/KOM'lu katılımcılarda N200 genliği kullanmayanlara göre daha az negatifti (B = 1,95; η² = 0,044). Yazarlar, serotonerjik antidepresan tedavisinin saf ve komorbid depresyonda inhibitör kontrolün çatışma izleme bileşenindeki nöral farklılıklarla ilişkili olduğunu belirtiyor.",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107075",
+  "journal": "nbr",
+  "title": "Disentangling Reproductive History and Parenthood in Late-Life Cognitive and Vascular Brain Health",
+  "authors": "Youkai Pan, Renzhi Yang, You Xu ve ark.",
+  "online": "2026-11-03",
+  "ozet": "Üreme öyküsü ve ebeveynliğin ileri yaşta bilişsel ve vasküler beyin sağlığı üzerindeki ayrı etkilerini ele alan bir derleme. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107074",
+  "journal": "nbr",
+  "title": "From maternal womb to parents’ arms: the influence of postnatal caregiving in the association between prenatal stress exposure and infant development",
+  "authors": "S. Nazzari, E. Quadrelli",
+  "online": "2026-11-03",
+  "ozet": "Doğum sonrası bakım vermenin, prenatal stres maruziyeti ile bebek gelişimi arasındaki ilişkideki rolünü ele alan bir derleme. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.10.009",
+  "journal": "neuromod",
+  "title": "Computational Models for Adaptive Deep Brain Stimulation in Parkinson’s Disease: Feedback–Symptom–Actuation Mapping and a Clinical Usability Evaluation Framework",
+  "authors": "Dechun Zhao, Yuan Zhang, Siyu Chen ve ark.",
+  "online": "2026-11-03",
+  "ozet": "Parkinson hastalığında adaptif derin beyin stimülasyonu için hesaplamalı modelleri (geri bildirim–belirti–aktüasyon eşlemesi) gözden geçiren ve klinik kullanılabilirlik değerlendirme çerçevesi öneren bir derleme. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1136/bmjment-2026-303016",
+  "journal": "bmjmh",
+  "title": "Longer term impact of universal school-based mindfulness training compared with normal school provision on adolescent mental health and well-being, teacher mental health and school climate: results from the 2-year follow-up in the MYRIAD cluster randomised controlled trial",
+  "authors": "Benjamin Jones, Susan Ball, Louise Aukland ve ark.",
+  "online": "2026-11-02",
+  "ozet": "MYRIAD kümelenmiş RKÇ'sinin 2 yıllık takip sonuçlarını bildiren makale; okul temelli evrensel farkındalık (mindfulness) eğitiminin normal okul uygulamasına kıyasla ergen ruh sağlığı ve iyilik halini, öğretmen ruh sağlığını ve okul iklimini uzun vadede nasıl etkilediğini ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1038/s41380-026-03945-1",
+  "journal": "molpsy",
+  "title": "Dynamic epigenetic changes during antidepressant pharmacotherapy in major depressive disorder",
+  "authors": "Svenja Müller, Josef Frank, Eric Zillich ve ark.",
+  "online": "2026-11-02",
+  "ozet": "Antidepresan tedavisi sırasında DNA metilasyon değişimlerini boylamsal olarak inceleyen ilk epigenom çapında ilişkilendirme çalışması (EWAS). Early Medication Change çalışmasında 162 MDB hastası (81 yanıtlı, 81 yanıtsız) sekiz haftalık standart antidepresan tedavisi boyunca dört kez, 48 eşleştirilmiş sağlıklı kontrol ise iki kez değerlendirildi; DMP ve DMR'ler boylamsal modeller ve comb-p algoritmasıyla belirlendi. Başlangıç metilasyonu, 28. ve 56. gün depresif belirti şiddetiyle sırasıyla iki ve altı DMR üzerinden ilişkiliydi (ör. TNRC6C, CAT); tek bir DMP anlamlılığa ulaşmadı. Boylamsal analizde belirti düzelmesiyle ilişkili bir DMP (YLMP1) ve zaman içinde değişen üç DMR (ör. GPR126, PM20D1) saptandı. Bulgular nöroplastisite ve inflamasyonla ilgili genleri işaret ediyor; yazarlar kişiselleştirilmiş tedavi için replikasyon ve fonksiyonel doğrulama gerektiğini belirtiyor.",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1038/s41380-026-03855-2",
+  "journal": "molpsy",
+  "title": "Serum selenium, iron and rubidium are altered in treatment-resistant schizophrenia",
+  "authors": "Sandra Luza, Naimisha Talluri, Parsa Ravanfar ve ark.",
+  "online": "2026-11-02",
+  "ozet": "Tedaviye dirençli şizofreni (TDŞ) olgularında serum element düzeylerini metalomik yaklaşımla inceleyen çalışma; beyinde metal dengesizliğinin oksidatif stres ve inflamasyon yoluyla nöropatolojiyle ilişkili olabileceği hipotezinden yola çıkıyor. TDŞ kohortunda pro-oksidan demir ve antioksidan selenyumun ve potasyum belirteci rubidyumun serum düzeylerinde belirgin değişiklikler saptandı; ayrıca proinflamatuvar sitokinler ve hepsidin yüksek, antioksidan selenoproteinler SEPP1 ve GPX3 düşüktü. Demir, rubidyum ve selenyum değişiklikleri kontrolleri TDŞ olgularından ayırıyordu ve yaştan ya da serum klozapin düzeyinden etkilenmedi. Yazarlar selenyum ve sitokin değişikliklerinin hepsidin ekspresyonunu artırarak serum demirini düşürmüş olabileceğini öne sürüyor; periferik ve santral ölçümler arasındaki ilişki için ileri çalışma gerekiyor.",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107020",
+  "journal": "nbr",
+  "title": "Integrating neuroplasticity into whole-brain modeling: From synapses to neural populations",
+  "authors": "Pablo Núñez, Sahil Mukherjee, Jil Meier ve ark.",
+  "online": "2026-11-02",
+  "ozet": "Nöroplastisitenin tüm beyin modellemesine entegrasyonunu ele alan bir derleme; sinaps düzeyinden nöral popülasyon düzeyine uzanan modelleme yaklaşımlarını tartışıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107070",
+  "journal": "nbr",
+  "title": "IGF Signaling in Autism and Related Neurodevelopmental Disorders: Biomarkers and Therapeutic Targets",
+  "authors": "Moomena Gulzar, Noor Numan, Aiza Tanveer Hassan ve ark.",
+  "online": "2026-11-02",
+  "ozet": "Otizm ve ilişkili nörogelişimsel bozukluklarda IGF sinyalizasyonunu biyobelirteç ve tedavi hedefi olarak ele alan bir derleme. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107072",
+  "journal": "nbr",
+  "title": "A multilevel circuit gating framework for transforming sexual motivation into sexual action: Insights from mouse models",
+  "authors": "Ruyuan Tao, Xu Lu, Linyi Tang ve ark.",
+  "online": "2026-11-02",
+  "ozet": "Cinsel motivasyonun cinsel eyleme dönüşmesini sağlayan çok düzeyli devre geçitleme çerçevesini fare modelleri üzerinden tartışan bir derleme/kavramsal makale. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122668",
+  "journal": "jad",
+  "title": "Efficacy and safety of pharmacological interventions for panic disorder with or without agoraphobia: A systematic review and network meta-analysis, accounting for dose",
+  "authors": "Michele Fornaro, Chiara Di Lorenzo, Daniela Caldirola ve ark.",
+  "online": "2026-11-02",
+  "ozet": "Dozu da hesaba katan, agorafobili veya agorafobisiz panik bozukluğunda farmakolojik tedavilerin etkinlik ve güvenliğini karşılaştıran sistematik derleme ve ağ meta-analizi. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122686",
+  "journal": "jad",
+  "title": "Beyond sham type: Comparator compatibility in meta-analyses of rTMS for major depression",
+  "authors": "Luca F. Ticini, Danielle D. DeSouza",
+  "online": "2026-11-02",
+  "ozet": "Majör depresyonda rTMS meta-analizlerinde karşılaştırıcı (sham) türünün uyumluluğunu inceleyen bir meta-analiz çalışması. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1186/s40345-026-00447-5",
+  "journal": "ijbd",
+  "title": "Lithium versus valproate initiation and psychiatric service utilisation in bipolar disorder: an overlap-weighted new-user cohort study from the United Arab Emirates",
+  "authors": "Syed Ali Bokhari, Mohamed A. Alnor, Syed Fahad Javaid ve ark.",
+  "online": "2026-11-02",
+  "ozet": "Birleşik Arap Emirlikleri'nde bipolar bozuklukta lityum ile valproat başlanmasının psikiyatrik hizmet kullanımı üzerindeki etkisini karşılaştıran, örtüşme ağırlıklı yeni kullanıcı kohort çalışması. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1155/da/3015380",
+  "journal": "da",
+  "title": "The Relationship Among Internet Addiction, Depression, and Anxiety in Children and Adolescents: A Network Analysis",
+  "authors": "Ya Wang, Han Wang, Jing Guo ve ark.",
+  "online": "2026-11-02",
+  "ozet": "Çocuk ve ergenlerde internet bağımlılığı, depresyon ve anksiyete belirtileri arasındaki etkileşimler ağ analiziyle incelendi. 10–18 yaş arası 12.779 katılımcı çevrimiçi olarak İnternet Bağımlılığı Testi (IAT), PHQ-9 ve GAD-7'yi doldurdu; çocuk ve ergenler için ayrı belirti ağları kurulup karşılaştırıldı. En merkezi belirtiler iki grupta da aynıydı (IAT11 \"beklenti\", IAT2 \"ev işlerini ihmal edip çevrimiçi kalma\", GAD2 \"kontrol edilemeyen endişe\"); köprü belirtiler de benzerdi (sinirlilik/gerginlik GAD1, irritabilite GAD6, huzursuzluk GAD5). Ağ yapısı anlamlı farklıydı: ergenlerde sendrom içi bağlantılar, çocuklarda ise sendromlar arası bağlantılar daha güçlüydü. Yazarlar bulguların hedefe yönelik müdahale stratejilerine temel oluşturabileceğini belirtiyor.",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002273",
+  "journal": "jcp",
+  "title": "Persistent Hiccups Resolve After Duloxetine",
+  "authors": "Zehra Sarikaya Demirbas, Mehmet Ilkin Naharci",
+  "online": "2026-11-02",
+  "pmid": "42969090",
+  "ozet": "Duloksetin ile geçen inatçı hıçkırığı bildiren bir olgu sunumu; başlıktan anlaşıldığı kadarıyla hıçkırıklar duloksetin sonrasında düzelmiştir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002278",
+  "journal": "jcp",
+  "title": "Antipsychotic Doses in Patients With Tardive Dyskinesia Who Received Valbenazine",
+  "authors": "Maki Gouda, Bunpei Kakinoki, Hidetoshi Asai ve ark.",
+  "online": "2026-11-02",
+  "ozet": "Valbenazin tardif diskinezi için endikedir; bu retrospektif gözlemsel çalışma valbenazin başlanması öncesi ve sonrasında gerçek yaşam antipsikotik reçeteleme örüntülerini inceledi. Japonya'daki MDV ve JMDC talep veritabanlarından sırasıyla 225 ve 141 hasta analiz edildi; ana sonuç antipsikotik kullanımının doz, tür ve sınıfa göre dağılımıydı. Valbenazin öncesi 183 günde klorpromazin eşdeğer doz farkı MDV'de +12,4, JMDC'de +1,2 mg/gündü ve doz ile ilaç sayı/türlerinde belirgin fark yoktu. Başlangıçtan sonraki 90. güne kadar ortalama doz farkı MDV'de −38,3, JMDC'de −57,6 mg/gün (yaklaşık %10 azalma) idi. Yazarlar antipsikotik dozlarının valbenazin öncesi 6 ayda sabit olduğunu, başlandıktan sonra ise çok az değiştiğini bildiriyor.",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1016/j.inpsyc.2026.100308",
+  "journal": "ipg",
+  "title": "Visual, hearing, and dual sensory impairment and risk of dementia: The role of social isolation, depressive symptoms, and cognitive function",
+  "authors": "D. Diane Zheng, David J. Lee, Rosie E. Curiel ve ark.",
+  "online": "2026-11-02",
+  "ozet": "Görme, işitme ve ikili duyusal bozukluğun demans riskiyle ilişkisini; sosyal izolasyon, depresif belirtiler ve bilişsel işlevin rolü bağlamında inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
+  "doi": "10.1016/j.inpsyc.2026.100310",
+  "journal": "ipg",
+  "title": "Psychosocial correlates of dementia screening intention among chinese community-dwelling older adults in the Yangtze River Delta region of China: A machine learning and network analysis study",
+  "authors": "Dan Luo, Bingqing Yang, Tingting Yin ve ark.",
+  "online": "2026-11-02",
+  "ozet": "Çin'in Yangtze Nehri Deltası bölgesinde toplumda yaşayan yaşlı erişkinlerde demans taramasına yönelik niyetin psikososyal korelatlarını makine öğrenmesi ve ağ analiziyle inceleyen çalışma. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-03"
+ },
+ {
   "doi": "10.1016/j.jagp.2026.09.011",
   "journal": "ajgp",
   "title": "Flourishing and Brain Health in a Human Rights Framework for Older Persons: Comment on the Essay “Aspiration to Accountability: Human Rights-Based Care and Support for Older Persons at the UN Convention Moment”",
