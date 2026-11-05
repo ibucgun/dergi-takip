@@ -1,5 +1,275 @@
 [
  {
+  "doi": "10.1002/alz.71946",
+  "journal": "alz",
+  "title": "Validation of plasma biomarker immunoassay‐based models for predicting brain amyloid positivity in cognitively impaired individuals",
+  "authors": "Jeremy A. Syrjanen, Daniel J. Figdore, Michael E. Griswold ve ark.",
+  "online": "2026-11-05",
+  "ozet": "Bilişsel bozukluğu olan kişilerde beyin amiloid pozitifliğini öngören plazma biyobelirteç modelleri doğrulanmıştır. Mayo Clinic Rochester'da p-tau217, Aβ42 ve Aβ40 ile lojistik regresyon modelleri geliştirilmiş, ADNI ve Mayo Clinic Florida kohortlarında doğrulanmıştır. Tek başına p-tau217 yüksek AUC vermiştir (0,928–0,938); Aβ42 eklenmesi hafif iyileşme sağlamış (0,940–0,960), Aβ40 katkı sağlamamıştır. İki kesme değeriyle (≥%90 duyarlılık ve özgüllük) ara sonuç oranı p-tau217 için ≤%10'dur. Yazarlar p-tau217 temelli modelin doğrulayıcı test düzeyinde performans gösterdiğini belirtmiştir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1002/alz.71920",
+  "journal": "alz",
+  "title": "Stable episodic memory and higher education do not influence the rate of Alzheimer's disease pathology as measured by plasma p‐tau217",
+  "authors": "Bárbara Avelar‐Pereira, Nicola Spotorno, Anna Orduña Dolado ve ark.",
+  "online": "2026-11-05",
+  "ozet": "Sabit epizodik belleğin ve yüksek eğitimin plazma p-tau217 artış hızını yavaşlatıp yavaşlatmadığı Betula çalışmasında (n=1005; 1531 örnek) boylamsal olarak incelenmiştir. P-tau217 10 yıl içinde yaşla artmış, en dik artış epizodik bellekte hızlanmış gerileme olanlarda görülmüştür. Eğitim düzeyi (p=0,386) ve iyi korunmuş bellek (p=0,885) açısından yörüngelerde fark yoktur; eğitim için boş bulgu BioFINDER-2'de de tekrarlanmıştır (p=0,14). Yazarlar yüksek eğitimin veya korunmuş belleğin AD nöropatolojisine karşı koruduğu görüşünü desteklemediklerini belirtmiştir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1002/alz.71943",
+  "journal": "alz",
+  "title": "The shared genetic architecture of the TDP‐43 spectrum: Bridging clinical FTLD and neuropathological endophenotypes",
+  "authors": "Maulikkumar Patel, Pawan Kumar, Daniel Western ve ark.",
+  "online": "2026-11-05",
+  "ozet": "TDP-43 spektrumunun (FTLD-TDP, LATE-NC, hipokampal skleroz) ortak genetik yapısı meta-analizle incelenmiştir. Nöropatolojik veri setleri (FTLD-TDP alt tipleri A/B/C, HS, LATE-NC) ve klinik FTLD (4685 vaka, 15.308 kontrol) birleştirilmiş, kolokalizasyon ve ince haritalama yapılmıştır. GRN (rs5848) ve TMEM106B (rs3807865) lokusları FTLD-TDP (A ve B), LATE-NC ve HS ile ilişkili bulunmuş, MAPT (H1c haplotipi) çoğu TDP-43 proteinopatisinde ilişkilidir. Yazarlar GRN ve TMEM106B'nin rolünün FTLD-TDP A'nın ötesine uzandığını, MAPT'ın geleneksel tauopatilerin ötesinde rol oynayabileceğini belirtmiştir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1002/alz.71976",
+  "journal": "alz",
+  "title": "Measurement precision matters: Accounting for uncertainty alters estimated memory trajectories across the cognitive spectrum",
+  "authors": "Emily H. Trittschuh, Phoebe Scollard, Paul K. Crane ve ark.",
+  "online": "2026-11-05",
+  "ozet": "Harmonize bilişsel bileşenlerde ölçüm kesinliğinin göz ardı edilmesinin bellek yörüngelerini nasıl etkilediği NACC Uniform Data Set verileriyle incelenmiştir. Ölçüm belirsizliğini içermeyen naif karma etkili model, frekansçı kesinlik ağırlıklı ve Bayesçi ölçüm hatası modelleriyle karşılaştırılmıştır. Kesinlik duyarlı modeller yaşa bağlı farklar üretmiş, bellek bozulması eşik geçişini naif modele göre 1,5–3 yıl daha erken tahmin etmiştir. Yazarlar ziyaret bazlı ölçüm kesinliğinin tahmini yörüngeleri ve klinik bellek bozukluğunun zamanlamasını değiştirdiğini belirtmiştir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1002/alz.71944",
+  "journal": "alz",
+  "title": "Accelerated clinical evaluations for Alzheimer's disease: feasibility across specialty and rural care settings",
+  "authors": "Eric D. Vidoni, Jill K. Morris, Karen Weis ve ark.",
+  "online": "2026-11-05",
+  "ozet": "Alzheimer hastalığı için hemşire liderliğinde hızlandırılmış klinik değerlendirme iş akışı (ACE-AD) geliştirilmiş; klinik görüşme, bilişsel test, kan biyobelirteçleri ve taşınabilir MRG'yi birleştirmektedir. Faz 1'de 20 katılımcıda standart bakım tanılarıyla karşılaştırılmış, etiyolojik tanılar tamamen uyumlu, AD için uyum %90, bilişsel evre uyumu %65 bulunmuştur (uyumsuzlarda ACE-AD daha hafif değerlendirmiştir). Faz 2'de kırsal nörolojide (n=7) tanısal güven ve verimlilikte iyileşme bildirilmiştir. Yazarlar yaklaşımın uzman tanısını destekleyecek bilgiyi sağladığını ve daha fazla değerlendirme gerektiğini belirtmiştir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3644",
+  "journal": "jamap",
+  "title": "Mobile Units for Integrated Addiction and HIV Prevention Services for People Who Inject Drugs",
+  "authors": "Steven Shoptaw, Nabila El-Bassel, Brett Hanscom ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Enjekte uyuşturucu kullanan kişilerde HIV PrEP ve opioid kullanım bozukluğu için ilaç tedavisinin (MOUD) mobil birimde bütünleşik sunulmasının etkisi araştırılmıştır. ABD'nin beş kentinde yürütülen açık etiketli RKÇ'de, HIV negatif ve MOUD almayan 409 kişi randomize edilmiştir; müdahale kolu (n=203) 26 hafta mobil birimde bütünleşik PrEP+MOUD ve akran yönlendirmesi, kontrol kolu (n=206) yalnızca mevcut topluluk hizmetlerine akran yönlendirmesi almıştır. 26. haftada doğrulanmış PrEP kullanımı %5,4 vs %2,9, MOUD kullanımı %14,8 vs %10,7 olup gruplar benzer bulunmuş; 52. haftada da fark yoktur. 52. haftada ölümler müdahale kolunda 4, kontrol kolunda 13 olarak saptanmıştır (HR 0,29; %95 GA 0,1–0,9). Yazarlar birincil sonlanımlarda üstünlük gösterilemediğini, ölüm oranındaki farkın tekrarlanması gerektiğini belirtmiştir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3579",
+  "journal": "jamap",
+  "title": "The Clinical Utility of AI-Based Prediction and Stratification Models",
+  "authors": "Paris Alexandros Lalousis, Raquel Iniesta, David Goldsmith",
+  "online": "2026-11-04",
+  "ozet": "Bu yazı, yapay zekâ tabanlı tahmin ve katmanlama modellerinin klinik yararını ele alan bir görüş yazısıdır. Yazarlar \"abartısız tahmin\" stratejisini savunmakta ve yapay zekânın güvenilir, farklı ortamlara aktarılabilir ve bakım noktasında yararlı olup olmadığına göre değerlendirilmesini önermektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3451",
+  "journal": "jamap",
+  "title": "Office-Based Methadone Treatment—Has the Moment Arrived?",
+  "authors": "Brendan Saloner, Minna Song",
+  "online": "2026-11-04",
+  "ozet": "Bu bir Viewpoint (görüş) yazısıdır; ABD'de opioid kullanım bozukluğunda metadon tedavisine ilişkin düzenlemeleri ele almaktadır. Modernizing Opioid Treatment Access Act yasalaşırsa metadonun dağıtım biçiminin, yani muayenehane temelli metadon tedavisinin nasıl değişebileceği tartışılmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3507",
+  "journal": "jamap",
+  "title": "Further Clarification of Outcome Reporting in Clinical Trial",
+  "authors": "Paul Hutton",
+  "online": "2026-11-04",
+  "ozet": "Klinik çalışmalarda sonlanım raporlamasının netleştirilmesine ilişkin bir yazıdır (muhtemelen editöre mektup). Başlıktan, daha önce yayımlanmış bir klinik çalışmadaki sonlanım bildirimi konusunda açıklama istendiği anlaşılmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3510",
+  "journal": "jamap",
+  "title": "Further Clarification of Outcome Reporting in Clinical Trial—Reply",
+  "authors": "Xuan Li, Stefan Leucht, Dengtang Liu",
+  "online": "2026-11-04",
+  "ozet": "Klinik çalışmalarda sonlanım raporlamasının netleştirilmesine ilişkin mektuba yazarların yanıtıdır. Başlıktan, sonlanım bildirimi konusundaki eleştiriye cevap verildiği anlaşılmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1001/jamapsychiatry.2026.3604",
+  "journal": "jamap",
+  "title": "Claustrum Transcriptome Alterations in Schizophrenia",
+  "authors": "Dominique Arion, John F. Enwright, Kelly M. Rogers ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Şizofrenide (SZ) dorsal klaustrumdaki (dCLA) transkriptom değişiklikleri araştırılmıştır. Postmortem beyin dokusunda RNA dizileme kullanan vaka-kontrol çalışmasında dCLA örnekleri 96 kişiden (47 SZ, 49 kontrol) alınmıştır. SZ'de 1717 diferansiyel eksprese gen saptanmış, %66,9'u artmıştır; artanlar immün yanıt/transkripsiyon düzenlemesi, azalanlar mitokondriyal aktivite/oksidatif fosforilasyon ile ilişkilidir. dCLA'daki gen sayısı ACC (289) ve dlPFC'den (102) 4–12 kat fazladır; ancak eşiksiz RRHO analizi bu üç bölgede korunmuş bir değişim paterni göstermiştir, putamen ve kaudat ile uyum daha düşüktür. Yazarlar dCLA'nın SZ'de belirgin bir moleküler değişim bölgesi olduğunu sonuçlandırmıştır.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1016/s2215-0366(26)00334-2",
+  "journal": "lanpsy",
+  "title": "Open Dialogue: challenges in interpreting the ODDESSI trial results – Authors' reply",
+  "authors": "Stephen Pilling, Sabine Landau",
+  "online": "2026-11-04",
+  "ozet": "Open Dialogue yaklaşımının ODDESSI çalışması sonuçlarının yorumlanmasındaki güçlüklere ilişkin yazıya çalışmanın yazarlarının yanıtıdır. Başlıktan, eleştirilere cevap verildiği anlaşılmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20250980",
+  "journal": "ajp",
+  "title": "Dose-Response Patterns and Pathways Linking Migration-Related Stigma and Mental Health",
+  "authors": "Cecilia Ayón, Bruce G. Link",
+  "online": "2026-11-04",
+  "ozet": "Göç kaynaklı damgalanmanın, ABD'deki Asyalı, siyahi ve Latinx göçmen kökenli erişkinlerde psikolojik sıkıntı ve TSSB belirtileriyle ilişkisi incelenmiştir. Ulusal kota örneklemi (N=908) ile makro, kişilerarası ve kişisel düzeyde damgalanma ölçülmüş; sonlanımlar K6 ölçeği ve TSSB belirtileri olup sıradan en küçük kareler regresyonu kullanılmıştır. Göçle ilişkili etkenler ve damgalanma hesaba katıldığında ırksal-etnik farklar azalmıştır. Ayrımcılık, sosyal dışlanma, utanç ve değersizlik algısı en güçlü yordayıcılardır; kümülatif damgalanma indeksinde her ek maruziyet daha yüksek belirti düzeyiyle ilişkilidir (doz-yanıt). Yazarlar damgalanmayı azaltan politikalar ve travma duyarlı, kültürel açıdan duyarlı hizmetler önermektedir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20251354",
+  "journal": "ajp",
+  "title": "Targeted Use of Kudzu for Binge Drinking Among Adults With Alcohol Use Disorder: A Phase 2b Randomized Trial",
+  "authors": "Glenn-Milo Santos, Phillip Coffin, Allie Dunham ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Alkol kullanım bozukluğu (AKB) olan ve aşırı içki içen erişkinlerde ihtiyaca göre kullanılan kudzu (bitkisel takviye) ekstresinin etkililiği ve kabul edilebilirliği araştırılmıştır. Çift kör, plasebo kontrollü faz 2b RKÇ'de 120 kişi, aşırı içki beklenen günlerde 2 g kudzu veya plasebo ile 12 hafta haftalık danışmanlık almıştır; birincil sonlanım haftalık aşırı içki günü sayısıdır. ITT analizinde kudzu aşırı içki günlerini azaltmıştır (IRR 0,73; %95 GA 0,54–0,99); tedaviye uyumlu analizde etki daha güçlüdür (IRR 0,58). Aşırı içki haftaları da azalmış, uyumlu analizde PEth pozitifliği düşmüştür; etki tedavi sonrası 3. ayda sürmüştür. Yan etkiler gruplar arasında benzerdir. Yazarlar kudzunun yararlı olabileceğini belirtmiştir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20260023",
+  "journal": "ajp",
+  "title": "Changing Patterns of Alcohol and Cannabis Acute Care Admissions by Age in the United States, 2016–2023",
+  "authors": "Jacob T. Steinle, Richard A. Grucza, Joanna L. Buss ve ark.",
+  "online": "2026-11-04",
+  "ozet": "ABD'de 2016–2023 arasında alkol ve kannabis ile ilişkili acil ve yatış başvurularının yaşa göre eğilimleri incelenmiştir. MarketScan Ticari ve Medicaid verileriyle yapılan retrospektif kohortta 16–64 yaş arası, madde ilişkili en az bir akut bakım başvurusu olan 1.355.161 kişi (5.190.680 başvuru) değerlendirilmiştir. Alkolün payı ergenlerde %19–26 iken 55–64 yaşta %73–76'ya çıkmış; kannabis ergenlerde %70–78, yaşlılarda %10–11'dir. Alkol ilişkili başvurular 25–34 ve 35–44 yaşta, kannabis ilişkili olanlar 19–24 ve 16–18 yaşta belirgin artmış; psikoz ve hiperemezis içeren başvurular da artmıştır. Yazarlar yaşa özgü ayrışan eğilimler bildirmiştir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1176/appi.ajp.20260326",
+  "journal": "ajp",
+  "title": "Mapping Individual Brain Deviations in ICD-11 Catatonia: Normative Modeling of Structural and Functional MRI Across Two Independent Cohorts",
+  "authors": "Sebastian Volkmer, Katharina M. Kubera, Stefan Fritze ve ark.",
+  "online": "2026-11-04",
+  "ozet": "ICD-11 katatonisi olan hastalarda yapısal ve istirahat fonksiyonel MRG'de normatif sapmalar, iki bağımsız klinik kohortta (Mannheim ve Bern; toplam 280 duygudurum veya şizofreni spektrumu hastası) hiyerarşik Bayesçi normatif modelleme (PCNToolkit) ile incelenmiştir. Katatoni tanısı ventrikül genişlemesi (üçüncü ve lateral ventriküller) ile ilişkili bulunmuştur. Birleşik örneklemde katatoni ventrikül genişlemesi ve singulo-insüler kortikal incelme ile karakterizedir. Yazarlar bunun dağınık motor-belirginlik entegrasyon devrelerini içeren transtanısal bir modeli desteklediğini ve gelecekteki mekanistik ve nöromodülasyon çalışmaları için aday bölgeler sunduğunu belirtmiştir. (Özetin yalnızca bir bölümüne erişilebildi.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1136/bmjment-2026-302715",
+  "journal": "bmjmh",
+  "title": "Experience-based co-design of interventions to improve care quality and reduce detention under the Mental Health Act",
+  "authors": "Roisin Mooney, Doreen Joseph, Rose Mccabe ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Ruh Sağlığı Yasası kapsamında bakım kalitesini artırmayı ve zorunlu alıkoymayı azaltmayı hedefleyen müdahalelerin deneyim temelli ortak tasarım (experience-based co-design) yöntemiyle geliştirilmesine ilişkin bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1111/acps.70152",
+  "journal": "acta",
+  "title": "Cost‐Effectiveness of Early Dose Reduction or Discontinuation Versus Antipsychotic Maintenance After First‐Episode Psychosis: Results From the HAMLETT Study",
+  "authors": "Frederick W. Thielen, Rosanne Diepeveen, Franciska de Beer ve ark.",
+  "online": "2026-11-04",
+  "ozet": "İlk atak psikoz (İAP) remisyonu sonrası erken doz azaltma/kesmenin antipsikotik idame tedavisine göre maliyet-etkililiği, HAMLETT çalışması kapsamında araştırılmıştır. Remisyondaki 347 İAP katılımcısının 1 yıl erken kılavuzlu doz azaltma/kesme veya idame tedavisine randomize edildiği çalışmada, sağlık ve toplumsal perspektiflerden 24 aylık tamamlayıcı maliyet-fayda analizi yapılmıştır (QALY, EQ-5D-5L). Erken doz azaltma/kesme daha düşük QALY ve eşit/yüksek maliyetle ilişkilidir; toplumsal perspektifte artımlı maliyet 23.563 €, artımlı etki −0,077 QALY'dir ve maliyet-etkili olma olasılığı yaklaşık %9'dur. Kadınlarda küçük ve belirsiz olumlu bir fayda önerilmiştir. Yazarlar 24 ayda maliyet-etkili olmadığını, uzun dönem işlevsel kazançlar için izlem gerektiğini belirtmiştir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.10.030",
+  "journal": "bp",
+  "title": "A Dynamic Model of Amygdala Circuits in Threat and Reward: Implications for Affective Disorders",
+  "authors": "Yi Zhu, Shi-Ze Xie, Chun-Yue Li ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Bu bir kuramsal derlemedir. Amigdala devreleri üzerinden tehdit ve ödül \"yakınlığına\" dayalı dinamik bir motivasyonel model önerilmekte; uyaran ilgisini belirginlik, değerlilik ve değer boyutları tanımlamaktadır. Amigdala işlev bozukluğu, tek tip aşırı aktivite yerine projeksiyon ve devreye özgü stres uyumu olarak yeniden çerçevelenmekte ve majör depresyon, anksiyete bozuklukları, TSSB ve madde kullanım bozukluklarının karşılaştırılması için ortak bir dil sunulmaktadır. Yazarlar amigdala merkezli ağları biyolojik alt tiplendirme için aday biyobelirteçler olarak görmektedir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1038/s41380-026-03711-3",
+  "journal": "molpsy",
+  "title": "Mapping cerebellar morphology in 15q11.2 CNV carriers using normative modeling",
+  "authors": "Milin Kim, Esten H. Leonardsen, Saige Rutherford ve ark.",
+  "online": "2026-11-04",
+  "ozet": "15q11.2 kopya sayısı varyasyonu (CNV) taşıyıcılarında serebellar morfolojinin normatif modelleme ile haritalandırılması konulu bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1038/s41380-026-03937-1",
+  "journal": "molpsy",
+  "title": "A preconceptional stress model identifies thalamostriatal substrates of intergenerational vulnerability",
+  "authors": "Monica Iachizzi, Amalie Couch, Eugene Kim ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Gebelik öncesi başlayan annelik stresinin yavruların beyin ve davranışına etkisi fare modelinde incelenmiştir. Dişi fareler sütten kesmeden gebelik ve laktasyona kadar sosyal izolasyonla yetiştirilmiş (SIR), yetişkin yavrularda davranış, yapısal/difüzyon MRG ve talamus transkriptomu değerlendirilmiştir. SIR annelerin yavrularında yaygın anksiyete benzeri davranışlar, talamus ve striatumda göreli hacim azalması, bölgeye özgü fraksiyonel anizotropi artışı ve cinsiyete bağlı gen ifadesi farkları (sinaptik organizasyon, plastisite, miyelinizasyon) saptanmıştır; DNA metilasyon bulguları FDR düzeltmesinden sonra anlamlı kalmamıştır. Yazarlar talamusu kuşaklararası kırılganlığın merkezi olarak görmekte ve SIR'yi gebelik öncesi depresyon modeli olarak önermektedir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1038/s41380-026-03940-6",
+  "journal": "molpsy",
+  "title": "Bioinformatic investigation of convergent proteins and cellular functions downstream of autism-associated genes",
+  "authors": "Katherine Canada, Kathryn Brinson, Sameer S. Bajikar ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Otizmle ilişkili genlerin hücre tipine özgü yakınsayan protein hedefleri biyoinformatik yöntemle araştırılmıştır. SFARI'den 1238 otizm ilişkili gen hücre tipine göre ayrılmış, protein-protein etkileşim ağları kurulmuş ve permütasyon temelli analizle yakınsayan hedefler belirlenmiştir. İnhibitör nöronlarda SYN1, uyarıcı nöronlarda GRIN/DLG/CAMK2, OPC'lerde GRIA2A/DLG4/GRIN2, oligodendrositlerde ACTL6B, astrositlerde ARHGAP/DOCK proteinleri öne çıkmıştır. Yazarlar tahmin edilen hedeflerin insan genetiği ve otizm araştırmalarıyla doğrulandığını ve çerçevenin nörogelişimsel bozukluklarda müdahale hedefleri sunduğunu belirtmiştir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107071",
+  "journal": "nbr",
+  "title": "Effects of environmental enrichment and social isolation in preclinical rodent models: role of the endocannabinoid system",
+  "authors": "Annamária Liptáková, Hugo Leite-Almeida, David P. Finn ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Kemirgen modellerinde çevresel zenginleştirme ve sosyal izolasyonun etkileri ile endokannabinoid sistemin rolünü ele alan bir çalışmadır (muhtemelen derleme). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122690",
+  "journal": "jad",
+  "title": "Traumatic childhood events and higher risk of major depressive disorder: The non-moderating role of sex",
+  "authors": "Sofia Marcolini, Senna C. Pieters, Katrine Stokke ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Çocukluk çağı travmatik yaşantılarının majör depresif bozukluk riskiyle ilişkisinde cinsiyetin düzenleyici rolünün olmadığını bildiren bir çalışmadır. Başlıktan, travmatik yaşantılarla artmış depresyon riski arasındaki ilişkinin cinsiyete göre değişmediği anlaşılmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122692",
+  "journal": "jad",
+  "title": "MBCT improves working memory and sustained attention in generalized anxiety disorder: A randomized controlled trial",
+  "authors": "Yani Yang, Lei Sun, Peiqin Li ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Yaygın anksiyete bozukluğunda MBBT'nin (farkındalık temelli bilişsel terapi) çalışma belleği ve sürdürülebilir dikkati iyileştirdiğini bildiren bir RKÇ'dir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122695",
+  "journal": "jad",
+  "title": "Statin use and depression in older adults: a target trial emulation with implication for prevention and long-term management",
+  "authors": "Gebiso Roba Debele, Najmeh Davoodian, Mojtaba Lotfaliany ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Yaşlı erişkinlerde statin kullanımı ile depresyon ilişkisini, önleme ve uzun dönem yönetim açısından hedef çalışma emülasyonu ile inceleyen bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122694",
+  "journal": "jad",
+  "title": "Depressive symptoms trajectories among adult women in South Korea: A latent class growth analysis using longitudinal panel data",
+  "authors": "Sujeong Yu, In Han Song",
+  "online": "2026-11-04",
+  "ozet": "Güney Koreli yetişkin kadınlarda depresif belirti yörüngeleri, boylamsal panel verisiyle örtük sınıf büyüme analizi kullanılarak incelenmiştir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1186/s40345-026-00449-3",
+  "journal": "ijbd",
+  "title": "Reduced prefrontal activation and region-specific laterality reversal in bipolar depression during verbal fluency: a 52-channel fNIRS study with leakage-free machine-learning discrimination",
+  "authors": "Chanchan Hu, Ruihan Wu, Beijiao Wu ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Bipolar ve unipolar depresyonun ayrımında sözel akıcılık görevi sırasında 52 kanallı fNIRS ile prefrontal işlev incelenmiştir. Tek merkezli kesitsel çalışmada 173 erişkin (64 sağlıklı kontrol, 61 MDB, 48 bipolar depresyon) değerlendirilmiş, sızıntısız makine öğrenmesi kullanılmıştır. Her iki hasta grubunda kontrole göre daha az prefrontal aktivasyon saptanmıştır (kontrol-BPAD d=0,58; kontrol-MDB d=0,49), en belirgin sol inferior frontal girus/Broca bölgesinde. BPAD'de bölgeye özgü lateralite tersine dönmesi görülmüş, gruplar arası lateralite FDR sonrası anlamlı değildir. Hasta-kontrol ayrımı AUC 0,654 iken BPAD-MDB ayrımı şans düzeyini aşmamıştır (AUC 0,587). Yazarlar bunun lateralite rehberli beyin stimülasyonuna katkı sağlayabileceğini belirtmiştir.",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1016/j.euroneuro.2026.113899",
+  "journal": "enp",
+  "title": "Are negative findings gaining ground at ECNP congresses? A 10-year analysis",
+  "authors": "Maria Sagué-Vilavella, Aldo Stoppa, Maria Teresa Pons Cabrera",
+  "online": "2026-11-04",
+  "ozet": "ECNP kongrelerinde negatif bulguların payının artıp artmadığını 10 yıllık dönemde analiz eden bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
+  "doi": "10.1007/s40263-026-01346-0",
+  "journal": "cnsdrugs",
+  "title": "From Toad Venom to Drug Development: The Clinical Pharmacology of Mebufotenin (5-MeO-DMT) in Treatment-Resistant Depression",
+  "authors": "Robert Likić, Igor Radanović, Deni Rkman ve ark.",
+  "online": "2026-11-04",
+  "ozet": "Tedaviye dirençli depresyonda mebufotenin (5-MeO-DMT) klinik farmakolojisini, kurbağa zehirinden ilaç geliştirmeye uzanan çizgide ele alan bir derlemedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-05"
+ },
+ {
   "doi": "10.1136/bmjment-2026-302983",
   "journal": "bmjmh",
   "title": "Changes in the profile of adults diagnosed as autistic since 2010: population-based studies in the UK and Sweden",
@@ -14,7 +284,7 @@
   "title": "Age-dependent structural brain aging in medication-free major depressive disorder: A multi-site analysis from COORDINATE-MDD consortium",
   "authors": "Bhanu Sharma, Pedro L. Ballester, Luciano Minuzzi ve ark.",
   "online": "2026-11-04",
-  "ozet": "Antidepresan kullanmayan majör depresif bozukluk hastalarında yaşa bağlı yapısal beyin yaşlanmasını COORDINATE-MDD konsorsiyumunun çok merkezli verileriyle inceleyen bir analiz. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Antidepresan kullanmayan majör depresif bozuklukta (MDB) yapısal beyin yaşlanmasının yaşa bağımlılığı COORDINATE-MDD konsorsiyumunda incelenmiştir. 11 merkezden, ilaç kullanmayan ve aktif depresif dönemdeki 645 MDB hastası ile 645 eşleştirilmiş kontrolün T1 MRG'si kullanılmış, beyin yaşı farkı (BAG) gradient boosting ile tahmin edilmiştir. MDB'de düzeltilmiş BAG kontrole göre 2,0 yıl yüksektir (Cohen d −0,289); 30'lu yaş ortasına kadar fark yokken sonra artmakta, 55 yaş üstünde düzeltilmemiş analizde +6,8 yıla (siteye göre düzeltmeyle 4,3 yıl) ulaşmaktadır. Katkıda bulunan bölgeler prefrontal, orta temporal girus, putamen ve serebellum içerir. Yazarlar bulguların nöroprogresyon modelleriyle uyumlu olduğunu ancak bunu kanıtlamadığını, etkinin klinik olarak kırılgan bir fenotipte daha belirgin olduğunu belirtmiştir.",
   "added": "2026-11-04"
  },
  {
@@ -23,7 +293,7 @@
   "title": "A systematic review with meta-analysis of psychosocial suicide prevention interventions among U.S. military service members and veterans",
   "authors": "Nicole K. Ciesinski, Eliana J. Trikeriotis, Emily K. Grim ve ark.",
   "online": "2026-11-04",
-  "ozet": "ABD askeri personeli ve gazilerinde psikososyal intihar önleme müdahalelerini değerlendiren sistematik derleme ve meta-analiz. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "ABD askerleri ve gazilerinde psikososyal intihar önleme müdahalelerinin etkililiği sistematik derleme ve meta-analizle değerlendirilmiştir. 1996–2026 arası kontrollü çalışmalardan 47'si derlenmiş, 41'i meta-analize alınmıştır (N=5.540.004). Müdahaleler intihar girişimi riskini kontrol koşullarına göre anlamlı azaltmıştır (RR 0,68; %95 GA 0,56–0,83). İntihar ölümü meta-analizi örneklem sınırlılıkları nedeniyle sonuçsuzdur; BDT veya klinik şiddet gibi az sayıda düzenleyici etken ortaya çıkmıştır. Yazarlar müdahalelerin intihar davranışı riskini azalttığını, ancak intihar düşüncesi ve ölüm riskinde etkililiğin gösterilemediğini belirtmiştir.",
   "added": "2026-11-04"
  },
  {
@@ -115,7 +385,7 @@
   "title": "Immune-Microbiome Crosstalk in the Developmental Origins of Neurodevelopmental Disorders",
   "authors": "Elizabeth C. Plunk, Hannah Hazzard, Evan Bordt ve ark.",
   "online": "2026-11-03",
-  "ozet": "Nörogelişimsel bozuklukların gelişimsel kökenlerinde bağışıklık sistemi ile mikrobiyom arasındaki etkileşimi ele alan bir çalışma/derleme (Biological Psychiatry). (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Bu bir derlemedir. Nörogelişimsel bozuklukların gelişimsel kökenlerinde bağışıklık sistemi ve mikrobiyomun birbirinden bağımsız değil, etkileşen etkenler olduğu savunulmaktadır. Germ-free, antibiyotik ile tükenme ve maternal immün aktivasyon modellerinden elde edilen preklinik veriler, birinin bozulmasının diğerini değiştirdiğini göstermekte; insan verileri büyük oranda ilişkisel kalmaktadır. Plasenta, doğum kanalı ve süt arayüzlerinde immün ve mikrobiyal sinyaller gelişen beyinde yakınsamakta, mikroglia tekrarlayan hücresel aracı olarak öne çıkmaktadır. Yazarlar iki sistemi etkileşimli ele alan, doğum öncesinden sonrasına uzanan tasarımlar önermektedir.",
   "added": "2026-11-04"
  },
  {
@@ -124,7 +394,7 @@
   "title": "Distinct drug and aversive cue-reactivity patterns are associated with opioid use disorder",
   "authors": "Aysenur Okan, Rayus Kuplicki, Chrysantha B. Davis ve ark.",
   "online": "2026-11-03",
-  "ozet": "Opioid kullanım bozukluğu ile ilişkili belirgin ilaç ve aversif ipucu-reaktivite örüntülerini ele alan bir çalışma (Biol Psychiatry: CNNI). (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Opioid kullanım bozukluğunda (OUD) ilaç ve aversif uyaran reaktivitesinin nükse ilişkisi fMRG ile araştırılmıştır. OUD'li 64 kişi ve 35 sağlıklı kontrol uyaran-reaktivite görevi sırasında taranmış, OUD'liler 3 ay izlenmiştir (29 abstinan, 35 nüks). Kontrole göre OUD'lilerde ilaç uyaranlarına daha yüksek uyarılma, stres ve kullanma isteği bildirilmiş, buna karşın negatif uyaranlara nükleus akkumbens, insula ve ACC yanıtı düşük bulunmuştur; tüm beyin analizinde inferior frontal, prekentral ve orbitofrontal bölgelerde de azalmış yanıtlar görülmüştür. Abstinan ve nüks alt grupları arasında fark saptanmamıştır. Yazarlar aversif uyaranlardan uzaklaşmanın OUD için kırılganlık belirteci olabileceğini belirtmiştir.",
   "added": "2026-11-04"
  },
  {
@@ -133,7 +403,7 @@
   "title": "The Red Nucleus in Motor Control and Autism Spectrum Disorder",
   "authors": "Jiani Wang, Frank Pollick, Jonathan Delafield-Butt",
   "online": "2026-11-03",
-  "ozet": "Kırmızı çekirdeğin (nucleus ruber) motor kontroldeki ve otizm spektrum bozukluğundaki rolünü ele alan bir derleme (Neurosci Biobehav Rev). (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Bu bir derlemedir. Otizm spektrum bozukluğundaki motor farklılıkların nöral mekanizmaları bağlamında, serebellar ve kortikal sistemlerin gölgesinde kalan kırmızı çekirdek (red nucleus) yeniden ele alınmaktadır. Karşılaştırmalı nöroanatomi, hayvan deneyleri, görüntüleme ve otizm çalışmaları sentezlenmiş; otistik çocuklarda kırmızı çekirdek bölgesinde duyarlılık farklılıkları bildirilmiş ancak nedensel ilişkiler kanıtlanmamıştır. Yazarlar, yapısal/işlevsel/bağlantısal farkların belirli motor boyutlarla ilişkili olabileceği, test edilebilir bir hipotez önermekte ve hata temelli sensorimotor adaptasyonu ana deneysel hedef olarak göstermektedir.",
   "added": "2026-11-04"
  },
  {
@@ -142,7 +412,7 @@
   "title": "Neurotensin Signaling in Analgesia: Receptor Mechanisms, Targeted Drug Development, and Therapeutic Prospects for Pain and Comorbid Depression",
   "authors": "Fei Xu, Nazneen Sudhan, Ke Peng ve ark.",
   "online": "2026-11-03",
-  "ozet": "Analjezide nörotensin sinyallemesini; reseptör mekanizmaları, hedefe yönelik ilaç geliştirme ve ağrı ile eşlik eden depresyon için tedavi olanakları açısından ele alan bir derleme. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Bu bir derlemedir. Nörotensinin (NT) analjezideki rolü, NTSR1 ve NTSR2 reseptörlerinin ağrı modülasyon mekanizmaları ve reseptör hedefli ilaç tasarımı stratejileri özetlenmektedir. NT türevi ligandlar, BNT-12 gibi opioid-NT bifonksiyonel bileşikler ve kombinasyon yaklaşımları, güvenlik kaygıları ve çevirisel sınırlılıklarla (opioid yan etkileri, prürit) birlikte ele alınmaktadır. Bulgular ağırlıkla preklinik olup güvenlik üstünlüğü kanıtlanmamıştır. NT'nin duygudurum düzenlemesiyle ilgisi nedeniyle kronik ağrı ve eşlik eden depresyon/anksiyete için de seçenek olabileceği belirtilmekte, etkililik ve güvenlik için ileri araştırma gerektiği vurgulanmaktadır.",
   "added": "2026-11-04"
  },
  {
@@ -151,7 +421,7 @@
   "title": "A systematic overview of the current strategies for managing cancer-related cognitive impairment in children and adolescent cancer survivors",
   "authors": "Silvia BELLONI, Arianna MAGON, Mariachiara ZUCCA ve ark.",
   "online": "2026-11-03",
-  "ozet": "Çocuk ve ergen kanser sağ kalımcılarında kanserle ilişkili bilişsel bozukluğun yönetim stratejilerini sistematik olarak gözden geçiren bir genel bakış makalesi. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Çocukluk çağı kanser sağ kalımcılarında ve ergenlerde kanserle ilişkili bilişsel bozukluğun (CRCI) farmakolojik olmayan yöntemlerle yönetimine ilişkin RKÇ'lerin sistematik derlemesidir (Cochrane ve PRISMA'ya uygun, altı veri tabanı). On üç yayın ve on bir RKÇ dahil edilmiş; 4–17 yaş, solid beyin ve hematolojik tümörler; akademik beceri, bilişsel-motor eğitim, bilgisayarlı/bilgisayarsız bilişsel eğitim ve fiziksel aktivite/egzersiz oyunları incelenmiştir. Yapılandırılmış bilişsel eğitim programlarının zihinsel işlev ve bilişsel yetilerde iyileşme sağladığı sonucuna varılmıştır. Yazarlar nicel sentez ve belirli yaş grupları için ileri RKÇ'ler gerektiğini belirtmiştir.",
   "added": "2026-11-04"
  },
  {
@@ -160,7 +430,7 @@
   "title": "Association between obsessive-compulsive symptoms, clozapine, and other antipsychotic treatment in psychotic disorders: a systematic review and meta-analysis of epidemiological findings",
   "authors": "Cecilia Casetta, Uzma Zahid, Laura Mangiaterra ve ark.",
   "online": "2026-11-03",
-  "ozet": "Psikotik bozukluklarda obsesif-kompulsif belirtiler ile klozapin ve diğer antipsikotik tedavisi arasındaki ilişkiyi epidemiyolojik bulgular üzerinden inceleyen sistematik derleme ve meta-analiz. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Psikotik bozukluklarda obsesif-kompulsif belirtiler (OKS), klozapin ve diğer antipsikotikler arasındaki ilişki sistematik derleme ve rastgele etkili meta-analizle incelenmiştir (32 çalışma). OKS prevalansı klozapin ve klozapin dışı gruplarda benzerdir (%41 vs %30; p=0,183); OKB prevalansı klozapin grubunda anlamlı yüksektir (%25 vs %12; p=0,007). De novo OKS (%26 vs %14) ve de novo OKB (%22 vs %19) farkları anlamlı değildir. Yazarlar kesitsel çalışmalarda klozapin ile OKS/OKB arasında olası ilişki bulunduğunu, ancak boylamsal kanıtın eksik olduğunu ve yanlılık ile endikasyon karıştırıcılığı sınırlılıklarını belirtmiştir.",
   "added": "2026-11-04"
  },
  {
@@ -169,7 +439,7 @@
   "title": "Type D personality, psychiatric symptom burden, and life satisfaction in bipolar II disorder and major depressive disorder: A family-based study",
   "authors": "Dilek Örüm, Mehmet Hamdi Örüm, Murad Atmaca",
   "online": "2026-11-03",
-  "ozet": "Bipolar II bozukluk ve majör depresif bozuklukta D tipi kişilik, psikiyatrik belirti yükü ve yaşam doyumu arasındaki ilişkiyi aile temelli olarak inceleyen bir çalışma. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Bipolar II bozukluk (BD-II) ve MDB'de Tip D kişilik, belirti yükü ve yaşam doyumu aile temelli olarak incelenmiştir. Kesitsel çalışmada remisyondaki 46 BD-II, 46 MDB, 50 kontrol ve her katılımcının bir ebeveyni DS14, Yaşam Doyumu Ölçeği, BDÖ-II ve BPRS ile değerlendirilmiştir. Tip D kişilik BD-II'de %87,0, MDB'de %50,0, kontrolde %10,0 oranında bulunmuştur. Tanı grupları içinde olumsuz duygulanım ve sosyal inhibisyon, sinerjik kombinasyonlarından çok yaşam doyumu ve daha tutarsız biçimde belirti yüküyle ilişkilidir; Tip D özellikleri ebeveynlerde de yüksektir.",
   "added": "2026-11-04"
  },
  {
@@ -178,7 +448,7 @@
   "title": "Clinical practice guideline recommendations for subthreshold depression in adults: A systematic review",
   "authors": "Ni Zhang, Yiheng Zhang, Jieling Chen ve ark.",
   "online": "2026-11-03",
-  "ozet": "Erişkinlerde eşik altı depresyon için klinik uygulama kılavuzu önerilerini inceleyen sistematik derleme. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Erişkinlerde subeşik depresyon (SD) için klinik uygulama kılavuzu önerilerinin sistematik derlemesidir. On üç kılavuz dahil edilmiş, AGREE II ile kalite değerlendirilmiştir. SD genellikle hafif MDB ile birlikte ele alınmış; antidepresan öneren hiçbir kılavuz rutin kullanımı desteklememiş ya da ilk tedavi olarak konumlandırmamış, sınırlı durumlarla kısıtlamıştır. Resmi öneri veren tüm kılavuzlar tedavi başlangıcında düşük yoğunluklu psikososyal/psikolojik müdahale veya destekleyici bakımı yerleştirmiştir. Hafif MDB için baskın patern benzerdir; azınlık paterni kalite kısıtlı analizde gözlenmemiştir. Yazarlar SD'de rutin antidepresan yerine düşük yoğunluklu başlangıç yönetimi paterni olduğunu belirtmiştir.",
   "added": "2026-11-04"
  },
  {
@@ -197,7 +467,7 @@
   "title": "Therapeutic alliance as a mediator of message-based and video-based psychotherapy for adults with depression: A secondary analysis of a randomized clinical trial",
   "authors": "Julien Rouvere, Brittany E. Blanchard, Sam L. Bernecker ve ark.",
   "online": "2026-11-03",
-  "ozet": "Depresyonlu erişkinlerde mesaj temelli ve video temelli psikoterapide terapötik ittifakın aracı rolünü inceleyen, bir randomize klinik çalışmanın ikincil analizi. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Depresyonda mesaj tabanlı (MBP) ve video tabanlı (VBP) psikoterapide terapötik ittifakın aracı rolü, bir RKÇ'nin ikincil analiziyle incelenmiştir. 850 katılımcı MBP veya VBP'ye randomize edilmiş, ittifak 4. haftada, depresyon şiddeti başlangıç ve 5. haftada ölçülmüş; aracılık ve düzenlenmiş aracılık modelleri kullanılmıştır. Terapötik ittifak VBP'de MBP'den anlamlı olarak daha güçlüdür; ancak depresyon sonuçları iki yöntem arasında benzerdir. Yazarlar MBP'nin ittifak dezavantajını başka etkenlerin dengelemiş olabileceğini belirtmiş; temas sıklığı gibi değişkenlerle boylamsal inceleme önermiştir.",
   "added": "2026-11-04"
  },
  {
@@ -206,7 +476,7 @@
   "title": "Sleep-stage dynamics in depression: Altered stage distribution and N2 persistence, with incremental information from distribution entropy beyond demographic and subjective clinical measures",
   "authors": "Chunyan Long, Junyi Chen, Yue She ve ark.",
   "online": "2026-11-03",
-  "ozet": "Depresyonda uyku evresi dinamiklerini (evre dağılımı değişimi, N2 sürekliliği ve dağılım entropisinin demografik ve öznel klinik ölçümlere ek bilgisi) inceleyen bir çalışma. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Depresyonda uyku evresi dinamikleri, tek merkezli retrospektif kesitsel çalışmada klinik endikasyonla polisomnografi yapılan 303 hastada (139 depresif bozukluk tanılı, 164 tanısız) incelenmiştir. Demografi, sedatif kullanımı ve AHİ düzeltmesinden sonra daha düşük evre dağılım entropisi (OR 0,63), daha uzun N2 epizot süresi (OR 1,52), daha düşük toplam geçiş hızı (OR 0,66) ve daha düşük N2→N1 geçiş olasılığı (OR 0,55) depresif bozuklukla ilişkili kalmıştır. Yazarlar anksiyete düzeltmesiyle ilişkinin zayıflamasının özgüllüğü sınırladığını, ilaç ve endikasyon karıştırıcılığının dışlanamadığını ve bulguların keşfedici olup tekrarlanması gerektiğini belirtmiştir.",
   "added": "2026-11-04"
  },
  {
@@ -442,7 +712,7 @@
   "title": "Between Care and Influence: Relational Autonomy at the End of Life",
   "authors": "Kae Ito, Diego De Leo",
   "online": "2026-11-02",
-  "ozet": "Yaşam sonunda bakım ile etkileme arasındaki gerilim bağlamında ilişkisel özerkliği tartışan bir görüş yazısıdır (başlığa göre). (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Yayıncı tarafından geçici olarak geri çekilmiş bir makaledir; teknik bir hata nedeniyle erken çevrimiçi yayımlanmıştır. Makale kabul edilmiş olup American Journal of Geriatric Psychiatry ve International Psychogeriatrics'te eş zamanlı yayımlanacaktır. Başlık yaşam sonunda ilişkisel özerkliği ele almaktadır; içerik özeti mevcut değildir. (Ayrıntılı özet mevcut değil.)",
   "added": "2026-11-02"
  },
  {
@@ -2264,7 +2534,7 @@
   "title": "Optically-pumped magnetometer-MEG (OPM-MEG) can detect and map epileptiform activity in diagnostic and presurgical paediatric cohorts",
   "authors": "Christine M. Embury, Zelekha A. Seedat, Kelly St. Pier ve ark.",
   "online": "2026-10-24",
-  "ozet": "Optik pompalı manyetometre tabanlı MEG'in (OPM-MEG) tanısal ve cerrahi öncesi pediatrik kohortlarda epileptiform aktiviteyi saptayıp haritalayabildiğini bildiren bir çalışma. (Ayrıntılı özet mevcut değil.)",
+  "ozet": "Pediatrik hasta gruplarında OPM-MEG ile epileptiform aktivitenin saptanabilirliği ve haritalanabilirliği araştırılmıştır. Preoperatif (7) ve tanısal (10) toplam 17 çocuk kaydedilmiş; olay sayısı, kayıt süresi ve hasta geri bildirimi ölçülmüş, dipol haritalama klinik öyküyle karşılaştırılmıştır. Kayıtlar iyi tolere edilmiştir; ortalama epileptiform olay sayısı preoperatif grupta 35 (SS 33), tanısal grupta 39 (SS 78) olup bir preoperatif ve dört tanısal katılımcıda epileptiform aktivite görülmemiştir. Yazarlar OPM-MEG'nin fokal ve jeneralize epilepsilerde kullanılabildiğini ve pediatrik epilepsi değerlendirmesinde daha erken kullanım olanağı sunduğunu belirtmiştir.",
   "added": "2026-10-25"
  },
  {
