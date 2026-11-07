@@ -1,5 +1,595 @@
 [
  {
+  "doi": "10.1016/j.jagp.2026.10.013",
+  "journal": "ajgp",
+  "title": "Scientific Autobiography",
+  "authors": "Henry Brodaty",
+  "online": "2026-11-07",
+  "ozet": "'Bilimsel otobiyografi' başlıklı bir yazı. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1192/bja.2026.10263",
+  "journal": "bja",
+  "title": "Unwrapping the legal consequences of hoarding",
+  "authors": "Keith J. B. Rix",
+  "online": "2026-11-06",
+  "ozet": "Yorum yazısı: İngiltere ve Galler'deki beş güncel mahkeme kararı üzerinden istifleme bozukluğunun hukuki sonuçları ele alınıyor. Vurgulanan ilkeler: kişisel özerklik ile ağır kendine bakımsızlık arasında denge; eşyalarla ilgili kapasitenin hacim, erişim, tehlike, güvenlik ve elden çıkarma olmak üzere beş kategoride değerlendirilmesi; mahkemelerin tanıyı katı ölçütlerden çok esaslı davranışsal kanıta dayandırmayı beklemesi; ciddi riskleri kavrama kapasitesindeki bozukluğun zorunlu müdahaleyi haklı kılabilmesi. İstifleme Equality Act 2010 kapsamında engellilik sayılabilse de, halk sağlığı ve güvenliği için orantılı ise tahliye yasal olabilir.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1016/s2215-0366(26)00331-7",
+  "journal": "lanpsy",
+  "title": "The invisible toll on Gaza's health-care workers",
+  "authors": "Mohammed Afana",
+  "online": "2026-11-06",
+  "ozet": "Gaza'daki sağlık çalışanlarının yaşadığı görünmeyen yükü ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1016/s2215-0366(26)00333-0",
+  "journal": "lanpsy",
+  "title": "“Where's Daddy?”: attachment and the language of AI-assisted weapons targeting",
+  "authors": "Ömer Asan",
+  "online": "2026-11-06",
+  "ozet": "'Where's Daddy?' başlıklı yazı, yapay zekâ destekli silah hedeflemesinde bağlanma ve dil kullanımını ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70061",
+  "journal": "wps",
+  "title": "Update on psychoneuroimmunoendocrinology",
+  "authors": "Gustavo E. Tafet, Charles B. Nemeroff",
+  "online": "2026-11-06",
+  "pmid": "42742594",
+  "ozet": "Psikonöroimmünoendokrinolojideki gelişmeleri güncelleyen bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70077",
+  "journal": "wps",
+  "title": "The frontal cortex in mental disorders",
+  "authors": "Trevor W. Robbins",
+  "online": "2026-11-06",
+  "pmid": "42742581",
+  "ozet": "Ruhsal bozukluklarda frontal korteksin rolünü ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70078",
+  "journal": "wps",
+  "title": "Optimizing adolescent brain development",
+  "authors": "Jay N. Giedd",
+  "online": "2026-11-06",
+  "pmid": "42742611",
+  "ozet": "Ergen beyin gelişiminin en uygun biçimde desteklenmesi konusunu ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70079",
+  "journal": "wps",
+  "title": "An etiological approach to psychosis: potential benefits for treatment, research and prevention",
+  "authors": "Robin M. Murray, Dominic Oliver, Aikaterini Dima ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Görüş/derleme yazısı: Psikozun tedavisinin ağırlıklı olarak antipsikotiklere dayandığı, başlangıç ve süreğenliğe katkıda bulunan etkenlerin ise nadiren ele alındığı belirtiliyor. Yazarlar genetik yatkınlık zemininde nörogelişimsel bozukluk, madde kullanımı ve sosyal güçlüğü başlıca çevresel risk faktörleri olarak sayıyor; çoğu hastada hipokampustaki GABAerjik ve glutamaterjik sinyal bozukluğuyla ilişkili striatal dopamin işlev bozukluğunu pozitif belirtilere giden ortak son yol olarak görüyor. Maruz kalınan risk faktörüne göre bireyselleştirilmiş tedavi öneriliyor: sürdürülen kannabis kullanımında bilişsel davranışçı/motivasyonel terapi, çocukluk istismarında travma odaklı terapi ve uygun durumlarda antidepresanlar. Etiyolojiye dikkatin araştırma ve önleme için de yarar sağlayabileceği savunuluyor.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70080",
+  "journal": "wps",
+  "title": "The lived experience of trans persons: a bottom‐up review co‐written by experts by experience and academics",
+  "authors": "Paolo Fusar‐Poli, Andrés Estradé, René Rosfort ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Derleme: Trans bireylerin yaşantısına dair ilk 'aşağıdan yukarı' derleme; yaşantı uzmanları ve akademisyenler birlikte yazmış. Tıbbi ve tıp dışı literatürden ilk elden anlatılar taranmış, temalar ortak çalıştaylarla değerlendirilmiş. Dört ana tema: trans bireylerin yaşantısı, cinsiyet affirmasyonu yaşantısı, sosyal-kültürel bağlamdaki deneyim ve bakım/destek alma deneyimi. Cinsiyet kimliği deneyimlerinde geniş çeşitlilik vurgulanıyor; yanlış bedende hissetme ve beden-zihin kopukluğu yaygın olsa da birçok trans birey bedeninden ve kimliğinden memnun olabiliyor. Affirmasyon, benlik duygusunun yeniden kazanılması gibi duygusal etkileri de içeren bir süreç olarak tanımlanıyor.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70081",
+  "journal": "wps",
+  "title": "A strategic roadmap for the Diagnostic and Scientific Manual ( DSM ) of mental disorders",
+  "authors": "Maria A. Oquendo, Jonathan E. Alpert, Lamyaa Yousif ve ark.",
+  "online": "2026-11-06",
+  "pmid": "42742588",
+  "ozet": "Ruhsal bozuklukların Tanısal ve Bilimsel El Kitabı (DSM) için stratejik yol haritasını ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70082",
+  "journal": "wps",
+  "title": "Integrating social determinants of health in diagnostic classifications",
+  "authors": "Geoffrey M. Reed, Milli Wijenaike‐Bogle",
+  "online": "2026-11-06",
+  "pmid": "42742599",
+  "ozet": "Tanı sınıflandırmalarına sağlığın sosyal belirleyicilerinin dahil edilmesini ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70083",
+  "journal": "wps",
+  "title": "Climate anxiety: defining and responding to an emerging mental health challenge",
+  "authors": "Susan Clayton",
+  "online": "2026-11-06",
+  "pmid": "42742596",
+  "ozet": "İklim kaygısının tanımlanması ve bu yeni ortaya çıkan ruh sağlığı sorununa yanıt verilmesini ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70084",
+  "journal": "wps",
+  "title": "Emerging realities of artificial intelligence and mental health",
+  "authors": "Nick Joseph Haber",
+  "online": "2026-11-06",
+  "pmid": "42742612",
+  "ozet": "Yapay zekâ ve ruh sağlığındaki yeni gerçeklikleri ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70085",
+  "journal": "wps",
+  "title": "The promise of big data: don’t fence me in",
+  "authors": "Daniel Vigo",
+  "online": "2026-11-06",
+  "pmid": "42742592",
+  "ozet": "Büyük veri vaadini tartışan bir yorum yazısı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70086",
+  "journal": "wps",
+  "title": "Big data research: the importance of the data‐generating process and domain expertise",
+  "authors": "Jordan W. Smoller",
+  "online": "2026-11-06",
+  "pmid": "42742598",
+  "ozet": "Büyük veri araştırmalarında veri üretim süreci ve alan uzmanlığının önemini vurgulayan bir yorum yazısı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70087",
+  "journal": "wps",
+  "title": "From emulation to implementation: next steps for big data research in psychiatry",
+  "authors": "Murray B. Stein, Martin P. Paulus",
+  "online": "2026-11-06",
+  "pmid": "42742580",
+  "ozet": "Psikiyatride büyük veri araştırmalarının taklitten uygulamaya geçişteki sonraki adımlarını tartışan bir yorum yazısı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70088",
+  "journal": "wps",
+  "title": "Next generation of big data in psychiatry: more theory, more within‐person data, and better integration of artificial intelligence",
+  "authors": "Matthew K. Nock",
+  "online": "2026-11-06",
+  "pmid": "42742584",
+  "ozet": "Psikiyatride büyük verinin yeni kuşağında daha fazla kuram, birey içi veri ve yapay zekâ entegrasyonunu öneren bir yorum yazısı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70089",
+  "journal": "wps",
+  "title": "Rethinking biomarkers in psychiatry: from etiological uncertainty to actionable prediction",
+  "authors": "Andreas Meyer‐Lindenberg, Emanuel Schwarz",
+  "online": "2026-11-06",
+  "pmid": "42742577",
+  "ozet": "Psikiyatride biyobelirteçlerin, etiyolojik belirsizlikten uygulanabilir tahmine doğru yeniden düşünülmesini ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70090",
+  "journal": "wps",
+  "title": "Big data, disease mechanisms and clinically actionable discovery",
+  "authors": "Andrew McIntosh",
+  "online": "2026-11-06",
+  "pmid": "42742586",
+  "ozet": "Büyük veri, hastalık mekanizmaları ve klinik olarak uygulanabilir keşifleri ele alan bir yorum yazısı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70091",
+  "journal": "wps",
+  "title": "Is bigger better?",
+  "authors": "David S. Baldwin",
+  "online": "2026-11-06",
+  "pmid": "42742587",
+  "ozet": "'Daha büyük daha mı iyi?' sorusunu psikiyatrik büyük veri bağlamında tartışan bir yorum yazısı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70092",
+  "journal": "wps",
+  "title": "Can big data answer the big questions about specific mental disorders? The example of obsessive‐compulsive disorder",
+  "authors": "Helen Blair Simpson, Melanie Wall",
+  "online": "2026-11-06",
+  "pmid": "42742604",
+  "ozet": "Büyük verinin obsesif-kompulsif bozukluk örneği üzerinden belirli ruhsal bozukluklara ilişkin büyük soruları yanıtlayıp yanıtlayamayacağını tartışan bir yorum yazısı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70093",
+  "journal": "wps",
+  "title": "Evidence‐based atlas of risk and protective factors for psychotic disorders: an umbrella review to inform personalized prognosis and prevention",
+  "authors": "Claudia Aymerich, Michele De Prisco, Antonio Melillo ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Şemsiye derleme: Psikotik bozukluklar için risk ve koruyucu faktörlerin güncel kanıt atlası oluşturulmuş. Önceden kayıtlı protokolle, önceki şemsiye derlemeden (1 Şubat 2017) 31 Mart 2025'e kadar yayımlanan, gözlemsel çalışmaların sistematik derleme/meta-analizleri Web of Science'ta taranmış; ilişkiler standart ölçütlerle (sınıf I–IV) derecelendirilmiş, modifiye edilebilir faktörler için popülasyona atfedilebilir fraksiyon (PAF) hesaplanmış. 69 sistematik derleme/meta-analiz (970 çalışma, 221 risk veya koruyucu faktör) dahil edilmiş. Altı risk faktörü kesin (sınıf I) kanıt göstermiş; örneğin İngiltere'de Siyah-Afrikalı etnisite (OR=4,89) ve Güney Asya etnisitesi (OR=2,15), baba yaşının 20'nin altında olması (OR=1,34). Çalışma, kişiselleştirilmiş prognoz ve önleme için kanıta dayalı bir temel sunuyor.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70094",
+  "journal": "wps",
+  "title": "Network analysis of the genetic relationships between twenty psychiatric and substance use disorders",
+  "authors": "Kenneth S. Kendler, Henrik Ohlsson, Jan Sundquist ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Psikiyatrik ve madde kullanım bozukluklarının genetik risk yapısını ağ analiziyle aydınlatmak. Yöntem: 1960–2000 doğumlu tüm İsveç nüfusundan (bölünmüş yarılarla N=1.510.974) 20 bozukluk için aile genetik risk skorları hesaplanmış, EBICglasso ağ analizi uygulanmış. Bulgular: Ağ yoğun olup içselleştirme, dışsallaştırma, nörogelişimsel, yeme ve psikotik bozukluk olmak üzere beş küme göstermiş; ADHD, BB, OKB ve OSB kümeler arası geçiş yapmış. En merkezi düğümler majör depresyon ve madde kullanım bozukluğu olmuş; BB'nin şizofreniyle doğrudan bağı bulunmamış, en güçlü bağları MD ve şizoaffektif bozuklukla olmuş. Sınırda kişilik bozukluğu, intihar girişimi ve intihar ölümü eklendiğinde intihar girişimi ve ölümünün en güçlü bağları sırasıyla madde ve alkol kullanım bozukluğuyla bulunmuş. Sonuçlar bölünmüş yarılarda ve aileden tek kardeş alındığında kararlı kalmış.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70095",
+  "journal": "wps",
+  "title": "Mental health disparities in LGBTQIA + populations: an umbrella review of systematic reviews and meta‐analyses",
+  "authors": "Vincenzo Oliva, Joaquim Radua, Michele De Prisco ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: LGBTQIA+ gruplarında ruhsal bozukluk, belirti, intihar/kendine zarar davranışı ve ruh sağlığı hizmetine erişim sonuçlarına ilişkin kanıtın gücünü değerlendirmek. Yöntem: PubMed, Scopus ve PsycINFO'da 23 Nisan 2025'e kadar tarama; LGBTQIA+ gruplarını cisgender heteroseksüellerle karşılaştıran sistematik derleme/meta-analizlerin şemsiye derlemesi, kanıt sınıf I–IV ölçütleriyle derecelendirilmiş. Bulgular: 398 çalışmayı kapsayan 22 sistematik derleme/meta-analizde 162 ilişkiden sekizi kesin (sınıf I) kanıt düzeyine ulaşmış. LGB gruplarında depresif bozukluk riski (RR=2,05), intihar girişimi (RR=2,51) ve intihar düşüncesi/girişimi (OR=3,20) daha yüksek bulunmuş. Bulgular LGBTQIA+ gruplarında belirgin ruh sağlığı eşitsizliklerine işaret ediyor.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70096",
+  "journal": "wps",
+  "title": "Consensus‐based clinical and research recommendations for use of glucagon‐like peptide‐1 receptor agonists in the context of eating disorders: a modified Delphi study",
+  "authors": "Aaron Keshen, Elena Koning, Kelly C. Allison ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Yeme bozuklukları bağlamında GLP-1 reseptör agonistlerinin (GLP-1RA) kullanımına dair uzlaşıya dayalı klinik ve araştırma önerileri geliştirmek. Yöntem: Üç turlu modifiye Delphi; diyabet, obezite ve/veya yeme bozuklukları uzmanları ile yaşantı uzmanlarından oluşan çok disiplinli panel (N=45), ≥%70 uzlaşı eşiği. Bulgular: Ortalama uzlaşı %91,7. Öneriler: GLP-1RA başlamadan önce güncel ve geçmiş yeme bozukluğu taraması, riske göre izlem, standart eğitim materyalleri ve yeme bozukluğu olanlarda eşzamanlı kanıta dayalı psikoterapi. Aktif yeme bozukluklarında, özellikle anoreksiya nervoza, atipik anoreksiya nervoza ve belirgin diyet kısıtlaması/kilo baskılanması olan bulimiya nervozada genelde kaçınılması, geçmiş öyküde dikkatli olunması öneriliyor. Araştırma önerileri arasında GLP-1RA kullanıcılarında yeme bozukluğu insidansını inceleyen boylamsal çalışmalar ve klinik çalışmalar yer alıyor.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70097",
+  "journal": "wps",
+  "title": "The effect of nature on mental health",
+  "authors": "Marc G. Berman",
+  "online": "2026-11-06",
+  "pmid": "42742610",
+  "ozet": "Doğanın ruh sağlığı üzerindeki etkisini ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70098",
+  "journal": "wps",
+  "title": "The new science of sensation and the long‐term management of mood disorders",
+  "authors": "Zindel Segal, Norman Farb",
+  "online": "2026-11-06",
+  "pmid": "42742597",
+  "ozet": "Duyu bilimindeki yeni gelişmeler ve duygudurum bozukluklarının uzun dönemli yönetimini ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70099",
+  "journal": "wps",
+  "title": "Risks from self‐medicating with psychedelic drugs",
+  "authors": "Joshua C. Black",
+  "online": "2026-11-06",
+  "pmid": "42742575",
+  "ozet": "Psikedelik ilaçlarla kendi kendine tedavinin risklerini ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70100",
+  "journal": "wps",
+  "title": "Using the Hierarchical Taxonomy of Psychopathology ( HiTOP ) for precision psychiatry",
+  "authors": "Colin G. DeYoung, Elizabeth A. Martin, and the HiTOP Neurobiological Foundations Workgroup",
+  "online": "2026-11-06",
+  "pmid": "42742579",
+  "ozet": "Hassas psikiyatri için Hiyerarşik Psikopatoloji Taksonomisi'nin (HiTOP) kullanımını ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70101",
+  "journal": "wps",
+  "title": "Clinical high‐risk vs. population‐level prevention of mental disorders: a false dichotomy",
+  "authors": "Paolo Fusar‐Poli, Dominic Oliver",
+  "online": "2026-11-06",
+  "pmid": "42742614",
+  "ozet": "Ruhsal bozuklukların önlenmesinde klinik yüksek riskli ve popülasyon düzeyi yaklaşımlarının yanlış bir ikilik olduğunu savunan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70102",
+  "journal": "wps",
+  "title": "Brain‐enriched extracellular vesicle microRNAs could help to predict onset of psychosis in people at clinical high risk",
+  "authors": "Ines Khadimallah, Dominic Oliver, Kim Q. Do ve ark.",
+  "online": "2026-11-06",
+  "pmid": "42742589",
+  "ozet": "Beyin kaynaklı hücre dışı vezikül mikroRNA'larının klinik yüksek riskli kişilerde psikoz başlangıcını öngörmeye yardımcı olabileceğini ele alan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70103",
+  "journal": "wps",
+  "title": "What happens after tapering off antipsychotics? Clinical trajectories of 267 first‐episode patients who discontinued antipsychotic medication",
+  "authors": "Franciska de Beer, Ben Wijnen, Sanne Koops ve ark.",
+  "online": "2026-11-06",
+  "pmid": "42742615",
+  "ozet": "Antipsikotik bırakıldıktan sonra ne olduğunu, ilaçlarını bırakan 267 ilk atak hastanın klinik seyri üzerinden inceleyen bir çalışma (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70104",
+  "journal": "wps",
+  "title": "Neighborhood socioeconomic disadvantage and mental health among US veterans",
+  "authors": "Ian C. Fischer, Peter J. Na, Dilip V. Jeste ve ark.",
+  "online": "2026-11-06",
+  "pmid": "42742621",
+  "ozet": "ABD'li gazilerde mahalle düzeyinde sosyoekonomik yoksunluk ile ruh sağlığı ilişkisini ele alan bir çalışma (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70105",
+  "journal": "wps",
+  "title": "A European platform trial for major depressive disorder",
+  "authors": "Stefan M. Gold, Jelena Brasanac, Francesco Benedetti ve ark.",
+  "online": "2026-11-06",
+  "pmid": "42742617",
+  "ozet": "Majör depresif bozukluk için Avrupa platform çalışmasını tanıtan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70106",
+  "journal": "wps",
+  "title": "Caring for the world's youngest and loneliest population requires a change in approach",
+  "authors": "Shuyan Liu, Hiwot Daniel Sime, Amani Masaule ve ark.",
+  "online": "2026-11-06",
+  "pmid": "42742620",
+  "ozet": "Dünyanın en genç ve en yalnız nüfusuna bakım verilmesinde yaklaşım değişikliği gerektiğini savunan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70107",
+  "journal": "wps",
+  "title": "DISCOURSE in Psychosis: introducing an international consortium for research on thought, language and communication",
+  "authors": "Lena Palaniyappan, Maria F. Alonso‐Sanchez, Valentina Bambini ve ark.",
+  "online": "2026-11-06",
+  "pmid": "42742608",
+  "ozet": "Psikozda düşünce, dil ve iletişim araştırması için uluslararası konsorsiyum DISCOURSE'u tanıtan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70108",
+  "journal": "wps",
+  "title": "Global investment in mental health – The Prague Agreement",
+  "authors": "Shubulade Smith, Jessica Rackham, Anusha Lachman ve ark.",
+  "online": "2026-11-06",
+  "pmid": "42742605",
+  "ozet": "Dünya Psikiyatri Birliği (WPA) haberi: Ruh sağlığına küresel yatırımı konu alan Prag Anlaşması'nı ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70109",
+  "journal": "wps",
+  "title": "Education and publications in psychiatry: from strategy to implementation",
+  "authors": "Norbert Skokauskas, Gary Chaimowitz, Dina Aly El‐Gabry ve ark.",
+  "online": "2026-11-06",
+  "pmid": "42742619",
+  "ozet": "WPA haberi: Psikiyatride eğitim ve yayınların stratejiden uygulamaya geçişini ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70110",
+  "journal": "wps",
+  "title": "Advancing mental health for all as a response to global change: WPA achievements under the Action Plan 2023‐2026",
+  "authors": "Danuta Wasserman, Celso Arango, Andrea Fiorillo ve ark.",
+  "online": "2026-11-06",
+  "pmid": "42742603",
+  "ozet": "WPA haberi: 2023–2026 Eylem Planı kapsamında Dünya Psikiyatri Birliği'nin küresel değişime yanıt olarak herkes için ruh sağlığını geliştirme kazanımlarını ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70111",
+  "journal": "wps",
+  "title": "The WPA Neuropsychiatry Special Interest Group: charting the way forward for neuropsychiatry",
+  "authors": "Perminder S. Sachdev",
+  "online": "2026-11-06",
+  "pmid": "42742602",
+  "ozet": "WPA haberi: WPA Nöropsikiyatri Özel İlgi Grubu'nu ve nöropsikiyatrinin gelecekteki yolunu tanıtıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70113",
+  "journal": "wps",
+  "title": "Big data and psychiatry: advances, constraints and future directions",
+  "authors": "Dan J. Stein, Ronald C. Kessler, John Torous ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Derleme/görüş yazısı: Psikiyatri araştırmalarının tek merkezli, küçük örneklemli çalışmalardan çok merkezli, geniş örneklemli ve çok değişkenli çalışmalara kaymasının getirdiği soruları (veri kalitesi, yöntemsel titizlik, klinik ilgi) topluluk ve kayıt tabanlı anketler, kohort ve biyobanka çalışmaları, elektronik sağlık kayıtları, dijital fenotipleme, beyin görüntüleme, genomik ve RKÇ bağlamında ele alıyor. Örneklem büyüklüğünün tek başına daha kesin tahmin sağlamadığı, büyük verinin disiplinlerarasılığı artırıp mekanizmaların karmaşıklığını ve heterojenliğini gösterdiği belirtiliyor. Klinik uygulamaya geçişin zor olduğu, tanıların 'hafif tutulması' ve açıklamaların mütevazı sunulması gerektiği, kavramsal modellerin ve doğru soruların en az veri tabanları kadar değerli olduğu vurgulanıyor.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/wps.70116",
+  "journal": "wps",
+  "title": "How concerns about the naming and the diagnostic concept of “schizophrenia” subtly reinforce each other, and what could be done in this respect",
+  "authors": "Mario Maj",
+  "online": "2026-11-06",
+  "pmid": "42742607",
+  "ozet": "'Şizofreni' adlandırması ve tanı kavramına ilişkin kaygıların birbirini ince biçimde nasıl pekiştirdiğini ve bu konuda neler yapılabileceğini tartışan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10878",
+  "journal": "bjp",
+  "title": "Data donation as an engine for passive sensing research in psychiatry",
+  "authors": "Philipp Herzog, Sylvie Blairy, Philip S. Santangelo",
+  "online": "2026-11-06",
+  "ozet": "Görüş yazısı: Psikiyatride pasif algılama araştırmaları, yetersiz güçlü ve temsil edici olmayan örneklemlerin neden olduğu güvenilirlik ve heterojenlik sorunları nedeniyle çoğunlukla küçük etkiler veriyor. Yazarlar, yaygın sağlık öz-izlemesinden yararlanan hasta kaynaklı veri bağışının daha büyük ve çeşitli veri setleri toplayıp pasif ölçümlerden çıkarımların geçerliğini artırabilecek yenilikçi, tamamlayıcı bir yöntem olduğunu savunuyor.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1017/s0033291726106126",
+  "journal": "psymed",
+  "title": "Abnormal inferior parietal hub configuration during mindfulness following rumination in remitted depression",
+  "authors": "Hairuo He, Kangning Li, Su Shu ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Remisyondaki depresyonda (RD) ruminasyondan farkındalığa geçişte ağ yeniden örgütlenmesini incelemek (ruminasyon relaps riskini artırıyor). Yöntem: 51 RD hastası ve 41 sağlıklı kontrol, altı durumlu fMRG paradigması (dinlenme I, olumsuz otobiyografik hatırlama, ruminasyon, farkındalık, dikkat dağıtma, dinlenme II); ağ tabanlı istatistik ve çizge kuramsal analizler, ruminasyon şiddeti RRS ile ölçülmüş. Bulgular: Farkındalık sırasında RD'de sol inferior paryetal lobül (IPL) merkezli aşırı bağlantılı bir bileşen görülmüş; sol IPL'de derece merkeziliği, aradalık merkeziliği ve düğüm etkinliği azalmış, ruminasyondan farkındalığa IPL bağlantı profili benzerliği RD'de daha düşük bulunmuş. IPL derecesi ve düğüm etkinliği RRS ile negatif ilişkili. Sonuç: Farkındalık denemelerinde verimsiz hub yeniden yapılanması kalıcı bir kırılganlığın göstergesi olabilir.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1017/s0033291726106205",
+  "journal": "psymed",
+  "title": "Predicting adolescent gaming addiction: insights from individual, family, and school-level factors via machine learning",
+  "authors": "Zirong Li, Ruyi Ding, Tuo Liu ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Ergenlerde oyun bağımlılığını bireysel, aile ve okul düzeyindeki faktörlerden makine öğrenmesiyle öngörmek. Yöntem: 21.239 Çinli ebeveyn-ergen çifti; Random Forest ve XGBoost sınıflandırma modelleri. Bulgular: Modellerin doğruluğu 0,80'in üzerinde bulunmuş. Risk faktörleri: yüksek dışsallaştırma ve dikkat sorunları, erkek cinsiyet, akran zorbalığı mağduriyeti, ebeveynden uzaklaşma, ebeveyn depresyonu ve başarı odaklı okul ortamı. Koruyucu faktörler: yüksek azim, iyi akademik başarı ve akademik öz-yeterlik. Sonuç: Makine öğrenmesi, bireysel, ailesel ve okul bağlamlarında hedefli önleme ve müdahale için önemli yordayıcıları saptamada değerli.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1017/s0033291726106497",
+  "journal": "psymed",
+  "title": "Clinical and functional connectivity changes following left cerebellar continuous theta burst stimulation in schizophrenia with persistent auditory verbal hallucinations: An exploratory open-label study",
+  "authors": "Yangpan Ou, Yingying Zhang, Yudan Ding ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Dirençli işitsel sözel varsanıları (p-AVH) olan şizofrenide sol serebellar sürekli theta burst uyarımının (cTBS) varsanıları azaltıp azaltmadığını ve fonksiyonel bağlantı (FC) değişikliklerinin düzelmeyi öngörüp öngörmediğini incelemek. Yöntem: Açık etiketli keşifsel çalışma; p-AVH'li 30 şizofreni hastası 14 gün sol serebellar cTBS almış, bağlantı tabanlı öngörü modellemesi (CPM) uygulanmış. Bulgular: cTBS, PSYRATS-AH ve PANSS P3 skorlarını anlamlı azaltmış, sözel, dikkat ve gecikmeli bellek performansını iyileştirmiş; FC değişiklikleri PSYRATS-AH azalma oranını öngörmüş (r=−0,269, p=0,047), esas olarak serebellar-prefrontal, -temporal ve -subkortikal devrelerde. Sonuç: Sol serebellar cTBS varsanıları ve bilişi iyileştirebilir; serebellum tedaviye dirençli varsanılar için umut verici bir hedef (kontrolsüz, keşifsel çalışma).",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1038/s41380-026-03951-3",
+  "journal": "molpsy",
+  "title": "GluD1 modulates GluN2B-containing NMDAR function and plasticity at subicular synapses",
+  "authors": "Eric Purisic, Darielle Lewis-Sanders, Marian Zhong ve ark.",
+  "online": "2026-11-06",
+  "ozet": "GluD1'in subikuler sinapslarda GluN2B içeren NMDA reseptör işlevi ve plastisiteyi modüle ettiğini bildiren moleküler/hayvan çalışması (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122711",
+  "journal": "jad",
+  "title": "Sleep complaints in alexithymia reflect non-specific negative affectivity",
+  "authors": "Pardis Adibi, Péter Przemyslaw Ujma",
+  "online": "2026-11-06",
+  "ozet": "Aleksitimide uyku yakınmalarının özgül olmayan olumsuz duygulanımı yansıttığını bildiren bir çalışma (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122710",
+  "journal": "jad",
+  "title": "MDMA-assisted therapy for social anxiety disorder: A randomized, open-label, wait-list controlled trial",
+  "authors": "Jason B. Luoma, M. Kati Lear, Brian Pilecki ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Sosyal anksiyete bozukluğunda MDMA destekli tedaviyi inceleyen randomize, açık etiketli, bekleme listesi kontrollü bir çalışma (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122713",
+  "journal": "jad",
+  "title": "Differential cross-sectional and longitudinal associations of loneliness and social isolation with suicidal outcomes",
+  "authors": "Mayssam Shahine, Aiste Lengvenyte, Emilie Olié ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Yalnızlık ve sosyal izolasyonun intihar sonuçlarıyla kesitsel ve boylamsal ilişkilerinin farklılıklarını inceleyen bir çalışma (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1155/da/1506367",
+  "journal": "da",
+  "title": "Social Anxiety Modulates Default Mode Network Dysfunction and Working Memory Impairment During Social Media‐Like Cue Distraction",
+  "authors": "Yuan Hu, Zijie Wei, Lei Xu ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Sosyal medya benzeri uyaranların dikkat dağıtıcı etkisinin çalışma belleği (ÇB) ve beyin işleyişi üzerindeki mekanizmasını, sosyal kaygı düzeyinin rolüyle incelemek. Yöntem: fMRG çalışması; 94 sağlıklı yetişkin gruplar arası tasarımla 2-back ÇB görevini üç koşulda yapmış (sosyal medya benzeri dikkat dağıtma, sosyal olmayan dijital dikkat dağıtma, dikkat dağıtma yok). Bulgular: Sosyal medya benzeri uyaran ÇB'yi bozmuş ve posterior singulat korteks (PCC) aktivitesini değiştirmiş; bu koşulda PCC'deki beyin-davranış ilişkisi özellik sosyal kaygısıyla düzenlenmiş: yüksek sosyal kaygıda PCC aktivasyonu azaldıkça doğruluk azalmış, düşük sosyal kaygıda ise PCC aktivasyonu azalırken doğruluk artmış. Sonuç: Sosyal medya benzeri uyaranlar varsayılan mod ağının (PCC) işlevini özgül biçimde bozabiliyor ve bu yanıt bireyin sosyal kaygı düzeyine bağlı.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112465",
+  "journal": "clinph",
+  "title": "Does a significant group-by-time interaction establish an advantage for supplementary motor area stimulation?",
+  "authors": "Jin Yan, Yiting Han, Panqi Yan ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Gruplar arası-zaman etkileşiminin anlamlı olmasının supplementary motor area (SMA) uyarımının üstünlüğünü gösterip göstermediğini sorgulayan bir yazı (başlık temelli; editöre mektup/yorum olabilir). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002280",
+  "journal": "jcp",
+  "title": "Challenges of Recruiting Children and Adolescents Into a Randomized Controlled Risperidone Discontinuation Trial",
+  "authors": "Mariken Dinnissen, Barbara J. van den Hoofdakker, Andrea Dietrich ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Çocuk ve ergenlerde uzun süreli risperidon tedavisinin bırakılmasını inceleyen 4 merkezli bir RKÇ'ye katılımın önündeki engelleri belirlemek. Yöntem: Lider merkezde tüm tarama ve işe alım basamakları ile uygunsuzluk/katılmama nedenleri kaydedilmiş, örgütsel engeller dört merkezin deneyimiyle değerlendirilmiş. Bulgular: 1008 hasta ön taramadan geçmiş, %39,8'i hâlâ risperidon alıyor görünmüş; bunların %56,5'i dahil edilme ölçütlerini karşılamış. Uygun hastaların %60,1'ine çalışma anlatılmış, %10,8'i onam vermiş; yaklaşık %40'ı çalışmaya hiç davet edilmemiş. Katılmamanın %50'si hasta/ebeveyn kaynaklı (risperidona devam tercihi %36,6, hemen bırakma tercihi %9, pratik engeller %15,7, protokole itirazlar %12,7). Sonuç: Ana engeller klinisyenin kapı bekçiliği, tedavi tercihleri ve katılım yükü; araştırmanın klinik pratiğe entegrasyonunun güçlendirilmesi öneriliyor.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1016/j.inpsyc.2026.100314",
+  "journal": "ipg",
+  "title": "Sociodemographic and clinical factors associated with comorbid dementia in late-life difficult-to-treat depression: A cross-sectional study using electronic health records",
+  "authors": "Christoph Mueller, Vasiliki Orgeta, Armin von Gunten ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Geç yaşam tedaviye dirençli depresyonda eşlik eden demansla ilişkili sosyodemografik ve klinik faktörleri elektronik sağlık kayıtlarıyla inceleyen kesitsel bir çalışma (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/gps.70265",
+  "journal": "ijgp",
+  "title": "Systematic Review of Smart Home Assistive Technology Devices for Supporting People With Dementia Living in Their Homes",
+  "authors": "Oscar Han, Reagan Lee, Anne Lee ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Evinde yaşayan demanslı kişileri desteklemede akıllı ev yardımcı teknolojilerinin etkinliğine ilişkin kanıtı sistematik olarak derlemek. Yöntem: PRISMA-2020'ye uygun sistematik derleme (PROSPERO CRD420251051358), dört veri tabanı, kalite değerlendirmesi ve GRADE; üç ve üzeri benzer çalışma varsa meta-analiz. Bulgular: 3176 özet taranmış, 17 cihazı inceleyen 18 çalışma dahil edilmiş. Refakatçi robotlar, elektronik takvim, gece ev izleme sistemi ve People Power Caregiver sistemini destekleyen düzey-2 kanıt bulunmuş; meta-analiz bakım veren yükünü azaltmada kanıt göstermemiş (Hedges g=0,01; %95 GA −0,14 ile 0,17). Sonuç: Teknolojiler kabul edilebilir ve uygulanabilir, ancak etkinlik kanıtı sınırlı; rutin kullanımı için daha büyük klinik çalışmalar gerekli.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/alz.71892",
+  "journal": "alz",
+  "title": "Optimized amyloid‐β PET centiloid and cognitive cutoffs predict progression from mild cognitive impairment to Alzheimer's dementia",
+  "authors": "Rosita Shishegar, Vincent Doré, Pierrick Bourgeat ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Hafif bilişsel bozukluk (MCI) olan kişilerde 3 yıllık CDR-Global 0,5'ten 1,0'a ilerlemeyi öngören optimize amiloid-β PET ve MMSE eşiklerini belirlemek. Yöntem: AIBL (N=99) ve ADNI'den (N=355) 454 Aβ-pozitif (>25 Centiloid) MCI katılımcısı, 7 yıla kadar izlem; Youden indeksiyle eşikler, Cox ve doğrusal karma modeller. Bulgular: En uygun eşikler Aβ-PET >71 CL (HR=2,67; 3 yıllık risk %36,7) ve MMSE <27 (HR=2,27; %36,8). Yüksek Aβ/düşük MMSE grubunda 6,39 kat risk ve %47,8 3 yıllık ilerleme ile en dik gerileme görülmüş. Sonuç: İkili eşik yaklaşımı, yaygın tanısal eşiklerin ötesinde 3 yıllık risk sınıflaması sağlıyor.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/alz.71945",
+  "journal": "alz",
+  "title": "Investigation of the impact of educational attainment on dementia mortality: A Danish nationwide comparative cohort study",
+  "authors": "Janet Janbek, Thomas Munk Laursen, Sandra Feodor Nilsson ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Demanslı kişilerde eğitim düzeyinin mortaliteye etkisini doğum kohortu bakış açısıyla incelemek. Yöntem: Danimarka'da 2000–2022 arasında 65–100 yaş, kayıt tabanlı kohort çalışması (1.991.379 kişi); maruziyet demans, sonuç ölüm, ana tabakalama eğitim; mortalite hız oranları (MRR) ve kayıp yaşam yılları (LYL) hesaplanmış. Bulgular: MRR'ler demansta yüksek, uzun süreli eğitimde en yüksek ve yakın doğum kohortlarında daha yüksek bulunmuş. Demans, uzun süreli eğitim grubunda erkeklerde 5,01 ve kadınlarda 5,29 yıl, kısa süreli eğitimde her iki cinsiyette 3,99 yıl kayıpla ilişkili. En belirgin fazla ölüm demans ve sinir sistemi nedenlerinde. Sonuç: Demans yükü vurgulanıyor; eğitim, başlangıcı geciktirmek için bir hedef olabilir.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/alz.71954",
+  "journal": "alz",
+  "title": "Disease progression in probable limbic‐predominant age‐related TDP‐43 encephalopathy",
+  "authors": "Charlotte Moss, Lei Yu, Konstatinos Arfanakis ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Olası limbik-baskın yaşa bağlı TDP-43 ensefalopatisi (LATE) ve Alzheimer hastalığında (AH) bilişsel seyri bilişsel olarak normal (CN) kişilerle karşılaştırmak. Yöntem: ADNI'den 108 kişi, bilişsel durum, amiloid/tau biyobelirteçleri ve hipokampus hacmine göre AH, olası LATE veya CN olarak sınıflanmış; baz sonrası bilişsel izlem. Bulgular: Hem olası LATE hem AH, CN'den daha hızlı gerilemiş; gerileme AH'de genelde daha fazla. Yıllık değişim hızları olası LATE ve AH için sırasıyla ADAS-Cog'da 0,81 ve 2,08, CDR-SB'de 0,24 ve 0,36, Logical Memory II'de −0,50 ve −0,72, Trail Making B'de 5,83 ve 10,98. Sonuç: Bulgular olası LATE'in klinik tanımlanmasını destekliyor ve tanı stratejileri ile çalışma tasarımına katkı sağlayabilir.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/alz.71721",
+  "journal": "alz",
+  "title": "Push–pull hypothesis of Alzheimer's disease",
+  "authors": "Matthew Townsend",
+  "online": "2026-11-06",
+  "ozet": "Derleme/hipotez makalesi: Alzheimer hastalığı için 'itme-çekme' (push–pull) hipotezi öneriliyor. Amiloid-β, nöron ve mikrogliada endolizozom etkinliğini bozarak proteostazı çökertiyor, tau yıkımını azaltıp agregat tauun hücreden hücreye yayılmasını kolaylaştırıyor; nöronlar proteostazı koruyamayınca tau patolojisini hücre dışı aralığa 'itiyor'. 'Çekme' bileşeni ise amiloidin kortikal dağılımının, kendiliğinden kümelenen tauun inferior temporal loblardan yayılmasını kolaylaştırdığını öne sürüyor. Mikrogliada Aβ'ya bağlı endolizozomal bozukluk viral enfeksiyonu taklit edip kronik interferon tipi inflamatuvar yanıt doğuruyor. Çerçevenin AH tedavilerinin gelecekteki başarısına dair temel öngörüleri olduğu belirtiliyor.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/alz.71962",
+  "journal": "alz",
+  "title": "Highlighting TaRget Enablement to Accelerate Therapy Development for Alzheimer's Disease (TREAT‐AD) centers",
+  "authors": "Allan I. Levey, Alan D. Palkowitz",
+  "online": "2026-11-06",
+  "pmid": "42989719",
+  "ozet": "Alzheimer hastalığında tedavi geliştirmeyi hızlandırmak için hedef etkinleştirme merkezlerini (TREAT-AD) tanıtan bir yazı (başlık temelli). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/alz.71979",
+  "journal": "alz",
+  "title": "Coronary artery disease and cardiac pathology in cerebral small vessel disease and post‐stroke dementia: Implications for Alzheimer's disease",
+  "authors": "Yoshiki Hase, Tuomo Polvikoski, Dan Jobson ve ark.",
+  "online": "2026-11-06",
+  "ozet": "Amaç: Koroner/kardiyak patoloji, serebral küçük damar hastalığı (SVD), Alzheimer patolojisi ve vasküler bilişsel bozukluk-demans arasındaki ilişkiyi incelemek. Yöntem: Prospektif CogFAST kohortundan 75 inme hastasında klinikopatolojik çalışma; koroner arter, kalp ve beyin dokularında histopatolojik inceleme (inme sonrası demans PSD ve demanssız PSND grupları). Bulgular: Tüm olgularda gizli veya obstrüktif koroner arter hastalığı (en az bir ana damarda >%50 darlık) vardı; koroner darlık iç karotis darlığıyla pozitif ilişkiliydi, ancak SVD patolojisi veya nörodejeneratif bozukluklarla ilişkili değildi. Olguların yaklaşık %80'inde kardiyak patoloji, %62'sinde miyokard infarktı vardı; PSD grubunda kalp ağırlığı daha düşük, miyokard infarktı ve kardiyak atrofi daha fazlaydı. Sonuç: Koroner ve karotis arter hastalığı arasında ilişki var; kardiyak patolojinin demansla ilgisi önerilmektedir.",
+  "added": "2026-11-07"
+ },
+ {
+  "doi": "10.1002/alz.71978",
+  "journal": "alz",
+  "title": "Age‐linked biological context shapes adaptive immunity in Alzheimer's disease",
+  "authors": "Sophie Shirenova, Arya Biragyn, Eitan Okun",
+  "online": "2026-11-06",
+  "ozet": "Derleme: Alzheimer hastalığında (AH) edinsel bağışıklığın yaşa bağlı biyolojik bağlama göre koruyucu veya patojenik olabildiği, insan çalışmaları, genetik analizler, fare modelleri ve klinik çalışmalar sentezlenerek ele alınıyor. İnsan çalışmalarında beyin bölümlerinde T hücresi birikimi, periferik B hücresi yeniden yapılanması, endojen anti-amiloid beta antikorları ve sitokin düzensizliği; genetik çalışmalarda antijen sunumu, lenfosit düzenlenmesi, immünoglobulin sinyali ve immün kontrol noktalarının AH yatkınlığıyla ilişkisi bildiriliyor. Edinsel bağışıklığın sonuçlarının yaşa, hastalık evresine, cinsiyete, genetik bağlama ve tedavi türüne göre değiştiği, yaşın erken düzenleyici durumlardan geç uyumsuz inflamasyona kayma açısından başlıca belirleyici olduğu vurgulanıyor; evreye duyarlı immünomodülasyon için çerçeve sunuluyor.",
+  "added": "2026-11-07"
+ },
+ {
   "doi": "10.1016/j.jagp.2026.11.002",
   "journal": "ajgp",
   "title": "Recognizing and Managing Autism in Later Life: A Clinical Framework",
@@ -68,8 +658,9 @@
   "title": "Choosing between needs: neural circuits of feeding–social behavioural prioritisation in rodents",
   "authors": "Sylvie Granon, Virginie Rappeneau",
   "online": "2026-11-05",
-  "ozet": "Kemirgenlerde beslenme ve sosyal davranış arasındaki öncelik seçimini sağlayan nöral devreleri ele alan bir derleme. Başlıktan anlaşıldığı kadarıyla farklı ihtiyaçlar arasında karar vermede rol oynayan devreler gözden geçiriliyor. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-06"
+  "ozet": "Derleme (anlatısal): Kemirgenlerde beslenme ile sosyal etkileşim arasındaki davranışsal önceliklendirmenin sinirsel mekanizmaları ele alınıyor. Sosyal-yiyecek tercihi, çaba temelli seçim ve yaklaşma-kaçınma paradigmalarından bulgular ile hipotalamik, mezolimbik, amigdala ve prefrontal devrelerin, dopamin, oksitosin ve asetilkolin gibi nöromodülatör sistemlerin katkıları incelenmiş. Önceliklendirmenin sabit bir ihtiyaç hiyerarşisinden çok iç durum, çevresel talepler ve rekabet eden motivasyonel eğilimlerin dinamik etkileşiminden doğduğu, deneyimle sürekli güncellendiği belirtiliyor. Bu mekanizmaların bozulmasının bağımlılık, anksiyete ve sosyal işlev bozukluğunda uyumsuz önceliklendirmeye katkı sağlayabileceği değerlendiriliyor.",
+  "added": "2026-11-06",
+  "pmid": "42988343"
  },
  {
   "doi": "10.1016/j.neubiorev.2026.107079",
@@ -77,8 +668,9 @@
   "title": "Alcohol Use disorder – progress in mechanism discovery and new pharmacotherapy design",
   "authors": "Christian P. Müller, G. Yiğit Ünlü, Roberto Ciccocioppo ve ark.",
   "online": "2026-11-05",
-  "ozet": "Alkol kullanım bozukluğunda mekanizma keşfindeki ilerlemeleri ve yeni farmakoterapi tasarımını ele alan bir derleme. Başlıktan anlaşıldığı kadarıyla hastalığın nörobiyolojik mekanizmaları ve yeni ilaç geliştirme yaklaşımları tartışılıyor. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-06"
+  "ozet": "Derleme: Alkol kullanım bozukluğunun (AKB) nörobiyolojik mekanizmalarında ve yeni farmakoterapi tasarımında ilerlemeler ele alınıyor; yeterli ve yaygın etkili tedavi seçeneklerinin olmadığı vurgulanıyor. Aktin hücre iskeleti, nosiseptin/orfanin ve endokannabinoid sistemlerindeki alkol etkisi ve AKB mekanizmaları yeni ilaç geliştirme fikirleri doğuruyor. Tedavinin kişiselleştirilmiş ve bağımlılık evresine duyarlı uygulanması ile anlık ekolojik değerlendirme (EMA) gibi teknolojilerin yakın gerçek zamanlı belirti tanısı, tedavi atama ve izlemede kullanımı tartışılıyor. Yazarlar teknolojiyle desteklenmiş yeni nesil farmakoterapilerin önünü açan önemli ilerleme olduğunu belirtiyor.",
+  "added": "2026-11-06",
+  "pmid": "42988345"
  },
  {
   "doi": "10.1016/j.neubiorev.2026.107081",
@@ -86,8 +678,9 @@
   "title": "A transdiagnostic model of illness awareness and denial: Core components of the broader construct of insight into illness",
   "authors": "Philip Gerretsen, Jianmeng Song, Parita Shah ve ark.",
   "online": "2026-11-05",
-  "ozet": "Hastalık farkındalığı ve inkârı için transdiagnostik bir model öneren kuramsal/derleme yazısı. Başlıktan anlaşıldığı kadarıyla hastalığa içgörü kavramının daha geniş yapısının temel bileşenleri tanımlanıyor. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-06"
+  "ozet": "Derleme: Hastalık içgörüsünün öznel hastalık farkındalığı ve inkâr bileşenlerine odaklanan, tanılar arası nörobiyolojik bir model öneriliyor. Farkındalık ve inkârdaki dalgalanmaların, kendilik temsili ağları, hiyerarşik öngörücü işleme ve belirginlik-tehdit sistemleri arasındaki etkileşimden doğduğu öne sürülüyor: hastalıkla ilgili uyaranlar yeterli duyarlılık (precision) kazanırsa benlik inançlarını güncelleyen öngörü hataları üretiyor; kimlik açısından tehdit edici durumlarda ise duyarlılık benlikle ilgili önsellere kayıyor ve inkâr, görece sol lateralize benlik temsili durumlarıyla ortaya çıkabiliyor. Model, yarım küre etkinliği, tehditle ilgili duyarlılık ağırlıklandırması ve benliğe özgü inanç güncellemesi için yanlışlanabilir öngörüler ve olası tedavi hedefleri belirliyor.",
+  "added": "2026-11-06",
+  "pmid": "42988344"
  },
  {
   "doi": "10.1016/j.jad.2026.122688",
@@ -104,8 +697,9 @@
   "title": "Co-development of depressive and anxiety symptoms in adolescents with and without self-harm history",
   "authors": "Johanna E.M. Ruess, Ai Peng Tan, Yap Seng Chong ve ark.",
   "online": "2026-11-05",
-  "ozet": "Kendine zarar verme öyküsü olan ve olmayan ergenlerde depresif ve anksiyete belirtilerinin birlikte gelişimini inceleyen bir çalışma. Başlıktan anlaşıldığı kadarıyla belirti seyirleri iki grup arasında karşılaştırılıyor. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-06"
+  "ozet": "Amaç: Ergenlerde depresif ve anksiyete belirtilerinin birlikte gelişim yörüngelerinin kendine zarar ve intihar düşüncesi/davranışı (STB) ile ilişkisini incelemek. Yöntem: 9, 10 ve 13 yaşlarında öz bildirimle belirtileri değerlendirilen 542 ergen; 13 yaşta yaşam boyu kendine zarar/STB öyküsü geriye dönük sorgulanmış; paralel süreç gizli büyüme eğrisi modelleri. Bulgular: 13 yaşta yinelenen kendine zarar verenlerin %35'inde yüksek depresif ve anksiyete belirtileri birlikte görülürken öyküsü olmayanlarda bu oran %6'ydı. Çocukluktan ergenliğe belirti değişimleri ilişkiliydi; kendine zarar/STB öyküsü başlangıç düzeyinden çok daha pozitif belirti eğimiyle ilişkiliydi. Yalnızca depresif belirti yörüngesi tekrarlayan ve tekrarlamayan kendine zararı ayırt etti; bu bulgu kızlarda daha belirgindi. Sonuç: Belirti değişimleri kendine zarar öyküsüyle ilişkili bilgilendirici göstergeler olabilir.",
+  "added": "2026-11-06",
+  "pmid": "42987983"
  },
  {
   "doi": "10.1016/j.brs.2026.103252",
@@ -113,8 +707,9 @@
   "title": "The Non-Invasive Brain Stimulation Side Effect Scale (NIBS-SES): development of a brief, multilingual questionnaire for monitoring adverse effects in transcranial magnetic, electrical and ultrasound stimulation",
   "authors": "Benjamin Selaskowski, Celine Koelsch, Chris Baeken ve ark.",
   "online": "2026-11-05",
-  "ozet": "Girişimsel olmayan beyin stimülasyonu (TMS, elektriksel ve ultrason) için yan etkileri izlemeye yönelik kısa, çok dilli bir anket olan NIBS-SES'in geliştirilmesini bildiren bir çalışma. Ölçek, bu stimülasyon yöntemlerindeki advers etkilerin izlenmesi amacıyla tasarlandı. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-06"
+  "ozet": "Amaç: TMS, transkraniyal elektriksel (tES) ve ultrason (tUS) uyarımında yan etkileri izlemek için kısa, çok dilli bir ölçek geliştirmek. Yöntem: İlk sürüm, TMS alan 44 majör depresyon hastasında test edilmiş; 6.415 kişiyi kapsayan literatür taraması ve 12 uzmanla maddeler genişletilip 15 dile çevrilmiş. Bulgular: 851 seans boyunca bildirilen yan etkiler, şiddet titrasyonuna rağmen azalmış; önceki seanstaki görülme, mevcut seans bildirimlerinin en güçlü yordayıcısı olmuş (β=4,73; p<0,001), yalnızca tekrarlı seans düzeyi değerlendirmeyle saptanabilmiş. Seans sırası ve seanslar arası yan etkiler farklı süreklilik örüntüleri göstermiş. Sonuç: Modaliteler arası örtüşme birleşik bir araçı destekliyor; son hâli açık erişimli NIBS-SES 10 seans içi ve 9 seanslar arası madde içeriyor.",
+  "added": "2026-11-06",
+  "pmid": "42988110"
  },
  {
   "doi": "10.1016/j.clinph.2026.2112464",
@@ -140,8 +735,9 @@
   "title": "Global trends and inequalities in mental disorders among older adults, 1990–2021: Findings from global burden of disease study 2021",
   "authors": "Zuxing Wang, Yikai Dou, Fugui Jiang ve ark.",
   "online": "2026-11-05",
-  "ozet": "1990–2021 arasında yaşlı erişkinlerde ruhsal bozukluklara ilişkin küresel eğilimler ve eşitsizlikleri Global Burden of Disease 2021 verileriyle inceleyen bir çalışma. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-06"
+  "ozet": "Amaç: 1990–2021 arasında ≥65 yaş yetişkinlerde ruhsal bozuklukların küresel yükünü nicelendirmek. Yöntem: Global Burden of Disease 2021 verileriyle yaşa göre standardize prevalans, insidans ve DALY hızları; ortalama yıllık yüzde değişim (AAPC), eşitsizlik indeksleri, 2035'e Bayesçi yaş-dönem-kohort projeksiyonu, sınır (frontier) ve ayrıştırma analizleri. Bulgular: 2021'de yüz binde prevalans 14.425,87, insidans 6798,78 ve DALY 1998,27'dir. Yaşa göre standardize DALY hızı yılda ortalama %0,107 artmış; toplam DALY artışının çoğunu nüfus artışı açıklamış. Anksiyete ve depresif bozukluklar baskın katkıyı yapmış; DALY'ler düşük sosyodemografik indeksli ülkelerde orantısız yoğunlaşmış ve eşitsizlik artmış görünüyor. 2035'te küresel DALY hızının yüz binde 2132,10'a çıkması öngörülüyor. Sonuç: Artan yük ve süregelen eşitsizlikler yaşlanan nüfuslar için hizmet planlamasını gerektiriyor.",
+  "added": "2026-11-06",
+  "pmid": "42988681"
  },
  {
   "doi": "10.1002/alz.71964",
@@ -311,8 +907,9 @@
   "title": "Experience-based co-design of interventions to improve care quality and reduce detention under the Mental Health Act",
   "authors": "Roisin Mooney, Doreen Joseph, Rose Mccabe ve ark.",
   "online": "2026-11-04",
-  "ozet": "Ruh Sağlığı Yasası kapsamında bakım kalitesini artırmayı ve zorunlu alıkoymayı azaltmayı hedefleyen müdahalelerin deneyim temelli ortak tasarım (experience-based co-design) yöntemiyle geliştirilmesine ilişkin bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-05"
+  "ozet": "Amaç: İngiltere'de artan ve ırksallaştırılmış gruplarda orantısız olan zorunlu yatış ve tedavi (CAT) uygulamasında bakım kalitesini artıracak, ırksal eşitsizlikleri azaltacak uygulanabilir öneriler geliştirmek. Yöntem: Altı NHS Trust'ta 96 paydaşın (psikiyatristler, yöneticiler, hizmet kullanıcıları, bakım verenler, polis vb.) katıldığı deneyim temelli ortak tasarım çalıştayları ve ulusal bilgi paylaşım çalıştayı. Bulgular: Beş öneri: yerel hizmetler arasında önleyici bakım için daha iyi bağlantılar, iş gücü kapasitesinin artırılması, travma temelli yatan hasta bakımı standartlarının birlikte tasarlanması, yatış öncesi, sırası ve sonrasında konuşma terapisi sunulması ve taburculuk/toplum desteği planlarının kişiselleştirilmesi. Sonuç: Hastalar ve bakım verenler dahil paydaşlar, yatışı önleme ve bakım kalitesi ile güvenliğini artırma fırsatlarını vurguladı.",
+  "added": "2026-11-05",
+  "pmid": "42982550"
  },
  {
   "doi": "10.1111/acps.70152",
@@ -444,8 +1041,9 @@
   "title": "Changes in the profile of adults diagnosed as autistic since 2010: population-based studies in the UK and Sweden",
   "authors": "Aws Sadik, Michael Lundberg, Golam M Khandaker ve ark.",
   "online": "2026-11-04",
-  "ozet": "Birleşik Krallık ve İsveç'te nüfus temelli çalışmalara dayanarak 2010'dan bu yana otizm tanısı alan yetişkinlerin profilindeki değişimi inceleyen bir çalışma (BMJ Mental Health). (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-04"
+  "ozet": "Amaç: 2010'dan bu yana Birleşik Krallık ve İsveç'te yetişkin otizm tanılı kişilerin sosyodemografik ve nöropsikiyatrik profilinin değişip değişmediğini anlamak. Yöntem: Birleşik Krallık birinci basamak kayıtları (2010–2023) ve İsveç nüfus kayıt eşleştirmeleri (2010–2021); yaşa göre standardize yıllık insidans ve prevalans hesaplanmış. Bulgular: Birleşik Krallık'ta 141.119, İsveç'te 100.817 otizm tanılı yetişkin vardı; insidans İsveç'te hep daha yüksekti, Birleşik Krallık'ta 2020'den sonra hızla arttı. Artış 16–20 yaş grubunda ve kadınlarda en hızlıydı. Önceden epilepsi, psikoz ve zihinsel yetersizlik tanısı olanların oranı azalırken DEHB, anksiyete, depresyon ve diğer ruhsal hastalık tanılarının oranı arttı (örn. Birleşik Krallık'ta epilepsi öyküsü %10'dan %4'e geriledi). Sonuç: Yetişkin otizm tanısı alanların profili zamanla değişiyor.",
+  "added": "2026-11-04",
+  "pmid": "42977525"
  },
  {
   "doi": "10.1016/j.biopsych.2026.10.028",
@@ -729,8 +1327,9 @@
   "title": "Longer term impact of universal school-based mindfulness training compared with normal school provision on adolescent mental health and well-being, teacher mental health and school climate: results from the 2-year follow-up in the MYRIAD cluster randomised controlled trial",
   "authors": "Benjamin Jones, Susan Ball, Louise Aukland ve ark.",
   "online": "2026-11-02",
-  "ozet": "MYRIAD kümelenmiş RKÇ'sinin 2 yıllık takip sonuçlarını bildiren makale; okul temelli evrensel farkındalık (mindfulness) eğitiminin normal okul uygulamasına kıyasla ergen ruh sağlığı ve iyilik halini, öğretmen ruh sağlığını ve okul iklimini uzun vadede nasıl etkilediğini ele alıyor. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-03"
+  "ozet": "Amaç: MYRIAD küme RKÇ'sinde evrensel okul temelli farkındalık eğitiminin (SBMT) olağan sosyal-duygusal eğitime (TAU) kıyasla 2 yıllık etkisini ergen ruh sağlığı, öğretmen ruh sağlığı ve okul iklimi açısından incelemek (1. yılda üstünlük bulunmamıştı). Yöntem: 85 Birleşik Krallık okulu 1:1 randomize edilmiş (SBMT 42, TAU 43 okul); iki kohort ayrı analiz edilmiş, karma etkili regresyon kullanılmış. Bulgular: SBMT, depresyon riskini azaltmada (kohort 1 p=0,51; kohort 2 p=0,47) ve sosyal-duygusal-davranışsal işlevselliği iyileştirmede TAU'dan üstün değildi; yalnızca kohort 2 öğrencilerinin iyi oluşunu artırdı (WEMWBS ortalama fark 1,0; p=0,02). Kohort 1 öğretmenlerinde tükenmişlik, stres ve okul iklimi etkilenmedi. Sonuç: Evrensel SBMT'nin ergen ruh sağlığı üzerine uzun dönem üstünlüğü gösterilemedi.",
+  "added": "2026-11-03",
+  "pmid": "42971736"
  },
  {
   "doi": "10.1038/s41380-026-03945-1",
@@ -2271,8 +2870,9 @@
   "title": "A revised motor unit number estimate detects presymptomatic motor neuron loss in amyotrophic lateral sclerosis",
   "authors": "J. Bilgorai, G.F. Rafferty, A. Carobin ve ark.",
   "online": "2026-10-27",
-  "ozet": "Amyotrofik lateral sklerozda revize edilmiş motor ünite sayı tahmininin presemptomatik motor nöron kaybını saptadığını bildiren bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-10-27"
+  "ozet": "Amaç: Amiyotrofik lateral sklerozda (ALS) motor ünite (MÜ) kaybını saptamak için uyarımsız, gözden geçirilmiş motor ünite sayısı tahmininin (REMUNE) uygulanabilirliğini ve duyarlılığını değerlendirmek. Yöntem: 18 ALS hastası ve 12 sağlıklı kontrol, bir yıl içinde altıya kadar değerlendirme; el ve alt bacak kaslarından yüksek yoğunluklu yüzey EMG, on kuvvet düzeyi, kör kaynak ayrıştırma. Bulgular: REMUNE, ALS'de kontrollere göre daha düşüktü (24,9 vs. 52,1; p=0,006; −%52); yalnızca güçlü ALS kaslarında da fark sürdü (26,0 vs. 56,1; p=0,027). ALS içinde zayıf kaslarda REMUNE güçlülere göre düşüktü (15,5 vs. 26,0; p=0,003). Yaşa bağlı düşüş −0,85 birim/yıl; ALS kaslarında zamanla değişmedi (p=0,997). Sonuç: REMUNE presemptomatik MÜ kaybına duyarlı ve erken tanı yardımcısı ile çalışma tabakalama aracı olabilir.",
+  "added": "2026-10-27",
+  "pmid": "42987653"
  },
  {
   "doi": "10.1016/j.clinph.2026.2112449",
