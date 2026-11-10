@@ -1,5 +1,305 @@
 [
  {
+  "doi": "10.1016/j.biopsych.2026.11.002",
+  "journal": "bp",
+  "title": "The Use of Large Language Models in Literature Reviews of Biological Psychiatry Research: Promises and Pitfalls",
+  "authors": "Elvisha Dhamala, David Goldman, Tiffany C. Ho ve ark.",
+  "online": "2026-11-10",
+  "ozet": "Bu yazı, biyolojik psikiyatri araştırmalarında literatür taramalarında büyük dil modellerinin (LLM) kullanımının vaat ve tuzaklarını ele alan bir görüş/değerlendirme yazısıdır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1192/bja.2026.10264",
+  "journal": "bja",
+  "title": "Prophylactic pills for antipsychotic-induced weight gain: critical appraisal",
+  "authors": "Davide Pedicillo, Victoria Tatiana Kronsten",
+  "online": "2026-11-09",
+  "ozet": "Bu yazı, şizofreni spektrumu bozukluklarında antipsikotiğe bağlı kilo artışını önlemeye yönelik profilaktik farmakolojik müdahaleleri inceleyen bir Cochrane derlemesinin eleştirel değerlendirmesidir. Derleme metodolojik olarak sağlam bulunmuş, ancak temel kanıt tabanında ciddi sınırlılıklar vurgulanmıştır: kategorik veri eksikliği nedeniyle sürekli ortalamalara başvurulmuş, çalışma süreleri kısa, dahil etme ölçütleri kısıtlayıcı, allokasyon gizliliği belirsiz ve örneklemler küçüktür. Şu an kilo artışını belirgin biçimde azaltan tek ajan metformindir; uzun dönem kardiyometabolik yararı ise belirsizdir. Yazar, rutin profilaktik polifarmasinin önerilemeyeceğini, uzun süreli ve kategorik sonlanımlı çalışmaların gerektiğini belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10862",
+  "journal": "bjp",
+  "title": "Global burden of depressive disorders attributable to childhood sexual abuse and bullying victimisation in adolescents and young adults from 1990 to 2021, with years lived with disability projections to 2050: Global Burden of Disease study analysis",
+  "authors": "Xinyue Dong, Tian Tian, Tongrui Lv ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Amaç, ergen ve genç erişkinlerde depresif bozukluk yükünün çocukluk çağı cinsel istismarı (ÇCİ) ve akran zorbalığı mağduriyetine atfedilebilen kısmını, zaman trendlerini ve 2050 projeksiyonlarını belirlemektir. Global Burden of Disease 2021 verileriyle 204 ülkede yaşanan sakatlıkla geçen yıllar (YLD) hesaplanmış, joinpoint regresyon ve Bayesyen yaş-dönem-kohort modellemesi kullanılmıştır. 2021'de yükün %73,31'i zorbalığa (ASYR 87,83/100.000), %11,81'i ÇCİ'ye (14,15/100.000) atfedilmiştir; her ikisi de 1990'dan beri artmış, zorbalık özellikle yüksek sosyodemografik indeksli bölgelerde daha hızlı artmıştır. ÇCİ ilişkili yük kadınlarda belirgin yüksektir (1,78:1); yük 20–24 yaşta zirve yapar. Projeksiyonlara göre ÇCİ ilişkili yük 2050'ye dek artacak, zorbalık ilişkili yük ise azalabilir. Yazarlar cinsiyete, yaşa ve bölgeye duyarlı müdahaleleri önermektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10871",
+  "journal": "bjp",
+  "title": "ADHD: radical approach is needed for a truthful outcome",
+  "authors": "Kinga Szymaniak, Erica Bell, Gurubhaskar Shivakumar ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43000891",
+  "ozet": "Bu bir görüş/editoryal yazısıdır; başlığına göre DEHB tanı ve değerlendirmesinde gerçeğe uygun sonuçlar için radikal bir yaklaşımın gerekliliğini savunmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10865",
+  "journal": "bjp",
+  "title": "Intimate partner violence and its association with mental disorders among women in the general population, pregnant women and postpartum women: systematic review and meta-analysis",
+  "authors": "Zeyu Luo, Jiali Zhou, Shiyi Shan ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Amaç, kadınlarda genel popülasyonda, gebelikte ve postpartum dönemde partner şiddeti (IPV) ile ruhsal bozukluklar arasındaki ilişkiyi nicelleştirmektir. Altı veri tabanı 13 Haziran 2024'e dek taranmış, rastgele etkili meta-analiz yapılmıştır; 82 çalışma ve 140.286 katılımcı dahil edilmiştir. Genel popülasyonda yaşam boyu IPV depresyonla (OR 2,26), son bir yıllık IPV depresyon (OR 2,36) ve anksiyete (OR 2,85) ile ilişkilidir. Gebelikte IPV depresyon (OR 3,59) ve anksiyete (OR 3,27) ile, postpartumda yaşam boyu IPV depresyonla (OR 2,09) ilişkili bulunmuştur; kanıt kesinliği çoğunlukla düşük–çok düşüktür. Yazarlar IPV'nin depresyon, anksiyete ve yeme bozukluklarıyla ilişkili olduğunu, kök nedenlerin ele alınması ve ruh sağlığı hizmetlerine erişimin artırılması gerektiğini belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10876",
+  "journal": "bjp",
+  "title": "Should distress and impairment be required for psychiatric diagnosis?",
+  "authors": "Christiaan H. Vinkers, Derek W. Strijbos, Gerben Meynen",
+  "online": "2026-11-09",
+  "ozet": "Bu kavramsal/görüş yazısında DSM tarzı tanı ölçütlerinin sıklıkla gerektirdiği sıkıntı (distress) ve işlevsellik bozulmasının tanı için evrensel koşul olup olmaması tartışılmaktadır. Yazarlar dört soruyu ayırır: bir durumun neden psikiyatrik sınıflamaya ait olduğu, bireyin ölçütleri karşılayıp karşılamadığı, bunun kişi için ne kadar önemli olduğu ve nasıl bir yanıt gerektiği. Sonuç olarak sıkıntı ve bozulmanın bireysel tanı için evrensel gereklilik olmaması gerektiği savunulmaktadır.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10864",
+  "journal": "bjp",
+  "title": "Psychological and psychosocial interventions for the treatment of antenatal maternal depression: systematic review and network meta-analysis",
+  "authors": "Bianca Della Rocca, Edoardo Caporusso, Antonio Melillo ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Amaç, klinik olarak tanı almış antenatal depresyonda non-farmakolojik müdahalelerin etkinlik ve kabul edilebilirliğini karşılaştırıp sıralamaktır. DSM/ICD ölçütleriyle depresyon tanılı gebelerde RKÇ'lerin ağ meta-analizi yapılmış (Eylül 2025'e dek tarama); müdahaleler olağan bakım (TAU) ile karşılaştırılmıştır. On çalışma ve 1853 katılımcı dahil edilmiştir. BDT, TAU'ya göre depresif semptomlarda en büyük ve tutarlı azalmayı göstermiş (SMD −0,83; %95 GA −1,38 ile −0,28) ve diğer aktif müdahalelerden üstün bulunmuştur; diğerlerinin etkisi daha küçük ve belirsizdir, kabul edilebilirlik (dropout) açısından belirgin fark yoktur. Kanıt kesinliği çok düşüktür. Yazarlar BDT'nin en etkili ve kabul edilebilir yöntem olduğunu, kılavuzları desteklediğini ve daha kaliteli çalışmalara ihtiyaç olduğunu belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10875",
+  "journal": "bjp",
+  "title": "The emergency department as a critical window for ADHD recognition in female adolescents",
+  "authors": "Thomas Ria, Adriana D’Andrea, Franco Bin ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43000890",
+  "ozet": "Bu bir görüş/editoryal yazısıdır; başlığına göre acil servisin, kız ergenlerde DEHB'nin fark edilmesi için kritik bir fırsat penceresi olduğunu ele almaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1017/s0033291726106291",
+  "journal": "psymed",
+  "title": "Prolonged exposure, eye movement desensitization and reprocessing therapy, and cognitive restructuring versus waiting-list for individuals with PTSD and psychosis (RE.PROCESS): A multicenter, four-arm, assessor-masked, superiority randomized controlled trial",
+  "authors": "Simone R. Burger, Inez Verdaasdonk, Catherine van Zelst ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Amaç, psikozlu bireylerde TSSB için Uzun Süreli Maruz Bırakma (PE), EMDR ve bilişsel yeniden yapılandırmanın (CR) bekleme listesine (WL) üstünlüğünü test etmektir. Şizofreni spektrumu bozukluğu ve TSSB olan 162 katılımcı, çok merkezli, değerlendiricinin kör olduğu dört kollu RKÇ'de 1:1:1:1 randomize edilmiştir (en fazla 16 seans; 6 ay takip); birincil sonlanım CAPS-5'tir. Altıncı ayda WL'ye göre fark PE'de −9,76 (d = −0,90), EMDR'de −11,74 (d = −1,04), CR'de −12,72 (d = −1,00) olup üç müdahale de TSSB şiddetini anlamlı azaltmıştır; psikoz belirtilerinde anlamlı etki saptanmamıştır. Yazarlar büyük etkileri ve travma terapilerine erişimin genişletilmesi gerektiğini, ancak daha büyük örneklemlerde replikasyon gerektiğini belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1017/s0033291726106576",
+  "journal": "psymed",
+  "title": "Monoaminergic signatures of treatment-response heterogeneity in schizophrenia: a neuromelanin MRI study",
+  "authors": "Fumihiko Ueno, Shiori Honda, Shinichiro Nakajima ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Amaç, nöromelanin duyarlı MRG (NM-MRI) ile şizofrenide tedavi yanıtı heterojenitesini, özellikle klozapin yanıtsızlığını incelemektir. Kesitsel çalışmada ultra-dirençli şizofreni (URS; n = 16), klozapine yanıtlı tedaviye dirençli (n = 16), birinci basamak antipsikotik yanıtlılar (FLR; n = 20) ve sağlıklı kontroller (n = 26) karşılaştırılmıştır. SN–VTA kontrast oranı hem URS'de (d = 1,01) hem FLR'de (d = 0,94) kontrollerden yüksektir (dorsal SN–VTA); locus coeruleus (LC) oranı URS'de FLR'ye göre yüksektir (d = 0,99), URS kontrollerden farklı değildir. NM-MRI sinyalleri semptom şiddeti ve bilişsel ölçümlerle ilişkili bulunmamıştır. Yazarlar dopaminerjik çekirdeklerdeki yüksek sinyalin hem yanıtlı hem klozapin dirençli şizofreniyi, ek noradrenerjik katılımın ise ağır direnci yansıtabileceğini belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1017/s0033291726105984",
+  "journal": "psymed",
+  "title": "Sodium-glucose cotransporter 2 inhibitors and risk of self-harm in patients with type 2 diabetes mellitus: an active comparator, new user cohort study in two independent cohorts",
+  "authors": "Yuhao Li, Huatang Zeng, Liqun Wu ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Amaç, tip 2 diyabetli (T2DM) hastalarda SGLT-2 inhibitörü kullanımının kendine zarar verme riskiyle ilişkisini değerlendirmektir. Shenzhen Public Health Data Platform'da hedef çalışma emülasyonuyla iki aktif karşılaştırıcılı yeni kullanıcı kohortu (SGLT-2i-DPP-4i ve SGLT-2i-GLP-1RA) oluşturulmuş, örtüşme ağırlıklı Cox regresyonu kullanılmıştır. SGLT-2i, DPP-4i'ye göre daha düşük kendine zarar verme riskiyle ilişkiliydi (HR 0,86; %95 GA 0,76–0,98; 85.789 ve 53.810 kullanıcı, ortanca takip 1,85 yıl); GLP-1RA'ya göre de düşüktü (HR 0,76; 0,59–0,99), ancak bazı duyarlılık analizlerinde GLP-1RA ile fark anlamlı değildi. Yazarlar SGLT-2i'nin güvenliğine destekleyici kanıt sunduğunu belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1017/s0033291726106138",
+  "journal": "psymed",
+  "title": "Altered effective connectivity during cognitive distancing in cognitive behavioral therapy nonresponders with depression",
+  "authors": "Sabrina Golde, Gregory Gutmann, Ryszard Auksztulewicz ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Amaç, MDB'li erişkinlerde BDT öncesi bilişsel uzaklaşma (distancing) sırasındaki etkin bağlantısallığın BDT yanıtıyla ilişkisini incelemektir. SPeED çalışmasından 77 MDB ayaktan hastası, 25 BDT seansı öncesi fMRG ile görüntülenmiş; dinamik nedensel modelleme ve parametrik empirik Bayes kullanılmıştır. Yanıtlılar (n = 39) dorsomedial–ventrolateral prefrontal kaskadında daha fazla modülasyon göstermiş; yanıtsızlarda amigdala–ventrolateral prefrontal bağlantısında artmış modülasyon ve negatif görüntülerde DLPFC öz-inhibisyonunda azalma görülmüştür. Bu bulgular çapraz doğrulamada yanıtı öngörmüş (r = 0,21–0,31), ancak başlangıç klinik ölçümlere göre ek öngörü değeri sınırlı kalmıştır. Yazarlar, prospektif replikasyon halinde çok modlu öngörü modellerine katkı sağlayabileceğini belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1017/s0033291726106369",
+  "journal": "psymed",
+  "title": "The uneven landscape of cognitive domains in 22q11.2 deletion syndrome: A large consortium study – CORRIGENDUM",
+  "authors": "Ania M. Fiksinski, Rielle Wierenga, Donna McDonald-McGinn ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43001798",
+  "ozet": "Bu, 22q11.2 delesyon sendromunda bilişsel alanların dağılımını inceleyen büyük bir konsorsiyum çalışmasına ait bir düzeltme (corrigendum) notudur. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122718",
+  "journal": "jad",
+  "title": "Temporal distribution of suicide within a day among children and adolescents in Japan, 1995–2023",
+  "authors": "Yoshikazu Komura, Naoki Kondo, Hajime Sueki ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43000072",
+  "ozet": "Amaç, çocuk ve ergenlerde intihar ölümlerinin gün içi zamansal dağılımını tanımlamaktır. Japonya'da 1995–2023 ölüm kayıtları kullanılarak ulusal betimleyici epidemiyolojik çalışma yapılmış; dairesel veri için kernel yoğunluk tahmini kullanılmıştır. Zamanı bilinen 9453 intihar ölümünde çift tepeli dağılım saptanmış: ana tepe 18:00–19:00, ikincil tepe 01:00–02:00. Bu örüntü daha yüksek sınıftaki erkeklerde belirgindi; akşam tepesi hafta içi, aylar ve yıllar boyunca tutarlı, hafta sonları ise daha düzdü. Yazarlar bulguların zamanlanmış destek ve önleme çabalarına yol gösterebileceğini belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122698",
+  "journal": "jad",
+  "title": "Brain structural features of treatment resistant depression in a large Italian sample: A multimodal imaging study",
+  "authors": "Marco Paolini, Mario Crespi, Beatrice Bravi ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43000068",
+  "ozet": "Amaç, tedaviye dirençli depresyonda (TRD) gri ve beyaz madde değişikliklerini tedaviye duyarlı depresyon (TSD) ve sağlıklı kontrollerle (SK) karşılaştırmaktır. MDB'li 294 kişi (193 TRD, 101 TSD) ve 72 SK'nın MRG verileri ANOVA ve post-hoc t testleriyle analiz edilmiştir. TRD'de TSD'ye göre striatal, temporal ve medial orbitofrontal gri madde hacmi azalmış; SK'ya göre TSD'de yalnızca anterior singulatta sınırlı, TRD'de frontal, temporal, parietal ve limbik alanlarda yaygın azalma görülmüştür. TRD'de hem TSD hem SK'ya göre yaygın FA azalması ile AD, RD ve MD artışı saptanmış, TSD ile SK arasında fark yoktur. Yazarlar TRD'nin ayrı bir nörobiyolojik profile sahip olduğunu belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122717",
+  "journal": "jad",
+  "title": "A systematic review of group-based trajectory modeling studies on depressive symptoms in middle-aged and older adults: A life course and health ecology integrated perspective",
+  "authors": "Yingying Chen, Xiuli Yan, Jiali Bai ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43000071",
+  "ozet": "Bu sistematik derleme, orta yaş ve yaşlılarda depresif semptom gidişlerini grup temelli trajektori modellemesi çalışmaları üzerinden incelemiş, belirleyicileri yaşam boyu sağlık ekolojisi modeliyle ele almıştır. Sekiz veri tabanı taranmış, 78 çalışma dahil edilmiş (NOS ile kalite değerlendirmesi; anlatımsal sentez). Dört örüntü bulunmuştur: sabit düşük (%61), yavaş kötüleşen (%21), düzelen (%8) ve kalıcı yüksek (%10). Belirleyiciler arasında olumsuz çocukluk çağı deneyimleri, kişisel özellikler, yaşam tarzı, kişilerarası ağlar, yaşam–çalışma koşulları, politika ortamı ve stresli yaşam olayları yer alır; kalıcı yüksek örüntü bilişsel gerileme ve artmış tüm nedenlere bağlı mortalite gibi olumsuz sonuçlarla ilişkilidir. Yazarlar erken tanımayı ve yaşam boyu, çok düzeyli müdahaleleri önermektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122716",
+  "journal": "jad",
+  "title": "E-Emotio. Effects of immersive virtual reality training on emotion regulation, executive functioning and internalizing symptoms in adolescents: A pilot randomized controlled trial",
+  "authors": "Aikaterini Ampatzoglou, Anna Carballo-Márquez, Juliana Rojas-Rincón ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43000075",
+  "ozet": "Amaç, oyunlaştırılmış sürükleyici sanal gerçeklik (IVR) eğitiminin (Enhance IVR) duygu düzenleme, içselleştirme semptomları ve yürütücü işlevlere etkisini, aktif kontrol IVR gevşeme programıyla (Nature Treks VR) karşılaştırmaktır. Tek kör pilot RKÇ'de Barselona'daki altı okuldan 10–16 yaşında 165 ergen 10 seanslık programlara randomize edilmiştir. Duyguları bastırma açısından Zaman × Grup etkileşimi ANOVA'da (p = 0,018; Holm-düzeltmeli p = 0,072) ve karma modelde (p = 0,012; Holm p = 0,048) nominal anlamlıydı; ruminasyon, içselleştirme ve yürütücü işlevler her iki grupta da düzelmiş, yeniden değerlendirme değişmemiştir. Her iki program uygulanabilirdi. Yazarlar bastırmada ön bir sinyal olduğunu, analiz yaklaşımına duyarlı olduğunu ve daha büyük çalışmalar gerektiğini belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122720",
+  "journal": "jad",
+  "title": "Clocks In Sync: A mixed methods pilot feasibility trial of blue-light blocking therapy and time-restricted eating, alone or in combination for mania in bipolar disorder",
+  "authors": "Jess G. Fiedorowicz, Eric Mikhail, Jessica Ward-King ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43000070",
+  "ozet": "Amaç, bipolar bozuklukta maninin tedavisinde mavi ışık engelleyici gözlük (BBG) ve zaman kısıtlı beslenmenin (TRE) uygulanabilirliğini değerlendirmektir. DSM-5 maniası ve YMRS ≥ 20 olan yatan hastalarda karma yöntemli, üç kollu pilot RKÇ (BBG, TRE veya ikisi) yapılmış; uyum ve nitel görüşmelerle uygulanabilirlik, ikincil olarak YMRS değişimi izlenmiştir. Onam veren 21 katılımcının %80'i (16/20) büyük ölçüde uyumluydu ve gruplar arası fark yoktu; nitel veriler hasta ilgisine ve daha kısa/esnek zamanlama isteğine işaret etmiştir. YMRS'de BBG içeren gruplarda daha fazla düzelme gözlenmiştir. Yazarlar yüksek akuiteli yatan ortamda bile bu sirkadiyen müdahalelere uyumun mümkün olduğunu belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122697",
+  "journal": "jad",
+  "title": "Heterogeneous perceived stress profiles and static-dynamic symptom networks of PTSD, anxiety, depression, and insomnia in firefighters: An integrated latent profile and network analysis",
+  "authors": "Bin Liu, Mingxuan Zou, Lei Ren ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43000074",
+  "ozet": "Amaç, itfaiyecilerde algılanan stres profillerini ve profile özgü TSSB, anksiyete, depresyon ve uykusuzluk belirti ağlarını incelemektir. 8428 Çinli itfaiyeci dokuz ay arayla iki kez değerlendirilmiş; latent profil analizi, düzenlileştirilmiş kısmi korelasyon ağları ve çapraz gecikmeli panel ağları kullanılmıştır. Üç profil bulunmuştur: görevle ilgili düşünme (%55,59), tutarlı stres algısı (%23,92) ve dengesiz stres algısı (%20,49); dengesiz profilde algılanan stres en yüksek, tutarlı profilde psikopatolojik yük en yüksektir. Kesitsel ağlarda uyku bozukluğu, uyarılmışlık ve başarısızlık hissi; boylamsal ağlarda uyarılmışlık, istenmeyen anılar ve olumsuz bilişler öne çıkmış, düşük uyku memnuniyeti tüm profillerde en yüksek giriş etkisini göstermiştir. Yazarlar bulguların kişi merkezli risk sınıflaması için değerli olabileceğini, müdahale çıkarımlarının doğrulanması gerektiğini belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122726",
+  "journal": "jad",
+  "title": "The role of emotion dysregulation and trait aggression in suicide ideation and attempts: A cross-sectional mediation analysis in a sample of undergraduate students",
+  "authors": "Marshall Scott Tate, Halla Hafermann, Michael McCloskey",
+  "online": "2026-11-09",
+  "ozet": "Bu çalışma lisans öğrencilerinde duygu düzenleme güçlüğü ve özellik saldırganlığının intihar düşüncesi ve girişimleriyle ilişkisini, kesitsel bir aracılık analiziyle incelemektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122723",
+  "journal": "jad",
+  "title": "Brief interpersonal therapy reduces anxiety during pregnancy: A randomized clinical trial.",
+  "authors": "Catherine H. Demers, Sarah G. Curci, Ella-Marie P. Hennessey ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Bu randomize klinik çalışma, kısa kişilerarası terapinin gebelik sırasındaki anksiyeteyi azalttığını bildirmektedir (başlıktan). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122714",
+  "journal": "jad",
+  "title": "Disentangling semaglutide's effects on motivation in major depressive disorder: A mediation analysis",
+  "authors": "Hartej Gill, Sebastian Badulescu, Hiya Shah ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43000069",
+  "ozet": "Amaç, MDB'de semaglutidin çaba temelli karar vermedeki etkisinin metabolik değişimle istatistiksel olarak aracılanıp aracılanmadığını araştırmaktır. Fazla kilolu/obez 72 MDB hastasında 16 haftalık, çift kör, plasebo kontrollü adjuvan oral semaglutid çalışmasının keşfedici, post-hoc ikincil analizi yapılmıştır; çaba iskontosu (k) EEfRT ile ölçülmüş, VKİ, yağ yüzdesi, HbA1c ve HOMA-IR aracılıkları test edilmiştir. Semaglutid çaba iskontosunu anlamlı azaltmış (GEE β = −1,78; p = 0,025); metabolik değişim bu etkiyi zayıflatmamış, depresif belirti ve bilişsel değişim de açıklamamıştır. Yazarlar bulguların kilodan bağımsız bir etkiyle uyumlu olduğunu, ancak merkezi mekanizmayı kanıtlamadığını; post-hoc tasarım, küçük örneklem, çoklu karşılaştırma düzeltmesi yapılmaması ve fonksiyonel körlüğün sınırlılıklar olduğunu belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122721",
+  "journal": "jad",
+  "title": "Examining the associations between commonly prescribed medications and depressive disorders in very old adults- an exploratory study",
+  "authors": "Laura CORNELIUSSON, Anton MOLEN, Nils VIKLUND ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Bu keşfedici çalışma, çok yaşlı erişkinlerde yaygın reçete edilen ilaçlar ile depresif bozukluklar arasındaki ilişkileri incelemektedir (başlıktan). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103249",
+  "journal": "brs",
+  "title": "Letter to the Editor: Cannabis Use and Clinical Outcomes of rTMS among adults with Major Depressive Disorder: Insights from a Naturalistic Clinical Cohort",
+  "authors": "S.K. Segal, C.L. Weber, M.A.B. Chowdhury ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Bu bir editöre mektuptur; majör depresif bozukluğu olan erişkinlerde kannabis kullanımı ile rTMS klinik sonuçları arasındaki ilişkiyi doğal seyirli klinik bir kohort üzerinden ele almaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103253",
+  "journal": "brs",
+  "title": "No effects of single-session concurrent tDCS on explicit motor sequence learning in healthy adults with conventional 2 mA and tangential 6 mA currents",
+  "authors": "Zhenous Hadi Jafari, Gavin Hsu, Andrew Birnbaum ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Bu çalışma, sağlıklı erişkinlerde eş zamanlı tek seanslık tDCS'nin (geleneksel 2 mA ve teğetsel 6 mA) açık motor dizi öğrenmesi üzerinde etkisi olmadığını bildirmektedir (başlıktan). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.11.001",
+  "journal": "neuromod",
+  "title": "Twelve-Month Outcomes after Percutaneous 60-Day Peripheral Nerve Stimulation for Persistent Pain Following Total Knee Arthroplasty",
+  "authors": "David M. Dickerson, Johnathan H. Goree, Stuart A. Grant ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Bu çalışma, total diz artroplastisi sonrası kalıcı ağrıda perkütan 60 günlük periferik sinir stimülasyonunun 12 aylık sonuçlarını bildirmektedir (başlıktan). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1016/j.clinph.2026.2112466",
+  "journal": "clinph",
+  "title": "Repeatability and variability of muscle excitability testing in critically ill adult patients",
+  "authors": "Matthias Thomas Exl, Yvette Hedström, Lars Larsson ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Bu çalışma, kritik hasta erişkinlerde kas uyarılabilirliği testinin tekrarlanabilirliğini ve değişkenliğini incelemektedir (başlıktan). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002275",
+  "journal": "jcp",
+  "title": "Reply to “Caution Needed Regarding Conclusions of Meta-Analysis of Coenzyme Q10 as Treatment for Depressive Symptoms”",
+  "authors": "Pedro Lucas Machado Magalhães, Anderson Matheus Pereira da Silva, Mariana Letícia de Bastos Maximiano ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43000610",
+  "ozet": "Bu, koenzim Q10'un depresif semptomlarda tedavi olarak kullanımına dair bir meta-analizin sonuçlarına ilişkin çekince belirten bir yazıya verilen yanıttır (editöryal/yazışma). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002279",
+  "journal": "jcp",
+  "title": "Efficacy and Safety of Brexpiprazole in Japanese Patients With Schizophrenia and Comorbid Social Anxiety Symptoms",
+  "authors": "Takahiro Nemoto, Kenichi Goto, Yu Arai ve ark.",
+  "online": "2026-11-09",
+  "pmid": "43000604",
+  "ozet": "Bu çalışma, şizofreni ve eşlik eden sosyal anksiyete semptomları olan Japon hastalarda brexpiprazolün etkinlik ve güvenliğini değerlendirmektedir (başlıktan). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1002/alz.71977",
+  "journal": "alz",
+  "title": "Phenotypic and genetically predicted sleep traits in relation to dementia incidence in Swedish twins",
+  "authors": "Manasa Shanta Näsholm, Heming Wang, Shireen Sindi ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Amaç, uyku özelliklerinin fenotipik ve genetik olarak öngörülen düzeylerinin demans riskiyle ilişkisini incelemektir. İsveç İkiz Kayıtçısı'ndaki Screening Across the Lifespan Twin verileri kullanılmış, demans tanıları ulusal kayıtlardan alınmış, ilk 10 yıldaki olgular dışlanarak Cox modelleri uygulanmıştır. Fenotipik analizde (n = 13.087; 1541 olgu) daha uzun uyku süresi daha düşük demans riskiyle ilişkiliydi (HR 0,93; %95 GA 0,86–1,00; p = 0,04), eş içi analizlerde bu ilişki zayıfladı. Gündüz uykusu poligenik skoru 1 SS yüksekliği daha yüksek demans riskiyle ilişkiliydi (HR 1,12; n = 16.164) ve bu ilişki fenotipik uykudan bağımsız sürdü (HR 1,17; n = 3133), etkileşim yoktu. Yazarlar orta yaştaki gündüz uykusu genetik yatkınlığının ayrı bir kırılganlığı yansıtabileceğini, geç yaşta ise telafi edici olabileceğini belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1002/alz.71982",
+  "journal": "alz",
+  "title": "Plasma metabolites in early adulthood are associated with midlife cognitive performance and brain tissue integrity in the CARDIA study",
+  "authors": "Zsuzsanna Ament, Jelani Deajon‐Jackson, Amelia Demopoulos ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Amaç, erken erişkinlikteki plazma metabolitlerinin orta yaş bilişsel performansı ve beyin yapısıyla ilişkisini incelemektir. CARDIA çalışmasında 7. yılda (yaş 32 ± 3,6; N = 1736) 575 plazma metaboliti ölçülmüş, 23 yıl sonra (yaş 55 ± 3,6; N = 646) beyin MRG'si ve bilişsel performansla ilişkilendirilmiştir. On bir metabolit bağımsız olarak bilişle, beşi ayrıca toplam beyin hacmiyle ilişkiliydi; hiçbiri beyaz madde hiperintensite yüküyle ilişkili değildi. Toplam beyin hacmi, metabolit–biliş ilişkilerinin %8–33'ünü aracılamıştır. Yazarlar erken erişkinlikteki metabolik imzaların orta yaş beyin yapısal sağlığının belirteçleri olabileceğini belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
+  "doi": "10.1002/alz.71949",
+  "journal": "alz",
+  "title": "Developing the World‐Wide FINGERS biorepository for dementia risk reduction trials",
+  "authors": "Anna Matton, Chinedu Udeh‐Momoh, Makrina Daniilidou ve ark.",
+  "online": "2026-11-09",
+  "ozet": "Bu çalışma, demans riskini azaltmaya yönelik çalışmalar için World-Wide FINGERS (WW-FINGERS) biyodepo ağını geliştirmeyi amaçlayan kesitsel bir ağ geneli ankettir. 39 çalışmanın 30'unda biyodepo vardı veya geliştirilmekteydi; dördü planlıyor, beşinde yoktu. Uygulamalar genel olarak uyumluydu, ancak kalan değişkenlik harmonizasyon için öncelik alanlarını göstermektedir; klinik biyobelirteçler düşük kaynaklı ortamlarda da alınmakta, çoğu çalışma kan temelli amiloid/tau gibi ADRD biyobelirteçlerini ölçmekte ve multi-omik platformlar kullanmaktadır. Yazarlar WW-FINGERS biyodeposunun farklı popülasyonlarda uyumlu biyobelirteç keşfi için ilk küresel platform olduğunu belirtmektedir.",
+  "added": "2026-11-10"
+ },
+ {
   "doi": "10.1016/j.biopsych.2026.10.032",
   "journal": "bp",
   "title": "PTSD is Associated with Advanced Epigenetic Age in 43,155 US Military Veterans",
