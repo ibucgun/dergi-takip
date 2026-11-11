@@ -1,5 +1,187 @@
 [
  {
+  "doi": "10.1016/s2215-0366(26)00345-7",
+  "journal": "lanpsy",
+  "title": "Talking with Voices: moving towards implementation?",
+  "authors": "Louise Birkedal Glenthøj",
+  "online": "2026-11-11",
+  "ozet": "Talking with Voices yaklaşımının uygulamaya aktarılmasının tartışıldığı bir editoryal/yorum yazısıdır; başlığa göre çalışmanın klinik uygulamaya geçişi ele alınmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.bpsc.2026.10.016",
+  "journal": "cnni",
+  "title": "Computational Modeling of Effort Allocation in First-Episode Psychosis and First-Episode Bipolar Disorder: Cognitive and Clinical Correlates",
+  "authors": "Simge Uzman Ozbek, Berat Arslan, Elif Kizilay ve ark.",
+  "online": "2026-11-11",
+  "ozet": "İlk atak psikoz ve ilk atak bipolar bozuklukta çaba dağılımının (effort allocation) hesaplamalı modellemeyle incelendiği ve bulguların bilişsel ve klinik özelliklerle ilişkilendirildiği bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122728",
+  "journal": "jad",
+  "title": "High free sugar dietary pattern, not high fiber–low energy density pattern, predicts increased bipolar disorder risk: Evidence from 124,191 participants",
+  "authors": "Xisuo Lu, Huanliang Li, Yanhui Liao ve ark.",
+  "online": "2026-11-11",
+  "ozet": "124.191 katılımcıyla yüksek serbest şeker içeren beslenme örüntüsünün, yüksek lifli-düşük enerji yoğunluklu örüntünün değil, bipolar bozukluk riskini artırdığını bildiren bir çalışmadır (başlığa göre). (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122719",
+  "journal": "jad",
+  "title": "How does circadian preference relate to post-traumatic stress and depressive symptoms in adolescents? A moderating role of gender",
+  "authors": "Sichu Li, Kexin Yu, Chen Chen ve ark.",
+  "online": "2026-11-11",
+  "ozet": "Ergenlerde sirkadiyen tercihin travma sonrası stres ve depresif belirtilerle ilişkisini ve cinsiyetin bu ilişkideki düzenleyici rolünü inceleyen bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122700",
+  "journal": "jad",
+  "title": "Associations between circadian-related behaviors and light exposure and depressive and anxiety symptoms among college students: A cross-sectional study of 10, 630 students from 4 universities",
+  "authors": "Chen Zhang, Bin Li, Jun Liu ve ark.",
+  "online": "2026-11-11",
+  "ozet": "Dört üniversiteden 10.630 üniversite öğrencisinde sirkadiyen ilişkili davranışlar ve ışık maruziyetinin depresif ve anksiyete belirtileriyle ilişkisini inceleyen kesitsel bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/s2215-0366(26)00326-3",
+  "journal": "lanpsy",
+  "title": "Comparative efficacy and acceptability of antidepressants in the long-term treatment of major depressive disorder: a systematic review and network meta-analysis",
+  "authors": "Paul C F van Haaren, Jakob M van Gaalen, Edoardo G Ostinelli ve ark.",
+  "online": "2026-11-10",
+  "ozet": "Majör depresif bozukluğun uzun dönem tedavisinde antidepresanların karşılaştırmalı etkinlik ve kabul edilebilirliğini değerlendiren bir sistematik derleme ve ağ meta-analizidir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/s2215-0366(26)00330-5",
+  "journal": "lanpsy",
+  "title": "Dialogical therapy plus treatment as usual versus treatment as usual in adults with distressing and persistent auditory hallucinations in the UK (Talking with Voices-II): a randomised controlled trial",
+  "authors": "Eleanor Longden, Alison Branitsky, Callum Glen ve ark.",
+  "online": "2026-11-10",
+  "ozet": "Birleşik Krallık'ta sıkıntı verici ve kalıcı işitsel halüsinasyonu olan erişkinlerde, olağan tedaviye eklenen diyalojik terapinin (Talking with Voices-II) yalnızca olağan tedaviyle karşılaştırıldığı bir randomize kontrollü çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1136/bmjment-2026-302945",
+  "journal": "bmjmh",
+  "title": "From preconception risk to perinatal outcomes: machine learning prediction of depression and acute psychiatric care from electronic health records in the UK",
+  "authors": "Benedetta Vai, Federico Calesella, Christoph Mueller ve ark.",
+  "online": "2026-11-10",
+  "ozet": "Birleşik Krallık'ta elektronik sağlık kayıtlarını kullanarak gebelik öncesi risk faktörlerinden perinatal depresyon ve akut psikiyatrik bakım gereksinimini makine öğrenmesiyle öngörmeyi amaçlayan bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.09.018",
+  "journal": "bp",
+  "title": "The Energetic Cost of Adaptation: Mitochondrial Responses to Early-Life Adversity",
+  "authors": "Jaehyoung Choi, Ana C. Andreazza",
+  "online": "2026-11-10",
+  "ozet": "Erken yaşam olumsuz deneyimlerine mitokondriyal yanıtları ve uyumun enerji maliyetini ele alan bir derleme/görüş yazısıdır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.09.019",
+  "journal": "bp",
+  "title": "Beyond the Absence of Distress: Episodic Memory Development and the Missing Half of Child Mental Health",
+  "authors": "Richard J. Davidson",
+  "online": "2026-11-10",
+  "ozet": "Çocuk ruh sağlığında yalnızca sıkıntının yokluğunun ötesine geçilmesi gerektiğini savunan ve epizodik bellek gelişimini bu bağlamda ele alan bir görüş/derleme yazısıdır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.biopsych.2026.09.026",
+  "journal": "bp",
+  "title": "Remarkable Advances, Sobering Truths",
+  "authors": "Joan Kaufman",
+  "online": "2026-11-10",
+  "ozet": "Başlığı 'Dikkate değer ilerlemeler, düşündürücü gerçekler' anlamına gelen bir editoryal/görüş yazısıdır; konusu başlıktan net anlaşılamamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122727",
+  "journal": "jad",
+  "title": "Smoking, recent physical activity and diagnosed cardiometabolic conditions in lifetime bipolar-spectrum disorder: A nationally representative comparison with lifetime major depressive episode without bipolar disorder",
+  "authors": "Jae-Hon Lee, Roger S. McIntyre, Kelly K. Anderson ve ark.",
+  "online": "2026-11-10",
+  "ozet": "Yaşam boyu bipolar spektrum bozukluğu olanlarda sigara, yakın dönem fiziksel aktivite ve tanı almış kardiyometabolik durumları, bipolar bozukluğu olmayan yaşam boyu majör depresif epizodlu kişilerle ulusal temsili bir örneklemde karşılaştıran bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122725",
+  "journal": "jad",
+  "title": "Trait impulsivity, nonsuicidal self-injury, and suicide-related indicators in adolescents with first-episode, treatment-naive depression: a cross-sectional mixed graphical model analysis",
+  "authors": "Guixia Liu, Haoyu Liang, Xinning An ve ark.",
+  "online": "2026-11-10",
+  "ozet": "İlk atak, tedavi görmemiş depresyonlu ergenlerde özellik dürtüselliği, intihar amaçsız kendine zarar verme ve intiharla ilişkili göstergeler arasındaki ilişkiyi karma grafiksel modelle inceleyen kesitsel bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122699",
+  "journal": "jad",
+  "title": "Comments on “Antidepressant effects of facial botulinum toxin a injections: Insights from randomized controlled trials”",
+  "authors": "Túlio Pimentel, Maria Clara Florêncio",
+  "online": "2026-11-10",
+  "ozet": "Yüz botulinum toksin A enjeksiyonlarının antidepresan etkisini inceleyen RKÇ'leri ele alan bir makaleye yönelik editöre mektup/yorum yazısıdır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122722",
+  "journal": "jad",
+  "title": "Response to letter in response to: “Protocol-level moderators of antidepressant efficacy in prefrontal rTMS: A sham-controlled meta-analysis of randomized trials”",
+  "authors": "Halil İbrahim Eren, Uğur Takım",
+  "online": "2026-11-10",
+  "pmid": "43000076",
+  "ozet": "Prefrontal rTMS'nin antidepresan etkinliğinde protokol düzeyindeki moderatörleri inceleyen sham kontrollü bir meta-analize gelen mektuba yazarların yanıtıdır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.10.015",
+  "journal": "neuromod",
+  "title": "Long-term enhancement effects of multi-session transcutaneous vagus nerve stimulation during inhibitory control training",
+  "authors": "Chunchen Wang, Zilong Liu, Yilong Qin ve ark.",
+  "online": "2026-11-10",
+  "ozet": "Engellenme kontrolü (inhibitory control) eğitimi sırasında uygulanan çok seanslı transkütanöz vagus sinir stimülasyonunun uzun dönemli güçlendirici etkilerini inceleyen bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.10.017",
+  "journal": "neuromod",
+  "title": "When Eligibility is Not Enough: Structured Counselling and Patient Acceptance of Sacral Neuromodulation",
+  "authors": "Tariq Al-Shaiji, Majd Alkabbani, Meshari Almutairi ve ark.",
+  "online": "2026-11-10",
+  "ozet": "Sakral nöromodülasyon için uygun hastalarda yapılandırılmış danışmanlığın hastaların tedaviyi kabulüne etkisini ele alan bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.euroneuro.2026.113887",
+  "journal": "enp",
+  "title": "Prevalence and outcomes of co-occurring mental/physical comorbidities and substance use disorders: An atlas umbrella review including 156 systematic reviews with meta-analysis",
+  "authors": "Michele Fornaro, Chiara Di Lorenzo, Hossam M. Ali ve ark.",
+  "online": "2026-11-10",
+  "ozet": "Eşlik eden ruhsal/bedensel hastalıkların ve madde kullanım bozukluklarının yaygınlığını ve sonuçlarını, meta-analizli 156 sistematik derlemeyi kapsayan bir şemsiye derleme (atlas) ile inceleyen çalışmadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1007/s40263-026-01347-z",
+  "journal": "cnsdrugs",
+  "title": "Acknowledgement to Referees",
+  "authors": "",
+  "online": "2026-11-10",
+  "pmid": "43007393",
+  "ozet": "Dergi hakemlerine teşekkür yazısıdır; bilimsel içerik taşımamaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
+  "doi": "10.1016/j.jagp.2026.11.004",
+  "journal": "ajgp",
+  "title": "Associations between activities of daily living and Alzheimer's disease-related fluid biomarkers: A systematic review.",
+  "authors": "Joanne Scotney, Michael Slee, Belinda M. Brown ve ark.",
+  "online": "2026-11-10",
+  "ozet": "Günlük yaşam aktiviteleri ile Alzheimer hastalığı ile ilişkili sıvı biyobelirteçleri arasındaki ilişkileri inceleyen bir sistematik derlemedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-11"
+ },
+ {
   "doi": "10.1016/j.biopsych.2026.11.002",
   "journal": "bp",
   "title": "The Use of Large Language Models in Literature Reviews of Biological Psychiatry Research: Promises and Pitfalls",
@@ -185,8 +367,9 @@
   "title": "The role of emotion dysregulation and trait aggression in suicide ideation and attempts: A cross-sectional mediation analysis in a sample of undergraduate students",
   "authors": "Marshall Scott Tate, Halla Hafermann, Michael McCloskey",
   "online": "2026-11-09",
-  "ozet": "Bu çalışma lisans öğrencilerinde duygu düzenleme güçlüğü ve özellik saldırganlığının intihar düşüncesi ve girişimleriyle ilişkisini, kesitsel bir aracılık analiziyle incelemektedir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-10"
+  "ozet": "Amaç: İntihar düşüncesi (SI) ile intihar girişimini (SA) ayıran faktörlerden saldırganlık ve duygu düzenleme güçlüğünün rolünü, özellikle saldırganlığın aracı etkisini incelemek. Yöntem: 5229 lisans öğrencisinde kesitsel çalışma; SBQ-R, Buss-Perry Saldırganlık Ölçeği ve DERS uygulandı; katılımcılar SA+, SI+ ve SI/SA- olarak sınıflandı, multinomiyal lojistik regresyon ve aracılık modelleri kullanıldı. Bulgular: Yüksek saldırganlık ve duygu düzenleme güçlüğü hem SI+ hem SA+ olasılığını, ayrıca SA+ olma olasılığını SI+'ya göre artırdı; saldırganlık, duygu düzenleme güçlüğü ile SI/SA grubu arasındaki ilişkiye kısmen aracılık etti. DERS alt ölçeklerinden beşi hem SI+ hem SA+ ile ilişkiliydi; Kabul etmeme, Dürtü kontrolü ve Stratejilere erişim SA+'yı SI+'dan ayırdı. Sonuç: Saldırganlık ve duygu düzenleme güçlüğü hem SI hem SA ile ilişkilidir; saldırganlık duygu düzenleme güçlüğü ile SA arasındaki ilişkiyi kısmen açıklayabilir.",
+  "added": "2026-11-10",
+  "pmid": "43003353"
  },
  {
   "doi": "10.1016/j.jad.2026.122723",
@@ -194,8 +377,9 @@
   "title": "Brief interpersonal therapy reduces anxiety during pregnancy: A randomized clinical trial.",
   "authors": "Catherine H. Demers, Sarah G. Curci, Ella-Marie P. Hennessey ve ark.",
   "online": "2026-11-09",
-  "ozet": "Bu randomize klinik çalışma, kısa kişilerarası terapinin gebelik sırasındaki anksiyeteyi azalttığını bildirmektedir (başlıktan). (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-10"
+  "ozet": "Amaç: Hamilelikte anksiyete için kısa interpersonel psikoterapinin (IPT) etkisini değerlendirmek. Yöntem: Prenatal depresyon için yürütülen CARE Projesi RKÇ'sinin anksiyete sonuçları; sıkıntılı 234 gebe IPT (n=115, MOMCare) veya geliştirilmiş olağan bakıma (EUC, n=119) randomize edildi; anksiyete STAI, GAD ise SCID-5 ile ölçüldü. Bulgular: Anksiyete her iki grupta azaldı; tedavi×zaman etkileşimi anlamlılığa ulaşmadı (p=.067). IPT grubunda randomizasyondan 8 hafta sonra (d=0,28) anksiyete anlamlı düşüktü; gebelik sonunda IPT'de ortalama 5,2 puan daha düşüktü (p=.009, d=0,35). GAD prevalansı iki grupta da düştü (IPT %13,2; EUC %16,9) ve gebelik sonunda gruplar arasında fark yoktu. Sonuç: Bulgular IPT'nin perinatal anksiyeteyi azaltma potansiyelini desteklemekte, etkinliği artıracak araştırma gerekmektedir.",
+  "added": "2026-11-10",
+  "pmid": "43003352"
  },
  {
   "doi": "10.1016/j.jad.2026.122714",
@@ -213,8 +397,9 @@
   "title": "Examining the associations between commonly prescribed medications and depressive disorders in very old adults- an exploratory study",
   "authors": "Laura CORNELIUSSON, Anton MOLEN, Nils VIKLUND ve ark.",
   "online": "2026-11-09",
-  "ozet": "Bu keşfedici çalışma, çok yaşlı erişkinlerde yaygın reçete edilen ilaçlar ile depresif bozukluklar arasındaki ilişkileri incelemektedir (başlıktan). (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-10"
+  "ozet": "Amaç: 85 yaş üstü çok yaşlı erişkinlerde sık reçete edilen ilaçlar ile depresif bozukluklar arasındaki ilişkiyi araştırmak. Yöntem: GERDA çalışması verileriyle kesitsel analiz; 2012 katılımcı depresif (n=680) ve depresif olmayan (n=1332) olarak ayrıldı; tanımlayıcı istatistik, t ve ki-kare testleri ile lojistik regresyon kullanıldı. Bulgular: 17 ilacın kullanım oranı iki grup arasında anlamlı farklıydı; karıştırıcılar düzeltildikten sonra proton pompa inhibitörleri ve H2 reseptör antagonistleri depresyonla ilişkili, lipid düşürücü ajanlar ise ters yönde ilişkili bulundu. Sonuç: Çok yaşlılarda ilaç reçetelemede dikkatli olunmalı; ilaç kullanımı ile depresyon ilişkisini aydınlatmak için ileri araştırma gerekmektedir.",
+  "added": "2026-11-10",
+  "pmid": "43003354"
  },
  {
   "doi": "10.1016/j.brs.2026.103249",
@@ -231,8 +416,9 @@
   "title": "No effects of single-session concurrent tDCS on explicit motor sequence learning in healthy adults with conventional 2 mA and tangential 6 mA currents",
   "authors": "Zhenous Hadi Jafari, Gavin Hsu, Andrew Birnbaum ve ark.",
   "online": "2026-11-09",
-  "ozet": "Bu çalışma, sağlıklı erişkinlerde eş zamanlı tek seanslık tDCS'nin (geleneksel 2 mA ve teğetsel 6 mA) açık motor dizi öğrenmesi üzerinde etkisi olmadığını bildirmektedir (başlıktan). (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-10"
+  "ozet": "Amaç: Tek seanslık eşzamanlı tDCS'nin açık motor dizi öğrenmesine etkisindeki çelişkili bulguları netleştirmek. Yöntem: Sağlıklı erişkinlerde (toplam N=143) iki randomize, çift kör, gruplar arası deney; Deney 1'de tanjansiyel akımlı HD-tDCS (M1), Deney 2'de konvansiyonel M1-SO radyal stimülasyon uygulandı. Bulgular: Her iki deney de null sonuç verdi; en güçlü kontrastta bile (+6 mA ile -6 mA) polariteye özgü etki yoktu, 2 mA M1-SO stimülasyon shamdan anlamlı farklı değildi. Sonuç: Tek seanslık eşzamanlı tDCS'nin motor dizi öğrenmesi üzerindeki etkileri çalışmalar arasında tutarlı değildir; nöromodülasyon araştırmalarında titiz metodolojik kontrol gereklidir.",
+  "added": "2026-11-10",
+  "pmid": "43003348"
  },
  {
   "doi": "10.1016/j.neurom.2026.11.001",
