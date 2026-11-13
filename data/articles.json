@@ -1,12 +1,145 @@
 [
  {
+  "doi": "10.1038/s41380-026-03943-3",
+  "journal": "molpsy",
+  "title": "Comparative effects of various exercise types and doses to improve executive function in children and adolescents with attention deficit hyperactivity disorder: a systematic review with pairwise, network, and dose-response meta-analyses",
+  "authors": "Xiao Hou, Lei Gong, Yongbo Zheng ve ark.",
+  "online": "2026-11-12",
+  "ozet": "ADHD'li çocuk ve ergenlerde yürütücü işlevi iyileştirmek için çeşitli egzersiz türleri ve dozlarını inceleyen; ikili karşılaştırmalı, ağ ve doz-yanıt meta-analizlerini içeren bir sistematik derleme. Başlıktan, egzersiz müdahalelerinin yürütücü işlev üzerindeki etkilerinin türlere ve doza göre karşılaştırıldığı anlaşılmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107087",
+  "journal": "nbr",
+  "title": "Convergent and Divergent Neural Signatures of Cue-Induced Response in Substance and Behavioral Addictions: A Coordinate-Based Neuroimaging Meta-Analysis",
+  "authors": "Qihong Zheng, Taoyu Wu, Xiaoqin Yang ve ark.",
+  "online": "2026-11-12",
+  "pmid": "43014493",
+  "ozet": "Amaç: Madde kullanım bozuklukları (MKB) ile davranışsal bağımlılıklarda (DB) ipucuyla uyarılan yanıtın ortak bir nörobiyolojik çekirdeği olup olmadığını araştırmak. Yöntem: Sağlıklı kontrollerle karşılaştıran bütün beyin fMRG çalışmalarının SDM-PSI ile koordinat temelli meta-analizi; 50 makale, 53 bağımsız kontrast, 2.578 katılımcı. Bulgular: Tüm bağımlılıklarda mid-singulat korteks, presentral girus ve orta hat orta beyinde yakınsayan aktivasyon saptandı; ancak MKB ∩ DB konjünksiyon analizinde FWE düzeltmeli ortak küme çıkmadı. MKB'de DB'ye göre sol hipokampüs, pregenual ön singulat ve prekuneusta daha fazla aktivasyon vardı; hipokampüs ve prekuneus farkı yaş ayarlamasından sonra da korundu. Sonuç: Bulgular bellek/benlik ve kontrol/eylem süreçlerinin incelenmesini destekliyor; transdiagnostik nöromodülasyon hedefleri ile bozukluğa özgü tedavilerin ayrımına temel sağlıyor.",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103248",
+  "journal": "brs",
+  "title": "Influence of Stimulation Parameters on the Analgesic Effect of High-Frequency Transcranial Magnetic Stimulation on Neuropathic Pain: A Systematic Review and Meta-Analysis",
+  "authors": "Ann Cordenier, Lisa Goudman, Maarten Moens ve ark.",
+  "online": "2026-11-12",
+  "ozet": "Yüksek frekanslı transkraniyal manyetik stimülasyonun (rTMS) nöropatik ağrıdaki analjezik etkisinin stimülasyon parametrelerine göre nasıl değiştiğini inceleyen bir sistematik derleme ve meta-analiz. Başlıktan, parametrelerin etki üzerindeki rolünün değerlendirildiği anlaşılmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103254",
+  "journal": "brs",
+  "title": "From Connectivity-Guided to Circuit-informed TMS",
+  "authors": "Charles J. Lynch, Lindsay Victoria, Immanuel G. Elbau",
+  "online": "2026-11-12",
+  "ozet": "Bağlantısallık rehberli TMS yaklaşımından devre temelli (circuit-informed) TMS'ye geçişi ele alan bir görüş/derleme yazısı; TMS hedeflemesinin beyin devrelerine dayandırılması konusu başlıktan anlaşılmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1016/j.neurom.2026.10.014",
+  "journal": "neuromod",
+  "title": "The Engagement–Expression Gap in Transcutaneous Auricular Vagus Nerve Stimulation: A Systematic Review, Multilevel Meta-Analysis, and Mechanistic Synthesis of Cognitive Effects",
+  "authors": "Elmira Mohammadpour, Behnia Rangraz, Ali Rashidi ve ark.",
+  "online": "2026-11-12",
+  "ozet": "Transkutan auriküler vagus sinir stimülasyonunun (taVNS) bilişsel etkilerini inceleyen sistematik derleme, çok düzeyli meta-analiz ve mekanistik sentez. Başlıktaki 'etkileşim–ifade farkı' kavramı, stimülasyonun biyolojik olarak devreye girmesi ile bilişsel çıktılara yansıması arasındaki farka işaret etmektedir. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002291",
+  "journal": "jcp",
+  "title": "Lithium-Associated Symptomatic Sinus Bradycardia Presenting as Presyncope",
+  "authors": "Anjali Bhasin, Raman Deep, Prashant Sharma",
+  "online": "2026-11-12",
+  "pmid": "43018412",
+  "ozet": "Lityuma bağlı semptomatik sinüs bradikardisinin senkop öncesi (presenkop) tablo ile ortaya çıktığı bir olgu sunumu. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002289",
+  "journal": "jcp",
+  "title": "Concurrent Urticaria/Angioedema and Acute Accommodation Dysfunction With Visual Acuity Loss Associated With Oral Methylphenidate in a Child With ADHD",
+  "authors": "Merve Köksal, Ali Evren Tufan",
+  "online": "2026-11-12",
+  "pmid": "43018460",
+  "ozet": "ADHD'li bir çocukta oral metilfenidat ile ilişkili eş zamanlı ürtiker/anjiyoödem ve görme keskinliği kaybıyla seyreden akut akomodasyon bozukluğunu bildiren bir olgu sunumu. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002296",
+  "journal": "jcp",
+  "title": "New-Onset Seizure Associated With Low-Dose Duloxetine Monotherapy",
+  "authors": "Fügen Sönmez Çetinkaya",
+  "online": "2026-11-12",
+  "pmid": "43018451",
+  "ozet": "Düşük doz duloksetin monoterapisi ile ilişkili yeni başlangıçlı nöbeti bildiren bir olgu sunumu. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002295",
+  "journal": "jcp",
+  "title": "Risperidone-Associated Massive Asymptomatic Creatine Kinase Elevation in a 15-Year-Old Girl",
+  "authors": "Zeliha Çetin İlhan, Yahya Esad Özdemir, Uğur Tekin ve ark.",
+  "online": "2026-11-12",
+  "pmid": "43018436",
+  "ozet": "15 yaşında bir kız hastada risperidon ile ilişkili, belirti vermeyen belirgin kreatin kinaz yüksekliğini bildiren bir olgu sunumu. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002287",
+  "journal": "jcp",
+  "title": "Somatic Symptom Disorder Improved With Lamotrigine",
+  "authors": "Petros D. Petridis",
+  "online": "2026-11-12",
+  "pmid": "43018468",
+  "ozet": "Somatik belirti bozukluğunun lamotrijin ile düzeldiği bir olgu sunumu. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1097/jcp.0000000000002293",
+  "journal": "jcp",
+  "title": "Probable Vortioxetine-Associated Bruxism: First Reported Case",
+  "authors": "Michael Kelson, Alejandro Rodulfo, Alfred Torres ve ark.",
+  "online": "2026-11-12",
+  "ozet": "Vortioksetin ile olası ilişkili bruksizmin ilk bildirilen olgusunu sunan bir olgu sunumu. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1016/j.inpsyc.2026.100315",
+  "journal": "ipg",
+  "title": "Understanding and addressing late-life depression: A multi-faceted approach rooted in evidence",
+  "authors": "Carla Kotzé",
+  "online": "2026-11-12",
+  "ozet": "Geç dönem depresyonunu kanıta dayalı çok yönlü bir yaklaşımla ele alan bir derleme/editoryal yazı; başlıktan, yaşlılarda depresyonun anlaşılması ve yönetimine bütüncül bakış sunulduğu anlaşılmaktadır. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1016/j.jagp.2026.11.001",
+  "journal": "ajgp",
+  "title": "An Interdisciplinary Algorithm for Anorexia of Aging in Hospitalized Older Adults: A Clinical Framework and Narrative Review",
+  "authors": "Eslam Elhossieny, Shruti Tiwari, Gerard Casale ve ark.",
+  "online": "2026-11-12",
+  "ozet": "Hastanedeki yaşlı erişkinlerde yaşlanma anoreksisi için disiplinler arası bir algoritma önerilen klinik çerçeve ve anlatısal derleme. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-13"
+ },
+ {
+  "doi": "10.1002/alz.71994",
+  "journal": "alz",
+  "title": "Targeting peripheral cathepsin E restricts CD8 + T‐cell neuroinvasion and ameliorates Alzheimer's disease pathology",
+  "authors": "Zhen Xie, Qinghu Yang, Lijuan Liu ve ark.",
+  "online": "2026-11-12",
+  "ozet": "Amaç: Alzheimer hastalığında (AH) CD8+ T hücrelerinin beyne girişini yönlendiren moleküler ipuçlarını belirlemek. Yöntem: 5×FAD farelerinde ve AH hastası örneklerinde CD8+ T hücrelerinde Katepsin E (CatE) ifadesi ölçüldü; 4D-DIA proteomik, akış altında mikroakışkan göç deneyleri ve adoptif transfer yapıldı; beyne geçmeyen bir CatE inhibitörünün etkisi test edildi. Bulgular: CatE, hem AH farelerinde hem hastalarda periferik CD8+ T hücrelerinde yaşa bağlı ve seçici olarak arttı; AH kaynaklı CD8+ T hücrelerinin transferi 5 aylık alıcı farelerde çözünür Aβ1-42 birikimini, glial aktivasyonu ve bellek bozukluğunu hızlandırdı. CatE, vinkülin ve fibronektin ifadesi ile β1-integrin aktivasyonuyla ilişkiliydi; periferik CatE baskılanması T hücre infiltrasyonunu ve nöroinflamasyonu azalttı, bilişi düzeltti. Sonuç: CatE–integrin ekseni, kan-beyin bariyeri geçişi gerektirmeyen bir immünoterapötik hedef olabilir.",
+  "added": "2026-11-13"
+ },
+ {
   "doi": "10.1016/s2215-0366(26)00328-7",
   "journal": "lanpsy",
   "title": "Comparative efficacy and tolerability of pharmacological interventions for the acute treatment of obsessive-compulsive disorder across the lifespan: a systematic review and network meta-analysis",
   "authors": "Sem Cohen, Edoardo Ostinelli, Akihiro Takamiya ve ark.",
   "online": "2026-11-12",
-  "ozet": "Yaşam boyu yetişkin ve çocuklarda obsesif-kompulsif bozukluğun akut tedavisinde farmakolojik müdahalelerin karşılaştırmalı etkinlik ve tolerabilitesini değerlendiren bir sistematik derleme ve ağ meta-analizidir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-12"
+  "ozet": "Amaç: Obsesif-kompulsif bozuklukta (OKB) farmakolojik tedavilerin yaşam boyu karşılaştırmalı etkinlik ve tolerabilitesini belirlemek. Yöntem: 8–16 hafta sonuçlu çift kör RKÇ'lerin sistematik derleme ve ağ meta-analizi (52 RKÇ, 7.316 katılımcı; 9 çalışma çocuk-ergen, 43 çalışma erişkin). Bulgular: Çocuk-ergenlerde klomipramin (SMD -1,19), sertralin, fluoksetin ve fluvoksamin plaseboya üstündü; klomipramin SSRI'lardan daha etkiliydi, yalnızca sertralin plaseboya göre daha az tolere edildi (OR 4,51). Erişkinlerde klomipramin (SMD -0,71), fluvoksamin, paroksetin, sertralin, essitalopram ve fluoksetin plaseboya üstündü; klomipramin, fluoksetin'den daha etkiliydi. Klomipramin en az tolere edilen ajandı (plaseboya OR 4,65). Sonuç: Klomipraminin tahmini etkinliği en yüksek, tolerabilitesi SSRI'lardan düşüktü; etkinlik–tolerabilite dengesi bireyselleştirilmiş ortak karar çerçevesinde ele alınmalıdır.",
+  "added": "2026-11-12",
+  "pmid": "43014332"
  },
  {
   "doi": "10.1016/s2215-0366(26)00329-9",
@@ -23,8 +156,9 @@
   "title": "The active inference framework and social cognitive theory: informing therapeutic approaches for medically unexplained symptoms.",
   "authors": "Elizabeth E Roughead",
   "online": "2026-11-12",
-  "ozet": "Tıbbi olarak açıklanamayan belirtilere yönelik terapötik yaklaşımları, aktif çıkarım çerçevesi ve sosyal bilişsel kuram üzerinden tartışan bir yazıdır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-12"
+  "ozet": "Derleme/kuramsal yazı: Tıbbi açıklaması bulunamayan kalıcı fiziksel belirtiler dünya çapında yüz milyonlarca kişiyi etkiliyor. Yazar, aktif çıkarım çerçevesini ve sosyal bilişsel kuramı birleştirerek iyileşmeyi destekleyecek kanıta dayalı stratejilerin seçimine rehberlik eden bir 'terapötik alanlar yaklaşımı' geliştiriyor. Yaklaşım, belirtilerin oluşumuna katkıda bulunan tüm duyusal girdilerin hedeflenmesine ve hasta merkezli, çok stratejili tedavi planlarına olanak tanıyor; biyopsikososyal modelle uyumlu olup onu geliştiriyor.",
+  "added": "2026-11-12",
+  "pmid": "43014494"
  },
  {
   "doi": "10.1016/j.jad.2026.122738",
@@ -32,8 +166,9 @@
   "title": "Longitudinal associations between PTSD symptoms, suicide exposure, and suicidal ideation among U.S. military personnel",
   "authors": "Athena B. Thai, Tyler B. Rice, Andrew J. Lodge ve ark.",
   "online": "2026-11-12",
-  "ozet": "ABD askeri personelinde TSSB belirtileri, intihara maruz kalma ve intihar düşüncesi arasındaki boylamsal ilişkileri inceleyen bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-12"
+  "ozet": "Amaç: ABD askeri personelinde askerlikle ilişkili TSSB belirtileri, intihar maruziyeti ve intihar düşüncesi (İD) arasındaki boylamsal ilişkileri incelemek. Yöntem: 771 askerde boylamsal veriyle doğrusal karma etkili ve gecikmeli modeller. Bulgular: Askerlikle ilişkili TSSB belirtileri, intihar maruziyetinden bağımsız olarak sonraki İD'yi yordadı. İntihar maruziyeti olanlarda ölen kişiye yakınlık TSSB belirtileriyle ilişkili değildi ancak daha düşük İD şiddeti ve daha düşük gelecekteki İD ile ilişkiliydi; kaybın algılanan etkisi arttıkça TSSB belirtileri ve mevcut ile gelecekteki İD şiddeti arttı. Sonuç: Askeri personelde TSSB belirtileri, intihar maruziyeti ve bunun özellikleri birlikte değerlendirilmelidir.",
+  "added": "2026-11-12",
+  "pmid": "43014429"
  },
  {
   "doi": "10.1016/j.jad.2026.122730",
@@ -41,8 +176,9 @@
   "title": "Neural signatures of impulsivity in adolescence: A multivariate pattern analysis of reward and loss processing",
   "authors": "S.F. Gonçalves, M. Lindenmuth, H.T. Karim ve ark.",
   "online": "2026-11-12",
-  "ozet": "Ergenlikte ödül ve kayıp işlemeye ait çok değişkenli örüntü analizi ile dürtüselliğin nöral imzalarını araştıran bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-12"
+  "ozet": "Amaç: Ergenlerde anhedonik, üzgün ve manik duygudurum ile dürtüselliği, ödül ve kayıp işlemleme sırasındaki çok değişkenli frontostriyatal yanıtlardan yordayan modeller geliştirmek. Yöntem: Önceden kaydedilmiş çalışma; 12-18 yaş 153 ergen (104'ü doğumda kadın atanmış), parasal teşvik gecikme görevinde fMRG ve çok değişkenli örüntü analizi (MVPA). Bulgular: Modeller dürtüselliği istatistiksel olarak anlamlı ama çok düşük düzeyde yordadı (R2=0,01-0,02); depresyondan arındırılmış dürtüsellikte biraz daha iyiydi (R2=0,03-0,04); katkı en çok kayıp beklentisi sırasında bilişsel ve motor ilişkili devrelerden geldi. Anhedonik, üzgün veya manik duygudurum yordanamadı. Sonuç: Düşük yordama gücü nedeniyle modeller şu an klinik tahmin için uygun değildir.",
+  "added": "2026-11-12",
+  "pmid": "43014432"
  },
  {
   "doi": "10.1016/j.jad.2026.122737",
@@ -50,8 +186,9 @@
   "title": "Distinct impulsivity profiles in a transdiagnostic framework: Associations with diagnosis, psychopathology, cognition, and brain metrics",
   "authors": "Bofan Zhang, Hang Wu, Xiongying Chen ve ark.",
   "online": "2026-11-12",
-  "ozet": "Dürtüsellik profillerini transdiagnostik bir çerçevede ele alıp tanı, psikopatoloji, biliş ve beyin ölçütleriyle ilişkilerini inceleyen bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-12"
+  "ozet": "Amaç: Dürtüselliğin heterojenliğini transdiagnostik çerçevede profillemek. Yöntem: ABCD Çalışması'ndan N=9.078 ergenin başlangıç ve 2 yıllık izlem verisinde örtük profil ve örtük geçiş analizleri. Bulgular: Üç profil saptandı: düşük (%56,1→%48,9), motivasyonel (%33,5→%43,6) ve yürütücü dürtüsellik (%10,4→%7,4). Yürütücü profil, çoğu psikiyatrik tanı ve psikopatoloji için daha yüksek risk, tüm bilişsel testlerde daha kötü performans ve belirli beyin değişiklikleri ile ilişkiliydi, iki yılda psikopatolojide daha fazla kötüleşme gösterdi (beyin ölçümlerinde değil); motivasyonel profilin etkileri daha hafifti. Sonuç: Profiller klinik ve nörobiyolojik özgüllük taşıyor ve farklı risk yollarını haritalayarak hassas psikiyatriye katkı sağlıyor.",
+  "added": "2026-11-12",
+  "pmid": "43014430"
  },
  {
   "doi": "10.1016/j.neurom.2026.10.016",
@@ -106,8 +243,9 @@
   "title": "Perioral motor stabilization without classical proprioception: a trigeminofacial force-balance model",
   "authors": "Thomas Quettier, Paola Sessa, Luigi Cattaneo ve ark.",
   "online": "2026-11-11",
-  "ozet": "Trigeminofasiyal kuvvet-denge modeli çerçevesinde, klasik propriyosepsiyon olmaksızın perioral motor stabilizasyonu ele alan bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-12"
+  "ozet": "Derleme/kuramsal model yazısı: Perioral kaslarda kas iğciği ve proprioseptif reseptör bulunmamasına rağmen hassas motor kontrolün nasıl sağlandığı sorusu ele alınıyor. Yazarlar, trigeminal kutanöz mekanoresepsiyonu temel afferent kanal kabul eden ve kontrol edilen değişkeni perioral dermal yüzey geriliminin uzamsal dengesi olarak öneren ORIS modelini sunuyor; orbicularis oris dairesel stabilite, modiolus ise kuvvet iletim noktası olarak tanımlanıyor. Üç test edilebilir öngörü ve fasiyal motor rehabilitasyona yönelik klinik çıkarımlar tartışılıyor.",
+  "added": "2026-11-12",
+  "pmid": "43014492"
  },
  {
   "doi": "10.1016/j.jad.2026.122733",
@@ -115,8 +253,9 @@
   "title": "Association of age at menopause with incident depressive disorders in women: A prospective cohort study",
   "authors": "Ning Wu, Zixin Wang, Huan Zhang ve ark.",
   "online": "2026-11-11",
-  "ozet": "Kadınlarda menopoz yaşının sonraki depresif bozukluk gelişimi ile ilişkisini inceleyen prospektif bir kohort çalışmasıdır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-12"
+  "ozet": "Amaç: Menopoz yaşı ile sonraki depresyon gelişimi arasındaki ilişkiyi incelemek. Yöntem: UK Biobank'ten 37.754 postmenopozal kadında prospektif kohort; çok değişkenli Cox regresyonu ve kısıtlı kübik spline. Bulgular: Ortalama 14,91 yıllık izlemde 698 kişide depresyon gelişti; menopoz yaşındaki her 1 yıllık artış depresyon riskinde %3,5 azalma ile ilişkiliydi (HR 0,965; %95 GA 0,947-0,983). 50 yaş referansıyla, 45 yaşta menopoz %17,3 yüksek (HR 1,173), 55 yaşta %20,3 düşük risk (HR 0,797) taşıyordu; ilişki hipertansiyonu olanlarda belirgindi, hormon replasman tedavisi ilişkiyi anlamlı değiştirmedi. Sonuç: Menopoz yaşı, yeni başlangıçlı depresyon riskiyle doğrusal doz-yanıt ilişkisi gösterdi; erken menopoz daha yüksek riskle ilişkiliydi.",
+  "added": "2026-11-12",
+  "pmid": "43014431"
  },
  {
   "doi": "10.1016/j.jad.2026.122724",
@@ -143,8 +282,9 @@
   "title": "Bimodal versus unimodal high-definition Transcranial random noise stimulation of auditory cortex for tinnitus: A double-blind, sham-controlled crossover trial",
   "authors": "Jessica Fritzsche, Zino Wellauer, Tobias Kleinjung ve ark.",
   "online": "2026-11-11",
-  "ozet": "Tinnitus için işitsel korteksin bimodal ve unimodal yüksek çözünürlüklü transkraniyal rastgele gürültü stimülasyonunu (tRNS) karşılaştıran çift kör, sham kontrollü çapraz geçişli bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-12"
+  "ozet": "Amaç: Kronik tinnitusta işitsel korteks üzerine tekrarlayan HD-tRNS'nin, tek başına veya akustik uyaranla birlikte, tinnitus şiddetini, işitsel sapma işlemlemeyi ve istirahat bağlantısallığını değiştirip değiştirmediğini araştırmak. Yöntem: 35 kronik tinnitus hastasında çift kör, sham kontrollü çaprazlama çalışma; bimodal ve unimodal kollarda her biri 10 seanslık aktif ve sham blokları. Bulgular: Tutarlı bir tedavi etkisi yoktu; birincil şiddet sonucu için Bayes kanıtı null'ı destekledi (BF01=4,79), uyumsuzluk negatifliği sonuçları düzeltmeyi geçmedi; MML'de beklenmedik grup × tedavi etkileşimi görüldü (p=0,039). Sonuç: Tekrarlayan HD-tRNS tek başına ya da kombine grup düzeyinde yarar sağlamadı.",
+  "added": "2026-11-12",
+  "pmid": "43014443"
  },
  {
   "doi": "10.1016/j.neurom.2026.10.013",
