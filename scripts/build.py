@@ -17,7 +17,9 @@ def load_json(path, default):
 
 def numbers(text):
     """Özetteki 3+ haneli sayılar (1.322 / 1322 / 1,322 aynı sayılır)."""
-    return {re.sub(r"[.,\s]", "", n) for n in re.findall(r"\d[\d.,]*\d", text or "") if len(re.sub(r"[.,\s]", "", n)) >= 3}
+    # 0,001 gibi ondalıklar (p değerleri) her makalede geçer; ayırt edici olmadıkları için sayılmaz
+    return {re.sub(r"[.,\s]", "", n) for n in re.findall(r"\d[\d.,]*\d", text or "")
+            if len(re.sub(r"[.,\s]", "", n)) >= 3 and not n.startswith("0")}
 
 
 def mismatched(pending):
