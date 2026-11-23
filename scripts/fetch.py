@@ -9,6 +9,7 @@ Sadece standart kütüphane kullanır.
 import datetime as dt
 import html
 import json
+import os
 import re
 import sys
 import time
@@ -20,8 +21,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-MAILTO = "drismailbucgun@gmail.com"
-UA = f"dergi-takip/1.0 (mailto:{MAILTO})"
+# İletişim adresi isteğe bağlı: bulut ortamında CONTACT_EMAIL tanımlanırsa CrossRef/OpenAlex'e bildirilir.
+# Depoda kişisel adres tutulmaz.
+MAILTO = os.environ.get("CONTACT_EMAIL", "").strip()
+UA = f"dergi-takip/1.0 (mailto:{MAILTO})" if MAILTO else "dergi-takip/1.0"
+POLITE = {"mailto": MAILTO} if MAILTO else {}
 FIRST_RUN_DAYS = 7
 OVERLAP_DAYS = 3
 FULL_ABSTRACT = 300      # bundan kısa özetler "eksik" sayılır
@@ -75,7 +79,7 @@ def crossref(journal, since):
     items, cursor = [], "*"
     while True:
         q = urllib.parse.urlencode({
-            "filter": filt, "rows": 200, "cursor": cursor, "mailto": MAILTO,
+            "filter": filt, "rows": 200, "cursor": cursor, **POLITE,
             "select": "DOI,title,author,created,abstract,type",
         })
         msg = json.loads(get(f"https://api.crossref.org/works?{q}"))["message"]
@@ -129,7 +133,7 @@ def openalex_abstracts(dois):
         chunk = dois[i:i + 40]
         q = urllib.parse.urlencode({
             "filter": "doi:" + "|".join(chunk), "per-page": 50,
-            "select": "doi,abstract_inverted_index", "mailto": MAILTO,
+            "select": "doi,abstract_inverted_index", **POLITE,
         })
         for w in json.loads(get(f"https://api.openalex.org/works?{q}")).get("results", []):
             inv = w.get("abstract_inverted_index")
