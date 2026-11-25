@@ -1,12 +1,184 @@
 [
  {
+  "doi": "10.1038/s41380-026-03972-y",
+  "journal": "molpsy",
+  "title": "ACC hyperactivity and synaptic remodeling underlie sensory hypersensitivity in Adnp-haploinsufficient mice",
+  "authors": "Heera Moon, Do Hyeon Cha, Soowon Lee ve ark.",
+  "online": "2026-11-25",
+  "ozet": "Amaç: ADNP kaynaklı otizm sendromunda görülen dokunsal ve ağrı aşırı duyarlılığının kortikal devrelerini belirlemek. Yöntem: Adnp-haployetersiz (Adnp-HT) farelerde davranış testleri, c-Fos haritalama, ultra yüksek alan fMRI, ACC piramidal nöron kayıtları, kemogenetik inhibisyon ve multiomik/MERFISH/tek çekirdek RNA dizileme kullanıldı. Bulgular: Fareler mekanik ve termal aşırı duyarlılık ile artmış şok ilişkili savunma yanıtı gösterdi; kaudal koşullu Adnp delesyonu bunu yeniden üretmedi. ACC'de artmış intrinsik uyarılabilirlik ve değişmiş sinaptik iletim saptandı; tüm ACC eksitatör nöronlarının inhibisyonu yanıtları kısmen düzeltirken şok ilişkili donmayı artırdı, FosTRAP2 ile işaretli ACC topluluklarının inhibisyonu mekanik/ısı yanıtlarını normalleştirdi. Sonuç: ACC, daha geniş bir ağ içinde başlıca ancak tek olmayan katkı sağlayıcıdır; hücre tipi ve topluluk düzeyinde yaklaşımlar desteklenmektedir.",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107117",
+  "journal": "nbr",
+  "title": "Adult Hippocampal Neurogenesis at the Crossroads of Neuropathic Pain and Comorbid Depression: Molecular Mechanisms and Candidate Circuit Consequences",
+  "authors": "Xue Chen, Wenxiang Fan, Chi Xu",
+  "online": "2026-11-25",
+  "ozet": "Başlığa göre derleme, yetişkin hipokampal nörojenezin nöropatik ağrı ve eşlik eden depresyon arasındaki yerini, moleküler mekanizmaları ve olası devre sonuçlarını tartışıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107119",
+  "journal": "nbr",
+  "title": "Translational Insights into Effort Regulation and Motivation in Affective Disorders",
+  "authors": "Yara El Zoghby, Andrea Martínez-Verdú, Corinna Schulz ve ark.",
+  "online": "2026-11-25",
+  "ozet": "Başlığa göre yazı, duygudurum bozukluklarında çaba düzenlemesi ve motivasyona ilişkin translasyonel bulguları ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1192/bjp.2026.10877",
+  "journal": "bjp",
+  "title": "Overlooked and misunderstood: delusional disorders revisited",
+  "authors": "Paul Edward Mullen, Michele T. Pathé, Frank R. Farnham ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Derleme/görüş yazısı: Sanrısal bozuklukların psikotik durumlar içinde kendine özgü fenomenoloji, seyir ve sonlanıma sahip ayrı bir grup olduğu savunuluyor. Bu bozuklukların kişilik bozukluğu belirtisi ya da aşırı değerli fikir olarak değerlendirilmesinin klinik yönetimi olumsuz etkilediği vurgulanıyor. Yazarlar, DSM ve ICD'dekinden daha net bir kavramsallaştırma ve tanı temeli öneriyor.",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1038/s41380-026-03964-y",
+  "journal": "molpsy",
+  "title": "Sex-specific reprogramming of immune and endocannabinoid networks in the placenta following prenatal cannabinoid exposure",
+  "authors": "Anissa Bara, Teesta Naskar, Jacqueline-Marie N. Ferland ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre çalışma, gebelikte kannabinoid maruziyetinin plasentada immün ve endokannabinoid ağlarını cinsiyete özgü biçimde yeniden programladığını inceliyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1038/s41380-026-03874-z",
+  "journal": "molpsy",
+  "title": "A mitochondrial mechanism of nuclear histone acetylation dynamically regulates neuronal plasticity: a gateway to stress resilience, and a boosted efficacy of fluoxetine with exercise",
+  "authors": "Benedetta Bigio, Yotam Sagi, Shofiul Azam ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre çalışma, nöronal plastisiteyi düzenleyen mitokondriyal kaynaklı bir nükleer histon asetilasyon mekanizmasını ele alıyor; bu mekanizma stres direnci ve egzersizle fluoksetin etkinliğinin artması ile ilişkilendiriliyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1038/s41380-026-03957-x",
+  "journal": "molpsy",
+  "title": "Cell-Type-Specific Cell-Free DNA methylation profiling of central nervous system injury and inflammatory cell turnover in schizophrenia",
+  "authors": "Shmuel Hart, Mohannad Owiwi, Atta Shahwan ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre çalışma, şizofrenide hücre tipine özgü hücresiz DNA (cfDNA) metilasyon profillemesi ile merkezi sinir sistemi hasarını ve inflamatuvar hücre devrinini inceliyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107115",
+  "journal": "nbr",
+  "title": "Mitochondrial Dysfunction in Neural Circuits of Neuropathic Pain: Potential Molecular Mechanisms and Targeted Therapies",
+  "authors": "Peng-fei Zhu, Zhaoru Lyu, Qingsong Wang ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre derleme, nöropatik ağrının nöral devrelerindeki mitokondriyal disfonksiyonu, olası moleküler mekanizmaları ve hedefe yönelik tedavi yaklaşımlarını ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.neubiorev.2026.107094",
+  "journal": "nbr",
+  "title": "Causal inference in developmental psychopathology and human neuroscience",
+  "authors": "Ellyn R. Butler, Elizabeth Tipton, Noelle I. Samia ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre yazı, gelişimsel psikopatoloji ve insan nörobiliminde nedensel çıkarım konusunu ele alıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122780",
+  "journal": "jad",
+  "title": "Toward optimised magnetic seizure therapy for depression: A systematic review and meta-analysis of stimulation parameters and clinical outcomes",
+  "authors": "Sarah Kayser, Andreas J. Fallgatter, Christian Plewnia",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre sistematik derleme ve meta-analiz, depresyonda manyetik nöbet tedavisinin (MST) uyarım parametrelerini ve klinik sonuçlarını inceleyerek tedavinin optimize edilmesini hedefliyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122791",
+  "journal": "jad",
+  "title": "Association of insulin-resistance surrogate indices with incident depressive symptoms and statistical association-decomposition for the role of biological aging acceleration: a prospective cohort study from CHARLS (2011-2020)",
+  "authors": "Jie Shao, Jie Yang, Xiang Yin ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre CHARLS (2011-2020) verisiyle yürütülen prospektif kohort çalışması, insülin direnci yüzey indekslerinin yeni gelişen depresif belirtilerle ilişkisini ve biyolojik yaşlanma hızlanmasının bu ilişkideki rolünü istatistiksel olarak ayrıştırıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122781",
+  "journal": "jad",
+  "title": "Emotional blunting spectrum phenomena in antidepressant-treated adults with depressive episodes: A systematic review and meta-analysis",
+  "authors": "Georgios N. Zioris, Maria Therianou, Evangelia Maria Tsapakis",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre sistematik derleme ve meta-analiz, antidepresan kullanan depresif epizodlu yetişkinlerde duygusal künleşme spektrumu fenomenlerini inceliyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122778",
+  "journal": "jad",
+  "title": "Baseline appetite and weight symptoms and antidepressant response: an individual-level analysis of three cohorts",
+  "authors": "Alessandro Serretti, Alessandra Minelli, Daniel Souery ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre çalışma, üç kohortun bireysel düzey verisiyle başlangıçtaki iştah ve kilo belirtilerinin antidepresan yanıtıyla ilişkisini analiz ediyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122779",
+  "journal": "jad",
+  "title": "Processing speed as a prominent cognitive impairment in bipolar disorder: A multidomain systematic review and meta-analysis",
+  "authors": "Catherine Zhiqian Fang, Heidi Hoi Ting Wan, Natalie Wing Tung Chu ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre çok alanlı sistematik derleme ve meta-analiz, bipolar bozuklukta işlemleme hızını belirgin bir bilişsel bozulma alanı olarak değerlendiriyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.jad.2026.122784",
+  "journal": "jad",
+  "title": "Preliminary investigation of frontotemporal hemodynamic differences between late-life depression and cognitive impairment using fNIRS",
+  "authors": "Wenwen Xiang, Tianpei Li, Yanping Li ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre ön çalışma, geç dönem depresyon ile bilişsel bozukluk arasındaki frontotemporal hemodinamik farkları fNIRS ile karşılaştırıyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1155/da/1150330",
+  "journal": "da",
+  "title": "Substance Use, Internet Addiction, and Suicidality Among Sexual Minority and Heterosexual Chinese University Students: A Multicenter Cross‐Sectional Study",
+  "authors": "Wanjie Tang, Siqi Wu, Cong Wang ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Amaç: Çin'de cinsel azınlık ve heteroseksüel üniversite öğrencilerinde madde kullanımı, internet bağımlılığı ve intihar eğilimi ilişkisini incelemek. Yöntem: 40 üniversitede çok merkezli kesitsel çevrimiçi anket; cinsel azınlık (n=1178) ve heteroseksüel (n=21.426) öğrenciler; 12 aylık/yaşam boyu intihar düşüncesi ve girişimi, PHQ-9, IAT-20, madde kullanımı ve ekran süresi ölçüldü. Bulgular: Cinsel azınlık öğrencilerde ilaç/madde kullanımı ve intihar eğilimi daha yüksekti. Aşırı ekran süresi (>5 saat/gün) her iki grupta intihar düşüncesiyle, heteroseksüellerde depresif belirtiler düzeltildikten sonra intihar girişimiyle ilişkiliydi. İnternet bağımlılığı yalnızca heteroseksüellerde intihar düşüncesiyle doğrudan ilişkiliydi. Madde kullanımı yaşam boyu intihar girişimiyle ilişkiliydi ve risk sıklık/süreyle artıyordu. Sonuç: Bağımlılık davranışları intihar eğilimiyle güçlü biçimde ilişkilidir ve gruplar arasında farklılıklar vardır.",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103268",
+  "journal": "brs",
+  "title": "Connectivity, receptor architecture and gene expression are associated with brain-wide responses to intracranial electrical stimulation",
+  "authors": "Xinru Zhang, Dan Cao, Bing Liu ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre çalışma, intrakraniyal elektriksel uyarıma beyin genelindeki yanıtların bağlantısallık, reseptör mimarisi ve gen ekspresyonu ile ilişkisini inceliyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1016/j.brs.2026.103267",
+  "journal": "brs",
+  "title": "Structural correlates of paired-pulse TMS in cognitive impairment",
+  "authors": "Miika Korhonen, Laura Säisänen, Abbe Ullgren ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Başlığa göre çalışma, bilişsel bozuklukta eşleştirilmiş darbe TMS'nin yapısal korelatlarını inceliyor. (Ayrıntılı özet mevcut değil.)",
+  "added": "2026-11-25"
+ },
+ {
+  "doi": "10.1002/alz.71952",
+  "journal": "alz",
+  "title": "Real‐world comparison of lecanemab and donanemab in Alzheimer's disease",
+  "authors": "Moeko Noguchi‐Shinohara, Daiki Muramatsu, Ayano Shima ve ark.",
+  "online": "2026-11-24",
+  "ozet": "Amaç: Erken Alzheimer hastalığında lekanemab ve donanemabın gerçek yaşam verisinde bırakma, ARIA, infüzyon reaksiyonları, bilişsel sonuçlar ve BOS biyobelirteçleri açısından karşılaştırılması. Yöntem: Retrospektif değerlendirme; uygun 240 hastanın 219'u tedaviye başladı (134 lekanemab, 5'i donanemabdan geçiş; 90 donanemab), 21'i reddetti. Bulgular: Tedavi almayanlar daha yaşlıydı ve APOE ε4 homozigot oranı daha yüksekti. 6. ayda tedavi sürekliliği lekanemabda daha yüksekti (%92,4 vs %78,1). ARIA lekanemabda %11,2, donanemabda %3,8 görüldü; lekanemabda izole ARIA-H, donanemabda eşzamanlı ARIA-E ve ARIA-H baskındı. İnfüzyon reaksiyonları donanemabda bırakmanın başlıca nedeniydi. Donanemab 6 ayda BOS p-tau181'de anlamlı daha fazla düşüş sağladı; MMSE değişimi donanemab lehine anlamlı olmayan bir eğilim gösterdi. Sonuç: İki ajan arasında farklı güvenlilik ve tolerabilite profilleri izlenmektedir.",
+  "added": "2026-11-25"
+ },
+ {
   "doi": "10.1016/j.neubiorev.2026.107113",
   "journal": "nbr",
   "title": "Dorsal Raphe Serotonergic Neurons at the Metabolic-Cognitive Interface: Converging Mechanisms, Causal Gaps, and Testable Predictions for Diabetes-Associated Cognitive Impairment",
   "authors": "Mingyang Li, Min Ye, Hongyu Xie ve ark.",
   "online": "2026-11-24",
-  "ozet": "Diyabete bağlı bilişsel bozulmada dorsal rafe serotonerjik nöronların metabolik-bilişsel arayüzdeki rolünü ele alan bir derleme/görüş yazısıdır. Başlıktan anlaşıldığı kadarıyla farklı mekanizmaların yakınsadığı noktaları, nedensellik açısından eksik kalan halkaları ve test edilebilir öngörüleri tartışmaktadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-24"
+  "ozet": "Derleme: Diyabetle ilişkili bilişsel bozulmada (DACI) dorsal rafe serotonerjik nöronların metabolik-bilişsel arayüz olup olmadığı değerlendirildi. Yöntem: PubMed, Web of Science, Embase ve Scopus'ta arama; tam metni doğrulanmış 62 özgün çalışma sentezlendi. Bulgular: DRN serotonerjik popülasyonları moleküler, fizyolojik ve projeksiyon açısından heterojendir; en güçlü hücre düzeyinde kanıt insülin içindir, leptin, GLP-1, grelin ve oreksin için nedensellik çözünürlüğü değişkendir. Diyabete bağlı 5-HT, SERT ve reseptör değişiklikleri bölge, evre, cinsiyet ve modele göre farklılaşır. Sonuç: Mevcut kanıt biyolojik olabilirliği destekler, nedensel süreklilik kanıtlanmamıştır; yazarlar üç test edilebilir öngörü sunmaktadır.",
+  "added": "2026-11-24",
+  "pmid": "43072630"
  },
  {
   "doi": "10.1002/alz.71984",
@@ -41,8 +213,9 @@
   "title": "Associations of Prenatal Cannabis Exposure and Neonatal Brain Development in the HBCD Cohort",
   "authors": "Leela Shah, Elizabeth M. Planalp, Ryan McDonald ve ark.",
   "online": "2026-11-23",
-  "ozet": "Gebelikte kannabis maruziyetinin yenidoğan beyin gelişimiyle ilişkisini HBCD kohortunda inceleyen bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-24"
+  "ozet": "Amaç: Gebelikte kannabis maruziyetinin (PCE) yenidoğan beyin hacimleri ve beyaz cevher mikroyapısıyla ilişkisini, ikincil olarak nikotin maruziyetinin etkisini incelemek. Yöntem: HBCD kohortunda 1.630 anne-bebek çifti (222'sinde PCE); bebeklere ilk ayda doğal uykuda yapısal ve difüzyon MR çekildi. Bulgular: PCE, sıklığa bağlı olarak beyaz cevher bölgelerinde difüzivite artışıyla ilişkiliydi ve nikotin düzeltmesinden sonra da sürdü; ilk trimester maruziyeti serebellar, gebelik boyunca süren maruziyet ilişkilendirme bölgelerindeki beyaz cevherle ilişkiliydi. Subkortikal hacim ilişkileri nikotin düzeltmesiyle zayıfladı ve PCE×PNE etkileşimleri görüldü. Etki büyüklükleri maruziyet varlığı ve zamanlamasında küçük, sıklıkta orta-büyüktü. Sonuç: Bulgular tek yönlü olumsuz etkiden çok erken nörogelişimsel değişkenliği yansıtabilir; boylamsal izlem gereklidir.",
+  "added": "2026-11-24",
+  "pmid": "43072696"
  },
  {
   "doi": "10.1038/s41380-026-03857-0",
@@ -59,8 +232,9 @@
   "title": "The immediate effects of a single session of adapted physical activity on emotional states in patients with depression following hospital discharge: A single-arm pre-post study",
   "authors": "Cathy Longuechaud, Marie Douet, Aurore Mignon ve ark.",
   "online": "2026-11-23",
-  "ozet": "Depresyon tanısıyla taburcu olan hastalarda tek seans uyarlanmış fiziksel aktivitenin duygu durum üzerindeki anlık etkilerini değerlendiren tek kollu, öncesi-sonrası (pre-post) bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-24"
+  "ozet": "Amaç: Taburculuk sonrası depresyonlu hastalarda tek seans uyarlanmış fiziksel aktivitenin (APA) duygudurum üzerindeki anlık etkisini incelemek. Yöntem: Tek kollu ön-son test çalışması; majör depresif epizodlu 45 hasta (ort. yaş 41,9; 31 kadın), 45 dakikalık APA seansı öncesi ve sonrası Duygudurum Profili (POMS) Fransızca sürümü, Wilcoxon testi. Bulgular: Psikolojik sıkıntıda anlamlı azalma (p<0,001); anksiyete, depresyon, öfke, konfüzyon ve yorgunlukta iyileşme (hepsi p<0,001), canlılıkta artış (p=0,003). Etkiler depresyon şiddeti, tanı ve epizod süresinden bağımsızdı; tedaviye dirençli hastalarda da görüldü. Sonuç: Tek seans APA anlık duygusal iyileşmeyle ilişkilidir; kontrol grubunun olmaması nedensel yorumu sınırlar.",
+  "added": "2026-11-24",
+  "pmid": "43072447"
  },
  {
   "doi": "10.1016/j.jad.2026.122757",
@@ -68,8 +242,9 @@
   "title": "Dose–response relationship between physical activity and depressive symptoms in children and adolescents: A cross-sectional analysis across age groups",
   "authors": "Yulan Zhou, Yang Chen, Huan Chen ve ark.",
   "online": "2026-11-23",
-  "ozet": "Çocuk ve ergenlerde fiziksel aktivite ile depresif belirtiler arasındaki doz-yanıt ilişkisini yaş grupları arasında inceleyen kesitsel bir analizdir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-24"
+  "ozet": "Amaç: Çocuk ve ergenlerde fiziksel aktivite ile depresif belirtiler arasındaki doz-yanıt ilişkisini ve yaş farklarını incelemek. Yöntem: Wuhan ve Changsha'da 10-18 yaş 941 katılımcıyla kesitsel çalışma; akselerometre ile MVPA/TPA, CES-DC ile depresif belirtiler; fraksiyonel polinom regresyon. Bulgular: MVPA ile CES-DC arasında anlamlı ilişki saptanmadı (B=-0,218/10 dk; %95 GA -0,677 – 0,241; p=0,352); yaş×MVPA etkileşimi anlamlı değildi (p=0,300); duyarlılık analizleri tutarlı biçimde nötrdü, sürekli yaş modelinde sınırda etkileşim (p=0,083) ve anlamlı doğrusal olmayan bileşen (p=0,046) görüldü. Sonuç: Günlük serbest MVPA hacmi ile depresif belirtiler arasında ilişki saptanmadı; ters nedensellik etkiyi azaltmış olabilir ve bulgular yapılandırılmış egzersize genellenmemelidir.",
+  "added": "2026-11-24",
+  "pmid": "43072249"
  },
  {
   "doi": "10.1111/bdi.70204",
@@ -104,8 +279,9 @@
   "title": "Manipulating speech perception with amplitude-modulated kilohertz magnetic perturbation (AM-kTMP)",
   "authors": "Ram K. Pari, Christina Merrick, Philipp Reber ve ark.",
   "online": "2026-11-23",
-  "ozet": "Amplitüd modülasyonlu kilohertz manyetik perturbasyon (AM-kTMP) ile konuşma algısının manipüle edilmesini inceleyen bir çalışmadır. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-24"
+  "ozet": "Amaç: Konuşma algısında nöral entrainmenti, periferik uyarım sınırlılıklarını azaltan yeni bir NİBS yöntemiyle (genlik modülasyonlu kilohertz transkraniyal manyetik pertürbasyon, AM-kTMP) modüle etmek. Yöntem: 40 katılımcı, 3,5 kHz taşıyıcı ve 3,125 Hz genlik modülasyonuyla uyarım alırken ritmik konuşma dinledi. Bulgular: Algısal duyarlılığın fazik modülasyonu AM-kTMP sırasında sham'a göre daha büyüktü; ritmik his ve yan etki puanları gruplar arasında farklı değildi. Sonuç: kTMP, frekansa özgü beyin dinamiklerini modüle etmek için umut verici bir yöntemdir.",
+  "added": "2026-11-24",
+  "pmid": "43072614"
  },
  {
   "doi": "10.1016/j.neurom.2026.11.010",
@@ -131,8 +307,9 @@
   "title": "The perinatal window of opportunity: Translating biopsychosocial mechanisms of perinatal vulnerability into maternal and infant mental health care",
   "authors": "Claudio Singh Solorzano, Veerle Bergink, Charlotte A.M. Cecil ve ark.",
   "online": "2026-11-23",
-  "ozet": "Perinatal dönemin biyopsikososyal kırılganlık mekanizmalarının anne ve bebek ruh sağlığı hizmetlerine nasıl çevrilebileceğini ele alan bir derleme/görüş yazısıdır. Başlığa göre perinatal dönemi bir 'fırsat penceresi' olarak değerlendirmektedir. (Ayrıntılı özet mevcut değil.)",
-  "added": "2026-11-24"
+  "ozet": "ECNP Perinatal Psikiyatri Ağı'ndan bir görüş (statement) makalesi: Perinatal dönemi hem kırılganlık hem plastisite penceresi olarak ele alan beden-beyin-dyad-çevre çerçevesi öneriliyor. Nöroendokrin ve nörosteroid uyum, immün-inflamatuvar sinyalleme, plasental ve fetal programlama, bakım verme ve dyadik eş-düzenleme gibi yolaklar tartışılıyor; gebelik ve postpartumun biyolojik ve klinik olarak farklı evreler olduğu vurgulanıyor. Yazarlar, belirti odaklı bakımdan boylamsal formülasyona, anne odaklı yaklaşımdan dyadik ve aileye duyarlı desteğe geçişi ve Avrupa'daki translasyonel boşluğun kapatılmasını savunuyor.",
+  "added": "2026-11-24",
+  "pmid": "43072296"
  },
  {
   "doi": "10.1097/jcp.0000000000002297",
